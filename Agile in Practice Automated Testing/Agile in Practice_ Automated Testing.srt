@@ -1,0 +1,244 @@
+﻿1
+00:00:00,000 --> 00:00:02,912
+سلام! به آکادمی اجایل خوش آمدید
+hi and welcome to the agile Academy
+
+2
+00:00:02,970 --> 00:00:05,072
+در این گفتار از سری گفتارهای چابکی و تجربه
+in this agile and practice talk
+
+3
+00:00:05,168 --> 00:00:07,712
+به این موضوع خواهیم پرداخت که تست خودکار
+we'd like to address how automated testing
+
+4
+00:00:07,728 --> 00:00:10,352
+چگونه کمک می‌کند که تیم‌های چابک بتوانند به تغییرات پاسخ دهند
+helps agile teams respond to change
+
+5
+00:00:10,544 --> 00:00:16,400
+تست خودکار به واسطه بازخورد مستمر و سریعی که فراهم می‌کند، از جایگاهی ویژه در چابکی برخوردار است
+automated testing is a key tenant of agile by providing continuous and early feedback
+
+6
+00:00:16,528 --> 00:00:20,528
+تست خودکار کمک می‌کند تا ریسک کمتر شود و نیروی کمتری صرف تکرار کارهای دستی شود
+automated testing helps reduce risk and repeating manual effort
+
+7
+00:00:20,768 --> 00:00:22,848
+همچنین به تیم اطمینان خاطر می‌دهد
+it provides a team with confidence
+
+8
+00:00:22,920 --> 00:00:26,224
+زیرا تست‌هایی در اختیارشان است که قابل اطمینانند و می‌توان هربار آنها را اجرا کرد
+because they have a set of reliable and repeatable tests
+
+9
+00:00:26,368 --> 00:00:29,344
+این به نوبه خود به کاهش زمان تست کردن هم می‌انجامد
+this in turn ensures reduced testing time
+
+10
+00:00:29,440 --> 00:00:35,264
+بهره‌مندی از این منافع، مستلزم سرمایه گذاری اولیه در زمینه خودکارسازی تست است
+An early investment in automation testing is essential to gaining the advantage of these benefits
+
+11
+00:00:35,450 --> 00:00:40,368
+سری بزنیم به تیمی که مشغول تحویل سیستم ارزیابی عملکرد کارکنان به واحد منابع انسانی است
+meet the team that is delivering a new employee performance review system to the HR department
+
+12
+00:00:40,490 --> 00:00:46,608
+تیم از همان ابتدای پروژه، زمانی را برای ساخت مجموعه‌ای از تست‌های خودکار سرمایه‌گذاری کرده بود
+the team has invested time and building a suite of automated tests from the beginning of the project
+
+13
+00:00:46,752 --> 00:00:50,800
+با هر درخواست تغییری که دریافت کنند یا هر بار که قابلیت جدیدی به اپلیکیشن اضافه شود
+as requests for changes or new features are added to the application
+
+14
+00:00:50,860 --> 00:00:53,744
+دست به کار بهسازی تست‌ها و اضافه کردن تست‌های جدید می‌شوند
+they continue to add and refine the test suite
+
+15
+00:00:54,080 --> 00:01:01,152
+لیز، تام و مگان روزانه چندین بار کدهای نسخه موجود را بررسی و تست می‌کنند
+Liz, Tom and Megan check code and test into the existing version of the solution several times a day
+
+16
+00:01:01,344 --> 00:01:02,864
+هربار کدی به مخزن وارد شود
+every time they check in
+
+17
+00:01:02,910 --> 00:01:07,408
+نسخه به روز شده، تست می‌شود تا ببینیم آیا درست یکپارچه شده و کار می‌کند
+the updated version is being tested to see if it runs and integrates properly
+
+18
+00:01:07,728 --> 00:01:10,304
+این کار به بهبود کیفیت اپلیکیشن می‌انجامد زیرا که
+this increases the quality of the application
+
+19
+00:01:10,360 --> 00:01:14,688
+خودکار بودن تستها کمک می‌کند تا یافتن اشکالات و رفع آنها به سرعت انجام شود
+as automation assists in rapidly finding and fixing defects
+
+20
+00:01:15,040 --> 00:01:20,736
+امروز لیز، تام و مگان درخواستی برای یک تغییر دیر هنگام، از سوی مالک محصول دریافت کرده‌اند
+today less Tom and Megan have received a request for a late change from product owner Jean
+
+21
+00:01:20,800 --> 00:01:25,168
+آنها خیالشان بابت این درخواست کاملا راحت است، چون تست‌ها وجود دارند
+they feel very comfortable with this request due to the existing test suite
+
+22
+00:01:25,500 --> 00:01:28,624
+آنها با کمک هم، تعدادی تست جدید برای این تغییر می‌نویسند
+they work together to write some new tests for this change
+
+23
+00:01:28,704 --> 00:01:32,192
+سپس تستها را به ابزار کنترل نسخه، ارسال کرده و اپلیکیشن را تست می‌کنند 
+they are checked into version control and run against the application
+
+24
+00:01:32,430 --> 00:01:39,376
+از اینکه در جایی از اپلیکیشن که فکرش را هم نمی‌کردند، چند باگ کشف کرده‌اند، غافلگیر می‌شوند
+to their surprise defects often called bugs are identified in a part of the application that they hadn't thought would break
+
+25
+00:01:39,440 --> 00:01:44,256
+تیم این توانایی را دارد که به سرعت باگها را رفع کرده و سپس تستها را دوباره اجرا کند
+the team is able to respond quickly in fixing the bugs and then rerunning the tests
+
+26
+00:01:44,400 --> 00:01:46,912
+این بار نتیجه کار موفقیت‌آمیز است
+this time the results are successful
+
+27
+00:01:47,130 --> 00:01:51,296
+از وقتی که کار تکراری تست‌های رگرسیون، به صورت خودکار درآمده‌اند
+since the automated tests to the repetitive task of regression testing
+
+28
+00:01:51,360 --> 00:01:55,360
+مگان وقت کافی داشته که به تست‌ اکتشافی غیرخودکار (دستی) بپردازد
+this leaves Megan with time to focus on manual exploratory testing
+
+29
+00:01:55,550 --> 00:02:01,408
+بد نیست بدانیم که وقتی از تست خودکار صحبت می‌کنیم، فقط به یک نوع خاص تست محدود نیستیم
+it's worth mentioning that when we talk about automated testing it's not just limited to one testing type
+
+30
+00:02:01,552 --> 00:02:03,616
+انواع متفاوتی از تست وجود دارد
+there are many different types of testing
+
+31
+00:02:03,824 --> 00:02:05,808
+با استفاده از تست‌های خودکار
+by using automated testing
+
+32
+00:02:05,888 --> 00:02:10,384
+مطمن می‌شویم که آنچه که از سیستم می‌دانیم، نیازمندی‌ها و نیز مالکیت سیستم را به اشتراک گذاشته‌ایم
+we ensure a shared understanding and ownership of the system and its requirements
+
+33
+00:02:10,688 --> 00:02:11,792
+اینکه چه چیزی را خودکار کنیم
+what we automate
+
+34
+00:02:12,096 --> 00:02:13,168
+اینکه چه زمانی خودکارسازی را انجام دهیم
+when we automate
+
+35
+00:02:13,248 --> 00:02:15,520
+و حتی اینکه آیا واقعا به خودکارسازی نیاز داریم
+or even whether we really need automation
+
+36
+00:02:15,696 --> 00:02:20,592
+تصمیمات حساسی هستند که همه‌ی تیم باید با هم درباره آنها تصمیم بگیرند
+و نباید برای تیم تصمیم‌گیری شود
+our crucial decisions which the whole team makes and should not be taken as a given
+
+37
+00:02:20,780 --> 00:02:24,384
+چنین تصمیماتی بر مبنای ریسک یا منفعت حاصل از 
+Decision should be weighed up based on risk and savings gained
+
+38
+00:02:24,400 --> 00:02:27,232
+کاهش هزینه تکرار تست دستی باید سنجیده شود
+by alleviating the cost of repetitive manual testing
+
+39
+00:02:27,472 --> 00:02:29,296
+در این گفتار از سری گفتارهای چابکی و تجربه
+In this agile and practice talk
+
+40
+00:02:29,408 --> 00:02:32,448
+دیدید که تیم‌های چابک چگونه از تست‌های خودکار
+you saw how agile teams use automated testing
+
+41
+00:02:32,528 --> 00:02:35,824
+کمک می‌گیرند تا سریع و مقرون به صرفه، به تغییرات پاسخ دهند
+to help respond quickly and cost-effectively to change
+
+42
+00:02:35,888 --> 00:02:38,704
+تست خودکار به یکپارچه سازی مداوم هم کمک می‌کند
+automatic testing supports continuous integration
+
+43
+00:02:38,780 --> 00:02:42,112
+که یکی دیگر از تجربیات چابکی است و بعدا به آن خواهیم پرداخت
+another agile practice which is a topic for another time
+
+44
+00:02:42,160 --> 00:02:45,850
+and worth checking out on our knowledge hub agile and practice help sheets page on our website
+
+45
+00:02:46,928 --> 00:02:49,328
+if you want to learn more about agile
+
+46
+00:02:49,392 --> 00:02:51,904
+the agile team offers a range of courses
+
+47
+00:02:51,950 --> 00:02:55,648
+delivered by accredited trainers and lots of open source material
+
+48
+00:02:55,712 --> 00:02:57,776
+which you can find on our website
+
+49
+00:02:57,900 --> 00:03:04,368
+if you have any questions also feel free to contact us on our web site or drop us a line on Twitter
+
+50
+00:03:04,608 --> 00:03:07,776
+thank you and enjoy your agile journey
+
