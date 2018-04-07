@@ -1,0 +1,231 @@
+﻿1
+00:00:00,000 --> 00:00:02,784
+سلام. به آکادمی اجایل خوش آمدید
+hi and welcome to the agile Academy
+
+2
+00:00:02,870 --> 00:00:04,976
+در این گفتگو از سری گفتارهای چابکی و تجربه
+In this Agile and practice talk
+
+3
+00:00:05,024 --> 00:00:08,864
+we'd like to address how agile teams come up with a definition of done 
+
+4
+00:00:08,890 --> 00:00:11,584
+that will help them to decide when the work is completed
+
+5
+00:00:11,664 --> 00:00:13,312
+For agile teams
+
+6
+00:00:13,392 --> 00:00:19,020
+done means that nothing more needs to be done, for a piece of work to be taken into production or go live
+
+7
+00:00:19,232 --> 00:00:22,608
+while agile teams come to an agreement on the definition of done
+
+8
+00:00:22,600 --> 00:00:25,248
+they will brainstorm what tasks need to be done 
+
+9
+00:00:25,280 --> 00:00:31,120
+and what artifacts need to be produced to bring a single story or a piece of functionality into production
+
+10
+00:00:31,200 --> 00:00:34,512
+they will identify what can be done and what can't be done
+
+11
+00:00:34,650 --> 00:00:37,616
+they will also capture the blockers for the can't be done items
+
+12
+00:00:37,648 --> 00:00:40,620
+And then get consensus on what can be done items the
+
+13
+00:00:40,760 --> 00:00:46,272
+definition of done is important for agile teams to accurately measure the progress of their work
+
+14
+00:00:46,352 --> 00:00:50,432
+the whole team including their customer Jen the HR team leader
+
+15
+00:00:50,480 --> 00:00:55,152
+is involved in coming to a definition of done and they revisit irregularly to update it
+
+16
+00:00:55,260 --> 00:00:58,032
+here is Susan the business analyst of the team
+
+17
+00:00:58,160 --> 00:01:02,912
+she explains what the definition of done is to the team so they could get a shared understanding
+
+18
+00:01:02,960 --> 00:01:08,400
+essentially done means that the customer our product owner is happy with what the team has delivered
+
+19
+00:01:08,512 --> 00:01:11,168
+and has signed off and all the stories
+
+20
+00:01:11,216 --> 00:01:12,704
+however she continues
+
+21
+00:01:12,730 --> 00:01:18,960
+since the story goes through a development process, you can identify smaller checkpoints of done along the way
+
+22
+00:01:19,100 --> 00:01:25,328
+For example only after I have captured enough acceptance criteria and assumptions for a user story 
+
+23
+00:01:25,408 --> 00:01:27,392
+can it be picked up by the developers 
+
+24
+00:01:27,520 --> 00:01:30,768
+since all of this information doesn't fit on a story card
+
+25
+00:01:30,810 --> 00:01:35,872
+I capture them and what I like to call a narrative which is my artifact to express done
+
+26
+00:01:36,010 --> 00:01:38,288
+these might be a sketch of a feedback form
+
+27
+00:01:38,384 --> 00:01:39,888
+a prototype screen shot
+
+28
+00:01:39,968 --> 00:01:42,112
+and even some technical considerations
+
+29
+00:01:42,190 --> 00:01:45,024
+Tom the developer continues the explanation
+
+30
+00:01:45,184 --> 00:01:47,632
+in order to get a story closer to done
+
+31
+00:01:47,680 --> 00:01:50,432
+my piece of work has to be reviewed by another developer
+
+32
+00:01:50,480 --> 00:01:53,856
+and successfully integrated into the current version of the solution
+
+33
+00:01:53,968 --> 00:01:54,992
+Damien says
+
+34
+00:01:55,056 --> 00:01:57,808
+another checkpoint on the road to getting a story done
+
+35
+00:01:57,856 --> 00:02:00,688
+is that we have implemented the feedback of users
+
+36
+00:02:00,768 --> 00:02:03,936
+ensuring that a story meets user experience satisfaction
+
+37
+00:02:04,010 --> 00:02:10,464
+above all it means that Jen, as our customer and product owner
+has tested the story and approved it
+
+38
+00:02:10,670 --> 00:02:16,688
+in fact a story is done when it passes all tests created based on the acceptance criteria Susan
+
+39
+00:02:16,816 --> 00:02:19,024
+our business analyst has captured
+
+40
+00:02:19,020 --> 00:02:21,168
+this will include performance tests 
+
+41
+00:02:21,232 --> 00:02:26,250
+which means testing the response time of the system when a lot of people use it at the same time
+
+42
+00:02:26,400 --> 00:02:29,136
+that's our definition of done as developers
+
+43
+00:02:29,200 --> 00:02:31,408
+what about for you as a product owner Jen?
+
+44
+00:02:31,552 --> 00:02:36,464
+well Damian as a customer I'd say that the work is done when the employees over company 
+
+45
+00:02:36,480 --> 00:02:37,904
+have an easy-to-use system
+
+46
+00:02:37,984 --> 00:02:40,976
+in which they can fill in and access performance feedback
+
+47
+00:02:41,328 --> 00:02:43,536
+bill sums up the team's discussion
+
+48
+00:02:43,584 --> 00:02:47,344
+So let's have a look at what we are come up with for our definition of done
+
+49
+00:02:47,440 --> 00:02:48,896
+whether it is a story 
+
+50
+00:02:48,960 --> 00:02:50,688
+a feature, an iteration
+
+51
+00:02:50,736 --> 00:02:53,130
+or for a whole release of our product or a system
+
+52
+00:02:53,200 --> 00:02:55,680
+the work is done when we as a team
+
+53
+00:02:55,760 --> 00:02:58,048
+truly believe that we will not have to touch it again
+
+54
+00:02:58,208 --> 00:03:00,080
+in this agile and practice talk
+
+55
+00:03:00,220 --> 00:03:06,864
+you learned that agile teams come to consensus about what done means when the user definition to track the progress of their work
+
+56
+00:03:07,040 --> 00:03:09,660
+this progress is displayed in burnt charts
+
+57
+00:03:09,740 --> 00:03:12,592
+and agile metric that is a topic for another time
+
