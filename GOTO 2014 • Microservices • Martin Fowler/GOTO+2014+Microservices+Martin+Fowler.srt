@@ -1,3974 +1,3465 @@
 ﻿1
-00:00:11,029 --> 00:00:13,529
-so microservices have been talked about 
+00:00:11,720 --> 00:00:17,440
+so microservices have been talked about a lot over the last year
 
 2
-00:00:13,529 --> 00:00:19,140
- a lot over the last year or so I see a 
-so microservices have been talked about 
+00:00:17,850 --> 00:00:22,720
+ also I see a huge amount of stuff on Twitter and the like talking about this topic
 
 3
-00:00:19,140 --> 00:00:21,118
-huge amount of stuff on Twitter and the
- a lot over the last year or so I see a 
+00:00:23,230 --> 00:00:26,976
+ it's something I've been hearing about for a good bit for a little bit longer
 
 4
-00:00:21,118 --> 00:00:23,730
-like talking about this topic it's 
-huge amount of stuff on Twitter and the
+00:00:27,120 --> 00:00:31,888
+last two or three years various of my colleagues and friends have been talking about micro services
 
 5
-00:00:23,730 --> 00:00:25,500
-something I've been hearing about for a 
-like talking about this topic it's 
+00:00:32,320 --> 00:00:38,416
+and for me the struggle was to try and figure out well what exactly are they
 
 6
-00:00:25,500 --> 00:00:27,390
-good bit for a little bit longer last 
-something I've been hearing about for a 
+00:00:38,910 --> 00:00:42,928
+what what do people really mean when they talk about microservices
 
 7
-00:00:27,390 --> 00:00:29,009
-two or three years various of my 
-good bit for a little bit longer last 
+00:00:42,970 --> 00:00:46,608
+and also you know when should we consider using this technique 
 
 8
-00:00:29,009 --> 00:00:29,010
-two or three years various of my 
+00:00:46,650 --> 00:00:51,744
+is it new or not. Do we use it? do we not use it? And what not it is in the first place
 
 9
-00:00:29,010 --> 00:00:30,510
-colleagues and friends have been talking 
-two or three years various of my 
+00:00:52,128 --> 00:00:54,912
+I mean the basic idea is fairly straightforward
 
 10
-00:00:30,510 --> 00:00:35,670
- about micro services and for me the 
-colleagues and friends have been talking 
+00:00:55,776 --> 00:01:01,136
+ you contrast it with what's considered to be a traditional monolithic application
 
 11
-00:00:35,670 --> 00:00:36,989
-struggle was to try and figure out well 
- about micro services and for me the 
+00:01:01,480 --> 00:01:05,968
+A monolithic application means you've got various capabilities,
 
 12
-00:00:36,988 --> 00:00:39,689
-what exactly are they what what do 
-struggle was to try and figure out well 
+00:01:06,030 --> 00:01:08,576
+various things that you want to provide
 
 13
-00:00:39,689 --> 00:00:41,549
-people really mean when they talk about 
-what exactly are they what what do 
+00:01:08,704 --> 00:01:11,320
+and you put them all in the same application
 
 14
-00:00:41,549 --> 00:00:44,429
- microservices and also you know when 
-people really mean when they talk about 
+00:01:11,376 --> 00:01:13,472
+typically running in a single process
 
 15
-00:00:44,429 --> 00:00:46,319
-should we consider using this technique 
- microservices and also you know when 
+00:01:13,648 --> 00:01:16,560
+ and you think of it as one thing
 
 16
-00:00:46,319 --> 00:00:46,320
-should we consider using this technique 
+00:01:17,184 --> 00:01:18,704
+the microservice approach
 
 17
-00:00:46,320 --> 00:00:49,409
-is it new or not do we use it do we not 
-should we consider using this technique 
+00:01:19,000 --> 00:01:24,816
+ and its crew disciplines is trying to take each of these capabilities and put them into separate processes
 
 18
-00:00:49,409 --> 00:00:51,030
-use it and what nerf is it in the first 
-is it new or not do we use it do we not 
+00:01:25,152 --> 00:01:30,448
+ and instead of having one process have this network of communicating processes 
 
 19
-00:00:51,030 --> 00:00:54,000
-place I mean the basic idea is fairly 
-use it and what nerf is it in the first 
+00:01:30,680 --> 00:01:34,304
+a lot of people like to use the example of of the UNIX command line
 
 20
-00:00:54,000 --> 00:00:57,619
-straightforward you contrast it with 
-place I mean the basic idea is fairly 
+00:01:34,320 --> 00:01:40,192
+where if you want to get a list of all the files in your directory sorted you might use two or three different programs
 
 21
-00:00:57,619 --> 00:00:57,620
-what's considered to be a traditional 
-straightforward you contrast it with 
-place I mean the basic idea is fairly 
+00:01:40,280 --> 00:01:42,080
+put together in a pipeline to do so
 
 22
-00:00:57,620 --> 00:00:59,789
-straightforward you contrast it with 
-what's considered to be a traditional 
+00:01:43,392 --> 00:01:46,208
+ it also has a consequence for distribution
 
 23
-00:00:59,789 --> 00:01:02,519
- monolithic application a monolithic a 
-what's considered to be a traditional 
+00:01:46,380 --> 00:01:54,176
+ if you've got a monolith, you scale by effectively cookie cutter in the monolith and putting it on multiple machines 
 
 24
-00:01:02,519 --> 00:01:02,520
- monolithic application a monolithic a 
+00:01:54,384 --> 00:01:58,384
+ while we're microservices you've got more of a flexible approach because you can
 
 25
-00:01:02,520 --> 00:01:04,019
-monolithic application means you've got
- monolithic application a monolithic a 
+00:01:58,544 --> 00:02:00,784
+put different services on different machines 
 
 26
-00:01:04,019 --> 00:01:07,500
-various capabilities various things that 
-monolithic application means you've got
+00:02:00,830 --> 00:02:05,424
+ so that if some services get more load than others they can have more copies of  them made
 
 27
-00:01:07,500 --> 00:01:09,810
- you want to provide and you put them all 
-various capabilities various things that 
+00:02:05,792 --> 00:02:08,336
+that's the kind of very crude overview
 
 28
-00:01:09,810 --> 00:01:11,728
-in the same application typically 
- you want to provide and you put them all 
+00:02:08,840 --> 00:02:13,056
+but this is still a long way away from what I would really call the definition of it
 
 29
-00:01:11,728 --> 00:01:14,400
-running in a single process and you 
-in the same application typically 
+00:02:13,104 --> 00:02:20,200
+I mean how does this vary from everything I've been hearing people Yammer on about service-oriented architecture for the last 10 years
 
 30
-00:01:14,400 --> 00:01:17,640
-think of it as one thing the micro 
-running in a single process and you 
+00:02:21,310 --> 00:02:26,944
+ but the trouble is with something like a topic like micro  services it's very hard to come up with any kind of firm definition
 
 31
-00:01:17,640 --> 00:01:19,618
- service approach and its crew 
-think of it as one thing the micro 
+00:02:27,240 --> 00:02:33,584
+yes I mean I've filled the same thing with no sequel right I mean no sequel databases I mean what's the definition and no sequel
 
 32
-00:01:19,618 --> 00:01:21,478
- disciplines is trying to take each of 
- service approach and its crew 
+00:02:33,740 --> 00:02:40,880
+And even further back I mean you know what is the definition we come up with really solid definition for functional programming
 
 33
-00:01:21,478 --> 00:01:23,549
-these capabilities and put them into 
- disciplines is trying to take each of 
+00:02:41,040 --> 00:02:45,088
+well you know there are plenty out there you can choose from quite a wide range
 
 34
-00:01:23,549 --> 00:01:26,009
-separate processes and instead of having 
-these capabilities and put them into 
+00:02:45,728 --> 00:02:51,590
+ what I think is better to think about is instead of thinking about a definition  to talk about common characteristics
 
 35
-00:01:26,009 --> 00:01:28,799
- one process have this network of 
-separate processes and instead of having 
+00:02:51,590 --> 00:02:54,030
+and what I mean by common characteristics is to say
+ what I think is better to think about is instead of thinking about a definition  to talk about common characteristics
 
 36
-00:01:28,799 --> 00:01:31,349
-communicating processes a lot of people 
- one process have this network of 
+00:02:54,030 --> 00:02:54,784
+and what I mean by common characteristics is to say
 
 37
-00:01:31,349 --> 00:01:33,479
-like to use the example of of the UNIX 
-communicating processes a lot of people 
+00:02:55,100 --> 00:02:58,720
+if you burnt the talk to AB whole bunch of people doing micro-services
 
 38
-00:01:33,478 --> 00:01:35,339
- command line where if you want to get a 
-like to use the example of of the UNIX 
+00:02:58,944 --> 00:03:01,936
+and you look for the common things that most of them are doing
 
 39
-00:01:35,339 --> 00:01:35,340
- command line where if you want to get a 
+00:03:02,220 --> 00:03:09,180
+ your test is that most people who say they're doing  micro-services should be doing most of  these things
 
 40
-00:01:35,340 --> 00:01:37,469
-list of all the files in your directory 
- command line where if you want to get a 
+00:03:09,180 --> 00:03:12,479
+and I got together with one of my colleagues who's one of these guys has done a lot of work with microservices
+ your test is that most people who say they're doing  micro-services should be doing most of  these things
 
 41
-00:01:37,469 --> 00:01:39,150
-sorted you might use two or three 
-list of all the files in your directory 
+00:03:12,479 --> 00:03:14,592
+and I got together with one of my colleagues who's one of these guys has done a lot of work with microservices
 
 42
-00:01:39,150 --> 00:01:41,069
- different programs put together in a 
-sorted you might use two or three 
+00:03:14,688 --> 00:03:19,616
+ and we came up with an article that we published earlier this year 
 
 43
-00:01:41,069 --> 00:01:44,340
-pipeline to do so it also has a 
- different programs put together in a 
+00:03:19,720 --> 00:03:27,488
+ those of you at the back are going to struggle with all that everything on the slides that's at the bottom because of the way the things laid out but it's out there 
 
 44
-00:01:44,340 --> 00:01:46,919
-consequence for distribution if you've 
-pipeline to do so it also has a 
+00:03:27,600 --> 00:03:32,624
+and I'm just going to summarize some of these these were the nine common characteristics
 
 45
-00:01:46,919 --> 00:01:46,920
-consequence for distribution if you've 
+00:03:32,752 --> 00:03:36,010
+ that we came up with in writing that article.
 
 46
-00:01:46,920 --> 00:01:50,728
-got a model if you scale by effectively 
-consequence for distribution if you've 
+00:03:36,240 --> 00:03:39,344
+and I'm not going to talk through them all because I don't have enough time
 
 47
-00:01:50,728 --> 00:01:52,530
-cookie cutter in the monolith and 
-got a model if you scale by effectively 
+00:03:39,610 --> 00:03:42,864
+but I will highlight some that I think are particularly interesting
 
 48
-00:01:52,530 --> 00:01:54,780
- putting it on multiple machines while 
-cookie cutter in the monolith and 
+00:03:44,272 --> 00:03:48,656
+so the first thing is this notion of componentization via services 
 
 49
-00:01:54,780 --> 00:01:56,670
- we're microservices you've got more of a 
- putting it on multiple machines while 
+00:03:49,040 --> 00:03:53,264
+now the idea software should be broken up into components
 
 50
-00:01:56,670 --> 00:01:58,739
-flexible approach because you can put 
- we're microservices you've got more of a 
+00:03:53,340 --> 00:03:58,976
+has been around again forever we always a lot of people have  talked about component based software
 
 51
-00:01:58,739 --> 00:02:00,180
-different services on different machines 
-flexible approach because you can put 
+00:03:59,024 --> 00:04:02,430
+and how it would be good to have  components that you can work with
 
 52
-00:02:00,180 --> 00:02:02,699
- so that if some services get more load 
-different services on different machines 
+00:04:02,430 --> 00:04:04,560
+but often the term component of course has had a lot of problems in terms of definition as well
+and how it would be good to have  components that you can work with
 
 53
-00:02:02,699 --> 00:02:02,700
- so that if some services get more load 
+00:04:04,560 --> 00:04:07,280
+but often the term component of course has had a lot of problems in terms of definition as well
 
 54
-00:02:02,700 --> 00:02:04,799
-than others they can have more copies of 
- so that if some services get more load 
+00:04:07,610 --> 00:04:12,176
+I remember a one point object being substituted for components and then
 
 55
-00:02:04,799 --> 00:02:07,618
- them made that's the kind of very crude 
-than others they can have more copies of 
+00:04:12,256 --> 00:04:16,624
+ components came back to objects again and it all got very confusing
 
 56
-00:02:07,618 --> 00:02:10,679
-overview but this is still a long way
- them made that's the kind of very crude 
+00:04:16,624 --> 00:04:19,469
+what I focus on for a definition of component really comes from Ralph Johnson
+ components came back to objects again and it all got very confusing
 
 57
-00:02:10,679 --> 00:02:12,300
- away from what I would really call the 
-overview but this is still a long way
+00:04:19,469 --> 00:04:21,136
+what I focus on for a definition of component really comes from Ralph Johnson
 
 58
-00:02:12,300 --> 00:02:13,469
-definition of it I mean
- away from what I would really call the 
+00:04:21,232 --> 00:04:23,184
+he said that what we're trying to do
 
 59
-00:02:13,469 --> 00:02:15,539
- how does this vary from everything I've 
-definition of it I mean
+00:04:23,280 --> 00:04:27,360
+is we're trying to build software the way people would assemble stereo components
 
 60
-00:02:15,539 --> 00:02:15,540
- been hearing people Yammer on about 
- how does this vary from everything I've 
-definition of it I mean
+00:04:27,560 --> 00:04:31,776
+you know you have an amplifier you have speakers you have a  CD play have a tape player
 
 61
-00:02:15,540 --> 00:02:17,009
- how does this vary from everything I've 
- been hearing people Yammer on about 
+00:04:31,824 --> 00:04:35,070
+ you can replace any of these items independently 
 
 62
-00:02:17,009 --> 00:02:19,169
-service-oriented architecture for the
- been hearing people Yammer on about 
+00:04:35,904 --> 00:04:37,744
+that's a crucial thing
 
 63
-00:02:19,169 --> 00:02:22,139
-last 10 years but the trouble is with 
-service-oriented architecture for the
+00:04:37,824 --> 00:04:41,312
+ and indeed you can upgrade any of these items independently
 
 64
-00:02:22,139 --> 00:02:23,729
-something like a topic like micro 
-last 10 years but the trouble is with 
+00:04:41,520 --> 00:04:46,416
+so if I want to get an  improved amplifier I don't have to  change everything else
 
 65
-00:02:23,729 --> 00:02:25,409
- services it's very hard to come up with 
-something like a topic like micro 
+00:04:46,416 --> 00:04:48,688
+ that's a goal of what we're aiming for
+so if I want to get an  improved amplifier I don't have to  change everything else
 
 66
-00:02:25,409 --> 00:02:28,709
-any kind of firm definition yes I mean 
- services it's very hard to come up with 
+00:04:48,688 --> 00:04:48,990
+so if I want to get an  improved amplifier I don't have to  change everything else
 
 67
-00:02:28,709 --> 00:02:28,710
-any kind of firm definition yes I mean 
+00:04:48,990 --> 00:04:50,038
+ a component is something that's independently replaceable independently upgradable
+so if I want to get an  improved amplifier I don't have to  change everything else
 
 68
-00:02:28,710 --> 00:02:29,909
-I've filled the same thing with no
-any kind of firm definition yes I mean 
+00:04:50,038 --> 00:04:53,744
+ a component is something that's independently replaceable independently upgradable
 
 69
-00:02:29,909 --> 00:02:31,710
-sequel right I mean no sequel databases 
-I've filled the same thing with no
+00:04:55,648 --> 00:04:57,584
+so in terms of software
 
 70
-00:02:31,710 --> 00:02:33,000
-I mean what's the definition and no 
-sequel right I mean no sequel databases 
+00:04:58,032 --> 00:05:01,072
+ and we see components to becoming two forms
 
 71
-00:02:33,000 --> 00:02:36,150
-sequel and even further back I mean you 
-I mean what's the definition and no 
+00:05:01,400 --> 00:05:07,024
+we obtain libraries that we use from third parties and we make them part of our process 
 
 72
-00:02:36,150 --> 00:02:38,009
-know what is the definition we come up 
-sequel and even further back I mean you 
+00:05:07,640 --> 00:05:11,568
+and to some extent we have then the choice of when do we want to upgrade that
 
 73
-00:02:38,009 --> 00:02:39,750
-with really solid definition for 
-know what is the definition we come up 
+00:05:11,600 --> 00:05:15,136
+ do we want to get a new version of   our XML processing library
 
 74
-00:02:39,750 --> 00:02:41,579
-functional programming well you know 
-with really solid definition for 
+00:05:15,136 --> 00:05:16,649
+or do we stick with the one that we've currently got
+ do we want to get a new version of   our XML processing library
 
 75
-00:02:41,579 --> 00:02:41,580
-functional programming well you know 
+00:05:16,649 --> 00:05:17,216
+or do we stick with the one that we've currently got
 
 76
-00:02:41,580 --> 00:02:42,810
-there are plenty out there you can 
-functional programming well you know 
+00:05:17,240 --> 00:05:21,456
+and hopefully the upgrade isn't   going to affect the rest of our  application too much
 
 77
-00:02:42,810 --> 00:02:46,169
-choose from quite a wide range what I
-there are plenty out there you can 
+00:05:21,584 --> 00:05:24,160
+ depending upon how the dependencies are all laid out
 
 78
-00:02:46,169 --> 00:02:46,170
-think is better to think about is 
-choose from quite a wide range what I
-there are plenty out there you can 
+00:05:25,000 --> 00:05:30,144
+A service is a different kind of component where it's running in its own process 
 
 79
-00:02:46,170 --> 00:02:47,550
-choose from quite a wide range what I
-think is better to think about is 
+00:05:30,416 --> 00:05:32,490
+ and while with a library we talk using 
 
 80
-00:02:47,550 --> 00:02:48,899
- instead of thinking about a definition 
-think is better to think about is 
-
-81
-00:02:48,899 --> 00:02:48,900
- instead of thinking about a definition 
-
-82
-00:02:48,900 --> 00:02:51,599
- to talk about common characteristics and 
- instead of thinking about a definition 
-
-83
-00:02:51,599 --> 00:02:51,600
-what I mean by common characteristics is 
- to talk about common characteristics and 
- instead of thinking about a definition 
-
-84
-00:02:51,600 --> 00:02:54,030
- to talk about common characteristics and 
-what I mean by common characteristics is 
-
-85
-00:02:54,030 --> 00:02:56,699
-to say if you burnt the talk to AB whole 
-what I mean by common characteristics is 
-
-86
-00:02:56,699 --> 00:02:58,620
-bunch of people doing micro-services and 
-to say if you burnt the talk to AB whole 
-
-87
-00:02:58,620 --> 00:03:00,929
-you look for the common things that most 
-bunch of people doing micro-services and 
-
-88
-00:03:00,929 --> 00:03:00,930
-you look for the common things that most 
-
-89
-00:03:00,930 --> 00:03:03,599
-of them are doing your test is that most 
-you look for the common things that most 
-
-90
-00:03:03,599 --> 00:03:04,709
-people who say they're doing 
-of them are doing your test is that most 
-
-91
-00:03:04,709 --> 00:03:06,810
- micro-services should be doing most of 
-people who say they're doing 
-
-92
-00:03:06,810 --> 00:03:10,680
- these things and I got together with one 
- micro-services should be doing most of 
-
-93
-00:03:10,680 --> 00:03:12,479
- of my colleagues who's one of these guys 
- these things and I got together with one 
-
-94
-00:03:12,479 --> 00:03:13,830
-has done a lot of work with micro 
- of my colleagues who's one of these guys 
-
-95
-00:03:13,830 --> 00:03:16,169
- services and we came up with an article 
-has done a lot of work with micro 
-
-96
-00:03:16,169 --> 00:03:19,729
- that we published earlier this year 
- services and we came up with an article 
-
-97
-00:03:19,729 --> 00:03:19,730
- those of you at the back are going to 
- that we published earlier this year 
- services and we came up with an article 
-
-98
-00:03:19,730 --> 00:03:21,629
- that we published earlier this year 
- those of you at the back are going to 
-
-99
-00:03:21,629 --> 00:03:23,039
- struggle with all that everything on the 
- those of you at the back are going to 
-
-100
-00:03:23,039 --> 00:03:24,479
-slides that's at the bottom because of 
- struggle with all that everything on the 
-
-101
-00:03:24,479 --> 00:03:26,759
- the way the things laid out but it's out 
-slides that's at the bottom because of 
-
-102
-00:03:26,759 --> 00:03:29,399
-there and I'm just going to summarize 
- the way the things laid out but it's out 
-
-103
-00:03:29,399 --> 00:03:29,400
-there and I'm just going to summarize 
-
-104
-00:03:29,400 --> 00:03:31,590
-some of these these were the nine common 
-there and I'm just going to summarize 
-
-105
-00:03:31,590 --> 00:03:34,919
-characteristics that we came up with in 
-some of these these were the nine common 
-
-106
-00:03:34,919 --> 00:03:34,920
-writing that article and I'm not going 
-characteristics that we came up with in 
-some of these these were the nine common 
-
-107
-00:03:34,920 --> 00:03:37,019
-characteristics that we came up with in 
-writing that article and I'm not going 
-
-108
-00:03:37,019 --> 00:03:38,549
-to talk through them all because I don't 
-writing that article and I'm not going 
-
-109
-00:03:38,549 --> 00:03:38,550
-to talk through them all because I don't 
-
-110
-00:03:38,550 --> 00:03:40,800
-have enough time but I will highlight 
-to talk through them all because I don't 
-
-111
-00:03:40,800 --> 00:03:42,060
- some that I think are particularly 
-have enough time but I will highlight 
-
-112
-00:03:42,060 --> 00:03:45,659
-interesting so the first thing is this
- some that I think are particularly 
-
-113
-00:03:45,659 --> 00:03:45,660
- notion of componentization via services 
-interesting so the first thing is this
- some that I think are particularly 
-
-114
-00:03:45,660 --> 00:03:48,620
-interesting so the first thing is this
- notion of componentization via services 
-
-115
-00:03:48,620 --> 00:03:51,569
- now the idea software should be broken 
- notion of componentization via services 
-
-116
-00:03:51,569 --> 00:03:55,500
- up into components has been around again 
- now the idea software should be broken 
-
-117
-00:03:55,500 --> 00:03:57,060
- forever we always a lot of people have 
- up into components has been around again 
-
-118
-00:03:57,060 --> 00:03:58,259
-talked about component based software
- forever we always a lot of people have 
-
-119
-00:03:58,259 --> 00:04:00,239
-and how it would be good to have 
-talked about component based software
-
-120
-00:04:00,239 --> 00:04:02,548
-components that you can work with but 
-and how it would be good to have 
-
-121
-00:04:02,549 --> 00:04:04,560
-often the term component of course has 
-components that you can work with but 
-
-122
-00:04:04,560 --> 00:04:06,150
-had a lot of problems in terms of 
-often the term component of course has 
-
-123
-00:04:06,150 --> 00:04:09,060
-definition as well I remember a one 
-had a lot of problems in terms of 
-
-124
-00:04:09,060 --> 00:04:11,009
- point object being substituted for 
-definition as well I remember a one 
-
-125
-00:04:11,009 --> 00:04:11,010
-components and then components came back
- point object being substituted for 
-definition as well I remember a one 
-
-126
-00:04:11,010 --> 00:04:13,110
- point object being substituted for 
-components and then components came back
-
-127
-00:04:13,110 --> 00:04:14,669
-to objects again and it all got very 
-components and then components came back
-
-128
-00:04:14,669 --> 00:04:17,790
- confusing what I focus on for a 
-to objects again and it all got very 
-
-129
-00:04:17,790 --> 00:04:19,469
-definition of component really comes 
- confusing what I focus on for a 
-
-130
-00:04:19,469 --> 00:04:19,470
-definition of component really comes 
-
-131
-00:04:19,470 --> 00:04:22,049
-from Ralph Johnson he said that what 
-definition of component really comes 
-
-132
-00:04:22,048 --> 00:04:23,939
-we're trying to do is we're trying to 
-from Ralph Johnson he said that what 
-
-133
-00:04:23,939 --> 00:04:23,940
- build software the way people would 
-we're trying to do is we're trying to 
-from Ralph Johnson he said that what 
-
-134
-00:04:23,940 --> 00:04:25,439
-we're trying to do is we're trying to 
- build software the way people would 
-
-135
-00:04:25,439 --> 00:04:26,490
-assemble stereo
- build software the way people would 
-
-136
-00:04:26,490 --> 00:04:28,110
-components you know you have an 
-assemble stereo
-
-137
-00:04:28,110 --> 00:04:29,939
- amplifier you have speakers you have a 
-components you know you have an 
-
-138
-00:04:29,939 --> 00:04:32,098
-CD play have a tape player you can 
- amplifier you have speakers you have a 
-
-139
-00:04:32,098 --> 00:04:35,389
-replace any of these items independently 
-CD play have a tape player you can 
-
-140
-00:04:35,389 --> 00:04:38,399
-that's a crucial thing and indeed you
-replace any of these items independently 
-
-141
-00:04:38,399 --> 00:04:40,160
- can upgrade any of these items 
-that's a crucial thing and indeed you
-
-142
-00:04:40,160 --> 00:04:43,228
-independently so if I want to get an 
- can upgrade any of these items 
-
-143
-00:04:43,228 --> 00:04:45,269
-improved amplifier I don't have to 
-independently so if I want to get an 
-
-144
-00:04:45,269 --> 00:04:45,270
-change everything else that's a goal of 
-improved amplifier I don't have to 
-independently so if I want to get an 
-
-145
-00:04:45,270 --> 00:04:47,370
-improved amplifier I don't have to 
-change everything else that's a goal of 
-
-146
-00:04:47,370 --> 00:04:50,038
- what we're aiming for a component is 
-change everything else that's a goal of 
-
-147
-00:04:50,038 --> 00:04:51,300
-something that's independently
- what we're aiming for a component is 
-
-148
-00:04:51,300 --> 00:04:56,038
-replaceable independently upgradable so 
-something that's independently
-
-149
-00:04:56,038 --> 00:04:58,860
-in terms of software and we see 
-replaceable independently upgradable so 
-
-150
-00:04:58,860 --> 00:05:01,649
-components to becoming two forms we 
-in terms of software and we see 
-
-151
-00:05:01,649 --> 00:05:03,990
-obtain libraries that we use from third 
-components to becoming two forms we 
-
-152
-00:05:03,990 --> 00:05:06,060
-parties and we make them part of our
-obtain libraries that we use from third 
-
-153
-00:05:06,060 --> 00:05:09,449
-process and to some extent we have then 
-parties and we make them part of our
-
-154
-00:05:09,449 --> 00:05:11,129
-the choice of when do we want to upgrade 
-process and to some extent we have then 
-
-155
-00:05:11,129 --> 00:05:13,079
- that do we want to get a new version of 
-the choice of when do we want to upgrade 
-
-156
-00:05:13,079 --> 00:05:15,360
- our XML processing library or do we 
- that do we want to get a new version of 
-
-157
-00:05:15,360 --> 00:05:16,649
-stick with the one that we've currently 
- our XML processing library or do we 
-
-158
-00:05:16,649 --> 00:05:18,839
-got and hopefully the upgrade isn't 
-stick with the one that we've currently 
-
-159
-00:05:18,839 --> 00:05:18,840
- going to affect the rest of our 
-got and hopefully the upgrade isn't 
-stick with the one that we've currently 
-
-160
-00:05:18,840 --> 00:05:20,219
-got and hopefully the upgrade isn't 
- going to affect the rest of our 
-
-161
-00:05:20,219 --> 00:05:20,220
- going to affect the rest of our 
-
-162
-00:05:20,220 --> 00:05:22,318
-application too much depending upon how
- going to affect the rest of our 
-
-163
-00:05:22,319 --> 00:05:25,009
-the dependences are all laid out a 
-application too much depending upon how
-
-164
-00:05:25,009 --> 00:05:27,959
-service is a different kind of component 
-the dependences are all laid out a 
-
-165
-00:05:27,959 --> 00:05:27,960
-where it's running in its own process 
-service is a different kind of component 
-the dependences are all laid out a 
-
-166
-00:05:27,960 --> 00:05:29,490
-service is a different kind of component 
-where it's running in its own process 
-
-167
-00:05:29,490 --> 00:05:32,489
- and while with a library we talk using 
-where it's running in its own process 
-
-168
-00:05:32,489 --> 00:05:32,490
- and while with a library we talk using 
-
-169
-00:05:32,490 --> 00:05:34,889
+00:05:32,490 --> 00:05:33,520
 the language communication facilities 
  and while with a library we talk using 
 
-170
+81
+00:05:33,520 --> 00:05:34,889
+the language communication facilities 
+
+82
 00:05:34,889 --> 00:05:36,209
 that we have built into whatever 
 the language communication facilities 
 
-171
+83
 00:05:36,209 --> 00:05:36,210
 language we're using with a service 
 that we have built into whatever 
 the language communication facilities 
 
-172
+84
 00:05:36,210 --> 00:05:38,129
 that we have built into whatever 
 language we're using with a service 
 
-173
+85
 00:05:38,129 --> 00:05:39,508
 we're typically using inter process 
 language we're using with a service 
 
-174
+86
 00:05:39,509 --> 00:05:42,899
 communication facilities such as web 
 we're typically using inter process 
 
-175
+87
 00:05:42,899 --> 00:05:44,908
 service calls or messaging or something
 communication facilities such as web 
 
-176
+88
 00:05:44,908 --> 00:05:48,179
 of that kind and the services give us 
 service calls or messaging or something
 
-177
+89
 00:05:48,179 --> 00:05:48,180
 of that kind and the services give us 
 
-178
+90
 00:05:48,180 --> 00:05:49,949
 some useful advantages even when it 
 of that kind and the services give us 
 
-179
+91
 00:05:49,949 --> 00:05:51,478
 tends to replace ability and upgrade 
 some useful advantages even when it 
 
-180
+92
 00:05:51,478 --> 00:05:54,449
  ability if I've got a monolith with 
 tends to replace ability and upgrade 
 
-181
+93
 00:05:54,449 --> 00:05:57,839
  components that are libraries and I've 
  ability if I've got a monolith with 
 
-182
+94
 00:05:57,839 --> 00:05:59,669
 got you know somebody brings out a new
  components that are libraries and I've 
 
-183
+95
 00:05:59,668 --> 00:06:01,168
 version of a component that would be 
 got you know somebody brings out a new
 
-184
+96
 00:06:01,168 --> 00:06:03,359
 really nice but it only works on Java 8 
 version of a component that would be 
 
-185
+97
 00:06:03,359 --> 00:06:03,360
 really nice but it only works on Java 8 
 
-186
+98
 00:06:03,360 --> 00:06:05,758
 and I've got another component in my
 really nice but it only works on Java 8 
 
-187
+99
 00:06:05,759 --> 00:06:08,009
 monolith that doesn't work with Java 8 
 and I've got another component in my
 
-188
+100
 00:06:08,009 --> 00:06:10,139
 and can only work with Java 7 what do I 
 monolith that doesn't work with Java 8 
 
-189
+101
 00:06:10,139 --> 00:06:13,348
 do I'm stuck but on the other hand with 
 and can only work with Java 7 what do I 
 
-190
+102
 00:06:13,348 --> 00:06:14,908
 if they were separate services they 
 do I'm stuck but on the other hand with 
 
-191
+103
 00:06:14,908 --> 00:06:16,069
  would be running in completely different 
 if they were separate services they 
 
-192
+104
 00:06:16,069 --> 00:06:18,329
 runtimes and they could operate they 
  would be running in completely different 
 
-193
+105
 00:06:18,329 --> 00:06:20,939
  could be upgraded more independently now 
 runtimes and they could operate they 
 
-194
+106
 00:06:20,939 --> 00:06:22,800
 there's a cost of course with that but 
  could be upgraded more independently now 
 
-195
+107
 00:06:22,800 --> 00:06:24,538
 that's part of the notion of how it ties 
 there's a cost of course with that but 
 
-196
+108
 00:06:24,538 --> 00:06:29,399
 into the independent upgrade ability so 
 that's part of the notion of how it ties 
 
-197
+109
 00:06:29,399 --> 00:06:29,400
 for the next one 
 into the independent upgrade ability so 
 that's part of the notion of how it ties 
 
-198
+110
 00:06:29,400 --> 00:06:31,360
 into the independent upgrade ability so 
 for the next one 
 
-199
+111
 00:06:31,360 --> 00:06:34,310
 organization in around business 
 for the next one 
 
-200
+112
 00:06:34,310 --> 00:06:36,139
 capabilities is another important theme 
 organization in around business 
 
-201
+113
 00:06:36,139 --> 00:06:37,879
 in the micro services view of the world 
 capabilities is another important theme 
 
-202
+114
 00:06:37,879 --> 00:06:41,300
  so a lot of lot even development 
 in the micro services view of the world 
 
-203
+115
 00:06:41,300 --> 00:06:43,908
  organizations organize themselves around 
  so a lot of lot even development 
 
-204
+116
 00:06:43,908 --> 00:06:46,490
  technology I mean you'll see this in a 
  organizations organize themselves around 
 
-205
+117
 00:06:46,490 --> 00:06:47,930
 lot of big companies I'll have their D 
  technology I mean you'll see this in a 
 
-206
+118
 00:06:47,930 --> 00:06:49,550
  bas and their database group that might 
 lot of big companies I'll have their D 
 
-207
+119
 00:06:49,550 --> 00:06:50,718
  have a completely different group of 
  bas and their database group that might 
 
-208
+120
 00:06:50,718 --> 00:06:53,149
  people on the UI it's focused around 
  have a completely different group of 
 
-209
+121
 00:06:53,149 --> 00:06:53,150
  technology the key thing with the micro 
  people on the UI it's focused around 
  have a completely different group of 
 
-210
+122
 00:06:53,150 --> 00:06:56,028
  people on the UI it's focused around 
  technology the key thing with the micro 
 
-211
+123
 00:06:56,028 --> 00:06:57,498
  services view of the world is that we 
  technology the key thing with the micro 
 
-212
+124
 00:06:57,499 --> 00:06:59,959
 should instead organize around business 
  services view of the world is that we 
 
-213
+125
 00:06:59,959 --> 00:07:03,259
  capabilities and that each team should 
 should instead organize around business 
 
-214
+126
 00:07:03,259 --> 00:07:06,079
  have some elements right the way through 
  capabilities and that each team should 
 
-215
+127
 00:07:06,079 --> 00:07:09,649
  and ideally focusing directly on the end 
  have some elements right the way through 
 
-216
+128
 00:07:09,649 --> 00:07:09,650
 users themselves there's an interesting 
  and ideally focusing directly on the end 
  have some elements right the way through 
 
-217
+129
 00:07:09,650 --> 00:07:12,318
  and ideally focusing directly on the end 
 users themselves there's an interesting 
 
-218
+130
 00:07:12,319 --> 00:07:14,258
 example of this from Amazon which is a 
 users themselves there's an interesting 
 
-219
+131
 00:07:14,259 --> 00:07:16,610
 common certainly inspiration for the 
 example of this from Amazon which is a 
 
-220
+132
 00:07:16,610 --> 00:07:18,919
 micro services community where when they 
 common certainly inspiration for the 
 
-221
+133
 00:07:18,918 --> 00:07:21,139
 divided everybody knows Amazon divided
 micro services community where when they 
 
-222
+134
 00:07:21,139 --> 00:07:23,299
  themselves up into two pizza teams and 
 divided everybody knows Amazon divided
 
-223
+135
 00:07:23,299 --> 00:07:23,300
  themselves up into two pizza teams and 
 
-224
+136
 00:07:23,300 --> 00:07:25,250
 that's talked about a lot but what's 
  themselves up into two pizza teams and 
 
-225
+137
 00:07:25,250 --> 00:07:26,870
 talked about a lot less often is the 
 that's talked about a lot but what's 
 
-226
+138
 00:07:26,870 --> 00:07:29,120
 fact that each team was responsible for 
 talked about a lot less often is the 
 
-227
+139
 00:07:29,120 --> 00:07:30,889
  the communication right way through to 
 fact that each team was responsible for 
 
-228
+140
 00:07:30,889 --> 00:07:33,620
 the end user experience and the idea 
  the communication right way through to 
 
-229
+141
 00:07:33,620 --> 00:07:35,209
  that that should connect right the way 
 the end user experience and the idea 
 
-230
+142
 00:07:35,209 --> 00:07:35,210
 through to the people at the end and 
  that that should connect right the way 
 the end user experience and the idea 
 
-231
+143
 00:07:35,210 --> 00:07:37,310
  that that should connect right the way 
 through to the people at the end and 
 
-232
+144
 00:07:37,310 --> 00:07:39,528
 they should be judged on how does this 
 through to the people at the end and 
 
-233
+145
 00:07:39,528 --> 00:07:42,620
 affect business outcomes right the way 
 they should be judged on how does this 
 
-234
+146
 00:07:42,620 --> 00:07:44,478
  through is a very important part of that 
 affect business outcomes right the way 
 
-235
+147
 00:07:44,478 --> 00:07:46,968
 thinking so we have this notion of
  through is a very important part of that 
 
-236
+148
 00:07:46,968 --> 00:07:49,519
 divide yourself up around some kind of 
 thinking so we have this notion of
 
-237
+149
 00:07:49,519 --> 00:07:52,009
  business organization and make that as 
 divide yourself up around some kind of 
 
-238
+150
 00:07:52,009 --> 00:07:59,000
  full stack as possible perhaps when it 
  business organization and make that as 
 
-239
+151
 00:07:59,000 --> 00:08:00,919
 comes to comparison to what a lot of
  full stack as possible perhaps when it 
 
-240
+152
 00:08:00,918 --> 00:08:02,569
  people have come across in terms of 
 comes to comparison to what a lot of
 
-241
+153
 00:08:02,569 --> 00:08:04,609
 services one of the biggest shifts is 
  people have come across in terms of 
 
-242
+154
 00:08:04,609 --> 00:08:04,610
 services one of the biggest shifts is 
 
-243
+155
 00:08:04,610 --> 00:08:08,120
 this shift about let's have smart
 services one of the biggest shifts is 
 
-244
+156
 00:08:08,120 --> 00:08:11,658
  endpoints and dumb pipes when a lot of 
 this shift about let's have smart
 
-245
+157
 00:08:11,658 --> 00:08:13,189
  people talk about service-oriented 
  endpoints and dumb pipes when a lot of 
 
-246
+158
 00:08:13,189 --> 00:08:16,038
  architecture they talk about the idea of 
  people talk about service-oriented 
 
-247
+159
 00:08:16,038 --> 00:08:17,899
  let's get some powerful piece of 
  architecture they talk about the idea of 
 
-248
+160
 00:08:17,899 --> 00:08:20,028
 middleware that will automatically do 
  let's get some powerful piece of 
 
-249
+161
 00:08:20,028 --> 00:08:21,468
 all sorts of stuff it'll route messages 
 middleware that will automatically do 
 
-250
+162
 00:08:21,468 --> 00:08:23,810
  it will apply business rules it does all 
 all sorts of stuff it'll route messages 
 
-251
+163
 00:08:23,810 --> 00:08:26,149
  sorts of things this of course is the 
  it will apply business rules it does all 
 
-252
+164
 00:08:26,149 --> 00:08:30,019
 the ESB the Enterprise Service bus or is 
  sorts of things this of course is the 
 
-253
+165
 00:08:30,019 --> 00:08:32,059
 it more correctly known the egregious 
 the ESB the Enterprise Service bus or is 
 
-254
+166
 00:08:32,059 --> 00:08:34,929
 spaghetti box
 it more correctly known the egregious 
 
-255
+167
 00:08:36,450 --> 00:08:38,729
 the micro-service community very much 
 
-256
+168
 00:08:38,729 --> 00:08:41,549
 regret reject this notion and says the
 the micro-service community very much 
 
-257
+169
 00:08:41,549 --> 00:08:41,550
 smarts instead should move to the 
 regret reject this notion and says the
 the micro-service community very much 
 
-258
+170
 00:08:41,550 --> 00:08:43,919
 regret reject this notion and says the
 smarts instead should move to the 
 
-259
+171
 00:08:43,918 --> 00:08:46,859
  endpoints themselves what we want is 
 smarts instead should move to the 
 
-260
+172
 00:08:46,859 --> 00:08:46,860
  endpoints themselves what we want is 
 
-261
+173
 00:08:46,860 --> 00:08:49,500
 everything to connect together and to be 
  endpoints themselves what we want is 
 
-262
+174
 00:08:49,500 --> 00:08:51,240
 able to easily route messages or 
 everything to connect together and to be 
 
-263
+175
 00:08:51,240 --> 00:08:52,980
 communications between them but it 
 able to easily route messages or 
 
-264
+176
 00:08:52,980 --> 00:08:54,870
  should be up to the endpoints where all 
 communications between them but it 
 
-265
+177
 00:08:54,870 --> 00:08:57,329
 that smartness goes any business logic
  should be up to the endpoints where all 
 
-266
+178
 00:08:57,328 --> 00:09:00,149
  any routing stuff all of this should be 
 that smartness goes any business logic
 
-267
+179
 00:09:00,149 --> 00:09:01,799
 based on the endpoints just give us a 
  any routing stuff all of this should be 
 
-268
+180
 00:09:01,799 --> 00:09:03,929
 good efficient piping mechanism and the
 based on the endpoints just give us a 
 
-269
+181
 00:09:03,929 --> 00:09:05,609
 inspiration in many ways is of course 
 good efficient piping mechanism and the
 
-270
+182
 00:09:05,609 --> 00:09:05,610
 inspiration in many ways is of course 
 
-271
+183
 00:09:05,610 --> 00:09:07,708
 the Internet itself which works very 
 inspiration in many ways is of course 
 
-272
+184
 00:09:07,708 --> 00:09:09,449
 well because of the fact that it needs a 
 the Internet itself which works very 
 
-273
+185
 00:09:09,448 --> 00:09:11,879
 relatively dumb set of pipes and puts 
 well because of the fact that it needs a 
 
-274
+186
 00:09:11,879 --> 00:09:15,828
 all the intelligence onto the endpoints 
 relatively dumb set of pipes and puts 
 
-275
+187
 00:09:19,669 --> 00:09:22,820
 another thing that also brings out this 
 
-276
+188
 00:09:22,820 --> 00:09:25,889
 variation to a lot of service stuff is 
 another thing that also brings out this 
 
-277
+189
 00:09:25,889 --> 00:09:28,519
 the notion of decentralization
 variation to a lot of service stuff is 
 
-278
+190
 00:09:28,519 --> 00:09:30,809
 decentralization in terms of the overall 
 the notion of decentralization
 
-279
+191
 00:09:30,809 --> 00:09:30,810
 way in which a service landscape is 
 decentralization in terms of the overall 
 the notion of decentralization
 
-280
+192
 00:09:30,810 --> 00:09:32,820
 decentralization in terms of the overall 
 way in which a service landscape is 
 
-281
+193
 00:09:32,820 --> 00:09:34,698
 governed and in particularly 
 way in which a service landscape is 
 
-282
+194
 00:09:34,698 --> 00:09:36,629
 decentralization in terms of data
 governed and in particularly 
 
-283
+195
 00:09:36,629 --> 00:09:40,019
 management so again if we think of the 
 decentralization in terms of data
 
-284
+196
 00:09:40,019 --> 00:09:42,328
 the monolithic world we think of the 
 management so again if we think of the 
 
-285
+197
 00:09:42,328 --> 00:09:44,250
 fact that generally all of the data is
 the monolithic world we think of the 
 
-286
+198
 00:09:44,250 --> 00:09:46,169
 sitting in one honking big relational 
 fact that generally all of the data is
 
-287
+199
 00:09:46,169 --> 00:09:48,870
 database all right and it's often can be 
 sitting in one honking big relational 
 
-288
+200
 00:09:48,870 --> 00:09:50,578
  to write across a company you know our 
 database all right and it's often can be 
 
-289
+201
 00:09:50,578 --> 00:09:52,110
  company's standard is Oracle or our 
  to write across a company you know our 
 
-290
+202
 00:09:52,110 --> 00:09:54,239
  company's standard is db2 everything 
  company's standard is Oracle or our 
 
-291
+203
 00:09:54,239 --> 00:09:54,240
  company's standard is db2 everything 
 
-292
+204
 00:09:54,240 --> 00:09:56,730
 goes in the same place and even a lot of 
  company's standard is db2 everything 
 
-293
+205
 00:09:56,730 --> 00:09:58,528
  service-oriented architectures it's 
 goes in the same place and even a lot of 
 
-294
+206
 00:09:58,528 --> 00:10:00,720
 really a lot about multiple services or 
  service-oriented architectures it's 
 
-295
+207
 00:10:00,720 --> 00:10:03,480
 pulling data in and out of one logically 
 really a lot about multiple services or 
 
-296
+208
 00:10:03,480 --> 00:10:06,839
  large database the micro service appoint 
 pulling data in and out of one logically 
 
-297
+209
 00:10:06,839 --> 00:10:09,659
 point of view is to say now every 
  large database the micro service appoint 
 
-298
+210
 00:10:09,659 --> 00:10:11,429
 service should be responsible for its 
 point of view is to say now every 
 
-299
+211
 00:10:11,429 --> 00:10:11,430
 own data and its own persistence again 
 service should be responsible for its 
 point of view is to say now every 
 
-300
+212
 00:10:11,430 --> 00:10:14,578
 service should be responsible for its 
 own data and its own persistence again 
 
-301
+213
 00:10:14,578 --> 00:10:16,379
 this is another thing that is inspired 
 own data and its own persistence again 
 
-302
+214
 00:10:16,379 --> 00:10:18,599
  by the Amazon experience Amazon made 
 this is another thing that is inspired 
 
-303
+215
 00:10:18,599 --> 00:10:18,600
  by the Amazon experience Amazon made 
 
-304
+216
 00:10:18,600 --> 00:10:20,159
 that one of their rules when they 
  by the Amazon experience Amazon made 
 
-305
+217
 00:10:20,159 --> 00:10:21,600
  shifted to a service-oriented approach 
 that one of their rules when they 
 
-306
+218
 00:10:21,600 --> 00:10:24,328
 and said you may never talk to another 
  shifted to a service-oriented approach 
 
-307
+219
 00:10:24,328 --> 00:10:26,940
 services data store you can only talk to 
 and said you may never talk to another 
 
-308
+220
 00:10:26,940 --> 00:10:29,068
  another service through its API and 
 services data store you can only talk to 
 
-309
+221
 00:10:29,068 --> 00:10:31,440
 that's the rule that the micro service 
  another service through its API and 
 
-310
+222
 00:10:31,440 --> 00:10:35,578
 people push as well now this is a couple 
 that's the rule that the micro service 
 
-311
+223
 00:10:35,578 --> 00:10:38,100
  advantages first it removes this 
 people push as well now this is a couple 
 
-312
+224
 00:10:38,100 --> 00:10:40,169
 horrible mess of integrating through a 
  advantages first it removes this 
 
-313
+225
 00:10:40,169 --> 00:10:43,019
 database which causes no end of problems 
 horrible mess of integrating through a 
 
-314
+226
 00:10:43,019 --> 00:10:46,289
  in enterprises all over the place the 
 database which causes no end of problems 
 
-315
+227
 00:10:46,289 --> 00:10:47,730
 second thing it does it frees up 
  in enterprises all over the place the 
 
-316
+228
 00:10:47,730 --> 00:10:49,649
 individual services to use a datastore 
 second thing it does it frees up 
 
-317
+229
 00:10:49,649 --> 00:10:50,220
  that make 
 individual services to use a datastore 
 
-318
+230
 00:10:50,220 --> 00:10:53,610
 sense to them some services a relational 
  that make 
 
-319
+231
 00:10:53,610 --> 00:10:54,929
 database will make sense
 sense to them some services a relational 
 
-320
+232
 00:10:54,929 --> 00:10:54,930
 others would want to use one of these
 database will make sense
 sense to them some services a relational 
 
-321
+233
 00:10:54,930 --> 00:10:56,700
 database will make sense
 others would want to use one of these
 
-322
+234
 00:10:56,700 --> 00:10:59,549
 hot new no sequel fancy things and in 
 others would want to use one of these
 
-323
+235
 00:10:59,549 --> 00:11:01,830
 which case they use it for that but the 
 hot new no sequel fancy things and in 
 
-324
+236
 00:11:01,830 --> 00:11:04,139
 idea is yours choice of data persistence 
 which case they use it for that but the 
 
-325
+237
 00:11:04,139 --> 00:11:06,389
  should be entirely up to the individual 
 idea is yours choice of data persistence 
 
-326
+238
 00:11:06,389 --> 00:11:10,679
 service themselves and that's part of 
  should be entirely up to the individual 
 
-327
+239
 00:11:10,679 --> 00:11:12,240
  this general notion as I said of 
 service themselves and that's part of 
 
-328
+240
 00:11:12,240 --> 00:11:14,549
 decentralization it also goes to the 
  this general notion as I said of 
 
-329
+241
 00:11:14,549 --> 00:11:16,409
 point of things like languages and tools
 decentralization it also goes to the 
 
-330
+242
 00:11:16,409 --> 00:11:19,079
  should again be individually chosen by 
 point of things like languages and tools
 
-331
+243
 00:11:19,079 --> 00:11:19,080
  should again be individually chosen by 
 
-332
+244
 00:11:19,080 --> 00:11:23,549
 different service groups to make all of
  should again be individually chosen by 
 
-333
+245
 00:11:23,549 --> 00:11:25,620
 this work it's really important to have 
 different service groups to make all of
 
-334
+246
 00:11:25,620 --> 00:11:29,429
 infrastructure automation so a lot of 
 this work it's really important to have 
 
-335
+247
 00:11:29,429 --> 00:11:32,419
 things such as continuous delivery 
 infrastructure automation so a lot of 
 
-336
+248
 00:11:32,419 --> 00:11:34,739
 techniques like Bluegreen deployment 
 things such as continuous delivery 
 
-337
+249
 00:11:34,739 --> 00:11:34,740
 techniques like Bluegreen deployment 
 
-338
+250
 00:11:34,740 --> 00:11:37,199
 that allow you to put stuff to live with 
 techniques like Bluegreen deployment 
 
-339
+251
 00:11:37,199 --> 00:11:37,200
 that allow you to put stuff to live with 
 
-340
+252
 00:11:37,200 --> 00:11:40,320
 zero downtime these kinds of things are 
 that allow you to put stuff to live with 
 
-341
+253
 00:11:40,320 --> 00:11:42,720
 mandatory in too in order to get this 
 zero downtime these kinds of things are 
 
-342
+254
 00:11:42,720 --> 00:11:44,549
  kind of stuff to work because you're 
 mandatory in too in order to get this 
 
-343
+255
 00:11:44,549 --> 00:11:44,550
  talking about building what would be one 
  kind of stuff to work because you're 
 mandatory in too in order to get this 
 
-344
+256
 00:11:44,550 --> 00:11:46,200
  kind of stuff to work because you're 
  talking about building what would be one 
 
-345
+257
 00:11:46,200 --> 00:11:48,659
 application as a dozen or two dozen 
  talking about building what would be one 
 
-346
+258
 00:11:48,659 --> 00:11:51,090
 services so it's very important you have 
 application as a dozen or two dozen 
 
-347
+259
 00:11:51,090 --> 00:11:52,709
  a very automated way of getting these 
 services so it's very important you have 
 
-348
+260
 00:11:52,709 --> 00:11:52,710
  a very automated way of getting these 
 
-349
+261
 00:11:52,710 --> 00:11:54,899
  things going you also want to be able to 
  a very automated way of getting these 
 
-350
+262
 00:11:54,899 --> 00:11:56,789
 get new boxes and spin them up rapidly 
  things going you also want to be able to 
 
-351
+263
 00:11:56,789 --> 00:11:56,790
  it also puts a lot of emphasis on 
 get new boxes and spin them up rapidly 
  things going you also want to be able to 
 
-352
+264
 00:11:56,790 --> 00:11:59,189
 get new boxes and spin them up rapidly 
  it also puts a lot of emphasis on 
 
-353
+265
 00:11:59,189 --> 00:11:59,190
  it also puts a lot of emphasis on 
 
-354
+266
 00:11:59,190 --> 00:12:02,159
 monitoring as well you've got to have 
  it also puts a lot of emphasis on 
 
-355
+267
 00:12:02,159 --> 00:12:04,409
 good monitoring so that when things go 
 monitoring as well you've got to have 
 
-356
+268
 00:12:04,409 --> 00:12:04,410
 wrong you can easily spot the fact that 
 good monitoring so that when things go 
 monitoring as well you've got to have 
 
-357
+269
 00:12:04,410 --> 00:12:06,299
 good monitoring so that when things go 
 wrong you can easily spot the fact that 
 
-358
+270
 00:12:06,299 --> 00:12:08,009
 something's gone wrong and you can use 
 wrong you can easily spot the fact that 
 
-359
+271
 00:12:08,009 --> 00:12:09,509
 the monitoring tools to help you debug 
 something's gone wrong and you can use 
 
-360
+272
 00:12:09,509 --> 00:12:12,480
 it and that of course then leads into 
 the monitoring tools to help you debug 
 
-361
+273
 00:12:12,480 --> 00:12:14,309
  the notion that you have this explicit 
 it and that of course then leads into 
 
-362
+274
 00:12:14,309 --> 00:12:16,620
  design for failure if you're going to 
  the notion that you have this explicit 
 
-363
+275
 00:12:16,620 --> 00:12:18,719
 have remote services they're going to
  design for failure if you're going to 
 
-364
+276
 00:12:18,719 --> 00:12:18,720
 have remote services they're going to
 
-365
+277
 00:12:18,720 --> 00:12:20,970
 fail particularly as you distribute them
 have remote services they're going to
 
-366
+278
 00:12:20,970 --> 00:12:23,429
  across multiple nodes so this is another 
 fail particularly as you distribute them
 
-367
+279
 00:12:23,429 --> 00:12:23,430
 part of the reason why monitoring is so 
  across multiple nodes so this is another 
 fail particularly as you distribute them
 
-368
+280
 00:12:23,430 --> 00:12:25,200
  across multiple nodes so this is another 
 part of the reason why monitoring is so 
 
-369
+281
 00:12:25,200 --> 00:12:27,299
 important and of course it it's most 
 part of the reason why monitoring is so 
 
-370
+282
 00:12:27,299 --> 00:12:30,840
 famous level you have things like the 
 important and of course it it's most 
 
-371
+283
 00:12:30,840 --> 00:12:33,179
 chaos monkey Netflix is one of the most 
 famous level you have things like the 
 
-372
+284
 00:12:33,179 --> 00:12:36,110
  well known MA micro service 
 chaos monkey Netflix is one of the most 
 
-373
+285
 00:12:36,110 --> 00:12:39,299
 architectures and they built a tool that
  well known MA micro service 
 
-374
+286
 00:12:39,299 --> 00:12:42,649
  goes around randomly destroying nodes 
 architectures and they built a tool that
 
-375
+287
 00:12:42,649 --> 00:12:46,379
  and they use that in order to detect how 
  goes around randomly destroying nodes 
 
-376
+288
 00:12:46,379 --> 00:12:48,539
 resilient their overall network is I
  and they use that in order to detect how 
 
-377
+289
 00:12:48,539 --> 00:12:50,100
 mean I don't run it all the time they 
 resilient their overall network is I
 
-378
+290
 00:12:50,100 --> 00:12:51,509
 run it during office hours when there's 
 mean I don't run it all the time they 
 
-379
+291
 00:12:51,509 --> 00:12:53,639
 somebody there to fix things up but the 
 run it during office hours when there's 
 
-380
+292
 00:12:53,639 --> 00:12:54,899
 fact that you've got a tool that 
 somebody there to fix things up but the 
 
-381
+293
 00:12:54,899 --> 00:12:57,569
 deliberately causes failure in order to 
 fact that you've got a tool that 
 
-382
+294
 00:12:57,569 --> 00:12:57,570
 deliberately causes failure in order to 
 
-383
+295
 00:12:57,570 --> 00:12:59,669
 help make sure you're resilient I think 
 deliberately causes failure in order to 
 
-384
+296
 00:12:59,669 --> 00:13:02,820
 it encapsulate svelt the attitude that 
 help make sure you're resilient I think 
 
-385
+297
 00:13:02,820 --> 00:13:04,039
 the micro service people have 
 it encapsulate svelt the attitude that 
 
-386
+298
 00:13:04,039 --> 00:13:06,079
 and of course this is essential in any 
 the micro service people have 
 
-387
+299
 00:13:06,078 --> 00:13:08,028
 kind of distributed system you have to 
 and of course this is essential in any 
 
-388
+300
 00:13:08,028 --> 00:13:12,258
 assume things are going to break so that 
 kind of distributed system you have to 
 
-389
+301
 00:13:12,259 --> 00:13:14,088
 was our set of common characteristics
 assume things are going to break so that 
 
-390
+302
 00:13:14,089 --> 00:13:16,699
  and I hope gives you a bit of a flavor 
 was our set of common characteristics
 
-391
+303
 00:13:16,698 --> 00:13:18,529
  for the kinds of things that people talk 
  and I hope gives you a bit of a flavor 
 
-392
+304
 00:13:18,528 --> 00:13:20,689
  about but it still raises a number of 
  for the kinds of things that people talk 
 
-393
+305
 00:13:20,689 --> 00:13:20,690
  about but it still raises a number of 
 
-394
+306
 00:13:20,690 --> 00:13:23,269
 questions of which one of the biggest 
  about but it still raises a number of 
 
-395
+307
 00:13:23,269 --> 00:13:24,980
 things is is this really 
 questions of which one of the biggest 
 
-396
+308
 00:13:24,980 --> 00:13:26,690
 service-oriented architecture is this 
 things is is this really 
 
-397
+309
 00:13:26,690 --> 00:13:28,100
 just the same kind of stuff that we've 
 service-oriented architecture is this 
 
-398
+310
 00:13:28,100 --> 00:13:30,079
  been hearing about for a long time in 
 just the same kind of stuff that we've 
 
-399
+311
 00:13:30,078 --> 00:13:33,470
 the context of SOA but in order to 
  been hearing about for a long time in 
 
-400
+312
 00:13:33,470 --> 00:13:35,000
 answer that question you have to say to 
 the context of SOA but in order to 
 
-401
+313
 00:13:35,000 --> 00:13:37,009
 yourself well what is SLA in the first 
 answer that question you have to say to 
 
-402
+314
 00:13:37,009 --> 00:13:39,769
 place and that is really I think at the 
 yourself well what is SLA in the first 
 
-403
+315
 00:13:39,769 --> 00:13:42,049
 heart of the problem because I've heard 
 place and that is really I think at the 
 
-404
+316
 00:13:42,049 --> 00:13:42,050
 SLA defined in many different ways in 
 heart of the problem because I've heard 
 place and that is really I think at the 
 
-405
+317
 00:13:42,050 --> 00:13:44,509
 heart of the problem because I've heard 
 SLA defined in many different ways in 
 
-406
+318
 00:13:44,509 --> 00:13:46,879
 many different incompatible ways by
 SLA defined in many different ways in 
 
-407
+319
 00:13:46,879 --> 00:13:50,419
 different people for some people SLA is 
 many different incompatible ways by
 
-408
+320
 00:13:50,419 --> 00:13:52,039
 exactly what we've been talking about in 
 different people for some people SLA is 
 
-409
+321
 00:13:52,039 --> 00:13:53,809
 the micro service world and that's why I 
 exactly what we've been talking about in 
 
-410
+322
 00:13:53,809 --> 00:13:55,578
 met a number of people in the SOA 
 the micro service world and that's why I 
 
-411
+323
 00:13:55,578 --> 00:13:57,708
 community a really ticked off at the 
 met a number of people in the SOA 
 
-412
+324
 00:13:57,708 --> 00:14:00,019
 micro service people because their 
 community a really ticked off at the 
 
-413
+325
 00:14:00,019 --> 00:14:01,969
  attitude is well we've been doing all of 
 micro service people because their 
 
-414
+326
 00:14:01,969 --> 00:14:01,970
  attitude is well we've been doing all of 
 
-415
+327
 00:14:01,970 --> 00:14:03,799
  this and calling it SOA for years why do 
  attitude is well we've been doing all of 
 
-416
+328
 00:14:03,799 --> 00:14:05,449
 you invent this new term and bring it
  this and calling it SOA for years why do 
 
-417
+329
 00:14:05,448 --> 00:14:07,639
 along what what is are you just calling 
 you invent this new term and bring it
 
-418
+330
 00:14:07,639 --> 00:14:09,588
 words because everybody knows of course
 along what what is are you just calling 
 
-419
+331
 00:14:09,589 --> 00:14:11,870
  we become incredibly rich by coining 
 words because everybody knows of course
 
-420
+332
 00:14:11,870 --> 00:14:17,389
 terminology I wish but of course SOA 
  we become incredibly rich by coining 
 
-421
+333
 00:14:17,389 --> 00:14:18,889
 means different things to different 
 terminology I wish but of course SOA 
 
-422
+334
 00:14:18,889 --> 00:14:21,139
  people to many people in the micro 
 means different things to different 
 
-423
+335
 00:14:21,139 --> 00:14:23,269
 services community they've been around 
  people to many people in the micro 
 
-424
+336
 00:14:23,269 --> 00:14:26,389
 big enterprises and to them SOA means 
 services community they've been around 
 
-425
+337
 00:14:26,389 --> 00:14:27,948
  the enterprise service bus 
 big enterprises and to them SOA means 
 
-426
+338
 00:14:27,948 --> 00:14:30,799
  it means Committees of people who are 
  the enterprise service bus 
 
-427
+339
 00:14:30,799 --> 00:14:33,229
 there to lay down standards the health 
  it means Committees of people who are 
 
-428
+340
 00:14:33,229 --> 00:14:33,230
 there to lay down standards the health 
 
-429
+341
 00:14:33,230 --> 00:14:34,578
  services supposed to connect to each 
 there to lay down standards the health 
 
-430
+342
 00:14:34,578 --> 00:14:37,429
  other it's a very different world indeed 
  services supposed to connect to each 
 
-431
+343
 00:14:37,429 --> 00:14:37,430
  so the way I tend to think of it is 
  other it's a very different world indeed 
  services supposed to connect to each 
 
-432
+344
 00:14:37,430 --> 00:14:39,708
  other it's a very different world indeed 
  so the way I tend to think of it is 
 
-433
+345
 00:14:39,708 --> 00:14:42,588
 saying well SOA is this very broad term
  so the way I tend to think of it is 
 
-434
+346
 00:14:42,589 --> 00:14:45,379
 and microservices is a subset of its 
 saying well SOA is this very broad term
 
-435
+347
 00:14:45,379 --> 00:14:48,379
 usage and the value of the term micro 
 and microservices is a subset of its 
 
-436
+348
 00:14:48,379 --> 00:14:48,380
  services is it allows to put a label on 
 usage and the value of the term micro 
 and microservices is a subset of its 
 
-437
+349
 00:14:48,380 --> 00:14:51,259
 usage and the value of the term micro 
  services is it allows to put a label on 
 
-438
+350
 00:14:51,259 --> 00:14:54,759
  a useful subset of the SOA terminology 
  services is it allows to put a label on 
 
-439
+351
 00:14:54,759 --> 00:14:58,578
 in my view the SOA term is too broad I 
  a useful subset of the SOA terminology 
 
-440
+352
 00:14:58,578 --> 00:15:00,259
 mean it means so many different things 
 in my view the SOA term is too broad I 
 
-441
+353
 00:15:00,259 --> 00:15:03,258
 it's practically meaningless but the 
 mean it means so many different things 
 
-442
+354
 00:15:03,259 --> 00:15:05,480
 value of micro services is it carves out 
 it's practically meaningless but the 
 
-443
+355
 00:15:05,480 --> 00:15:08,568
 a cut and consistent space within that 
 value of micro services is it carves out 
 
-444
+356
 00:15:08,568 --> 00:15:11,509
 but he is perfectly fair to say that the 
 a cut and consistent space within that 
 
-445
+357
 00:15:11,509 --> 00:15:13,399
 micro service approach has been done by 
 but he is perfectly fair to say that the 
 
-446
+358
 00:15:13,399 --> 00:15:15,559
  people under the name of SOA for at 
 micro service approach has been done by 
 
-447
+359
 00:15:15,559 --> 00:15:15,560
 least a decade
  people under the name of SOA for at 
 micro service approach has been done by 
 
-448
+360
 00:15:15,560 --> 00:15:16,309
  people under the name of SOA for at 
 least a decade
 
-449
+361
 00:15:16,309 --> 00:15:17,299
 if not more 
 least a decade
 
-450
+362
 00:15:17,299 --> 00:15:19,729
 so it's not a new technique at all and 
 if not more 
 
-451
+363
 00:15:19,729 --> 00:15:19,730
 so it's not a new technique at all and 
 
-452
+364
 00:15:19,730 --> 00:15:22,159
 it's perfectly reasonable that people 
 so it's not a new technique at all and 
 
-453
+365
 00:15:22,159 --> 00:15:24,019
 are annoyed about it when they say Oh 
 it's perfectly reasonable that people 
 
-454
+366
 00:15:24,019 --> 00:15:26,120
  micro services are nothing new that's a 
 are annoyed about it when they say Oh 
 
-455
+367
 00:15:26,120 --> 00:15:31,370
 perfectly reasonable response now one of 
  micro services are nothing new that's a 
 
-456
+368
 00:15:31,370 --> 00:15:33,169
 the problems with micro-services as a 
 perfectly reasonable response now one of 
 
-457
+369
 00:15:33,169 --> 00:15:36,529
 term and I like to stress I didn't come 
 the problems with micro-services as a 
 
-458
+370
 00:15:36,529 --> 00:15:37,879
 up with this term right I would have 
 term and I like to stress I didn't come 
 
-459
+371
 00:15:37,879 --> 00:15:40,850
  come up with a better term but one of 
 up with this term right I would have 
 
-460
+372
 00:15:40,850 --> 00:15:42,350
  the things about micro-services as a 
  come up with a better term but one of 
 
-461
+373
 00:15:42,350 --> 00:15:44,539
 term is that has this implication of 
  the things about micro-services as a 
 
-462
+374
 00:15:44,539 --> 00:15:44,540
 size and of course as soon as you say 
 term is that has this implication of 
  the things about micro-services as a 
 
-463
+375
 00:15:44,540 --> 00:15:47,330
 term is that has this implication of 
 size and of course as soon as you say 
 
-464
+376
 00:15:47,330 --> 00:15:49,819
 micro is that well how big is a micro 
 size and of course as soon as you say 
 
-465
+377
 00:15:49,819 --> 00:15:49,820
 micro is that well how big is a micro 
 
-466
+378
 00:15:49,820 --> 00:15:52,220
 service and you actually talk to any of 
 micro is that well how big is a micro 
 
-467
+379
 00:15:52,220 --> 00:15:53,539
  these people in the micro service world 
 service and you actually talk to any of 
 
-468
+380
 00:15:53,539 --> 00:15:53,540
 and they're always very reluctant to
  these people in the micro service world 
 service and you actually talk to any of 
 
-469
+381
 00:15:53,540 --> 00:15:54,919
  these people in the micro service world 
 and they're always very reluctant to
 
-470
+382
 00:15:54,919 --> 00:15:54,920
  answer this question they always say 
  these people in the micro service world 
 and they're always very reluctant to
 
-471
+383
 00:15:54,920 --> 00:15:56,959
 and they're always very reluctant to
  answer this question they always say 
 
-472
+384
 00:15:56,959 --> 00:15:56,960
  answer this question they always say 
 
-473
+385
 00:15:56,960 --> 00:15:58,189
 well you know it should be one 
  answer this question they always say 
 
-474
+386
 00:15:58,189 --> 00:15:58,190
 well you know it should be one 
 
-475
+387
 00:15:58,190 --> 00:16:01,700
 responsibility that's a kind of bogus 
 well you know it should be one 
 
-476
+388
 00:16:01,700 --> 00:16:03,950
 thing to say right I can imagine payroll 
 responsibility that's a kind of bogus 
 
-477
+389
 00:16:03,950 --> 00:16:06,049
 being one responsibility and I know 
 thing to say right I can imagine payroll 
 
-478
+390
 00:16:06,049 --> 00:16:06,050
 that's a pretty big system right I mean 
 being one responsibility and I know 
 thing to say right I can imagine payroll 
 
-479
+391
 00:16:06,050 --> 00:16:08,389
 being one responsibility and I know 
 that's a pretty big system right I mean 
 
-480
+392
 00:16:08,389 --> 00:16:08,390
 it's all size I mean it's very 
 being one responsibility and I know 
 that's a pretty big system right I mean 
 
-481
+393
 00:16:08,390 --> 00:16:10,689
 that's a pretty big system right I mean 
 it's all size I mean it's very 
 
-482
+394
 00:16:10,689 --> 00:16:10,690
 it's all size I mean it's very 
 
-483
+395
 00:16:10,690 --> 00:16:14,409
 responsibilities are very flexible right 
 it's all size I mean it's very 
 
-484
+396
 00:16:14,409 --> 00:16:17,450
  james lewis has this statement he says 
 responsibilities are very flexible right 
 
-485
+397
 00:16:17,450 --> 00:16:19,039
  mirco services have got to be small 
  james lewis has this statement he says 
 
-486
+398
 00:16:19,039 --> 00:16:21,980
  enough to fit in my head now James has 
  mirco services have got to be small 
 
-487
+399
 00:16:21,980 --> 00:16:24,980
  config rate deal in his head as it turns 
  enough to fit in my head now James has 
 
-488
+400
 00:16:24,980 --> 00:16:27,110
 out but his point is of course the 
  config rate deal in his head as it turns 
 
-489
+401
 00:16:27,110 --> 00:16:29,090
 survey that if you've got a service it 
 out but his point is of course the 
 
-490
+402
 00:16:29,090 --> 00:16:30,799
 should be understandable to a single 
 survey that if you've got a service it 
 
-491
+403
 00:16:30,799 --> 00:16:30,800
 person that's his test for it but that's 
 should be understandable to a single 
 survey that if you've got a service it 
 
-492
+404
 00:16:30,800 --> 00:16:33,230
 should be understandable to a single 
 person that's his test for it but that's 
 
-493
+405
 00:16:33,230 --> 00:16:36,649
 still a bit vague I started asking 
 person that's his test for it but that's 
 
-494
+406
 00:16:36,649 --> 00:16:38,480
  around people trying to get a sense of 
 still a bit vague I started asking 
 
-495
+407
 00:16:38,480 --> 00:16:41,299
 size people were extremely reluctant in 
  around people trying to get a sense of 
 
-496
+408
 00:16:41,299 --> 00:16:42,919
 many ways but the way I was able to get 
 size people were extremely reluctant in 
 
-497
+409
 00:16:42,919 --> 00:16:42,920
 some figure by saying well how many 
 many ways but the way I was able to get 
 size people were extremely reluctant in 
 
-498
+410
 00:16:42,920 --> 00:16:44,750
 many ways but the way I was able to get 
 some figure by saying well how many 
 
-499
+411
 00:16:44,750 --> 00:16:48,319
  people per service in your application 
 some figure by saying well how many 
 
-500
+412
 00:16:48,319 --> 00:16:48,320
  people per service in your application 
 
-501
+413
 00:16:48,320 --> 00:16:51,230
  and I got a lot of different answers and 
  people per service in your application 
 
-502
+414
 00:16:51,230 --> 00:16:53,360
  as you can see there's quite a spread 
  and I got a lot of different answers and 
 
-503
+415
 00:16:53,360 --> 00:16:58,879
  here now 15 people 10 services for 
  as you can see there's quite a spread 
 
-504
+416
 00:16:58,879 --> 00:17:01,549
 people 200 services there's quite a 
  here now 15 people 10 services for 
 
-505
+417
 00:17:01,549 --> 00:17:01,550
  range of different sizes it's certainly 
 people 200 services there's quite a 
  here now 15 people 10 services for 
 
-506
+418
 00:17:01,550 --> 00:17:05,119
 people 200 services there's quite a 
  range of different sizes it's certainly 
 
-507
+419
 00:17:05,119 --> 00:17:08,240
  true that pretty where everywhere I come 
  range of different sizes it's certainly 
 
-508
+420
 00:17:08,240 --> 00:17:11,229
 across the notion of the to pizza team 
  true that pretty where everywhere I come 
 
-509
+421
 00:17:11,229 --> 00:17:11,230
 across the notion of the to pizza team 
 
-510
+422
 00:17:11,230 --> 00:17:15,140
 from Amazon is fairly well regarded the 
 across the notion of the to pizza team 
 
-511
+423
 00:17:15,140 --> 00:17:16,700
 sense that you should never have a team 
 from Amazon is fairly well regarded the 
 
-512
+424
 00:17:16,700 --> 00:17:18,440
  that's bigger than you could feed with 
 sense that you should never have a team 
 
-513
+425
 00:17:18,440 --> 00:17:20,750
 two pizzas I should say of course this 
  that's bigger than you could feed with 
 
-514
+426
 00:17:20,750 --> 00:17:22,880
  is two American pizzas and you can feed 
 two pizzas I should say of course this 
 
-515
+427
 00:17:22,880 --> 00:17:24,588
 a hell of a lot of people with two 
  is two American pizzas and you can feed 
 
-516
+428
 00:17:24,588 --> 00:17:28,250
 American pizzas but I think the notion
 a hell of a lot of people with two 
 
-517
+429
 00:17:28,250 --> 00:17:30,829
 is still there but within 
 American pizzas but I think the notion
 
-518
+430
 00:17:30,829 --> 00:17:34,750
 there's still a lot of variability so 
 is still there but within 
 
-519
+431
 00:17:34,750 --> 00:17:37,129
  that's the best I can do when it comes 
 there's still a lot of variability so 
 
-520
+432
 00:17:37,129 --> 00:17:37,130
  that's the best I can do when it comes 
 
-521
+433
 00:17:37,130 --> 00:17:39,679
 to defining microservices for you it's 
  that's the best I can do when it comes 
 
-522
+434
 00:17:39,679 --> 00:17:42,440
 still I'm afraid pretty fuzzy but you 
 to defining microservices for you it's 
 
-523
+435
 00:17:42,440 --> 00:17:44,240
 know that's the way things go I think 
 still I'm afraid pretty fuzzy but you 
 
-524
+436
 00:17:44,240 --> 00:17:46,669
  however it is it does carve out a 
 know that's the way things go I think 
 
-525
+437
 00:17:46,669 --> 00:17:49,369
 reasonable class of systems the next 
  however it is it does carve out a 
 
-526
+438
 00:17:49,369 --> 00:17:49,370
 question of course is when you should 
 reasonable class of systems the next 
  however it is it does carve out a 
 
-527
+439
 00:17:49,370 --> 00:17:51,169
 reasonable class of systems the next 
 question of course is when you should 
 
-528
+440
 00:17:51,169 --> 00:17:52,989
  use it what are the advantages of 
 question of course is when you should 
 
-529
+441
 00:17:52,989 --> 00:17:52,990
  use it what are the advantages of 
 
-530
+442
 00:17:52,990 --> 00:17:59,869
  micro-services compared to monoliths now 
  use it what are the advantages of 
 
-531
+443
 00:17:59,869 --> 00:17:59,870
 one big advantage of a monolith is it a 
  micro-services compared to monoliths now 
  use it what are the advantages of 
 
-532
+444
 00:17:59,870 --> 00:18:02,089
  micro-services compared to monoliths now 
 one big advantage of a monolith is it a 
 
-533
+445
 00:18:02,089 --> 00:18:05,119
 relatively simple and familiar approach 
 one big advantage of a monolith is it a 
 
-534
+446
 00:18:05,119 --> 00:18:08,209
 to use and this is not to be 
 relatively simple and familiar approach 
 
-535
+447
 00:18:08,209 --> 00:18:08,210
 to use and this is not to be 
 
-536
+448
 00:18:08,210 --> 00:18:10,009
 underestimated I mean I've already 
 to use and this is not to be 
 
-537
+449
 00:18:10,009 --> 00:18:12,200
  started hearing and trickling in stories 
 underestimated I mean I've already 
 
-538
+450
 00:18:12,200 --> 00:18:14,509
 of projects that you know decide you 
  started hearing and trickling in stories 
 
-539
+451
 00:18:14,509 --> 00:18:16,038
 know we want to use this micro-service 
 of projects that you know decide you 
 
-540
+452
 00:18:16,038 --> 00:18:18,288
 stuff because it's so cool we want to do
 know we want to use this micro-service 
 
-541
+453
 00:18:18,288 --> 00:18:20,000
 it and they ended up getting themselves
 stuff because it's so cool we want to do
 
-542
+454
 00:18:20,000 --> 00:18:21,679
 into trouble where they really should 
 it and they ended up getting themselves
 
-543
+455
 00:18:21,679 --> 00:18:24,079
 have built a simple model if instead now 
 into trouble where they really should 
 
-544
+456
 00:18:24,079 --> 00:18:25,460
 if you look at an application and you 
 have built a simple model if instead now 
 
-545
+457
 00:18:25,460 --> 00:18:27,288
 say yeah that would work really nicely 
 if you look at an application and you 
 
-546
+458
 00:18:27,288 --> 00:18:29,839
 as a simple rails app you don't want to 
 say yeah that would work really nicely 
 
-547
+459
 00:18:29,839 --> 00:18:29,840
 build start building it as a micro
 as a simple rails app you don't want to 
 say yeah that would work really nicely 
 
-548
+460
 00:18:29,840 --> 00:18:31,369
 as a simple rails app you don't want to 
 build start building it as a micro
 
-549
+461
 00:18:31,369 --> 00:18:33,199
 service because micro services
 build start building it as a micro
 
-550
+462
 00:18:33,199 --> 00:18:33,200
 service because micro services
 
-551
+463
 00:18:33,200 --> 00:18:35,509
  introduced distributed computing they 
 service because micro services
 
-552
+464
 00:18:35,509 --> 00:18:36,859
 often introduced asynchronous 
  introduced distributed computing they 
 
-553
+465
 00:18:36,859 --> 00:18:36,860
 communication and those are significant 
 often introduced asynchronous 
  introduced distributed computing they 
 
-554
+466
 00:18:36,860 --> 00:18:39,200
 often introduced asynchronous 
 communication and those are significant 
 
-555
+467
 00:18:39,200 --> 00:18:42,528
 complexity boosters so the monolith 
 communication and those are significant 
 
-556
+468
 00:18:42,528 --> 00:18:44,389
 still has the advantage of up to a 
 complexity boosters so the monolith 
 
-557
+469
 00:18:44,388 --> 00:18:48,558
 certain size at least simplicity one of 
 still has the advantage of up to a 
 
-558
+470
 00:18:48,558 --> 00:18:50,329
 the great advantages of micro services 
 certain size at least simplicity one of 
 
-559
+471
 00:18:50,329 --> 00:18:53,750
  is the ability to deploy the various 
 the great advantages of micro services 
 
-560
+472
 00:18:53,750 --> 00:18:56,119
 pieces independently if you want to 
  is the ability to deploy the various 
 
-561
+473
 00:18:56,119 --> 00:18:58,308
  upgrade a monolith you've got to upgrade 
 pieces independently if you want to 
 
-562
+474
 00:18:58,308 --> 00:19:00,949
  the whole thing I heard the story of an 
  upgrade a monolith you've got to upgrade 
 
-563
+475
 00:19:00,949 --> 00:19:00,950
  the whole thing I heard the story of an 
 
-564
+476
 00:19:00,950 --> 00:19:02,750
 insurance company where they've got one 
  the whole thing I heard the story of an 
 
-565
+477
 00:19:02,750 --> 00:19:04,548
 monolith that handled all their 
 insurance company where they've got one 
 
-566
+478
 00:19:04,548 --> 00:19:06,589
 different lines of insurance if they 
 monolith that handled all their 
 
-567
+479
 00:19:06,589 --> 00:19:08,778
 wanted to in to upgrade their auto 
 different lines of insurance if they 
 
-568
+480
 00:19:08,778 --> 00:19:11,240
 insurance they had to upgrade the home 
 wanted to in to upgrade their auto 
 
-569
+481
 00:19:11,240 --> 00:19:12,950
 insurance as well they couldn't do them 
 insurance they had to upgrade the home 
 
-570
+482
 00:19:12,950 --> 00:19:15,230
  independently and that's a disadvantage 
 insurance as well they couldn't do them 
 
-571
+483
 00:19:15,230 --> 00:19:17,720
  of a monolith you're forced to upgrade 
  independently and that's a disadvantage 
 
-572
+484
 00:19:17,720 --> 00:19:20,480
 all at once now if you're really good at 
  of a monolith you're forced to upgrade 
 
-573
+485
 00:19:20,480 --> 00:19:22,308
  your continuous delivery pipelines I 
 all at once now if you're really good at 
 
-574
+486
 00:19:22,308 --> 00:19:24,679
 think you can make that work but you but 
  your continuous delivery pipelines I 
 
-575
+487
 00:19:24,679 --> 00:19:26,869
 it's much harder than trying to upgrade 
 think you can make that work but you but 
 
-576
+488
 00:19:26,869 --> 00:19:29,538
  and the separate pieces and that was in 
 it's much harder than trying to upgrade 
 
-577
+489
 00:19:29,538 --> 00:19:31,548
 fact one of the crucial reasons why 
  and the separate pieces and that was in 
 
-578
+490
 00:19:31,548 --> 00:19:33,109
 Netflix went down this route they had
 fact one of the crucial reasons why 
 
-579
+491
 00:19:33,109 --> 00:19:35,720
 difficulties getting their systems being 
 Netflix went down this route they had
 
-580
+492
 00:19:35,720 --> 00:19:37,428
 able to deploy as rapidly as they need 
 difficulties getting their systems being 
 
-581
+493
 00:19:37,429 --> 00:19:39,649
  to do so they found that switching to a 
 able to deploy as rapidly as they need 
 
-582
+494
 00:19:39,648 --> 00:19:41,179
 micro service approach gave them more
  to do so they found that switching to a 
 
-583
+495
 00:19:41,179 --> 00:19:43,428
 flexibility and this is of course very 
 micro service approach gave them more
 
-584
+496
 00:19:43,429 --> 00:19:44,390
 important in
 flexibility and this is of course very 
 
-585
+497
 00:19:44,390 --> 00:19:46,640
 in an age where we need to be able to 
 important in
 
-586
+498
 00:19:46,640 --> 00:19:48,619
 deploy new applications not once every 
 in an age where we need to be able to 
 
-587
+499
 00:19:48,619 --> 00:19:48,620
  few months but every week every day and 
 deploy new applications not once every 
 in an age where we need to be able to 
 
-588
+500
 00:19:48,620 --> 00:19:51,890
 deploy new applications not once every 
  few months but every week every day and 
 
-589
+501
 00:19:51,890 --> 00:19:55,789
 often many times a day and then we are 
  few months but every week every day and 
 
-590
+502
 00:19:55,789 --> 00:19:57,380
 granted your micro services that can
 often many times a day and then we are 
 
-591
+503
 00:19:57,380 --> 00:19:58,279
 give you a greater degree of
 granted your micro services that can
 
-592
+504
 00:19:58,279 --> 00:20:01,220
  availability if your recommendation 
 give you a greater degree of
 
-593
+505
 00:20:01,220 --> 00:20:03,589
 service goes down for some reason you 
  availability if your recommendation 
 
-594
+506
 00:20:03,589 --> 00:20:05,509
 can still run your shopping cart and 
 service goes down for some reason you 
 
-595
+507
 00:20:05,509 --> 00:20:07,819
 this is important because what is the 
 can still run your shopping cart and 
 
-596
+508
 00:20:07,819 --> 00:20:09,670
 most important thing to Americans 
 this is important because what is the 
 
-597
+509
 00:20:09,670 --> 00:20:13,759
 shopping right so nothing must stop the 
 most important thing to Americans 
 
-598
+510
 00:20:13,759 --> 00:20:17,900
 shopping now that availability of course 
 shopping right so nothing must stop the 
 
-599
+511
 00:20:17,900 --> 00:20:19,549
 comes from being handled be able to 
 shopping now that availability of course 
 
-600
+512
 00:20:19,549 --> 00:20:22,579
 handle failure effectively but if you've
 comes from being handled be able to 
 
-601
+513
 00:20:22,579 --> 00:20:22,580
 got availability what does that mean you 
 handle failure effectively but if you've
 comes from being handled be able to 
 
-602
+514
 00:20:22,580 --> 00:20:24,799
 handle failure effectively but if you've
 got availability what does that mean you 
 
-603
+515
 00:20:24,799 --> 00:20:29,059
 lose consistency it's much harder to 
 got availability what does that mean you 
 
-604
+516
 00:20:29,059 --> 00:20:31,549
  maintain consistency with micro service 
 lose consistency it's much harder to 
 
-605
+517
 00:20:31,549 --> 00:20:34,099
 applications so you embrace eventual
  maintain consistency with micro service 
 
-606
+518
 00:20:34,099 --> 00:20:37,099
 consistency which may or may not be a 
 applications so you embrace eventual
 
-607
+519
 00:20:37,099 --> 00:20:38,869
 good thing depending on what where you 
 consistency which may or may not be a 
 
-608
+520
 00:20:38,869 --> 00:20:41,719
  are and it's particularly difficult of 
 good thing depending on what where you 
 
-609
+521
 00:20:41,719 --> 00:20:41,720
  are and it's particularly difficult of 
 
-610
+522
 00:20:41,720 --> 00:20:43,129
 course to get the right kind of 
  are and it's particularly difficult of 
 
-611
+523
 00:20:43,129 --> 00:20:43,130
 course to get the right kind of 
 
-612
+524
 00:20:43,130 --> 00:20:44,960
 consistent behavior so that I can 
 course to get the right kind of 
 
-613
+525
 00:20:44,960 --> 00:20:48,619
  actually post an update when interacting 
 consistent behavior so that I can 
 
-614
+526
 00:20:48,619 --> 00:20:48,620
 with a web app and actually make sure 
  actually post an update when interacting 
 consistent behavior so that I can 
 
-615
+527
 00:20:48,620 --> 00:20:50,089
  actually post an update when interacting 
 with a web app and actually make sure 
 
-616
+528
 00:20:50,089 --> 00:20:50,090
  that I see it and not go where did that 
  actually post an update when interacting 
 with a web app and actually make sure 
 
-617
+529
 00:20:50,090 --> 00:20:52,549
 with a web app and actually make sure 
  that I see it and not go where did that 
 
-618
+530
 00:20:52,549 --> 00:20:55,009
 go did it get lost which is the kind of 
  that I see it and not go where did that 
 
-619
+531
 00:20:55,009 --> 00:20:56,240
 thing that goes wrong when you don't do 
 go did it get lost which is the kind of 
 
-620
+532
 00:20:56,240 --> 00:20:59,599
 consistency well another big issue we've 
 thing that goes wrong when you don't do 
 
-621
+533
 00:20:59,599 --> 00:21:02,720
  modeled with the monolith is that it 
 consistency well another big issue we've 
 
-622
+534
 00:21:02,720 --> 00:21:04,750
 makes it relatively easy to refactor
  modeled with the monolith is that it 
 
-623
+535
 00:21:04,750 --> 00:21:07,759
  particularly between modules now with 
 makes it relatively easy to refactor
 
-624
+536
 00:21:07,759 --> 00:21:09,680
 any kind of software design you want 
  particularly between modules now with 
 
-625
+537
 00:21:09,680 --> 00:21:12,079
 good modularity you want to divide your 
 any kind of software design you want 
 
-626
+538
 00:21:12,079 --> 00:21:14,630
 software up into pieces so that in order 
 good modularity you want to divide your 
 
-627
+539
 00:21:14,630 --> 00:21:16,099
  to make a change I don't have to 
 software up into pieces so that in order 
 
-628
+540
 00:21:16,099 --> 00:21:18,140
 understand the whole system I can just 
  to make a change I don't have to 
 
-629
+541
 00:21:18,140 --> 00:21:20,629
 understand one or two modules but that 
 understand the whole system I can just 
 
-630
+542
 00:21:20,629 --> 00:21:20,630
 understand one or two modules but that 
 
-631
+543
 00:21:20,630 --> 00:21:22,160
 means you've got to get your module 
 understand one or two modules but that 
 
-632
+544
 00:21:22,160 --> 00:21:24,410
 boundaries right and if you don't get 
 means you've got to get your module 
 
-633
+545
 00:21:24,410 --> 00:21:25,849
  your module boundaries right you've got 
 boundaries right and if you don't get 
 
-634
+546
 00:21:25,849 --> 00:21:25,850
 to be able to change them now if you've 
  your module boundaries right you've got 
 boundaries right and if you don't get 
 
-635
+547
 00:21:25,850 --> 00:21:28,009
  your module boundaries right you've got 
 to be able to change them now if you've 
 
-636
+548
 00:21:28,009 --> 00:21:29,869
 got a model if that kind of thing isn't 
 to be able to change them now if you've 
 
-637
+549
 00:21:29,869 --> 00:21:31,700
  too bad you can say oh I need to move 
 got a model if that kind of thing isn't 
 
-638
+550
 00:21:31,700 --> 00:21:33,439
 this object from over here in that 
  too bad you can say oh I need to move 
 
-639
+551
 00:21:33,439 --> 00:21:33,440
 this object from over here in that 
 
-640
+552
 00:21:33,440 --> 00:21:35,660
  module over there it's not a hard 
 this object from over here in that 
 
-641
+553
 00:21:35,660 --> 00:21:38,569
 refactoring to do in a microservices 
  module over there it's not a hard 
 
-642
+554
 00:21:38,569 --> 00:21:38,570
 world that becomes a hell of a lot 
 refactoring to do in a microservices 
  module over there it's not a hard 
 
-643
+555
 00:21:38,570 --> 00:21:40,309
 refactoring to do in a microservices 
 world that becomes a hell of a lot 
 
-644
+556
 00:21:40,309 --> 00:21:40,310
 harder because now you're talking about 
 refactoring to do in a microservices 
 world that becomes a hell of a lot 
 
-645
+557
 00:21:40,310 --> 00:21:42,319
 world that becomes a hell of a lot 
 harder because now you're talking about 
 
-646
+558
 00:21:42,319 --> 00:21:46,279
 these remote calls so that's also I 
 harder because now you're talking about 
 
-647
+559
 00:21:46,279 --> 00:21:47,720
  think one of the problems with running 
 these remote calls so that's also I 
 
-648
+560
 00:21:47,720 --> 00:21:49,879
  to monitor micro services too quickly if 
  think one of the problems with running 
 
-649
+561
 00:21:49,879 --> 00:21:49,880
  to monitor micro services too quickly if 
 
-650
+562
 00:21:49,880 --> 00:21:51,500
 you don't understand the module 
  to monitor micro services too quickly if 
 
-651
+563
 00:21:51,500 --> 00:21:53,869
 boundaries well you've very easy to get
 you don't understand the module 
 
-652
+564
 00:21:53,869 --> 00:21:53,870
  a lock yourself into a pure design and 
 boundaries well you've very easy to get
 you don't understand the module 
 
-653
+565
 00:21:53,870 --> 00:21:56,150
 boundaries well you've very easy to get
  a lock yourself into a pure design and 
 
-654
+566
 00:21:56,150 --> 00:21:57,529
  anumana lift can be a good way of 
  a lock yourself into a pure design and 
 
-655
+567
 00:21:57,529 --> 00:21:58,349
 figuring out 
  anumana lift can be a good way of 
 
-656
+568
 00:21:58,349 --> 00:21:58,350
 module boundaries are before you
 figuring out 
  anumana lift can be a good way of 
 
-657
+569
 00:21:58,350 --> 00:22:00,329
 figuring out 
 module boundaries are before you
 
-658
+570
 00:22:00,329 --> 00:22:04,230
 actually do the split and we said that 
 module boundaries are before you
 
-659
+571
 00:22:04,230 --> 00:22:05,278
 one of the interesting things about 
 actually do the split and we said that 
 
-660
+572
 00:22:05,278 --> 00:22:07,200
  microservices is that they actually help 
 one of the interesting things about 
 
-661
+573
 00:22:07,200 --> 00:22:09,990
 you preserve modularity a lot of people 
  microservices is that they actually help 
 
-662
+574
 00:22:09,990 --> 00:22:12,000
 you know like me waffle on endlessly 
 you preserve modularity a lot of people 
 
-663
+575
 00:22:12,000 --> 00:22:13,349
 about how important it is to have good 
 you know like me waffle on endlessly 
 
-664
+576
 00:22:13,349 --> 00:22:16,319
  modules now follow bob Martin's rules 
 about how important it is to have good 
 
-665
+577
 00:22:16,319 --> 00:22:18,538
 about clean dependencies and all the 
  modules now follow bob Martin's rules 
 
-666
+578
 00:22:18,538 --> 00:22:20,668
 rest of it but the reality is most 
 about clean dependencies and all the 
 
-667
+579
 00:22:20,669 --> 00:22:22,288
 systems find it hard to do it in 
 rest of it but the reality is most 
 
-668
+580
 00:22:22,288 --> 00:22:24,450
  practice it's too easy to kind of do 
 systems find it hard to do it in 
 
-669
+581
 00:22:24,450 --> 00:22:26,908
  little end runs around and expose little 
  practice it's too easy to kind of do 
 
-670
+582
 00:22:26,909 --> 00:22:28,470
 things and not keep your module 
  little end runs around and expose little 
 
-671
+583
 00:22:28,470 --> 00:22:31,829
 boundaries solid on the other hand in a 
 things and not keep your module 
 
-672
+584
 00:22:31,829 --> 00:22:31,830
 micro service world your communications 
 boundaries solid on the other hand in a 
 things and not keep your module 
 
-673
+585
 00:22:31,830 --> 00:22:34,379
 boundaries solid on the other hand in a 
 micro service world your communications 
 
-674
+586
 00:22:34,378 --> 00:22:35,730
 are purely through your network 
 micro service world your communications 
 
-675
+587
 00:22:35,730 --> 00:22:38,579
 interfaces and it's maintained it makes 
 are purely through your network 
 
-676
+588
 00:22:38,579 --> 00:22:42,058
 it really easy to ensure you don't share 
 interfaces and it's maintained it makes 
 
-677
+589
 00:22:42,058 --> 00:22:44,250
 mutable state which is of course one of 
 it really easy to ensure you don't share 
 
-678
+590
 00:22:44,250 --> 00:22:46,558
 the best ways to get yourself into a 
 mutable state which is of course one of 
 
-679
+591
 00:22:46,558 --> 00:22:48,690
 confusion in a monolith module 
 the best ways to get yourself into a 
 
-680
+592
 00:22:48,690 --> 00:22:51,450
 architecture so in many ways micro 
 confusion in a monolith module 
 
-681
+593
 00:22:51,450 --> 00:22:53,069
 service is kind of a discipline that 
 architecture so in many ways micro 
 
-682
+594
 00:22:53,069 --> 00:22:53,070
 forces you to keep your modularity 
 service is kind of a discipline that 
 architecture so in many ways micro 
 
-683
+595
 00:22:53,070 --> 00:22:55,079
 service is kind of a discipline that 
 forces you to keep your modularity 
 
-684
+596
 00:22:55,079 --> 00:22:55,080
 together and then I mean the last big 
 service is kind of a discipline that 
 forces you to keep your modularity 
 
-685
+597
 00:22:55,080 --> 00:23:00,538
 forces you to keep your modularity 
 together and then I mean the last big 
 
-686
+598
 00:23:00,538 --> 00:23:02,308
 advantage in micro services they allow 
 together and then I mean the last big 
 
-687
+599
 00:23:02,308 --> 00:23:04,169
 you to go with multiple platforms if 
 advantage in micro services they allow 
 
-688
+600
 00:23:04,169 --> 00:23:07,048
 some parts of your application stack are 
 you to go with multiple platforms if 
 
-689
+601
 00:23:07,048 --> 00:23:08,759
 best off with a traditional you know 
 some parts of your application stack are 
 
-690
+602
 00:23:08,759 --> 00:23:10,918
 Java whatever language you can use them 
 best off with a traditional you know 
 
-691
+603
 00:23:10,919 --> 00:23:13,829
 in some places and then you use sort or 
 Java whatever language you can use them 
 
-692
+604
 00:23:13,829 --> 00:23:16,409
 an even experiment with say a closure on 
 in some places and then you use sort or 
 
-693
+605
 00:23:16,409 --> 00:23:19,019
 other areas you've got the flexibility 
 an even experiment with say a closure on 
 
-694
+606
 00:23:19,019 --> 00:23:20,789
  now of course you don't necessarily want 
 other areas you've got the flexibility 
 
-695
+607
 00:23:20,788 --> 00:23:22,888
 to go so mad that you've got 20 services 
  now of course you don't necessarily want 
 
-696
+608
 00:23:22,888 --> 00:23:24,829
 written in 30 programming languages but
 to go so mad that you've got 20 services 
 
-697
+609
 00:23:24,829 --> 00:23:27,719
  on the other hand that flexibility can 
 written in 30 programming languages but
 
-698
+610
 00:23:27,719 --> 00:23:27,720
  on the other hand that flexibility can 
 
-699
+611
 00:23:27,720 --> 00:23:29,939
  be very valuable just as you don't know 
  on the other hand that flexibility can 
 
-700
+612
 00:23:29,939 --> 00:23:29,940
  be very valuable just as you don't know 
 
-701
+613
 00:23:29,940 --> 00:23:31,710
  use JavaScript that's the one thing I 
  be very valuable just as you don't know 
 
-702
+614
 00:23:31,710 --> 00:23:35,000
  really don't want anybody to do 
  use JavaScript that's the one thing I 
 
-703
+615
 00:23:38,170 --> 00:23:40,190
  you've got to fight back against that 
 
-704
+616
 00:23:40,190 --> 00:23:45,309
  monster somehow so that's the trade-offs 
  you've got to fight back against that 
 
-705
+617
 00:23:45,309 --> 00:23:45,310
  microservices are not straightforward 
  monster somehow so that's the trade-offs 
  you've got to fight back against that 
 
-706
+618
 00:23:45,310 --> 00:23:47,420
  monster somehow so that's the trade-offs 
  microservices are not straightforward 
 
-707
+619
 00:23:47,420 --> 00:23:49,879
  route to go in many ways I'd say if 
  microservices are not straightforward 
 
-708
+620
 00:23:49,879 --> 00:23:49,880
  route to go in many ways I'd say if 
 
-709
+621
 00:23:49,880 --> 00:23:51,319
 you're not sure if you've got a 
  route to go in many ways I'd say if 
 
-710
+622
 00:23:51,319 --> 00:23:51,320
 relatively small system don't worry 
 you're not sure if you've got a 
  route to go in many ways I'd say if 
 
-711
+623
 00:23:51,320 --> 00:23:53,089
 you're not sure if you've got a 
 relatively small system don't worry 
 
-712
+624
 00:23:53,089 --> 00:23:53,090
 about it but on the other hand they can 
 you're not sure if you've got a 
 relatively small system don't worry 
 
-713
+625
 00:23:53,090 --> 00:23:56,119
 relatively small system don't worry 
 about it but on the other hand they can 
 
-714
+626
 00:23:56,119 --> 00:23:57,379
  be an appropriate appropriate 
 about it but on the other hand they can 
 
-715
+627
 00:23:57,379 --> 00:23:57,380
  be an appropriate appropriate 
 
-716
+628
 00:23:57,380 --> 00:23:59,000
  architecture in a lot of places and 
  be an appropriate appropriate 
 
-717
+629
 00:23:59,000 --> 00:24:00,769
 we're still trying to understand what 
  architecture in a lot of places and 
 
-718
+630
 00:24:00,769 --> 00:24:00,770
 the boundaries are between them it's 
 we're still trying to understand what 
  architecture in a lot of places and 
 
-719
+631
 00:24:00,770 --> 00:24:02,329
 we're still trying to understand what 
 the boundaries are between them it's 
 
-720
+632
 00:24:02,329 --> 00:24:05,269
 still fairly early and then the last 
 the boundaries are between them it's 
 
-721
+633
 00:24:05,269 --> 00:24:07,460
  point I want to say is if you're going 
 still fairly early and then the last 
 
-722
+634
 00:24:07,460 --> 00:24:09,589
 to go down the micro-service point there 
  point I want to say is if you're going 
 
-723
+635
 00:24:09,589 --> 00:24:11,150
  are certain things you've got to make 
 to go down the micro-service point there 
 
-724
+636
 00:24:11,150 --> 00:24:12,980
 sure that you get sorted out otherwise 
  are certain things you've got to make 
 
-725
+637
 00:24:12,980 --> 00:24:13,880
 you're going to get into a lot of 
 sure that you get sorted out otherwise 
 
-726
+638
 00:24:13,880 --> 00:24:16,609
  trouble you've got to make sure that you 
 you're going to get into a lot of 
 
-727
+639
 00:24:16,609 --> 00:24:16,610
 can provision new machines rapidly if 
  trouble you've got to make sure that you 
 you're going to get into a lot of 
 
-728
+640
 00:24:16,610 --> 00:24:18,920
  trouble you've got to make sure that you 
 can provision new machines rapidly if 
 
-729
+641
 00:24:18,920 --> 00:24:21,319
 you're in a situation where it takes you 
 can provision new machines rapidly if 
 
-730
+642
 00:24:21,319 --> 00:24:23,960
 a month to get a new server set up and 
 you're in a situation where it takes you 
 
-731
+643
 00:24:23,960 --> 00:24:25,579
 provisioned and ready for use you're 
 a month to get a new server set up and 
 
-732
+644
 00:24:25,579 --> 00:24:26,869
  going to have a lot of problems in the 
 provisioned and ready for use you're 
 
-733
+645
 00:24:26,869 --> 00:24:26,870
 micro service world this is of course 
  going to have a lot of problems in the 
 provisioned and ready for use you're 
 
-734
+646
 00:24:26,870 --> 00:24:28,639
  going to have a lot of problems in the 
 micro service world this is of course 
 
-735
+647
 00:24:28,639 --> 00:24:28,640
 micro service world this is of course 
 
-736
+648
 00:24:28,640 --> 00:24:30,409
  why micro services go very nicely with 
 micro service world this is of course 
 
-737
+649
 00:24:30,409 --> 00:24:30,410
  why micro services go very nicely with 
 
-738
+650
 00:24:30,410 --> 00:24:32,750
 cloud if you can provision a new machine 
  why micro services go very nicely with 
 
-739
+651
 00:24:32,750 --> 00:24:34,819
 in the cloud very quickly which is for 
 cloud if you can provision a new machine 
 
-740
+652
 00:24:34,819 --> 00:24:34,820
  instance what Netflix do then that 
 in the cloud very quickly which is for 
 cloud if you can provision a new machine 
 
-741
+653
 00:24:34,820 --> 00:24:36,410
 in the cloud very quickly which is for 
  instance what Netflix do then that 
 
-742
+654
 00:24:36,410 --> 00:24:40,359
  allows you a lot of flexibility there 
  instance what Netflix do then that 
 
-743
+655
 00:24:40,359 --> 00:24:43,099
 make sure you have at least the basics 
  allows you a lot of flexibility there 
 
-744
+656
 00:24:43,099 --> 00:24:43,100
 of monitoring you want to know when any 
 make sure you have at least the basics 
  allows you a lot of flexibility there 
 
-745
+657
 00:24:43,100 --> 00:24:45,679
 make sure you have at least the basics 
 of monitoring you want to know when any 
 
-746
+658
 00:24:45,679 --> 00:24:45,680
 of monitoring you want to know when any 
 
-747
+659
 00:24:45,680 --> 00:24:47,959
 of your services go down you want to 
 of monitoring you want to know when any 
 
-748
+660
 00:24:47,959 --> 00:24:47,960
 of your services go down you want to 
 
-749
+661
 00:24:47,960 --> 00:24:49,880
 know if something becomes unresponsive 
 of your services go down you want to 
 
-750
+662
 00:24:49,880 --> 00:24:52,819
  or if important interactions or 
 know if something becomes unresponsive 
 
-751
+663
 00:24:52,819 --> 00:24:54,259
 transactions are getting dropped on the
  or if important interactions or 
 
-752
+664
 00:24:54,259 --> 00:24:54,260
 floor you've got to have at least a 
 transactions are getting dropped on the
  or if important interactions or 
 
-753
+665
 00:24:54,260 --> 00:24:56,029
 transactions are getting dropped on the
 floor you've got to have at least a 
 
-754
+666
 00:24:56,029 --> 00:24:57,980
  basic level of monitoring in place 
 floor you've got to have at least a 
 
-755
+667
 00:24:57,980 --> 00:25:00,349
 and also you've got to make sure that 
  basic level of monitoring in place 
 
-756
+668
 00:25:00,349 --> 00:25:02,900
 your services can be automatically and 
 and also you've got to make sure that 
 
-757
+669
 00:25:02,900 --> 00:25:05,869
  rapidly deployed um you don't want to be 
 your services can be automatically and 
 
-758
+670
 00:25:05,869 --> 00:25:07,670
 spending two days deploying the service 
  rapidly deployed um you don't want to be 
 
-759
+671
 00:25:07,670 --> 00:25:09,709
 it's got to be there in hours at the
 spending two days deploying the service 
 
-760
+672
 00:25:09,709 --> 00:25:09,710
 it's got to be there in hours at the
 
-761
+673
 00:25:09,710 --> 00:25:12,619
 very least and preferably minutes and it 
 it's got to be there in hours at the
 
-762
+674
 00:25:12,619 --> 00:25:12,620
  should be as much as possible automatic 
 very least and preferably minutes and it 
 it's got to be there in hours at the
 
-763
+675
 00:25:12,620 --> 00:25:14,450
 very least and preferably minutes and it 
  should be as much as possible automatic 
 
-764
+676
 00:25:14,450 --> 00:25:17,479
 process that's just the basics that's 
  should be as much as possible automatic 
 
-765
+677
 00:25:17,479 --> 00:25:17,480
 process that's just the basics that's 
 
-766
+678
 00:25:17,480 --> 00:25:19,160
  just for running with just a couple of 
 process that's just the basics that's 
 
-767
+679
 00:25:19,160 --> 00:25:21,259
 certain amount of services and to do 
  just for running with just a couple of 
 
-768
+680
 00:25:21,259 --> 00:25:23,299
 more you've got to add more there's a 
 certain amount of services and to do 
 
-769
+681
 00:25:23,299 --> 00:25:23,300
 whole bunch of other stuff that you've 
 more you've got to add more there's a 
 certain amount of services and to do 
 
-770
+682
 00:25:23,300 --> 00:25:24,769
 more you've got to add more there's a 
 whole bunch of other stuff that you've 
 
-771
+683
 00:25:24,769 --> 00:25:26,869
 got to get into play as well so make 
 whole bunch of other stuff that you've 
 
-772
+684
 00:25:26,869 --> 00:25:29,779
 sure you've at least got those basics on 
 got to get into play as well so make 
 
-773
+685
 00:25:29,779 --> 00:25:30,589
  the one I missed 
 sure you've at least got those basics on 
 
-774
+686
 00:25:30,589 --> 00:25:32,960
  DevOps culture that is you've got to 
  the one I missed 
 
-775
+687
 00:25:32,960 --> 00:25:34,759
 break down the barriers between the 
  DevOps culture that is you've got to 
 
-776
+688
 00:25:34,759 --> 00:25:36,230
  operations group in the applications 
 break down the barriers between the 
 
-777
+689
 00:25:36,230 --> 00:25:37,900
 group so that they're working together 
  operations group in the applications 
 
-778
+690
 00:25:37,900 --> 00:25:40,730
  if you've got a difficult communications 
 group so that they're working together 
 
-779
+691
 00:25:40,730 --> 00:25:42,500
 between the two again you're not going 
  if you've got a difficult communications 
 
-780
+692
 00:25:42,500 --> 00:25:44,210
  to be able to manage the quantity of 
 between the two again you're not going 
 
-781
+693
 00:25:44,210 --> 00:25:46,880
  services that you've got to deal with so 
  to be able to manage the quantity of 
 
-782
+694
 00:25:46,880 --> 00:25:48,829
 as I said those I think are the minimum 
  services that you've got to deal with so 
 
-783
+695
 00:25:48,829 --> 00:25:50,869
 things to have when you first go 
 as I said those I think are the minimum 
 
-784
+696
 00:25:50,869 --> 00:25:50,870
  five you don't necessarily have to have 
 things to have when you first go 
 as I said those I think are the minimum 
 
-785
+697
 00:25:50,870 --> 00:25:52,579
 things to have when you first go 
  five you don't necessarily have to have 
 
-786
+698
 00:25:52,579 --> 00:25:54,709
  them when you start building but you 
  five you don't necessarily have to have 
 
-787
+699
 00:25:54,709 --> 00:25:54,710
  them when you start building but you 
 
-788
+700
 00:25:54,710 --> 00:25:56,359
 definitely have to have them when you go 
  them when you start building but you 
 
-789
+701
 00:25:56,359 --> 00:25:58,420
 live with this thing
 definitely have to have them when you go 
 
-790
+702
 00:25:58,420 --> 00:26:02,000
 so that's microservices a very brief 
 live with this thing
 
-791
+703
 00:26:02,000 --> 00:26:04,519
 introduction I've written various things
 so that's microservices a very brief 
 
-792
+704
 00:26:04,519 --> 00:26:06,019
 on it there's tons of stuff out there on 
 introduction I've written various things
 
-793
+705
 00:26:06,019 --> 00:26:08,900
 the web you can go and find out more and 
 on it there's tons of stuff out there on 
 
-794
+706
 00:26:08,900 --> 00:26:12,400
 that's the end of my first talk 
 the web you can go and find out more and 
 
-795
+707
 00:26:17,369 --> 00:26:19,429
 you
 
