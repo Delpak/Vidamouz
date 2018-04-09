@@ -1,0 +1,413 @@
+1
+00:00:05,680 --> 00:00:08,620
+خب 
+so let's talk about how to pull all these ideas together 
+
+2
+00:00:08,620 --> 00:00:10,620
+into an estimating approach that works
+
+3
+00:00:11,240 --> 00:00:13,460
+ the technique is called planning poker
+
+4
+00:00:13,880 --> 00:00:17,500
+ and it's loosely based on the Delphi and Wideband Delphi approaches
+
+5
+00:00:17,580 --> 00:00:20,560
+ the date back to the RAND Corporation in the 1940s
+
+6
+00:00:21,120 --> 00:00:25,180
+ in planning poker each estimator which should be everybody on the team 
+
+7
+00:00:25,580 --> 00:00:30,440
+is holding a set of cards that contain the numbers the team has agreed to use as their estimates 
+
+8
+00:00:30,780 --> 00:00:33,620
+normally this will be the modified Fibonacci sequence
+
+9
+00:00:33,800 --> 00:00:35,260
+but that's really up to the team 
+
+10
+00:00:35,800 --> 00:00:40,260
+the product owner reads a product backlog item usually a user story to the team
+
+11
+00:00:40,540 --> 00:00:42,840
+the team in the product owner discussed the item team
+
+12
+00:00:43,080 --> 00:00:44,800
+team members asked questions
+
+13
+00:00:44,940 --> 00:00:47,280
+the product owner clarifies expectations
+
+14
+00:00:47,440 --> 00:00:51,100
+this can be as short as a few seconds
+but it can take as long as needed
+
+15
+00:00:51,500 --> 00:00:54,660
+once each team member has decided upon an estimate
+
+16
+00:00:54,820 --> 00:00:56,840
+they pulled that card out of their hand 
+
+17
+00:00:56,940 --> 00:00:58,900
+holding it so no one else can see it
+
+18
+00:00:59,120 --> 00:01:00,700
+when everyone has picked an estimate
+
+19
+00:01:00,840 --> 00:01:03,220
+the cards are revealed all at the same time
+
+20
+00:01:03,400 --> 00:01:06,280
+if everyone is holding up the same number we're done
+
+21
+00:01:06,520 --> 00:01:09,240
+write that number down as the estimate and move on
+
+22
+00:01:09,340 --> 00:01:10,640
+but if the numbers are different 
+
+23
+00:01:10,740 --> 00:01:13,120
+we discuss it and an estimated again 
+
+24
+00:01:13,300 --> 00:01:14,580
+let's see an example
+
+25
+00:01:14,800 --> 00:01:19,800
+during the first round our estimators hold up a 3, 8 a 2 and a 5 
+
+26
+00:01:20,160 --> 00:01:22,780
+at this point I really want to hear from the others
+
+27
+00:01:22,780 --> 00:01:24,620
+ why 8 why 2?
+
+28
+00:01:24,960 --> 00:01:26,080
+ anybody can talk 
+
+29
+00:01:26,380 --> 00:01:29,580
+but in this case I would really want to hear from Vadim and Ann 
+
+30
+00:01:29,940 --> 00:01:35,260
+buddy might say well I'm the tester on this project and this is going to be really hard to test
+
+31
+00:01:35,540 --> 00:01:38,320
+ I need to build a new test framework and so on
+
+32
+00:01:38,700 --> 00:01:40,860
+Ann says well Vadim is right 
+
+33
+00:01:41,160 --> 00:01:43,560
+my two is too low I'm going to come up
+
+34
+00:01:43,940 --> 00:01:47,100
+ but I've programmed this type of thing before and it's not that hard
+
+35
+00:01:47,280 --> 00:01:50,080
+ so I'm coming up but not all the way to a 8
+
+36
+00:01:50,520 --> 00:01:52,320
+anyone can talk at this point
+
+37
+00:01:52,600 --> 00:01:55,220
+but I especially want to hear from the outliers
+
+38
+00:01:55,500 --> 00:01:58,120
+after anyone who wants to has had a chance to talk 
+
+39
+00:01:58,280 --> 00:02:01,900
+each team member again picks a number from the cards in their hands
+
+40
+00:02:02,220 --> 00:02:04,600
+ and then all at once the cards are revealed
+
+41
+00:02:04,840 --> 00:02:07,540
+this time let's say we get three fives in an eighth
+
+42
+00:02:07,840 --> 00:02:10,420
+ at this point I'd ask Chris with his 8
+
+43
+00:02:10,600 --> 00:02:13,880
+ to give us an impassioned plea for why 8 is the right estimate
+
+44
+00:02:14,540 --> 00:02:16,100
+I was with a team a little while ago
+
+45
+00:02:16,140 --> 00:02:18,640
+that had all weights except for 1 13
+
+46
+00:02:18,980 --> 00:02:20,900
+I asked the guy with a 13 why
+
+47
+00:02:21,220 --> 00:02:25,780
+boom boom boom he gave three good reasons why he thought it was a 13 
+
+48
+00:02:26,040 --> 00:02:29,060
+and on the next round everyone switched to agree with him
+
+49
+00:02:29,360 --> 00:02:31,080
+so notice this isn't a vote
+
+50
+00:02:31,200 --> 00:02:34,100
+ we don't say that the majority rules in pick a 5
+
+51
+00:02:34,580 --> 00:02:37,440
+we keep going until we get to a consensus
+
+52
+00:02:37,680 --> 00:02:39,960
+the consensus may be a little false
+
+53
+00:02:40,000 --> 00:02:40,880
+but that's okay 
+
+54
+00:02:41,340 --> 00:02:44,960
+suppose we go another two or three rounds with Chris holding up an 8
+
+55
+00:02:45,040 --> 00:02:46,620
+while the rest of us have 5s
+
+56
+00:02:46,800 --> 00:02:50,880
+ at that point I'd probably ask Chris if he thinks we've heard his arguments
+
+57
+00:02:50,980 --> 00:02:52,380
+but that we just disagree
+
+58
+00:02:52,800 --> 00:02:57,040
+ if he does think we've heard him he will eventually fold and hold up a 5
+
+59
+00:02:57,520 --> 00:02:58,880
+ I'm ok with Chris folding
+
+60
+00:02:59,120 --> 00:03:02,660
+ after all the difference between 8 and 5 isn't that great 
+
+61
+00:03:02,920 --> 00:03:05,320
+and we're pretty far up the effort accuracy curve
+
+62
+00:03:05,480 --> 00:03:06,860
+we saw a few minutes ago
+
+63
+00:03:07,340 --> 00:03:10,080
+ now if Chris had been holding up a 100 instead of an 8
+
+64
+00:03:10,280 --> 00:03:11,480
+I wouldn't want him to fold
+
+65
+00:03:11,660 --> 00:03:15,220
+ if we're that far apart we're probably facing one of two problems
+
+66
+00:03:15,460 --> 00:03:17,680
+one product uncertainty 
+
+67
+00:03:17,840 --> 00:03:21,260
+which is the product owner saying something like
+good question
+
+68
+00:03:21,360 --> 00:03:24,520
+I better run that by some users it could go either way
+
+69
+00:03:24,560 --> 00:03:25,640
+ or to
+
+70
+00:03:25,800 --> 00:03:27,120
+technical uncertainty
+
+71
+00:03:27,260 --> 00:03:30,360
+which is when the team thinks that doing the user story will be easy
+
+72
+00:03:30,460 --> 00:03:34,920
+if they use one particular technical approach but hard if they take another approach 
+
+73
+00:03:35,200 --> 00:03:38,580
+so whether its product uncertainty or technical uncertainty
+
+74
+00:03:38,840 --> 00:03:42,640
+ if the estimates are hopelessly far apart put the story aside 
+
+75
+00:03:42,860 --> 00:03:47,880
+do the research and then estimate the user story next week or whenever you get together again
+
+76
+00:03:48,080 --> 00:03:53,380
+or consider using a range if reducing the uncertainty will take more effort than you want to
+
+77
+00:03:53,460 --> 00:03:55,080
+ or can invest
+
+78
+00:03:55,300 --> 00:04:00,440
+ if team members ask the product owner what type of bear koala bear or grizzly bear
+
+79
+00:04:00,560 --> 00:04:02,240
+and the product owner can't say
+
+80
+00:04:02,400 --> 00:04:05,460
+your best option is to write down five to a hundred
+
+81
+00:04:06,220 --> 00:04:09,540
+one challenge with relative estimating is
+ how to get started 
+
+82
+00:04:09,660 --> 00:04:13,440
+my recommendation is for team members to look at the product backlog
+
+83
+00:04:13,540 --> 00:04:15,700
+and find something they want to call a 2
+
+84
+00:04:15,860 --> 00:04:18,920
+ don't play planning poker quite yet just find it 2
+
+85
+00:04:19,180 --> 00:04:21,400
+something small but not the smallest
+
+86
+00:04:21,540 --> 00:04:24,960
+ I don't want you to waste time doing a bubble sort on your product backlog
+
+87
+00:04:25,000 --> 00:04:26,580
+looking for the smallest item
+
+88
+00:04:26,660 --> 00:04:31,160
+instead someone on the team to one user story and says that one's it 2
+
+89
+00:04:31,780 --> 00:04:34,040
+team members can argue if they disagree
+
+90
+00:04:34,360 --> 00:04:37,620
+but they keep at it until the team finds one user story
+
+91
+00:04:37,640 --> 00:04:39,440
+that everyone can agree is a 2
+
+92
+00:04:39,960 --> 00:04:41,460
+then look for a 5
+
+93
+00:04:41,620 --> 00:04:45,040
+remember we're only really good across one order of magnitude
+
+94
+00:04:45,080 --> 00:04:51,320
+so finding a 2 and a 5 establishes us a good baseline across most of that order of magnitude
+
+95
+00:04:51,440 --> 00:04:53,860
+I don't really care if you find a 2 and a 5
+
+96
+00:04:53,960 --> 00:04:58,380
+maybe you find a 1 and a 5 or a 2 and 8
+any of those is fine
+
+97
+00:04:58,580 --> 00:05:02,440
+ the idea is just to get a pair of numbers that everyone agrees on
+
+98
+00:05:02,480 --> 00:05:04,620
+and then start playing planning poker
+
+99
+00:05:05,080 --> 00:05:08,380
+I want to mention briefly that if you're looking for planning poker cards
+
+100
+00:05:08,420 --> 00:05:14,380
+we do sell the cards at our cost on our website at store mountaingoatsoftware.com
+
+101
+00:05:14,780 --> 00:05:20,300
+also we have a free website you can use for playing planning poker with a distributed team
+
+102
+00:05:20,400 --> 00:05:26,849
+in the next video we will look at some of the reasons why planning poker works
+
