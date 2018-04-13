@@ -6,7 +6,7 @@ hi and welcome to the agile Academy
 2
 00:00:02,870 --> 00:00:04,976
 در این گفتگو از سری گفتارهای چابکی و تجربه
-In this Agile and practice talk
+In this Agile in practice talk
 
 3
 00:00:05,024 --> 00:00:08,864
