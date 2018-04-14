@@ -1,832 +1,1031 @@
-﻿1
+1
 00:00:11,720 --> 00:00:17,440
+سال گذشته در مورد مایکروسرویس ها بسیار صحبت شد
 so microservices have been talked about a lot over the last year
 
 2
+من مطالب زیادی در توئیتر و سخنرانی  ها  و سخنرانی مشابه در مورد این موضوع را می بینم
 00:00:17,850 --> 00:00:22,720
  also I see a huge amount of stuff on Twitter and the like talking about this topic
-
+ 
 3
 00:00:23,230 --> 00:00:26,976
- it's something I've been hearing about for a good bit for a little bit longer
+این (مایکروسرویس) چیزی است که برای مدت کمی طولانی تر در موردش شنیدم
+it's something I've been hearing about for a good bit for a little bit longer
 
 4
 00:00:27,120 --> 00:00:31,888
+دو یا سه سال گذشته همکاران و دوستان مختلفم در مورد مایکروسرویس ها سخنرانی کرده اند
 last two or three years various of my colleagues and friends have been talking about micro services
 
 5
 00:00:32,320 --> 00:00:38,416
+و برای من چالش، امتحان کردن و شناخت صحیح  اینکه مایکروسرویس ها دقیقا چه هستند بود
 and for me the struggle was to try and figure out well what exactly are they
 
 6
 00:00:38,910 --> 00:00:42,928
+وقتی افراد در مورد مایکروسرویس ها صحبت می کنند دقیقا منظور آنها چیست؟
 what what do people really mean when they talk about microservices
 
 7
 00:00:42,970 --> 00:00:46,608
+و می دونید، کی باید استفاده از این تکنیک را بررسی کنیم؟
 and also you know when should we consider using this technique 
 
 8
 00:00:46,650 --> 00:00:51,744
+جدید است یا نیست؟ آیا ازش استفاده کنیم؟ استفاده نکنیم؟ و آن چیزی که در وهله ی اول نیست
 is it new or not. Do we use it? do we not use it? And what not it is in the first place
 
 9
 00:00:52,128 --> 00:00:54,912
+منظورم اینه که ایده اولیه کاملا روشن و قابل درک است
 I mean the basic idea is fairly straightforward
 
 10
 00:00:55,776 --> 00:01:01,136
- you contrast it with what's considered to be a traditional monolithic application
+شما مایکروسرویس ها را در تقابل با چیزی که به عنوان برنامه تکی سنتی در نظر گرفته می شود قرار می دهید
+you contrast it with what's considered to be a traditional monolithic application
 
 11
 00:01:01,480 --> 00:01:05,968
+یک برنامه تکی به این معنی است که شما قابلیت های مختلفی دارید
 A monolithic application means you've got various capabilities,
 
 12
 00:01:06,030 --> 00:01:08,576
+چیزهای مختلفی که می خواهید آماده کنید
 various things that you want to provide
 
 13
 00:01:08,704 --> 00:01:11,320
+و همه آنها را در یک برنامه مشابه قرار می دهید
 and you put them all in the same application
 
 14
 00:01:11,376 --> 00:01:13,472
+که معمولا در یک فرآیند منفرد اجرا می شود
 typically running in a single process
 
 15
 00:01:13,648 --> 00:01:16,560
- and you think of it as one thing
+و شما به آن به عنوان یک موجودیت فکر می کنید
+and you think of it as one thing
 
 16
 00:01:17,184 --> 00:01:18,704
+پیشنهاد مایکروسرویس
 the microservice approach
 
 17
 00:01:19,000 --> 00:01:24,816
- and its crew disciplines is trying to take each of these capabilities and put them into separate processes
+و دستورالعمل اصلی مایکروسرویس؛ تلاش برای گرفتن هر کدام از این قابلیت ها و قرار دادن آنها در فرآیندهای مستقل است
+and its crew disciplines is trying to take each of these capabilities and put them into separate processes
 
 18
 00:01:25,152 --> 00:01:30,448
- and instead of having one process have this network of communicating processes 
+و بجای داشتن فقط یک فرآیند؛ این شبکه از فرآیندهای ارتباطی را داشته باشیم
+and instead of having one process have this network of communicating processes 
 
 19
 00:01:30,680 --> 00:01:34,304
+بسیاری از افراد استفاده از مثال خط فرمان یونیکس را می پسندند
 a lot of people like to use the example of of the UNIX command line
 
 20
 00:01:34,320 --> 00:01:40,192
+جایی که اگر بخواهید لیستی از فایل ها را در دایرکتوریتان مرتب کنید، ممکن است از 2 یا 3 برنامه متفاوت استفاده کنید
 where if you want to get a list of all the files in your directory sorted you might use two or three different programs
 
 21
 00:01:40,280 --> 00:01:42,080
+و آنها را با هم درون یک خط لوله قرار می دهید تا آنرا انجام دهد
 put together in a pipeline to do so
 
 22
 00:01:43,392 --> 00:01:46,208
- it also has a consequence for distribution
+این کار همچنین منجر به یک نتیجه برای توزیع شدگی می شود
+it also has a consequence for distribution
 
 23
 00:01:46,380 --> 00:01:54,176
- if you've got a monolith, you scale by effectively cookie cutter in the monolith and putting it on multiple machines 
+اگر شما یک برنامه تکی داشتید با برش های موثر در برنامه تکی و قرار دادن آن در چندین ماشین؛ آنرا مقیاس می کنید
+if you've got a monolith, you scale by effectively cookie cutter in the monolith and putting it on multiple machines 
 
 24
 00:01:54,384 --> 00:01:58,384
- while we're microservices you've got more of a flexible approach because you can
+با این وجود در صورتی که ما مایکروسرویس بودیم؛ رویکردهای منعطف تری داشتید، زیرا می توانستید
+while we're microservices you've got more of a flexible approach because you can
 
 25
 00:01:58,544 --> 00:02:00,784
+سرویس های مختلف را بر روی ماشین های متفاوتی قرار دهید
 put different services on different machines 
 
 26
 00:02:00,830 --> 00:02:05,424
- so that if some services get more load than others they can have more copies of them made
+در نتیجه در صورتی که سرویسی بار بیشتری نسبت به بقیه دریافت کند؛ می توانید کپی های بیشتری از آن ایجاد کنید
+so that if some services get more load than others they can have more copies of them made
 
 27
 00:02:05,792 --> 00:02:08,336
+آن نوعی از یک مرور اجمالی ابتدایی است
 that's the kind of very crude overview
 
 28
 00:02:08,840 --> 00:02:13,056
+اما هنوز راه طولانی از این مرور اجمالی تا چیزی که واقعا میخواهم تعریف مایکروسرویس ها بنامم وجود دارد
 but this is still a long way away from what I would really call the definition of it
 
 29
 00:02:13,104 --> 00:02:20,200
+منظورم این است که مایکروسرویس ها؛ نسبت به تمام چیزهایی که از افراد در مورد معماری های سرویس-گرا از 10 سال پیش تا بحال شنیدیم چگونه متمایز می شود
 I mean how does this vary from everything I've been hearing people Yammer on about service-oriented architecture for the last 10 years
 
 30
 00:02:21,310 --> 00:02:26,944
- but the trouble is with something like a topic like micro services it's very hard to come up with any kind of firm definition
+اما نگرانی در مورد موضوعاتی شبیه مایکروسرویس ها این است که رسیدن به هر نوع تعریف ثابت و پایدار بسیار مشکل است
+but the trouble is with something like a topic like micro services it's very hard to come up with any kind of firm definition
 
 31
 00:02:27,240 --> 00:02:33,584
+بله منظور اینه که مورد مشابهی با NoSQL را احساس می کنم؛ درسته منظورم پایگاه داده های NoSQL است. منظورم اینه که تعریف اون چیه و NoSQL
 yes I mean I've filled the same thing with no sequel right I mean no sequel databases I mean what's the definition and no sequel
 
 32
 00:02:33,740 --> 00:02:40,880
+و حتی اگر بیشتر به عقب بر گردیم میدونید، منظورم اینه که تعریفی دقیق و جامعی که برای برنامه نویسی تابعی بهش رسیدیم چی بود؟
 And even further back I mean you know what is the definition we come up with really solid definition for functional programming
 
 33
 00:02:41,040 --> 00:02:45,088
+خوب شما می دونید که موارد زیادی اینجا وجود داره که می توینید از طیف گسترده و متفاوتی انتخاب کنید
 well you know there are plenty out there you can choose from quite a wide range
 
 34
 00:02:45,720 --> 00:02:51,175
- what I think is better to think about is instead of thinking about a definition to talk about common characteristics
+چیزی که من فکر می کنم اینه که بجای اینکه در مورد تعریف مایکروسرویس ها فکر کنیم بهتره در مورد ویژگی های مشترک اون صحبت کنیم
+what I think is better to think about is instead of thinking about a definition to talk about common characteristics
 
 35
 00:02:51,590 --> 00:02:54,784
+و منظورم از ویژگی های مشترک این است که
 and what I mean by common characteristics is to say
 
 36
 00:02:55,100 --> 00:02:58,720
+در صورتی که با گروهی از افراد که مایکروسرویس ها را انجام میدهند صحبت کنید
 if you burnt the talk to AB whole bunch of people doing micro-services
 
 37
 00:02:58,944 --> 00:03:01,936
+و دنبال چیزهایی مشترکی باشید که اکثر آنها انجام می دهند
 and you look for the common things that most of them are doing
 
 38
 00:03:02,220 --> 00:03:07,900
- your test is that most people who say they're doing micro-services should be doing most of these things
+معیار شما این است که بیشتر افراد که می گویند مایکروسرویس ها رو انجام می دهند؛ باید اکثر این چیزها رو انجام بدهند
+your test is that most people who say they're doing micro-services should be doing most of these things
 
 39
 00:03:09,180 --> 00:03:14,592
+و من با یکی از همکارانم که یکی از افرادی است که کارهای زیادی با مایکروسرویس ها انجام داده همراه شدم
 and I got together with one of my colleagues who's one of these guys has done a lot of work with microservices
 
 40
 00:03:14,688 --> 00:03:19,616
- and we came up with an article that we published earlier this year 
+و ما به مقاله ای رسیدیم که در اواویل امسال آنرا منتشر کردیم
+and we came up with an article that we published earlier this year 
 
 41
 00:03:19,720 --> 00:03:27,488
- those of you at the back are going to struggle with all that everything on the slides that's at the bottom because of the way the things laid out but it's out there 
+----
+those of you at the back are going to struggle with all that everything on the slides that's at the bottom because of the way the things laid out but it's out there 
 
 42
 00:03:27,600 --> 00:03:32,624
+و من فقط می خواهم برخی از این 9 ویژگی مشترک را خلاصه کنم
 and I'm just going to summarize some of these these were the nine common characteristics
 
 43
 00:03:32,752 --> 00:03:36,010
- that we came up with in writing that article.
+که در نوشتن آن مقاله بهشون رسیدیم
+that we came up with in writing that article.
 
 44
 00:03:36,240 --> 00:03:39,344
+و چون به اندازه کافی وقت ندارم  نمی خواهم که در مورد همه ی آن صحبت کنم
 and I'm not going to talk through them all because I don't have enough time
 
 45
 00:03:39,610 --> 00:03:42,864
+ولی برخی از مواردی که فکر می کنم  بوِیژه بیشتر جذاب باشند را برجسته می کنم
 but I will highlight some that I think are particularly interesting
 
 46
 00:03:44,272 --> 00:03:48,656
+در نتیجه اولین چیز این مفهوم مولفه سازی از طریق سرویس ها است
 so the first thing is this notion of componentization via services 
 
 47
 00:03:49,040 --> 00:03:53,264
+اکنون این ایده که نرم افزار باید درون کامپوننت ها شکسته شود
 now the idea software should be broken up into components
 
 48
 00:03:53,340 --> 00:03:58,976
+همیشه در کنار و اطراف ما بوده است. ما همیشه از افراد بسیار زیادی در مورد نرم افزار بر پایه ی مولفه ها شنیده ایم
 has been around again forever we always a lot of people have talked about component based software
 
 49
 00:03:59,020 --> 00:04:02,100
+و چه خوب می شد اگر مولفه هایی داشتید که می توانستید با آن کار کنید
 and how it would be good to have components that you can work with
 
 50
 00:04:02,430 --> 00:04:07,280
+اما بیشتر اوقات اصطلاح مولفه مشکلات بسیاری از نظر  تعریف نیز دارد
 but often the term component of course has had a lot of problems in terms of definition as well
 
 51
 00:04:07,610 --> 00:04:12,176
+بیاد می آورم که یک آبجکت؛ برای مولفه جایگزین شد و بنابراین
 I remember a one point object being substituted for components and then
 
 52
 00:04:12,250 --> 00:04:15,875
- components came back to objects again and it all got very confusing
+مولفه ها مجددا به آبجکت ها بر می گشتند و این بسیار گیچ کننده بود
+components came back to objects again and it all got very confusing
 
 53
 00:04:16,624 --> 00:04:21,136
+تاکید من برای تعریف مولفه بواقع از تعریف Ralph Johnson می آید
 what I focus on for a definition of component really comes from Ralph Johnson
 
 54
 00:04:21,232 --> 00:04:23,184
+او در مورد چیزی که ما تلاش می کنیم انجام بدهیم گفت
 he said that what we're trying to do
 
 55
 00:04:23,280 --> 00:04:27,360
+ما سعی می کنیم نرم افزار را به روشی تولید کنیم که افراد مولفه های یک استریو را سرهم می کنند
 is we're trying to build software the way people would assemble stereo components
 
 56
 00:04:27,560 --> 00:04:31,776
+میدونید، شما یک بلندگو، اسپیکر ؛ پخش کننده سی دی و پخش کننده ی نوار دارید
 you know you have an amplifier you have speakers you have a CD play have a tape player
 
 57
 00:04:31,824 --> 00:04:35,070
- you can replace any of these items independently 
+شما می توانید هر کدام از این آیتم ها را مستقل از یکدیگر جایگزین کنید
+you can replace any of these items independently 
 
 58
 00:04:35,904 --> 00:04:37,744
+و این چیز بسیار مهمی است
 that's a crucial thing
 
 59
 00:04:37,824 --> 00:04:41,312
- and indeed you can upgrade any of these items independently
+و مطمئنا می توانید هر کدام از اینها را بصورت مستقل  ارتقا دهید
+and indeed you can upgrade any of these items independently
 
 60
 00:04:41,520 --> 00:04:46,400
+در نتیجه در صورتی که بخواهم یک بلندگو بهتر داشته باشم؛ مجبور نیستم هیچ چیز دیگری را تغییر دهم
 so if I want to get an improved amplifier I don't have to change everything else
 
 61
 00:04:46,416 --> 00:04:48,688
- that's a goal of what we're aiming for
+و آن یکی از اهدافی است که برایش تلاش می کنیم
+that's a goal of what we're aiming for
 
 62
 00:04:48,990 --> 00:04:53,744
- a component is something that's independently replaceable independently upgradable
+یک مولفه چیزی است که بصورت مستقل قابلیت جایگزینی و بهبود داشته باشد
+a component is something that's independently replaceable independently upgradable
 
 63
 00:04:55,648 --> 00:04:57,584
+خوب در واژگان نرم افزار
 so in terms of software
 
 64
 00:04:58,032 --> 00:05:01,072
- and we see components to becoming two forms
+و مشاهده می کنیم که مولفه ها به دو شکل می آیند
+and we see components to becoming two forms
 
 65
 00:05:01,400 --> 00:05:07,024
+ما کتابخانه هایی را که از اشخاص ثالث استفاده می کنیم فراهم می آوریم و آنها را بخشی از فرآیند خود می کنیم
 we obtain libraries that we use from third parties and we make them part of our process 
 
 66
 00:05:07,640 --> 00:05:11,568
+و تا حدودی برای انتخاب زمانی که می خواهیم آنرا ارتقا دهیم؛ انتخاب داریم
 and to some extent we have then the choice of when do we want to upgrade that
 
 67
 00:05:11,600 --> 00:05:14,975
- do we want to get a new version of our XML processing library
+آیا می خواهیم که نسخه ی جدیدی از کتابخانه پردازش کننده XML بگیریم
+do we want to get a new version of our XML processing library
 
 68
 00:05:15,136 --> 00:05:17,216
+یا با چیزی که در حال استفاده از آن هستیم ادامه می دهیم
 or do we stick with the one that we've currently got
 
 69
 00:05:17,240 --> 00:05:21,456
+و امیدواریم که ارتقا بر سایر بخش های برنامه ی ما تاثیر زیادی نداشته باشد
 and hopefully the upgrade isn't going to affect the rest of our application too much
 
 70
 00:05:21,584 --> 00:05:24,160
- depending upon how the dependencies are all laid out
+بسته به اینکه وابستگی ها به چه صورت شکل گرفته اند
+depending upon how the dependencies are all laid out
 
 71
 00:05:25,000 --> 00:05:30,144
+سرویس نوع دیگری از مولفه است که در فرآیند مخصوص خودش اجرا می شود
 A service is a different kind of component where it's running in its own process 
 
 72
 00:05:30,416 --> 00:05:33,520
- and while with a library we talk using the language
+و در حالی که با یک کتابخانه؛ در مورد استفاده از
+and while with a library we talk using the language
 
 73
 00:05:33,610 --> 00:05:37,296
- communication facilities that we have built into whatever language we're using
+توانایی ارتباطی درون زبانی؛ که ممکن است در هر زبانی که از آن استفاده می کنیم ایجاد کرده باشیم؛ صحبت می کنیم
+communication facilities that we have built into whatever language we're using
 
 74
 00:05:37,392 --> 00:05:41,232
+با یک سرویس؛ عموما ما از توانایی های ارتباطی بین فرآیندها صحبت می کنیم
 with a service we're typically using inter process communication facilities
 
 75
 00:05:41,400 --> 00:05:45,776
- such as web service calls or messaging or something of that kind 
+از جمله فراخوانی های وب سرویس یا ارسال پیام یا مواردی شبیه این
+such as web service calls or messaging or something of that kind 
 
 76
 00:05:46,620 --> 00:05:52,144
+و سرویس ها برخی مزیت های سودمند را به ما می دهند؛ حتی هنگامی که تمایل به توانایی جایگزین و قابلیت ارتقا هم داشته باشد
 and the services give us some useful advantages even when it tends to replace ability and upgrade ability
 
 77
 00:05:52,368 --> 00:05:56,640
- if I've got a monolith with components that are libraries
+اگر من یک برنامه تکی را با مولفه هایی که کتابخانه هستند داشته باشم
+if I've got a monolith with components that are libraries
 
 78
 00:05:56,880 --> 00:06:01,872
+و متوجه شوم که کسی نسخه ی جدید از مولفه که واقعا می تواند خوب باشد را بیرون داده است
 and I've got you know somebody brings out a new version of a component that would be really nice
 
 79
 00:06:01,872 --> 00:06:03,904
+اما نسخه ی جدید فقط در جاوا 8 کار می کند
 but it only works on Java 8
 
 80
 00:06:04,112 --> 00:06:09,680
+و من مولفه ی دیگری را درون برنامه ی تکی ام دارم که که با جاوا 8 کار نمی کند و فقط با جاوا 7 کار می کند
 and I've got another component in my monolith that doesn't work with Java 8 and can only work with Java 7 
-
+ 
 81
 00:06:09,776 --> 00:06:11,504
+چه کار کنم؟ من گیر افتادم
 what do I do I'm stuck
 
 82
 00:06:12,250 --> 00:06:17,200
- but on the other hand with if they were separate services they would be running in completely different runtimes 
+اما در طرف دیگر اگر آنها سرویس های جدایی بودند که می توانستند در زمان اجرای کاملا متفاوتی اجرا شوند
+but on the other hand with if they were separate services they would be running in completely different runtimes 
 
 83
 00:06:17,264 --> 00:06:20,048
- and they could operate they could be upgraded more independently
+و عمل کنند؛ آنها می توانستند با استقلال بیشتری جایگزین شوند
+and they could operate they could be upgraded more independently
 
 84
 00:06:20,672 --> 00:06:22,480
+اکنون البته با هزینه همراه است
 now there's a cost of course with that
 
 85
 00:06:22,640 --> 00:06:27,008
- but that's part of the notion of how it ties into the independent upgrade ability
+اما بخشی از آن مفهوم این است که چگونه به توانایی ارتقا مستقل وابسته است
+but that's part of the notion of how it ties into the independent upgrade ability
 
 86
 00:06:29,104 --> 00:06:30,512
- so for the next one 
+در نتیجه برای مورد بعدی
+so for the next one 
 
 87
 00:06:30,650 --> 00:06:38,112
+سازمان پیرامون توانایی های کسب و کار یکی دیگر از موضوعات مهم در چشم انداز دنیای مایکروسرویس های است
 organization in around business capabilities is another important theme in the micro services view of the world 
 
 88
 00:06:38,416 --> 00:06:42,464
- so a lot of lot even development organizations
+بنابراین خیلی؛ حتی خیلی بیشتر از سازمانهای توسعه
+so a lot of lot even development organizations
 
 89
 00:06:42,560 --> 00:06:44,768
- organize themselves around technology
+که خود را پیرامون تکنولوژی سازماندهی می کنند
+organize themselves around technology
 
 90
 00:06:45,136 --> 00:06:50,718
- I mean you'll see this in a lot of big companies I'll have their D bas and their database group
+منظورم اینه که شما آنرا در بسیاری از شرکت های بزرگ می بینید و ما DBA و گروه پایگاه داده خودمان را داریم
+I mean you'll see this in a lot of big companies I'll have their D bas and their database group
 
 91
 00:06:50,750 --> 00:06:54,288
- that might have a completely different group of people on the UI it's focused around technology
+که ممکن است کاملا نسبت به گروه افراد در UI که تمرکز آنها بر تکنولوژی است کاملا متفاوت باشند
+that might have a completely different group of people on the UI it's focused around technology
 
 92
 00:06:54,608 --> 00:07:01,232
- the key thing with the micro services view of the world is
- that we should instead organize around business capabilities 
+نکته کلیدی با دیدگاه مایکروسرویس ها این است که ما باید در اطراف توانایی های کسب و کار سازماندهی شویم
+the key thing with the micro services view of the world is that we should instead organize around business capabilities 
 
 93
 00:07:01,632 --> 00:07:06,368
- and that each team should have some elements right the way through 
+و اینکه از این طریق هر تیم باید یکسری عوامل داشته باشد
+and that each team should have some elements right the way through 
 
 94
 00:07:06,464 --> 00:07:11,008
- and ideally focusing directly on the end users themselves
+و بصورت ایده آل مستقیما بر روی خود کاربر نهایی شان تمرکز کند
+and ideally focusing directly on the end users themselves
 
 95
 00:07:11,248 --> 00:07:14,640
- there's an interesting example of this from Amazon which is a 
+یک مثال جالب توجه در این مورد از آمازون که
+there's an interesting example of this from Amazon which is a 
 
 96
 00:07:14,656 --> 00:07:17,888
+مطمیئنا یکی از الهام بخش های جامعه مایکروسرویس ها است وجود دارد
 common certainly inspiration for the micro services community
 
 97
 00:07:18,090 --> 00:07:23,168
- where when they divided everybody knows Amazon divided themselves up into two pizza teams
+وقتی که آنها تقسیم شدند که همه می دانند، آمازون خود را به دو تیم پیتزا تقسیم کرد
+where when they divided everybody knows Amazon divided themselves up into two pizza teams
 
 98
 00:07:23,300 --> 00:07:24,752
+و درباره ی آن بسیار صحبت شد
 and that's talked about a lot
 
 99
 00:07:24,896 --> 00:07:28,016
- but what's talked about a lot less often is the fact that each team
+و چیزی که کمتر در موردش صحبت شد این حقیقت بود که هر تیم
+but what's talked about a lot less often is the fact that each team
 
 100
 00:07:28,080 --> 00:07:32,608
- was responsible for the communication right way through to the end user experience
+مسئول راه ارتباطی مناسب با تجربه کاربر نهایی بود
+was responsible for the communication right way through to the end user experience
 
 101
 00:07:32,704 --> 00:07:37,424
- and the idea that that should connect right the way through to the people at the end 
+و این ایده که باید بصورت مناسب و صحیحی با افراد در پایان متصل شد
+and the idea that that should connect right the way through to the people at the end 
 
 102
 00:07:37,480 --> 00:07:45,216
-and they should be judged on how does this affect business outcomes
- right the way through is a very important part of that thinking
+و باید به این نکته بپردازند که چگونه این مورد بر نتایج کسب و کار تاثیر می گذارد بخش مهمی از این تفکر است
+and they should be judged on how does this affect business outcomes right the way through is a very important part of that thinking
 
 103
 00:07:45,340 --> 00:07:51,072
- so we have this notion of divide yourself up around some kind of business organization
+در نتیجه ما این مفهوم را داریم که خود را اطراف یکسری از ساختارهای کسب و کار تقسیم کنیم
+so we have this notion of divide yourself up around some kind of business organization
 
 104
 00:07:51,168 --> 00:07:53,712
- and make that as full stack as possible 
+و تا حد امکان آنرا بصورت یک پشته کامل ایجاد کنیم
+and make that as full stack as possible 
 
 105
 00:07:58,090 --> 00:08:03,328
+شاید وقتی که این مورد در مقام مقایسه با چیزی که اکثر مردم درباره ی سرویس ها دارند می رسد
 perhaps when it comes to comparison to what a lot of people have come across in terms of services
 
 106
 00:08:03,370 --> 00:08:10,464
+یکی از دگرگونی های بزرگ دگرگونی در مورد داشتن نقاط پایانی هوشمند و لوله های احمق است
 one of the biggest shifts is this shift about let's have smart endpoints and dumb pipes
 
 107
 00:08:11,088 --> 00:08:14,160
- when a lot of people talk about service-oriented architecture
+وقتی که افراد زیادی در مورد معماری سرویس-گرا صحبت می کنند
+when a lot of people talk about service-oriented architecture
 
 108
 00:08:14,700 --> 00:08:18,675
- they talk about the idea of let's get some powerful piece of middle-ware
+آنها در مورد ایده ی داشتن یک سری میان افزار قوی صحبت می کنند
+they talk about the idea of let's get some powerful piece of middle-ware
 
 109
 00:08:18,700 --> 00:08:24,944
+که بصورت اتوماتیک همه ی انواع کارها را انجام می دهند؛ پیام ها را مسیریابی می کنند؛ قوانین کسب و  کار را اعمال می کنند؛ همه ی انواع کارها را انجام می دهند
 that will automatically do all sorts of stuff it'll route messages it will apply business rules 
 it does all sorts of things
 
 110
 00:08:25,120 --> 00:08:29,504
- this of course is the the ESB 
-the Enterprise Service bus
+این البته ESB است. گذرگاه سرویس سازمان
+this of course is the the ESB the Enterprise Service bus
 
 111
 00:08:29,568 --> 00:08:33,520
+یا این بیشتر شبیه جعبه ی اسپاگتی بزرگ است
 or is it more correctly known the egregious spaghetti box
 
 112
 00:08:36,896 --> 00:08:40,768
+جامعه مایکروسرویس ها با پشیمانی زیاد این مفهوم را رد  کرد
 the micro-service community very much regret reject this notion
 
 113
 00:08:40,780 --> 00:08:45,400
- and says the smarts instead should move to the endpoints themselves
+و گفت که هوشمندی ها باید به خود نقاط پایانی منتقل شود
+and says the smarts instead should move to the endpoints themselves
 
 114
 00:08:45,792 --> 00:08:48,736
- what we want is everything to connect together
+چیزی که می خواهیم این است که همه چیز به هم متصل شود
+what we want is everything to connect together
 
 115
 00:08:49,040 --> 00:08:52,640
+و بتوانیم به آسانی پیام ها یا ارتباط های میان آنها را مسیر یابی کنیم
 and to be able to easily route messages or communications between them
 
 116
 00:08:52,784 --> 00:08:56,128
- but it should be up to the endpoints where all that smartness goes 
+اما اینها باید وظیفه ی نقاط پایانی باشد؛ جایی که تمام هوشمندی
+but it should be up to the endpoints where all that smartness goes 
 
 117
 00:08:56,368 --> 00:08:57,792
+و همه ی منطق کسب و کار به آنجا رفته است
 any business logic
 
 118
 00:08:57,872 --> 00:08:59,264
- any routing stuff
+هر عمل مسیریابی
+any routing stuff
 
 119
 00:08:59,344 --> 00:09:03,472
- all of this should be based on the endpoints just give us a good efficient piping mechanism 
+تمام اینها باید بر اساس نقاط پایانی باشد که منجر می شود که مکانیزم های لوله کشی موثر خوب را به ما بدهد
+all of this should be based on the endpoints just give us a good efficient piping mechanism 
 
 120
 00:09:03,616 --> 00:09:06,752
+و در بسیاری از راه ها البته خود اینترنت  الهام بخش است
 and the inspiration in many ways is of course the Internet itself
 
 121
 00:09:06,840 --> 00:09:08,208
- which works very well
+که بخوبی کار می کند
+which works very well
 
 122
 00:09:08,200 --> 00:09:14,144
+بخاطر این حقیقت است که اینترنت نیازمند تقریبا مجموعه ای از لوله های احمق و ساکت است و تمام هوشمندی را درون نقاط پایانی قرار داده است
 because of the fact that it needs a relatively dumb set of pipes and puts all the intelligence onto the endpoints 
 
 123
 00:09:20,288 --> 00:09:22,720
+مورد دیگری که بسیاری از
 another thing that also brings out this 
 
 124
 00:09:22,820 --> 00:09:28,080
+این کارهای مختلف را به سرویس های زیادی می دهد مفهوم تمرکز زدایی است
 variation to a lot of service stuff is the notion of decentralization
 
 125
 00:09:28,510 --> 00:09:33,488
+تمرکز زدایی به یک شیوه ی کلی که در آن دورنمای سرویس ها مدیریت می شود
 decentralization in terms of the overall way in which a service landscape is governed
 
 126
 00:09:33,600 --> 00:09:37,648
- and in particularly decentralization in terms of data management
+و بخصوص تمرکز زدایی در شیوه ی مدیریت داده
+and in particularly decentralization in terms of data management
 
 127
 00:09:38,352 --> 00:09:41,680
- so again if we think of the the monolithic world
+بنابراین اگر مجددا در مورد دنیای برنامه ی تکی فکر کنیم
+so again if we think of the the monolithic world
 
 128
 00:09:41,800 --> 00:09:47,040
- we think of the fact that generally all of the data is sitting in one honking big relational database
+در مورد این حقیقت فکر می کنیم که عموما تمام داده ها در یک پایگاه داده رابطه ای بزرگ قرار دارد
+we think of the fact that generally all of the data is sitting in one honking big relational database
 
 129
 00:09:47,280 --> 00:09:50,144
- all right and it's often can be to write across a company
+خیلی خب، این می تواند در یک شرکت نوشته شود
+all right and it's often can be to write across a company
 
 130
 00:09:50,240 --> 00:09:53,680
- you know our company's standard is Oracle or our company's standard is db2
+می دونید، استاندارد شرکت ما اوراکل است، یا شاید استاندارد شرکت ما db2 باشد
+you know our company's standard is Oracle or our company's standard is db2
 
 131
 00:09:53,760 --> 00:09:55,664
+و هر چیزی درون محدوده می رود
 everything goes inside box
 
 132
 00:09:55,856 --> 00:09:58,336
- and even a lot of service-oriented architectures
+و حتی بسیاری از معماری های سرویس-گرا
+and even a lot of service-oriented architectures
 
 133
 00:09:58,410 --> 00:10:04,784
- it's really a lot about multiple services or pulling data in and out of one logically large database
+در واقع اکثرا در مورد سرویس های متعدد یا کشیدن داده در داخل و خارج از یک پایگاه داده منطقی بزرگ است
+it's really a lot about multiple services or pulling data in and out of one logically large database
 
 134
 00:10:05,456 --> 00:10:09,184
- the micro service appoint point of view is to say now
+نقطه نظر مایکروسرویس ها این است که می گوید
+the micro service appoint point of view is to say now
 
 135
 00:10:09,200 --> 00:10:13,664
+هر سرویسی باید برای دیتای خود و ذخیره سازی دیتای خود مسئول باشد
 every service should be responsible for its own data and its own persistence
 
 136
 00:10:14,190 --> 00:10:17,600
+مجددا این مورد دیگری است که از تجربه های آمازون الهام گرفته شده
 again this is another thing that is inspired by the Amazon experience
 
 137
 00:10:17,610 --> 00:10:21,968
- Amazon made that one of their rules when they shifted to a service-oriented approach 
+آمازون هنگامی که به سمت یک رویکرد سرویس-گرا حرکت کرد آن قانون خود را ایجاد کرد
+Amazon made that one of their rules when they shifted to a service-oriented approach 
 
 138
 00:10:22,000 --> 00:10:25,630
+و گفت شما ممکن است هیچگاه با پایگاه داده سرویس های دیگر صحبت نکنید
 and said you may never talk to another services data store
 
 139
 00:10:25,936 --> 00:10:29,060
- you can only talk to another service through its API 
+شما با سایر سرویس های فقط از طریق API آن سرویس های می توانید صحبت کنید
+you can only talk to another service through its API 
 
 140
 00:10:29,392 --> 00:10:33,584
+و این قانونی است که مایکروسرویس ها برای آن تلاش می کنند
 and that's the rule that the micro service people push as well
 
 141
 00:10:33,888 --> 00:10:36,496
- now this is a couple advantages
+این کار چندین مزیت دارد
+now this is a couple advantages
 
 142
 00:10:36,570 --> 00:10:41,120
- first it removes this horrible mess of integrating through a database 
+اول اینکه درگیری وحشتناک یکپارچگی از طریق پایگاه داده را حذف می کند
+first it removes this horrible mess of integrating through a database 
 
 143
 00:10:41,230 --> 00:10:45,680
- which causes no end of problems in enterprises all over the place
+که منجر به این می شود که تمام مشکلات پایانی در سازمان در یکجا نباشد
+which causes no end of problems in enterprises all over the place
 
 144
 00:10:46,096 --> 00:10:48,864
+کار دومی که انجام می دهد آزاد سازی سرویس  ها است
 the second thing it does it frees up individual services
 
 145
 00:10:48,880 --> 00:10:50,944
- to use a datastore that make sense to them
+تا بتوانند از پایگاه داده ای که برای آنها مناسب تر است استفاده کنند
+to use a datastore that make sense to them
 
 146
 00:10:51,440 --> 00:10:55,056
- some services a relational database will make sense
+برای برخی سرویس ها پایگاه داده ی رابطه ای مناسب است
+some services a relational database will make sense
 
 147
 00:10:55,152 --> 00:10:59,152
+و سایر سرویس ها ممکن است بخواهند از پایگاه داده های شگفت انگیز جدید NoSQL استفاده کنند
 others would want to use one of these hot new NoSQL fancy things
 
 148
 00:10:59,264 --> 00:11:01,184
- and in which case they use it for that 
+و در هر مورد آنها از آن برای خود استفاده می کنند
+and in which case they use it for that 
 
 149
 00:11:01,260 --> 00:11:04,544
+اما ایده این است که انتخاب شما برای ذخیره سازی داده
 but the idea is yours choice of data persistence 
 
 150
 00:11:04,576 --> 00:11:07,776
- should be entirely up to the individual service themselves 
+باید کاملا بر عهده ی خود سرویس ها باشد
+should be entirely up to the individual service themselves 
 
 151
 00:11:09,640 --> 00:11:13,360
+و همانطور که گفتم بخشی از این قاعده ی کلی تمرکز زدایی است
 and that's part of this general notion as I said of decentralization
 
 152
 00:11:13,632 --> 00:11:16,816
- it also goes to the point of things like languages and tools
+این قاعده همچنین به مواری از جمله زبانها و ابزارها نیز وارد می شود
+it also goes to the point of things like languages and tools
 
 153
 00:11:16,880 --> 00:11:20,512
- should again be individually chosen by different service groups
+مجددا باید توسط گروه های سرویس مختلف انتخاب شود
+should again be individually chosen by different service groups
 
 154
 00:11:22,940 --> 00:11:27,232
- to make all of this work it's really important to have infrastructure automation
+برای اینکه همه اینها کار کنند داشتن زیر ساخت اتوماتیک واقعا مهم است
+to make all of this work it's really important to have infrastructure automation
 
 155
 00:11:28,304 --> 00:11:32,160
- so a lot of things such as continuous delivery 
+در نتیجه بسیاری از چیزها مثل انشتار مداوم
+so a lot of things such as continuous delivery 
 
 156
 00:11:32,544 --> 00:11:35,760
+تکنیک هایی شبیه انتشار Blue/Green که به شما این امکان را می دهد که
 techniques like Blue Green deployment that allow you to 
-
+ 
 157
 00:11:35,856 --> 00:11:38,784
+کارها را به محیط عملیاتی بدون زمان توقف ببرید
 put stuff to live with zero downtime
 
 158
 00:11:38,970 --> 00:11:43,824
- these kinds of things are mandatory in too in order to get this kind of stuff to work
+کارهای از این دست همچنین برای انجام این نوع کارها ضروری هستند
+these kinds of things are mandatory in too in order to get this kind of stuff to work
 
 159
 00:11:44,112 --> 00:11:47,216
- because you're talking about building what would be one application
+چون شما در مورد ایجاد چیزی صحبت می کنید که باید برنامه ای باشد
+because you're talking about building what would be one application
 
 160
 00:11:47,232 --> 00:11:49,664
- as a dozen or two dozen services
+شامل یک یا دو جین سرویس
+as a dozen or two dozen services
 
 161
 00:11:49,790 --> 00:11:53,712
+و داشتن روشی کاملا اتوماتیک برای انجام این کارها بسیار مهم است
 so it's very important you have a very automated way of getting these things going
 
 162
 00:11:53,920 --> 00:11:57,120
+همچنین ممکن بخواهید که قادر باشید تا جعبه های جدید را بگیرید و انها را سریع به چرخش در آورید
 you also want to be able to get new boxes and spin them up rapidly 
 
 163
 00:11:57,328 --> 00:12:00,800
- it also puts a lot of emphasis on monitoring as well 
+مایکروسرویس ها همچنین تاکید بسیار زیادی بر روی مانیتورینگ دارند
+it also puts a lot of emphasis on monitoring as well 
 
 164
 00:12:01,168 --> 00:12:03,360
+شما باید مانیتورینگ خوب و مناسبی داشته باشید
 you've got to have good monitoring 
 
 165
 00:12:03,400 --> 00:12:07,408
+در نتیجه وقتی که مواردی دچار اشکال می شوند براحتی می توانید متوجه این حقیقت که چیز اشتباهی رخ داده است شوید
 so that when things go wrong you can easily spot the fact that something's gone wrong
 
 166
 00:12:07,440 --> 00:12:09,728
+و می توانید از ابزارهای مانیتورینگ استفاده کنید تا به شما در اشکال زدایی آن کمک کند
 and you can use the monitoring tools to help you debug it
 
 167
 00:12:10,860 --> 00:12:15,680
+و البته نتیجه ی این کار این واقعیت است که بطور ضمنی سرویس ها را برای شکست طراحی کرده اید
 And that of course then leads into the notion that you have this explicit design for failure
 
 168
 00:12:16,096 --> 00:12:18,080
- if you're going to have remote services
+اگر تصمیم داشته باشید که سرویس های راه دور داشته باشید
+if you're going to have remote services
 
 169
 00:12:18,140 --> 00:12:22,464
+آنها ممکن است از کار بیافتند. بخصوص اینکه شما آنها را بین چندین نقطه توزیع می کنید
 they're going to fail. particularly as you distribute them across multiple nodes 
 
 170
 00:12:22,670 --> 00:12:25,875
+در نتیجه این بخش دیگری از این دلیل است که چرا مانیتورینگ بسیار مهم است
 so this is another part of the reason why monitoring is so important
 
 171
 00:12:26,000 --> 00:12:29,376
+و البته این شناخته شده ترین سطح است
 and of course it's most famous level
 
 172
 00:12:29,488 --> 00:12:31,840
- you have things like the chaos monkey
+شما مواردی شبیه Chaos Monkey دارید
+you have things like the chaos monkey
 
 173
 00:12:31,888 --> 00:12:37,424
- Netflix is one of the most well known microservice architectures
+نتفلیکس یکی از شناخته شده ترین معماری های مایکروسرویس است
+Netflix is one of the most well known microservice architectures
 
 174
 00:12:37,568 --> 00:12:43,024
- and they built a tool that goes around randomly destroying nodes
+و انها ابزاری ایجاد کردند که بصورت تصادفی نودها را از بین می برد
+and they built a tool that goes around randomly destroying nodes
 
 175
 00:12:43,130 --> 00:12:45,760
- and they use that in order to detect 
+و آنها از این ابزار برای تشخیص اینکه
+and they use that in order to detect 
 
 176
 00:12:45,820 --> 00:12:48,592
+قابلیت ارتجاعی و ترمیم کلی شبکه آنها به چه صورت است
 how resilient their overall network is
 
 177
 00:12:48,670 --> 00:12:53,150
+منظورم این است که، آنها را همیشه اجرا نمی کنم آنها در ساعات اداری وقتی که کسی باشه که مشکلات را رفع کند؛ اجرا می کنم
 I mean I don't run it all the time they run it during office hours when there's somebody there to fix things up
 
 178
 00:12:53,168 --> 00:12:56,816
- but the fact that you've got a tool that deliberately causes failure
+اما این واقعیت که شما ابزاری داشته باشید که عامدانه باعث ایجاد خرابی شود
+but the fact that you've got a tool that deliberately causes failure
 
 179
 00:12:56,992 --> 00:12:59,104
- in order to help make sure you're resilient
+برای کمک به اطمینان از انعطاف پذیری شما است
+in order to help make sure you're resilient
 
 180
 00:12:59,260 --> 00:13:04,125
- I think it encapsulate story well, the attitude that the micro service people have 
+من فکر می کنم این بخوبی داستان را پوشش می دهد؛ این گرایش را مایکروسرویسی ها این ابزارها را دارند
+I think it encapsulate story well, the attitude that the micro service people have 
 
 181
 00:13:04,470 --> 00:13:09,525
+و البته در هر نوع سیستم توزیع شده ای مجبور هستید که فرض کنید چیزها دچار نقض خواهند شد
 and of course this is essential in any kind of distributed system you have to assume things are going to break
 
 182
 00:13:11,400 --> 00:13:14,875
+خب اینها مجموعه ویژگی های مشترک نا بودند
 so that was our set of common characteristics
 
 183
 00:13:15,070 --> 00:13:19,000
- and I hope gives you a bit of a flavor for the kinds of things that people talk about
+و امیدوارم کمی درک و احساس در مورد چیزهای مختلفی که مردم در مورد آن صحبت می کنند به شما داده باشم
+and I hope gives you a bit of a flavor for the kinds of things that people talk about
 
 184
 00:13:19,225 --> 00:13:22,125
+اما اینها هنوز باعث بوجود آمدن تعدادی سوال می شود
 but it still raises a number of questions
 
 185
 00:13:22,225 --> 00:13:26,275
- of which one of the biggest things is is this really service-oriented architecture
+یکی از بزرگترین سوال ها این است که آیا مایکروسرویس ها واقعا معماری سرویس-گرا است؟
+of which one of the biggest things is is this really service-oriented architecture
 
 186
 00:13:26,350 --> 00:13:31,600
- is this just the same kind of stuff that we've been hearing about for a long time in the context of SOA 
-
+آیا مایکروسرویس ها فقط چیزی شبیه کارهایی است که برای مدت طولانی در کانتکستSOA شنیدیم
+is this just the same kind of stuff that we've been hearing about for a long time in the context of SOA 
 187
 00:13:32,670 --> 00:13:37,850
-but in order to answer that question 
-you have to say to yourself well what is SOA in the first place
+اما برای پاسخ دادن به این سوال باید در اولین گام از خود بپرسیم که SOA به چه معنی است؟
+but in order to answer that question you have to say to yourself well what is SOA in the first place
 
 188
 00:13:38,025 --> 00:13:40,900
- and that is really I think at the heart of the problem
+و بواقع فکر می کنم این در قلب مشکل است
+and that is really I think at the heart of the problem
 
 189
 00:13:41,200 --> 00:13:47,800
+چون شنیدم که SOA به روش های مختلف؛ از خیلی راه های متفاوت و ناسازگار توسط افراد مختلف تعریف شده
 because I've heard SOA defined in many different ways in many different incompatible ways by different people
 
 190
 00:13:48,075 --> 00:13:53,100
+برای برخی افراد؛ SOA دقیقا همان چیزی است که ما در موردش در دنیای مایکروسرویس ها صحبت کردیم
 for some people, SOA is exactly what we've been talking about in the microservice world
 
 191
 00:13:53,250 --> 00:13:56,350
- and that's why I met a number of people in the SOA community 
+و این دلیلی بود که ما تعدادی از افراد در جامعه ی SOA برخورد کردم
+and that's why I met a number of people in the SOA community 
 
 192
 00:13:56,400 --> 00:13:58,950
+یک التهاب و خشم واقعی در مایکرسرویسی ها
 a really ticked off at the micro service people
 
 193
 00:13:59,020 --> 00:14:05,925
- because their attitude is well we've been doing all of this and calling it SOA for years why do you invent this new term and bring it along
+چون نگرش آنها این است که ما همه اینها را انجام می دادیم و سالها به آن SOA می گفتیم؛ چرا شما این اصطلاح جدید را ابداع کردید و آنرا به همراه دارید
+because their attitude is well we've been doing all of this and calling it SOA for years why do you invent this new term and bring it along
 
 194
 00:14:05,950 --> 00:14:12,750
- what is are you just calling words because everybody knows of course 
-we become incredibly rich by coining terminology
+شما فقط کلمات را صدا می زنید؟ چون هر کسی می داند که با ایجاد اصطلاحات ما بطور شگفت انگیزی غنی می شویم
+what is are you just calling words because everybody knows of course we become incredibly rich by coining terminology
 
 195
 00:14:13,000 --> 00:14:14,125
- I wish
+امیدوارم
+I wish
 
 196
 00:14:16,050 --> 00:14:19,550
- but of course SOA means different things to different people
+اما طبیعتا SOA معانی متفاوتی برای افراد مختلف دارد
+but of course SOA means different things to different people
 
 197
 00:14:19,600 --> 00:14:22,200
- to many people in the micro services community
+برای خیلی از افراد در جامعه مایکروسرویس ها
+to many people in the micro services community
 
 198
 00:14:22,250 --> 00:14:28,300
+معماری های SOA دراطراف سازمان های بزرگ بوده و برای آنها SOA به معنی گذرگاه سرویس سازمانی است
 they've been around big enterprises and to them SOA means the enterprise service bus 
 
 199
 00:14:28,370 --> 00:14:35,025
- it means Committees of people who are there to
- lay down standards the health services supposed to connect to each other
+این به معنی است که جامعه ی افرادی که در SOA برای تنظیم استانداردها هستند  سرویس های سالم را فرض می کنند که به یکدیگر متصل هستند
+it means Committees of people who are there to lay down standards the health services supposed to connect to each other
 
 200
 00:14:35,250 --> 00:14:37,825
- it's a very different world indeed
+و این طبیعتا دنیای کاملا متفاوتی است
+it's a very different world indeed
 
 201
 00:14:38,100 --> 00:14:43,000
- so the way I tend to think of it is saying well SOA is this very broad term
+در نتیجه روشی که تمایل دارم در مورد آن فکر کنم می گوید که SOA یک اصطلاح بسیار بزرگ و گسترده است
+so the way I tend to think of it is saying well SOA is this very broad term
 
 202
 00:14:43,175 --> 00:14:46,325
+و مایکروسرویس ها زیر مجموعه ای از استفاده ی SOA است
 and micro-services is a subset of its usage
 
 203
 00:14:46,550 --> 00:14:49,250
- and the value of the term micro services
+و ارزش اصطلاح مایکروسرویس ها
+and the value of the term micro services
 
 204
 00:14:49,300 --> 00:14:54,750
- is it allows to put a label on a useful subset of the SOA terminology 
+این است که اجازه می دهد که بر روی زیر مجموعه ی مفیدی از واژه ی SOA برچسب بزنیم
+is it allows to put a label on a useful subset of the SOA terminology 
 
 205
 00:14:55,250 --> 00:14:58,525
+به نظر من عبارت SOA بسیار گسترده است
 in my view the SOA term is too broad
 
 206
 00:14:58,570 --> 00:15:02,000
+منظورم این است که SOA به معنی چیزهای متفاوتی است بخصوص چیزهای بی معنی
 I mean it means so many different things it's practically meaningless
 
 207
