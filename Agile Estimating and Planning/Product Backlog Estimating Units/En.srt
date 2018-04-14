@@ -1,0 +1,310 @@
+﻿1
+00:00:06,120 --> 00:00:09,980
+در این قسمت می‌خواهیم یک گام به موضوع «برنامه‌ریزی انتشار» نزدیکتر ‌شویم
+in this module we're going to move up a level to release planning
+
+2
+00:00:10,120 --> 00:00:12,980
+و نگاهی بیاندازیم به چگونگی تخمین زدن بکلاگ محصول
+and take a look at how we estimate the product backlog
+
+3
+00:00:13,300 --> 00:00:16,570
+به یاد داشته باشید که بکلاگ محصول، مخزن همه چیزهایی است که
+remember that the product backlog is a repository of everything
+
+4
+00:00:16,570 --> 00:00:20,360
+مالک محصول علاقه‌مند است تا در طول حیات پروژه ساخته شوند
+the product owner would like to have created over the life of the project
+
+5
+00:00:20,700 --> 00:00:24,560
+بیشتر تیم‌ها مایلند که اقلام بکلاگ محصول‌ را، به شکل داستان‌های کاربری بنویسند
+most teams tend to write their product backlog in the form of user stories
+
+6
+00:00:24,760 --> 00:00:29,820
+همانطور که می‌بینید، داستانهای کاربری، جملاتی کوتاه و ساده‌اند که از زبان کاربر بیان می‌شوند
+short simple statements told from the perspective of a user as I've shown here
+
+7
+00:00:29,880 --> 00:00:32,760
+در این ویدیو قصد داریم تا نگاهی بیاندازیم به دو واحد متفاوت که
+throughout this module we're going to look at two different units
+
+8
+00:00:32,820 --> 00:00:36,440
+عموم تیمهای چابک، برای تخمین اقلام بکلاگ از آنها استفاده می‌کنند
+that agile teams commonly use for estimating their product backlogs
+
+9
+00:00:36,920 --> 00:00:39,180
+امتیاز داستان و روزهای ایده‌آل
+story points and ideal days
+
+10
+00:00:40,300 --> 00:00:44,060
+ما به بحث درباره مزایای هر کدام خواهیم پرداخت و نهایتا در پایان این مجموعه ویدیوها
+we'll discuss the merits of each and by the end of this next set of videos
+
+11
+00:00:44,240 --> 00:00:46,720
+شما تصمیم می‌گیرید و یکی را ترجیح می‌دهید
+you'll have decided which unit you prefer
+
+12
+00:00:47,380 --> 00:00:50,560
+اگر هم یکی از واحدها را قبلا برگزیده‌اید، در پایان این قسمت
+if you already have a preference by the end of this module
+
+13
+00:00:50,580 --> 00:00:54,100
+استدلال‌های بیشتری در دفاع از انتخاب خودتان خواهید داشت
+you'll be prepared with additional arguments in favor of that preference
+
+14
+00:00:54,340 --> 00:00:58,300
+**این موضوع شبیه بحثی است که درباره مقایسه سیستم یکای انگلیسی و سیستم متریک وجود دارد
+think of it as a debate between the metric system and the English system
+
+15
+00:00:58,980 --> 00:01:03,120
+که برای اندازه گیری مسافت، از واحد مایل استفاده کنیم یا کیلومتر
+that is should we measure distance in kilometers or miles
+
+16
+00:01:03,460 --> 00:01:05,780
+این چیزی است که در این درس درباره آن تصمیم‌ می‌گیریم
+that's what we'll be deciding in this module
+
+17
+00:01:06,860 --> 00:01:08,840
+قبل از شروع
+before we really jump into things
+
+18
+00:01:09,000 --> 00:01:11,380
+از شما می‌خواهم که تمرین کوتاهی انجام دهید
+I want to ask you to do a short exercise
+
+19
+00:01:12,100 --> 00:01:14,600
+مایلم دو چیز را برای من تخمین بزنید
+I'd like you to estimate two things for me
+
+20
+00:01:14,700 --> 00:01:15,340
+نخست
+first
+
+21
+00:01:15,900 --> 00:01:18,860
+به من بگویید که خواندن آخرین جلد کتاب «هری‌پاتر» چقدر طول می‌کشد؟
+tell me how long it will take to read the final Harry Potter book
+
+22
+00:01:19,360 --> 00:01:21,300
+می‌توانید آن را در این قفسه ببینید
+you can see it here in this box to set
+
+23
+00:01:22,020 --> 00:01:27,940
+سپس تخمین بزنید که چقدر طول می‌کشد تا از مکان فعلی به مقصدی خیلی دورتر، رانندگی کنید
+next estimate how long it will take you to drive from where you are to someplace pretty far away
+
+24
+00:01:28,740 --> 00:01:31,340
+نمی دانم الان کجا هستید، پس نمی‌توانم مقصدی برای شما مشخص کنم
+since I don't know where you are I can't pick that place
+
+25
+00:01:31,960 --> 00:01:34,400
+خودتان مقصدی انتخاب کنید که آنقدر دور باشد
+pick a destination yourself that's pretty far
+
+26
+00:01:34,560 --> 00:01:36,920
+که احتمالا نشود با یک روز رانندگی به آنجا رسید
+probably not somewhere you can drive in a day
+
+27
+00:01:37,120 --> 00:01:38,960
+و جایی هم نباشد که مرتبا به آن رفت و آمد دارید
+and not somewhere you drive frequently
+
+28
+00:01:39,520 --> 00:01:41,340
+من که اینجا در دِنوِر کلرادو هستم
+I'm here in Denver Colorado right now
+
+29
+00:01:41,620 --> 00:01:43,560
+شاید مقصدی مانند دیترویت را انتخاب کنم
+I might pick some place like Detroit
+
+30
+00:01:44,040 --> 00:01:49,000
+حین انجام تمرین تقلب نکنید و در اینترنت، تعداد صفحات کتاب هری‌پاتر را جستجو نکنید
+as you do this don't cheat and look up on the internet how many pages the Harry Potter book is
+
+31
+00:01:49,340 --> 00:01:52,380
+یا دنبال این نگردید که فاصله شما تا مقصدتان، چند کیلومتر یا مایل است
+or how many miles or kilometers away your destination is
+
+32
+00:01:52,900 --> 00:01:55,080
+من برای دانستن این اعداد واقعا کنجکاو نیستم
+I'm not really interested in their real numbers
+
+33
+00:01:55,100 --> 00:01:58,100
+حتی نمی‌خواهم بپرسم که برآوردتان چیست
+and besides it's not like I'm going to ask you what your estimates are
+
+34
+00:01:58,480 --> 00:02:02,620
+اما از شما می‌خواهم که پخش این ویدیو را متوقف کنید و این دو کار را برآورد کنید
+but I do want you to pause this presentation and estimate these two things
+
+35
+00:02:03,100 --> 00:02:07,140
+هدف آموختن این نکته است که ما در دنیای واقعی، کارها را چگونه برآورد می‌کنیم
+the goal is to learn something about how we estimate real-world work
+
+36
+00:02:07,300 --> 00:02:10,460
+هدف ما این نیست که همین الان به برآوردی بی نقص برسیم
+our goal isn't to come up with perfect estimates right now
+
+37
+00:02:10,700 --> 00:02:17,120
+خب، الان ویدیو را متوقف کنید و بعد از اینکه مدت زمان رانندگی و همینطور زمان خواندن جلد هفتم هری‌پاتر را تخمین زدید، به تماشا ادامه دهید
+okay pause this video now and restart it once you've estimated drive and reading of the seventh Harry Potter book
+
+38
+00:02:19,840 --> 00:02:24,240
+بگذارید بعضی از روشهایی را حدس بزنم که احتمالا برای تخمین این دو فعالیت از آنها استفاده کرده‌اید
+let me guess at some of the ways you might have estimated these two activities
+
+39
+00:02:24,720 --> 00:02:29,000
+احتمالا این کار را کرده‌اید که موضوع تخمین را با موضوع دیگری سنجیده‌اید
+one thing you might have done is compared to the thing being estimated to some other thing
+
+40
+00:02:29,640 --> 00:02:32,700
+شاید به عنوان مثال به آخرین جلد کتاب هری پاتر نگاه کرده‌اید
+you might for example have looked at the last Harry Potter book
+
+41
+00:02:33,040 --> 00:02:36,600
+و با خودتان فکر کرده‌اید که مشابه این کتاب ضخیم و سبز رنگ است
+and thought it was similar to the previous book the thick green one here
+
+42
+00:02:36,880 --> 00:02:38,140
+فقط کمی بزرگتر است
+but a little longer
+
+43
+00:02:38,700 --> 00:02:41,980
+بعد سعی کرده‌اید تا به یاد آورید که خواندن جلد ششم هری‌پاتر چه مدت زمان برده
+so you tried to recall how long it took you to read the sixth book
+
+44
+00:02:42,280 --> 00:02:45,400
+و بعد به آن مدت زمان، کمی اضافه کرده‌اید تا به برآورد نهایی برسید
+and then increase that amount by a little to come up with your estimate
+
+45
+00:02:45,960 --> 00:02:50,380
+به این روش «تخمین قیاسی» گفته می‌شود که روش خوبی برای برآورد کردن به حساب می‌آید
+this is called estimation by analogy and it's a great way to estimate
+
+46
+00:02:50,480 --> 00:02:53,660
+تخمین قیاسی، تکنیک مهمی در تخمین زدن است
+estimating by analogy is an important technique
+
+47
+00:02:54,160 --> 00:02:58,180
+** و در مواقعی که بخواهیم یک روش خوب برآورد کردن داشته باشیم، به این تکنیک اعتماد می‌کنیم
+and when we're going to rely on here as we build up a good estimation approach
+
+48
+00:02:58,460 --> 00:03:03,080
+تکنیک دیگری که شاید برای تخمین مدت رانندگی و یا برای تخمین مدت خواندن کتاب بکار برده‌اید
+another technique you may have used in estimating either the driving or the reading
+
+49
+00:03:03,200 --> 00:03:07,680
+**این است که اول اندازه و بزرگی کار را تخمین بزنید و بعد، سرعت خودتان در انجام آن کار را تخمین بزنید
+is to first think about the size of the work estimate your pace through the work
+
+50
+00:03:07,880 --> 00:03:11,360
+سپس (بزرگی کار را به سرعت انجام) تقسیم کنید تا به تخمین نهایی برسید
+and then divide to come up with an estimate of the duration
+
+51
+00:03:11,720 --> 00:03:14,600
+ببینیم این روش در مورد کتاب هری‌پاتر چطور کار می‌کند
+let's see how this might have worked with Harry Potter
+
+52
+00:03:14,780 --> 00:03:17,880
+شاید پیش خودتان حدس زده باشید که این کتاب ۶۰۰ صفحه است
+perhaps you estimated the size of the book at six hundred pages
+
+53
+00:03:18,120 --> 00:03:21,900
+و تخمین زده‌اید که در هر دقیقه یک و نیم صفحه از کتاب را می‌خوانید
+you then estimated that you read say one page every minute and a half
+
+54
+00:03:22,160 --> 00:03:23,820
+به عبارت دیگر، ۴۰ صفحه در ساعت
+that means 40 pages per hour
+
+55
+00:03:24,040 --> 00:03:30,180
+۶۰۰ صفحه را بر ۴۰ صفحه در ساعت که تقسیم کنیم، برآورد ما این خواهد بود که (خواندن کتاب) ۱۵ ساعت طول می‌کشد
+dividing 600 pages by 40 pages per hour gives us an estimate of 15 hours
+
+56
+00:03:30,620 --> 00:03:32,320
+این یک روش عالی برای برآورد کردن است
+this is a great way to estimate
+
+57
+00:03:32,620 --> 00:03:34,660
+در مثال رانندگی هم، شاید از همین روش استفاده کرده باشید
+you may have done it for the driving example
+
+58
+00:03:34,720 --> 00:03:38,680
+به این ترتیب که ابتدا به فاصله تا مقصد فکر کرده‌اید
+by thinking about how many miles or kilometers away your destination was
+
+59
+00:03:38,760 --> 00:03:41,640
+و بعد آن را به سرعت تخمینی خودتان تقسیم کرده‌اید
+and then dividing that by an estimated speed per hour
+
+60
+00:03:42,020 --> 00:03:46,420
+تا اینجا با هم دیدیم که چگونه فعالیت‌های دنیای واقعی خودمان را تخمین می‌زنیم
+having seen how we estimate real-world activities like driving or reading
+
+61
+00:03:46,640 --> 00:03:47,880
+در ویدیوی بعدی
+in the next video
+
+62
+00:03:47,980 --> 00:03:54,750
+**آنچه را که تا اینجا آموختیم، به یکی از ارزشمندترین اصول برآورد چابک مرتبط می‌کنیم
+we will turn what we just learned into one of the most valuable principles of agile estimating
+
