@@ -10,7 +10,7 @@ and take a look at how we estimate the product backlog
 
 3
 00:00:13,300 --> 00:00:16,570
-به یاد داشته باشید که بکلاگ محصول، مخزن همه چیزهایی است که
+یادتان است که بکلاگ محصول، مخزن همه‌ی چیزهایی است که
 remember that the product backlog is a repository of everything
 
 4
@@ -20,17 +20,17 @@ the product owner would like to have created over the life of the project
 
 5
 00:00:20,700 --> 00:00:24,560
-بیشتر تیم‌ها مایلند که اقلام بکلاگ محصول‌ را، به شکل داستان‌های کاربری بنویسند
+اکثر تیم‌ها مایلند که بکلاگ محصول‌ را، به شکل داستان‌های کاربر بنویسند
 most teams tend to write their product backlog in the form of user stories
 
 6
 00:00:24,760 --> 00:00:29,820
-همانطور که می‌بینید، داستانهای کاربری، جملاتی کوتاه و ساده‌اند که از زبان کاربر بیان می‌شوند
+همانطور که می‌بینید، داستانهای کاربر، جملاتی کوتاه و ساده‌اند که از منظر کاربر بیان می‌شوند
 short simple statements told from the perspective of a user as I've shown here
 
 7
 00:00:29,880 --> 00:00:32,760
-در این ویدیو قصد داریم تا نگاهی بیاندازیم به دو واحد متفاوت که
+در این بخش می‌خواهیم نگاهی کنیم به دو واحد متفاوت که
 throughout this module we're going to look at two different units
 
 8
@@ -55,7 +55,7 @@ you'll have decided which unit you prefer
 
 12
 00:00:47,380 --> 00:00:50,560
-اگر هم یکی از واحدها را قبلا برگزیده‌اید، در پایان این قسمت
+اگر هم یکی (از واحدها) را قبلا برگزیده‌اید، در پایان این بخش
 if you already have a preference by the end of this module
 
 13
