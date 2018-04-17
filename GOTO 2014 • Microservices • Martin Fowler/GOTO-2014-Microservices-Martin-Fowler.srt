@@ -4,11 +4,11 @@ so microservices have been talked about a lot over the last year
 
 2
 00:00:17,850 --> 00:00:22,720
-also I see a huge amount of stuff on Twitter and the like talking about this topic
+ also I see a huge amount of stuff on Twitter and the like talking about this topic
 
 3
 00:00:23,230 --> 00:00:26,976
-it's something I've been hearing about for a good bit for a little bit longer
+ it's something I've been hearing about for a good bit for a little bit longer
 
 4
 00:00:27,120 --> 00:00:31,888
@@ -24,10 +24,10 @@ what what do people really mean when they talk about microservices
 
 7
 00:00:42,970 --> 00:00:46,608
-and also you know when should we consider using this technique
+and also you know when should we consider using this technique 
 
 8
-00:00:46,620 --> 00:00:51,740
+00:00:46,650 --> 00:00:51,744
 is it new or not. Do we use it? do we not use it? And what not it is in the first place
 
 9
@@ -36,7 +36,7 @@ I mean the basic idea is fairly straightforward
 
 10
 00:00:55,776 --> 00:01:01,136
-you contrast it with what's considered to be a traditional monolithic application
+ you contrast it with what's considered to be a traditional monolithic application
 
 11
 00:01:01,480 --> 00:01:05,968
@@ -56,7 +56,7 @@ typically running in a single process
 
 15
 00:01:13,648 --> 00:01:16,560
-and you think of it as one thing
+ and you think of it as one thing
 
 16
 00:01:17,184 --> 00:01:18,704
@@ -64,11 +64,11 @@ the microservice approach
 
 17
 00:01:19,000 --> 00:01:24,816
-and its crew disciplines is trying to take each of these capabilities and put them into separate processes
+ and its crew disciplines is trying to take each of these capabilities and put them into separate processes
 
 18
 00:01:25,152 --> 00:01:30,448
-and instead of having one process have this network of communicating processes
+ and instead of having one process have this network of communicating processes 
 
 19
 00:01:30,680 --> 00:01:34,304
@@ -84,23 +84,23 @@ put together in a pipeline to do so
 
 22
 00:01:43,392 --> 00:01:46,208
-it also has a consequence for distribution
+ it also has a consequence for distribution
 
 23
 00:01:46,380 --> 00:01:54,176
-if you've got a monolith, you scale-up by effectively cookie cutter in the monolith and putting it on multiple machines
+ if you've got a monolith, you scale by effectively cookie cutter in the monolith and putting it on multiple machines 
 
 24
 00:01:54,384 --> 00:01:58,384
-while we're microservices you've got more of a flexible approach because you can
+ while we're microservices you've got more of a flexible approach because you can
 
 25
 00:01:58,544 --> 00:02:00,784
-put different services on different machines
+put different services on different machines 
 
 26
 00:02:00,830 --> 00:02:05,424
-so that if some services get more load than others they can have more copies of them made
+ so that if some services get more load than others they can have more copies of them made
 
 27
 00:02:05,792 --> 00:02:08,336
@@ -116,7 +116,7 @@ I mean how does this vary from everything I've been hearing people Yammer on abo
 
 30
 00:02:21,310 --> 00:02:26,944
-but the trouble is with something like a topic like micro services it's very hard to come up with any kind of firm definition
+ but the trouble is with something like a topic like micro services it's very hard to come up with any kind of firm definition
 
 31
 00:02:27,240 --> 00:02:33,584
@@ -132,7 +132,7 @@ well you know there are plenty out there you can choose from quite a wide range
 
 34
 00:02:45,720 --> 00:02:51,175
-what I think is better to think about is instead of thinking about a definition to talk about common characteristics
+ what I think is better to think about is instead of thinking about a definition to talk about common characteristics
 
 35
 00:02:51,590 --> 00:02:54,784
@@ -148,7 +148,7 @@ and you look for the common things that most of them are doing
 
 38
 00:03:02,220 --> 00:03:07,900
-your test is that most people who say they're doing micro-services should be doing most of these things
+ your test is that most people who say they're doing micro-services should be doing most of these things
 
 39
 00:03:09,180 --> 00:03:14,592
@@ -156,11 +156,11 @@ and I got together with one of my colleagues who's one of these guys has done a 
 
 40
 00:03:14,688 --> 00:03:19,616
-and we came up with an article that we published earlier this year
+ and we came up with an article that we published earlier this year 
 
 41
 00:03:19,720 --> 00:03:27,488
-those of you at the back are going to struggle with all that everything on the slides that's at the bottom because of the way the things laid out but it's out there
+ those of you at the back are going to struggle with all that everything on the slides that's at the bottom because of the way the things laid out but it's out there 
 
 42
 00:03:27,600 --> 00:03:32,624
@@ -168,7 +168,7 @@ and I'm just going to summarize some of these these were the nine common charact
 
 43
 00:03:32,752 --> 00:03:36,010
-that we came up with in writing that article.
+ that we came up with in writing that article.
 
 44
 00:03:36,240 --> 00:03:39,344
@@ -180,7 +180,7 @@ but I will highlight some that I think are particularly interesting
 
 46
 00:03:44,272 --> 00:03:48,656
-so the first thing is this notion of componentization via services
+so the first thing is this notion of componentization via services 
 
 47
 00:03:49,040 --> 00:03:53,264
@@ -204,7 +204,7 @@ I remember a one point object being substituted for components and then
 
 52
 00:04:12,250 --> 00:04:15,875
-components came back to objects again and it all got very confusing
+ components came back to objects again and it all got very confusing
 
 53
 00:04:16,624 --> 00:04:21,136
@@ -224,7 +224,7 @@ you know you have an amplifier you have speakers you have a CD play have a tape 
 
 57
 00:04:31,824 --> 00:04:35,070
-you can replace any of these items independently
+ you can replace any of these items independently 
 
 58
 00:04:35,904 --> 00:04:37,744
@@ -232,7 +232,7 @@ that's a crucial thing
 
 59
 00:04:37,824 --> 00:04:41,312
-and indeed you can upgrade any of these items independently
+ and indeed you can upgrade any of these items independently
 
 60
 00:04:41,520 --> 00:04:46,400
@@ -240,11 +240,11 @@ so if I want to get an improved amplifier I don't have to change everything else
 
 61
 00:04:46,416 --> 00:04:48,688
-that's a goal of what we're aiming for
+ that's a goal of what we're aiming for
 
 62
 00:04:48,990 --> 00:04:53,744
-a component is something that's independently replaceable independently upgradable
+ a component is something that's independently replaceable independently upgradable
 
 63
 00:04:55,648 --> 00:04:57,584
@@ -252,11 +252,11 @@ so in terms of software
 
 64
 00:04:58,032 --> 00:05:01,072
-and we see components to becoming two forms
+ and we see components to becoming two forms
 
 65
 00:05:01,400 --> 00:05:07,024
-we obtain libraries that we use from third parties and we make them part of our process
+we obtain libraries that we use from third parties and we make them part of our process 
 
 66
 00:05:07,640 --> 00:05:11,568
@@ -264,7 +264,7 @@ and to some extent we have then the choice of when do we want to upgrade that
 
 67
 00:05:11,600 --> 00:05:14,975
-do we want to get a new version of our XML processing library
+ do we want to get a new version of our XML processing library
 
 68
 00:05:15,136 --> 00:05:17,216
@@ -276,19 +276,19 @@ and hopefully the upgrade isn't going to affect the rest of our application too 
 
 70
 00:05:21,584 --> 00:05:24,160
-depending upon how the dependencies are all laid out
+ depending upon how the dependencies are all laid out
 
 71
 00:05:25,000 --> 00:05:30,144
-A service is a different kind of component where it's running in its own process
+A service is a different kind of component where it's running in its own process 
 
 72
 00:05:30,416 --> 00:05:33,520
-and while with a library we talk using the language
+ and while with a library we talk using the language
 
 73
 00:05:33,610 --> 00:05:37,296
-communication facilities that we have built into whatever language we're using
+ communication facilities that we have built into whatever language we're using
 
 74
 00:05:37,392 --> 00:05:41,232
@@ -296,7 +296,7 @@ with a service we're typically using inter process communication facilities
 
 75
 00:05:41,400 --> 00:05:45,776
-such as web service calls or messaging or something of that kind
+ such as web service calls or messaging or something of that kind 
 
 76
 00:05:46,620 --> 00:05:52,144
@@ -304,7 +304,7 @@ and the services give us some useful advantages even when it tends to replace ab
 
 77
 00:05:52,368 --> 00:05:56,640
-if I've got a monolith with components that are libraries
+ if I've got a monolith with components that are libraries
 
 78
 00:05:56,880 --> 00:06:01,872
@@ -316,7 +316,7 @@ but it only works on Java 8
 
 80
 00:06:04,112 --> 00:06:09,680
-and I've got another component in my monolith that doesn't work with Java 8 and can only work with Java 7
+and I've got another component in my monolith that doesn't work with Java 8 and can only work with Java 7 
 
 81
 00:06:09,776 --> 00:06:11,504
@@ -324,11 +324,11 @@ what do I do I'm stuck
 
 82
 00:06:12,250 --> 00:06:17,200
-but on the other hand with if they were separate services they would be running in completely different runtimes
+ but on the other hand with if they were separate services they would be running in completely different runtimes 
 
 83
 00:06:17,264 --> 00:06:20,048
-and they could operate they could be upgraded more independently
+ and they could operate they could be upgraded more independently
 
 84
 00:06:20,672 --> 00:06:22,480
@@ -336,48 +336,48 @@ now there's a cost of course with that
 
 85
 00:06:22,640 --> 00:06:27,008
-but that's part of the notion of how it ties into the independent upgrade ability
+ but that's part of the notion of how it ties into the independent upgrade ability
 
 86
 00:06:29,104 --> 00:06:30,512
-so for the next one
+ so for the next one 
 
 87
 00:06:30,650 --> 00:06:38,112
-organization in around business capabilities is another important theme in the micro services view of the world
+organization in around business capabilities is another important theme in the micro services view of the world 
 
 88
 00:06:38,416 --> 00:06:42,464
-so a lot of lot even development organizations
+ so a lot of lot even development organizations
 
 89
 00:06:42,560 --> 00:06:44,768
-organize themselves around technology
+ organize themselves around technology
 
 90
 00:06:45,136 --> 00:06:50,718
-I mean you'll see this in a lot of big companies I'll have their D bas and their database group
+ I mean you'll see this in a lot of big companies I'll have their D bas and their database group
 
 91
 00:06:50,750 --> 00:06:54,288
-that might have a completely different group of people on the UI it's focused around technology
+ that might have a completely different group of people on the UI it's focused around technology
 
 92
 00:06:54,608 --> 00:07:01,232
-the key thing with the micro services view of the world is
-that we should instead organize around business capabilities
+ the key thing with the micro services view of the world is
+ that we should instead organize around business capabilities 
 
 93
 00:07:01,632 --> 00:07:06,368
-and that each team should have some elements right the way through
+ and that each team should have some elements right the way through 
 
 94
 00:07:06,464 --> 00:07:11,008
-and ideally focusing directly on the end users themselves
+ and ideally focusing directly on the end users themselves
 
 95
 00:07:11,248 --> 00:07:14,640
-there's an interesting example of this from Amazon which is a
+ there's an interesting example of this from Amazon which is a 
 
 96
 00:07:14,656 --> 00:07:17,888
@@ -385,7 +385,7 @@ common certainly inspiration for the micro services community
 
 97
 00:07:18,090 --> 00:07:23,168
-where when they divided everybody knows Amazon divided themselves up into two pizza teams
+ where when they divided everybody knows Amazon divided themselves up into two pizza teams
 
 98
 00:07:23,300 --> 00:07:24,752
@@ -393,28 +393,28 @@ and that's talked about a lot
 
 99
 00:07:24,896 --> 00:07:28,016
-but what's talked about a lot less often is the fact that each team
+ but what's talked about a lot less often is the fact that each team
 
 100
 00:07:28,080 --> 00:07:32,608
-was responsible for the communication right way through to the end user experience
+ was responsible for the communication right way through to the end user experience
 
 101
 00:07:32,704 --> 00:07:37,424
-and the idea that that should connect right the way through to the people at the end
+ and the idea that that should connect right the way through to the people at the end 
 
 102
 00:07:37,480 --> 00:07:45,216
 and they should be judged on how does this affect business outcomes
-right the way through is a very important part of that thinking
+ right the way through is a very important part of that thinking
 
 103
 00:07:45,340 --> 00:07:51,072
-so we have this notion of divide yourself up around some kind of business organization
+ so we have this notion of divide yourself up around some kind of business organization
 
 104
 00:07:51,168 --> 00:07:53,712
-and make that as full stack as possible
+ and make that as full stack as possible 
 
 105
 00:07:58,090 --> 00:08:03,328
@@ -426,20 +426,20 @@ one of the biggest shifts is this shift about let's have smart endpoints and dum
 
 107
 00:08:11,088 --> 00:08:14,160
-when a lot of people talk about service-oriented architecture
+ when a lot of people talk about service-oriented architecture
 
 108
 00:08:14,700 --> 00:08:18,675
-they talk about the idea of let's get some powerful piece of middle-ware
+ they talk about the idea of let's get some powerful piece of middle-ware
 
 109
 00:08:18,700 --> 00:08:24,944
-that will automatically do all sorts of stuff it'll route messages it will apply business rules
+that will automatically do all sorts of stuff it'll route messages it will apply business rules 
 it does all sorts of things
 
 110
 00:08:25,120 --> 00:08:29,504
-this of course is the the ESB
+ this of course is the the ESB 
 the Enterprise Service bus
 
 111
@@ -452,11 +452,11 @@ the micro-service community very much regret reject this notion
 
 113
 00:08:40,780 --> 00:08:45,400
-and says the smarts instead should move to the endpoints themselves
+ and says the smarts instead should move to the endpoints themselves
 
 114
 00:08:45,792 --> 00:08:48,736
-what we want is everything to connect together
+ what we want is everything to connect together
 
 115
 00:08:49,040 --> 00:08:52,640
@@ -464,7 +464,7 @@ and to be able to easily route messages or communications between them
 
 116
 00:08:52,784 --> 00:08:56,128
-but it should be up to the endpoints where all that smartness goes
+ but it should be up to the endpoints where all that smartness goes 
 
 117
 00:08:56,368 --> 00:08:57,792
@@ -472,11 +472,11 @@ any business logic
 
 118
 00:08:57,872 --> 00:08:59,264
-any routing stuff
+ any routing stuff
 
 119
 00:08:59,344 --> 00:09:03,472
-all of this should be based on the endpoints just give us a good efficient piping mechanism
+ all of this should be based on the endpoints just give us a good efficient piping mechanism 
 
 120
 00:09:03,616 --> 00:09:06,752
@@ -484,15 +484,15 @@ and the inspiration in many ways is of course the Internet itself
 
 121
 00:09:06,840 --> 00:09:08,208
-which works very well
+ which works very well
 
 122
 00:09:08,200 --> 00:09:14,144
-because of the fact that it needs a relatively dumb set of pipes and puts all the intelligence onto the endpoints
+because of the fact that it needs a relatively dumb set of pipes and puts all the intelligence onto the endpoints 
 
 123
 00:09:20,288 --> 00:09:22,720
-another thing that also brings out this
+another thing that also brings out this 
 
 124
 00:09:22,820 --> 00:09:28,080
@@ -504,23 +504,23 @@ decentralization in terms of the overall way in which a service landscape is gov
 
 126
 00:09:33,600 --> 00:09:37,648
-and in particularly decentralization in terms of data management
+ and in particularly decentralization in terms of data management
 
 127
 00:09:38,352 --> 00:09:41,680
-so again if we think of the the monolithic world
+ so again if we think of the the monolithic world
 
 128
 00:09:41,800 --> 00:09:47,040
-we think of the fact that generally all of the data is sitting in one honking big relational database
+ we think of the fact that generally all of the data is sitting in one honking big relational database
 
 129
 00:09:47,280 --> 00:09:50,144
-all right and it's often can be to write across a company
+ all right and it's often can be to write across a company
 
 130
 00:09:50,240 --> 00:09:53,680
-you know our company's standard is Oracle or our company's standard is db2
+ you know our company's standard is Oracle or our company's standard is db2
 
 131
 00:09:53,760 --> 00:09:55,664
@@ -528,15 +528,15 @@ everything goes inside box
 
 132
 00:09:55,856 --> 00:09:58,336
-and even a lot of service-oriented architectures
+ and even a lot of service-oriented architectures
 
 133
 00:09:58,410 --> 00:10:04,784
-it's really a lot about multiple services or pulling data in and out of one logically large database
+ it's really a lot about multiple services or pulling data in and out of one logically large database
 
 134
 00:10:05,456 --> 00:10:09,184
-the micro service appoint point of view is to say now
+ the micro service appoint point of view is to say now
 
 135
 00:10:09,200 --> 00:10:13,664
@@ -548,7 +548,7 @@ again this is another thing that is inspired by the Amazon experience
 
 137
 00:10:17,610 --> 00:10:21,968
-Amazon made that one of their rules when they shifted to a service-oriented approach
+ Amazon made that one of their rules when they shifted to a service-oriented approach 
 
 138
 00:10:22,000 --> 00:10:25,630
@@ -556,7 +556,7 @@ and said you may never talk to another services data store
 
 139
 00:10:25,936 --> 00:10:29,060
-you can only talk to another service through its API
+ you can only talk to another service through its API 
 
 140
 00:10:29,392 --> 00:10:33,584
@@ -564,15 +564,15 @@ and that's the rule that the micro service people push as well
 
 141
 00:10:33,888 --> 00:10:36,496
-now this is a couple advantages
+ now this is a couple advantages
 
 142
 00:10:36,570 --> 00:10:41,120
-first it removes this horrible mess of integrating through a database
+ first it removes this horrible mess of integrating through a database 
 
 143
 00:10:41,230 --> 00:10:45,680
-which causes no end of problems in enterprises all over the place
+ which causes no end of problems in enterprises all over the place
 
 144
 00:10:46,096 --> 00:10:48,864
@@ -580,11 +580,11 @@ the second thing it does it frees up individual services
 
 145
 00:10:48,880 --> 00:10:50,944
-to use a datastore that make sense to them
+ to use a datastore that make sense to them
 
 146
 00:10:51,440 --> 00:10:55,056
-some services a relational database will make sense
+ some services a relational database will make sense
 
 147
 00:10:55,152 --> 00:10:59,152
@@ -592,15 +592,15 @@ others would want to use one of these hot new NoSQL fancy things
 
 148
 00:10:59,264 --> 00:11:01,184
-and in which case they use it for that
+ and in which case they use it for that 
 
 149
 00:11:01,260 --> 00:11:04,544
-but the idea is yours choice of data persistence
+but the idea is yours choice of data persistence 
 
 150
 00:11:04,576 --> 00:11:07,776
-should be entirely up to the individual service themselves
+ should be entirely up to the individual service themselves 
 
 151
 00:11:09,640 --> 00:11:13,360
@@ -608,23 +608,23 @@ and that's part of this general notion as I said of decentralization
 
 152
 00:11:13,632 --> 00:11:16,816
-it also goes to the point of things like languages and tools
+ it also goes to the point of things like languages and tools
 
 153
 00:11:16,880 --> 00:11:20,512
-should again be individually chosen by different service groups
+ should again be individually chosen by different service groups
 
 154
 00:11:22,940 --> 00:11:27,232
-to make all of this work it's really important to have infrastructure automation
+ to make all of this work it's really important to have infrastructure automation
 
 155
 00:11:28,304 --> 00:11:32,160
-so a lot of things such as continuous delivery
+ so a lot of things such as continuous delivery 
 
 156
 00:11:32,544 --> 00:11:35,760
-techniques like Blue Green deployment that allow you to
+techniques like Blue Green deployment that allow you to 
 
 157
 00:11:35,856 --> 00:11:38,784
@@ -632,15 +632,15 @@ put stuff to live with zero downtime
 
 158
 00:11:38,970 --> 00:11:43,824
-these kinds of things are mandatory in too in order to get this kind of stuff to work
+ these kinds of things are mandatory in too in order to get this kind of stuff to work
 
 159
 00:11:44,112 --> 00:11:47,216
-because you're talking about building what would be one application
+ because you're talking about building what would be one application
 
 160
 00:11:47,232 --> 00:11:49,664
-as a dozen or two dozen services
+ as a dozen or two dozen services
 
 161
 00:11:49,790 --> 00:11:53,712
@@ -648,15 +648,15 @@ so it's very important you have a very automated way of getting these things goi
 
 162
 00:11:53,920 --> 00:11:57,120
-you also want to be able to get new boxes and spin them up rapidly
+you also want to be able to get new boxes and spin them up rapidly 
 
 163
 00:11:57,328 --> 00:12:00,800
-it also puts a lot of emphasis on monitoring as well
+ it also puts a lot of emphasis on monitoring as well 
 
 164
 00:12:01,168 --> 00:12:03,360
-you've got to have good monitoring
+you've got to have good monitoring 
 
 165
 00:12:03,400 --> 00:12:07,408
@@ -672,11 +672,11 @@ And that of course then leads into the notion that you have this explicit design
 
 168
 00:12:16,096 --> 00:12:18,080
-if you're going to have remote services
+ if you're going to have remote services
 
 169
 00:12:18,140 --> 00:12:22,464
-they're going to fail. particularly as you distribute them across multiple nodes
+they're going to fail. particularly as you distribute them across multiple nodes 
 
 170
 00:12:22,670 --> 00:12:25,875
@@ -688,19 +688,19 @@ and of course it's most famous level
 
 172
 00:12:29,488 --> 00:12:31,840
-you have things like the chaos monkey
+ you have things like the chaos monkey
 
 173
 00:12:31,888 --> 00:12:37,424
-Netflix is one of the most well known microservice architectures
+ Netflix is one of the most well known microservice architectures
 
 174
 00:12:37,568 --> 00:12:43,024
-and they built a tool that goes around randomly destroying nodes
+ and they built a tool that goes around randomly destroying nodes
 
 175
 00:12:43,130 --> 00:12:45,760
-and they use that in order to detect
+ and they use that in order to detect 
 
 176
 00:12:45,820 --> 00:12:48,592
@@ -712,15 +712,15 @@ I mean I don't run it all the time they run it during office hours when there's 
 
 178
 00:12:53,168 --> 00:12:56,816
-but the fact that you've got a tool that deliberately causes failure
+ but the fact that you've got a tool that deliberately causes failure
 
 179
 00:12:56,992 --> 00:12:59,104
-in order to help make sure you're resilient
+ in order to help make sure you're resilient
 
 180
 00:12:59,260 --> 00:13:04,125
-I think it encapsulate story well, the attitude that the micro service people have
+ I think it encapsulate story well, the attitude that the micro service people have 
 
 181
 00:13:04,470 --> 00:13:09,525
@@ -732,7 +732,7 @@ so that was our set of common characteristics
 
 183
 00:13:15,070 --> 00:13:19,000
-and I hope gives you a bit of a flavor for the kinds of things that people talk about
+ and I hope gives you a bit of a flavor for the kinds of things that people talk about
 
 184
 00:13:19,225 --> 00:13:22,125
@@ -740,20 +740,20 @@ but it still raises a number of questions
 
 185
 00:13:22,225 --> 00:13:26,275
-of which one of the biggest things is is this really service-oriented architecture
+ of which one of the biggest things is is this really service-oriented architecture
 
 186
 00:13:26,350 --> 00:13:31,600
-is this just the same kind of stuff that we've been hearing about for a long time in the context of SOA
+ is this just the same kind of stuff that we've been hearing about for a long time in the context of SOA 
 
 187
 00:13:32,670 --> 00:13:37,850
-but in order to answer that question
+but in order to answer that question 
 you have to say to yourself well what is SOA in the first place
 
 188
 00:13:38,025 --> 00:13:40,900
-and that is really I think at the heart of the problem
+ and that is really I think at the heart of the problem
 
 189
 00:13:41,200 --> 00:13:47,800
@@ -765,7 +765,7 @@ for some people, SOA is exactly what we've been talking about in the microservic
 
 191
 00:13:53,250 --> 00:13:56,350
-and that's why I met a number of people in the SOA community
+ and that's why I met a number of people in the SOA community 
 
 192
 00:13:56,400 --> 00:13:58,950
@@ -773,41 +773,41 @@ a really ticked off at the micro service people
 
 193
 00:13:59,020 --> 00:14:05,925
-because their attitude is well we've been doing all of this and calling it SOA for years why do you invent this new term and bring it along
+ because their attitude is well we've been doing all of this and calling it SOA for years why do you invent this new term and bring it along
 
 194
 00:14:05,950 --> 00:14:12,750
-what is are you just calling words because everybody knows of course
+ what is are you just calling words because everybody knows of course 
 we become incredibly rich by coining terminology
 
 195
 00:14:13,000 --> 00:14:14,125
-I wish
+ I wish
 
 196
 00:14:16,050 --> 00:14:19,550
-but of course SOA means different things to different people
+ but of course SOA means different things to different people
 
 197
 00:14:19,600 --> 00:14:22,200
-to many people in the micro services community
+ to many people in the micro services community
 
 198
 00:14:22,250 --> 00:14:28,300
-they've been around big enterprises and to them SOA means the enterprise service bus
+they've been around big enterprises and to them SOA means the enterprise service bus 
 
 199
 00:14:28,370 --> 00:14:35,025
-it means Committees of people who are there to
-lay down standards the health services supposed to connect to each other
+ it means Committees of people who are there to
+ lay down standards the health services supposed to connect to each other
 
 200
 00:14:35,250 --> 00:14:37,825
-it's a very different world indeed
+ it's a very different world indeed
 
 201
 00:14:38,100 --> 00:14:43,000
-so the way I tend to think of it is saying well SOA is this very broad term
+ so the way I tend to think of it is saying well SOA is this very broad term
 
 202
 00:14:43,175 --> 00:14:46,325
@@ -815,11 +815,11 @@ and micro-services is a subset of its usage
 
 203
 00:14:46,550 --> 00:14:49,250
-and the value of the term micro services
+ and the value of the term micro services
 
 204
 00:14:49,300 --> 00:14:54,750
-is it allows to put a label on a useful subset of the SOA terminology
+ is it allows to put a label on a useful subset of the SOA terminology 
 
 205
 00:14:55,250 --> 00:14:58,525
@@ -831,7 +831,7 @@ I mean it means so many different things it's practically meaningless
 
 207
 00:15:02,420 --> 00:15:08,850
-but the value of micro services is it carves out a cut and consistent space within that
+ but the value of micro services is it carves out a cut and consistent space within that 
 
 208
 00:15:09,020 --> 00:15:11,150
@@ -839,7 +839,7 @@ but he is perfectly fair to say
 
 209
 00:15:11,200 --> 00:15:17,375
-that the micro service approach has been done by people under the name of SOA for at least a decade if not more
+ that the micro service approach has been done by people under the name of SOA for at least a decade if not more 
 
 210
 00:15:17,525 --> 00:15:19,725
@@ -847,7 +847,7 @@ so it's not a new technique at all
 
 211
 00:15:19,870 --> 00:15:25,700
-And it's perfectly reasonable that people are annoyed about it when they say Oh micro services are nothing new
+And it's perfectly reasonable that people are annoyed about it when they say Oh micro services are nothing new 
 
 212
 00:15:25,850 --> 00:15:27,700
@@ -863,11 +863,11 @@ And I like to stress I didn't come up with this term right I would have come up 
 
 215
 00:15:40,250 --> 00:15:45,350
-but one of the things about micro-services as a term is that has this implication of size
+ but one of the things about micro-services as a term is that has this implication of size
 
 216
 00:15:45,825 --> 00:15:50,800
-and of course as soon as you say micro is that well how big is a micro service
+ and of course as soon as you say micro is that well how big is a micro service
 
 217
 00:15:50,920 --> 00:15:55,975
@@ -879,19 +879,19 @@ they always say well you know it should be one responsibility
 
 219
 00:16:00,400 --> 00:16:07,675
-that's a kind of bogus thing to say right I can imagine payroll being one responsibility and I know that's a pretty big system
+ that's a kind of bogus thing to say right I can imagine payroll being one responsibility and I know that's a pretty big system
 
 220
 00:16:07,825 --> 00:16:13,575
-right I mean it's all size I mean it's very responsibilities are very flexible right
+ right I mean it's all size I mean it's very responsibilities are very flexible right 
 
 221
 00:16:13,900 --> 00:16:20,650
-james lewis has this statement he says mirco services have got to be small enough to fit in my head
+ james lewis has this statement he says mirco services have got to be small enough to fit in my head
 
 222
 00:16:20,720 --> 00:16:25,575
-now James has config rate deal in his head, as it turns out
+ now James has config rate deal in his head, as it turns out
 
 223
 00:16:25,600 --> 00:16:31,350
@@ -903,7 +903,7 @@ that's his test for it but that's still a bit vague
 
 225
 00:16:35,100 --> 00:16:39,250
-I started asking around people trying to get a sense of size
+ I started asking around people trying to get a sense of size
 
 226
 00:16:39,425 --> 00:16:41,900
@@ -911,23 +911,23 @@ people were extremely reluctant in many ways
 
 227
 00:16:42,000 --> 00:16:44,350
-But the way I was able to get some figure by saying well
+But the way I was able to get some figure by saying well 
 
 228
 00:16:44,425 --> 00:16:48,500
-how many people per service in your application
+how many people per service in your application 
 
 229
 00:16:48,850 --> 00:16:51,375
-and I got a lot of different answers
+ and I got a lot of different answers
 
 230
 00:16:51,800 --> 00:16:54,025
-and as you can see there's quite a spread here
+ and as you can see there's quite a spread here
 
 231
 00:16:54,475 --> 00:16:58,300
-Now 15 people 10 services
+ Now 15 people 10 services 
 
 232
 00:16:58,425 --> 00:17:00,775
@@ -935,11 +935,11 @@ four people 200 services
 
 233
 00:17:00,850 --> 00:17:03,975
-there's quite a range of different sizes
+ there's quite a range of different sizes
 
 234
 00:17:04,225 --> 00:17:11,300
-it's certainly true that pretty where everywhere, come across the notion of the two pizza team
+ it's certainly true that pretty where everywhere, come across the notion of the two pizza team
 
 235
 00:17:11,570 --> 00:17:15,050
@@ -947,15 +947,15 @@ from Amazon is fairly well regarded
 
 236
 00:17:15,150 --> 00:17:19,350
-the sense that you should never have a team that's bigger than you could feed with two pizzas
+the sense that you should never have a team that's bigger than you could feed with two pizzas 
 
 237
 00:17:19,670 --> 00:17:25,900
-I should say of course this is two American pizzas and you can feed a hell of a lot of people with two American pizzas
+ I should say of course this is two American pizzas and you can feed a hell of a lot of people with two American pizzas
 
 238
 00:17:26,800 --> 00:17:29,275
-but I think the notion is still there
+ but I think the notion is still there
 
 239
 00:17:30,000 --> 00:17:32,800
@@ -963,19 +963,19 @@ but within there's still a lot of variability
 
 240
 00:17:34,750 --> 00:17:39,400
-so that's the best I can do when it comes to defining micro-services for you
+ so that's the best I can do when it comes to defining micro-services for you
 
 241
 00:17:39,500 --> 00:17:41,625
-it's still I'm afraid pretty fuzzy
+ it's still I'm afraid pretty fuzzy
 
 242
 00:17:41,800 --> 00:17:43,850
-but you know that's the way things go
+ but you know that's the way things go
 
 243
 00:17:44,025 --> 00:17:48,400
-I think however it is it does carve out a reasonable class of systems
+ I think however it is it does carve out a reasonable class of systems 
 
 244
 00:17:48,800 --> 00:17:51,525
@@ -983,27 +983,27 @@ the next question of course is when you should use it
 
 245
 00:17:51,575 --> 00:17:55,250
-what are the advantages of micro-services compared to monoliths
+ what are the advantages of micro-services compared to monoliths
 
 246
 00:17:59,620 --> 00:18:06,275
-now one big advantage of a monolith is it a relatively simple and familiar approach to use
+ now one big advantage of a monolith is it a relatively simple and familiar approach to use
 
 247
 00:18:06,850 --> 00:18:09,000
-and this is not to be underestimated
+ and this is not to be underestimated
 
 248
 00:18:09,450 --> 00:18:13,275
-I mean I've already started hearing and trickling in stories of projects that
+ I mean I've already started hearing and trickling in stories of projects that
 
 249
 00:18:13,470 --> 00:18:18,625
-you know decide you know we want to use this micro-service stuff because it's so cool we want to do it
+ you know decide you know we want to use this micro-service stuff because it's so cool we want to do it
 
 250
 00:18:18,750 --> 00:18:23,800
-and they ended up getting themselves into trouble where they really should have built a simple model if instead
+ and they ended up getting themselves into trouble where they really should have built a simple model if instead
 
 251
 00:18:24,070 --> 00:18:29,025
@@ -1011,7 +1011,7 @@ now if you look at an application and you say yeah that would work really nicely
 
 252
 00:18:29,025 --> 00:18:32,075
-you don't want to build start building it as a micro service
+ you don't want to build start building it as a micro service
 
 253
 00:18:32,175 --> 00:18:35,325
@@ -1019,7 +1019,7 @@ because micro services introduced distributed computing
 
 254
 00:18:35,420 --> 00:18:37,850
-they often introduced asynchronous communication
+ they often introduced asynchronous communication 
 
 255
 00:18:37,950 --> 00:18:40,675
@@ -1027,19 +1027,19 @@ and those are significant complexity boosters
 
 256
 00:18:40,950 --> 00:18:46,900
-so the monolith still has the advantage of up to a certain size at least simplicity
+ so the monolith still has the advantage of up to a certain size at least simplicity 
 
 257
 00:18:47,850 --> 00:18:55,200
-one of the great advantages of micro services is the ability to deploy the various pieces independently
+one of the great advantages of micro services is the ability to deploy the various pieces independently 
 
 258
 00:18:55,400 --> 00:18:59,450
-if you want to upgrade a monolith, you've got to upgrade the whole thing
+ if you want to upgrade a monolith, you've got to upgrade the whole thing
 
 259
 00:18:59,800 --> 00:19:06,175
-I heard the story of an insurance company where they've got one monolith that handled all their different lines of insurance
+ I heard the story of an insurance company where they've got one monolith that handled all their different lines of insurance
 
 260
 00:19:06,325 --> 00:19:09,825
@@ -1047,7 +1047,7 @@ if they wanted to in to upgrade their auto insurance
 
 261
 00:19:09,925 --> 00:19:11,825
-they had to upgrade the home insurance
+ they had to upgrade the home insurance
 
 262
 00:19:11,850 --> 00:19:13,950
@@ -1055,19 +1055,19 @@ as well they couldn't do them independently
 
 263
 00:19:14,375 --> 00:19:16,500
-and that's a disadvantage of a monolith
+ and that's a disadvantage of a monolith
 
 264
 00:19:16,575 --> 00:19:18,720
-you're forced to upgrade all at once
+ you're forced to upgrade all at once
 
 265
 00:19:18,770 --> 00:19:22,250
-now if you're really good at your continuous delivery pipelines
+ now if you're really good at your continuous delivery pipelines
 
 266
 00:19:22,275 --> 00:19:23,675
-I think you can make that work
+ I think you can make that work 
 
 267
 00:19:24,075 --> 00:19:28,725
@@ -1075,7 +1075,7 @@ but you but it's much harder than trying to upgrade and the separate pieces
 
 268
 00:19:28,970 --> 00:19:32,800
-and that was in fact one of the crucial reasons why Netflix went down this route
+ and that was in fact one of the crucial reasons why Netflix went down this route
 
 269
 00:19:32,850 --> 00:19:38,025
@@ -1091,11 +1091,11 @@ and this is of course very important in to an age
 
 272
 00:19:45,350 --> 00:19:49,475
-where we need to be able to deploy new applications not once every few months
+ where we need to be able to deploy new applications not once every few months
 
 273
 00:19:49,575 --> 00:19:53,925
-but every week every day and often many times a day
+but every week every day and often many times a day 
 
 274
 00:19:55,050 --> 00:19:59,400
@@ -1103,15 +1103,15 @@ and then we are granted your micro services that can give you a greater degree o
 
 275
 00:19:59,875 --> 00:20:03,350
-if your recommendation service goes down for some reason
+ if your recommendation service goes down for some reason 
 
 276
 00:20:03,450 --> 00:20:05,600
-you can still run your shopping cart
+you can still run your shopping cart 
 
 277
 00:20:05,725 --> 00:20:09,925
-and this is important because what is the most important thing to Americans
+and this is important because what is the most important thing to Americans 
 
 278
 00:20:10,150 --> 00:20:14,500
@@ -1120,7 +1120,7 @@ right so nothing must stop the shopping
 
 279
 00:20:16,250 --> 00:20:21,150
-now that availability of course comes from being handled be able to handle failure effectively
+ now that availability of course comes from being handled be able to handle failure effectively 
 
 280
 00:20:21,450 --> 00:20:25,675
@@ -1140,19 +1140,19 @@ so you embrace eventual consistency
 
 284
 00:20:35,675 --> 00:20:39,550
-which may or may not be a good thing depending on what where you
+ which may or may not be a good thing depending on what where you 
 
 285
 00:20:39,800 --> 00:20:44,250
-are and it's particularly difficult of course to get the right kind of consistent behavior
+ are and it's particularly difficult of course to get the right kind of consistent behavior
 
 286
 00:20:44,320 --> 00:20:51,000
-so that I can actually post an update when interacting with a web app and actually make sure that I see it
+ so that I can actually post an update when interacting with a web app and actually make sure that I see it 
 
 287
 00:20:51,150 --> 00:20:53,900
-and not go where did that go did it get lost
+and not go where did that go did it get lost 
 
 288
 00:20:53,950 --> 00:20:57,325
@@ -1160,11 +1160,11 @@ which is the kind of thing that goes wrong when you don't do consistency well
 
 289
 00:20:58,000 --> 00:21:07,075
-another big issue we've modeled with the monolith is that it makes it relatively easy to re-factor particularly between modules
+ another big issue we've modeled with the monolith is that it makes it relatively easy to re-factor particularly between modules
 
 290
 00:21:07,325 --> 00:21:10,900
-now with any kind of software design you want good modularity
+now with any kind of software design you want good modularity 
 
 291
 00:21:11,100 --> 00:21:13,500
@@ -1172,23 +1172,23 @@ you want to divide your software up into pieces
 
 292
 00:21:13,620 --> 00:21:17,450
-so that in order to make a change I don't have to understand the whole system
+ so that in order to make a change I don't have to understand the whole system
 
 293
 00:21:17,600 --> 00:21:20,000
-I can just understand one or two modules
+ I can just understand one or two modules
 
 294
 00:21:20,275 --> 00:21:23,400
-but that means you've got to get your module boundaries right
+ but that means you've got to get your module boundaries right
 
 295
 00:21:23,700 --> 00:21:27,075
-and if you don't get your module boundaries right you've got to be able to change them
+ and if you don't get your module boundaries right you've got to be able to change them 
 
 296
 00:21:27,470 --> 00:21:30,475
-now if you've got a monolith, that kind of thing isn't too bad
+now if you've got a monolith, that kind of thing isn't too bad 
 
 297
 00:21:30,525 --> 00:21:35,020
@@ -1196,15 +1196,15 @@ you can say: Oh I need to move this object from over here in that module over th
 
 298
 00:21:35,075 --> 00:21:36,900
-it's not a hard re-factoring to do
+ it's not a hard re-factoring to do
 
 299
 00:21:37,275 --> 00:21:40,900
-in a micro-services world that becomes a hell of a lot harder
+ in a micro-services world that becomes a hell of a lot harder
 
 300
 00:21:41,075 --> 00:21:44,725
-because now you're talking about these remote calls
+ because now you're talking about these remote calls 
 
 301
 00:21:44,850 --> 00:21:49,950
@@ -1212,11 +1212,11 @@ so that's also I think one of the problems with running to monitor micro service
 
 302
 00:21:50,050 --> 00:21:52,500
-if you don't understand the module boundaries well
+if you don't understand the module boundaries well 
 
 303
 00:21:52,675 --> 00:21:55,775
-you've very easy to get a lock yourself into a pure design
+you've very easy to get a lock yourself into a pure design 
 
 304
 00:21:55,920 --> 00:22:02,275
@@ -1228,11 +1228,11 @@ and we said that one of the interesting things about micro-services is that they
 
 306
 00:22:08,970 --> 00:22:14,525
-a lot of people you know, like me waffle on endlessly about how important it is to have good modules
+ a lot of people you know, like me waffle on endlessly about how important it is to have good modules
 
 307
 00:22:14,600 --> 00:22:19,300
-now follow bob Martin's rules, about clean, dependencies, and all the rest of it
+ now follow bob Martin's rules, about clean, dependencies, and all the rest of it 
 
 308
 00:22:19,420 --> 00:22:22,975
@@ -1240,19 +1240,19 @@ but the reality is most systems find it hard to do it in practice
 
 309
 00:22:23,100 --> 00:22:29,850
-it's too easy to kind of do little end runs around and expose little things and not keep your module boundaries solid
+ it's too easy to kind of do little end runs around and expose little things and not keep your module boundaries solid 
 
 310
 00:22:30,250 --> 00:22:36,625
-on the other hand in a micro service world your communications are purely through your network interfaces
+on the other hand in a micro service world your communications are purely through your network interfaces 
 
 311
 00:22:37,020 --> 00:22:43,250
-and it's maintained it makes it really easy to ensure you don't share mutable state
+and it's maintained it makes it really easy to ensure you don't share mutable state 
 
 312
 00:22:43,320 --> 00:22:49,525
-which is of course one of the best ways to get yourself into a confusion in a monolith module architecture
+which is of course one of the best ways to get yourself into a confusion in a monolith module architecture 
 
 313
 00:22:49,850 --> 00:22:56,375
@@ -1260,55 +1260,55 @@ so in many ways micro service is kind of a discipline that forces you to keep yo
 
 314
 00:22:58,250 --> 00:23:04,160
-and then I mean the last big advantage in micro services they allow you to go with multiple platforms
+ and then I mean the last big advantage in micro services they allow you to go with multiple platforms
 
 315
 00:23:04,375 --> 00:23:06,625
-if some parts of your application stack
+ if some parts of your application stack
 
 316
 00:23:06,670 --> 00:23:10,250
-are best off with a traditional you know Java whatever language
+ are best off with a traditional you know Java whatever language
 
 317
 00:23:10,350 --> 00:23:17,520
-you can use them in some places and then you use sort or an even experiment with say a closure on other areas
+ you can use them in some places and then you use sort or an even experiment with say a closure on other areas 
 
 318
 00:23:17,800 --> 00:23:25,150
-you've got the flexibility now of course you don't necessarily want to go so mad that you've got 20 services written in 30 programming languages
+ you've got the flexibility now of course you don't necessarily want to go so mad that you've got 20 services written in 30 programming languages
 
 319
 00:23:25,275 --> 00:23:28,625
-but on the other hand that flexibility can be very valuable
+ but on the other hand that flexibility can be very valuable
 
 320
 00:23:28,850 --> 00:23:37,225
-just as you don't know use JavaScript that's the one thing I really don't want anybody to do
+ just as you don't know use JavaScript that's the one thing I really don't want anybody to do 
 
 321
 00:23:38,925 --> 00:23:41,370
-you've got to fight back against that monster somehow
+ you've got to fight back against that monster somehow
 
 322
 00:23:42,450 --> 00:23:45,225
-so that's the trade-offs
+ so that's the trade-offs 
 
 323
 00:23:45,300 --> 00:23:48,550
-microservices are not straightforward route to go
+ microservices are not straightforward route to go
 
 324
 00:23:48,700 --> 00:23:53,750
-in many ways I'd say if you're not sure if you've got a relatively small system don't worry about it
+ in many ways I'd say if you're not sure if you've got a relatively small system don't worry about it 
 
 325
 00:23:54,875 --> 00:23:58,950
-but on the other hand they can be an appropriate architecture in a lot of places
+ but on the other hand they can be an appropriate architecture in a lot of places
 
 326
 00:23:59,020 --> 00:24:02,000
-and we're still trying to understand what the boundaries are between them
+ and we're still trying to understand what the boundaries are between them
 
 327
 00:24:02,225 --> 00:24:03,475
@@ -1316,12 +1316,12 @@ it's still fairly early
 
 328
 00:24:04,025 --> 00:24:09,100
-and then the last point I want to say is
+ and then the last point I want to say is 
 if you're going to go down the micro-service point
 
 329
 00:24:09,300 --> 00:24:14,450
-there are certain things you've got to make sure that you get sorted out otherwise you're going to get into a lot of trouble
+ there are certain things you've got to make sure that you get sorted out otherwise you're going to get into a lot of trouble
 
 330
 00:24:14,900 --> 00:24:18,800
@@ -1333,7 +1333,7 @@ if you're in a situation where it takes you a month to get a new server set up a
 
 332
 00:24:25,450 --> 00:24:27,800
-you're going to have a lot of problems in the micro service world
+ you're going to have a lot of problems in the micro service world 
 
 333
 00:24:27,900 --> 00:24:31,150
@@ -1345,7 +1345,7 @@ if you can provision a new machine in the cloud very quickly
 
 335
 00:24:34,500 --> 00:24:40,350
-which is for instance what Netflix do then that allows you a lot of flexibility there
+ which is for instance what Netflix do then that allows you a lot of flexibility there 
 
 336
 00:24:40,975 --> 00:24:43,950
@@ -1353,19 +1353,19 @@ make sure you have at least the basics of monitoring
 
 337
 00:24:44,150 --> 00:24:47,225
-you want to know when any of your services go down
+ you want to know when any of your services go down 
 
 338
 00:24:47,450 --> 00:24:50,575
-you want to know if something becomes unresponsive
+you want to know if something becomes unresponsive 
 
 339
 00:24:50,670 --> 00:24:54,850
-or if important interactions or transactions are getting dropped on the floor
+ or if important interactions or transactions are getting dropped on the floor
 
 340
 00:24:54,975 --> 00:24:58,250
-you've got to have at least a basic level of monitoring in place
+ you've got to have at least a basic level of monitoring in place 
 
 341
 00:24:58,575 --> 00:25:01,575
@@ -1373,11 +1373,11 @@ and also you've got to make sure that your services
 
 342
 00:25:01,650 --> 00:25:04,475
-can be automatically and rapidly deployed
+ can be automatically and rapidly deployed 
 
 343
 00:25:04,720 --> 00:25:07,850
-and you don't want to be spending two days deploying the service
+and you don't want to be spending two days deploying the service 
 
 344
 00:25:07,900 --> 00:25:12,325
@@ -1385,15 +1385,15 @@ it's got to be there in hours at the very least and preferably minutes
 
 345
 00:25:12,420 --> 00:25:15,225
-and it should be as much as possible automatic process
+ and it should be as much as possible automatic process
 
 346
 00:25:15,950 --> 00:25:20,500
-that's just the basics that's just for running with just a couple of certain amount of services
+ that's just the basics that's just for running with just a couple of certain amount of services
 
 347
 00:25:20,725 --> 00:25:23,000
-and to do more you've got to add more
+ and to do more you've got to add more 
 
 348
 00:25:23,070 --> 00:25:26,325
@@ -1401,19 +1401,19 @@ there's a whole bunch of other stuff that you've got to get into play as well
 
 349
 00:25:26,375 --> 00:25:29,150
-so make sure you've at least got those basics
+ so make sure you've at least got those basics
 
 350
 00:25:29,300 --> 00:25:31,900
-On the one I missed DevOps culture
+ On the one I missed DevOps culture
 
 351
 00:25:32,100 --> 00:25:38,100
-that is you've got to break down the barriers between the operations group in the applications group so that they're working together
+ that is you've got to break down the barriers between the operations group in the applications group so that they're working together 
 
 352
 00:25:38,300 --> 00:25:46,375
-if you've got a difficult communications between the two again you're not going to be able to manage the quantity of services that you've got to deal with
+ if you've got a difficult communications between the two again you're not going to be able to manage the quantity of services that you've got to deal with
 
 353
 00:25:46,700 --> 00:25:51,200
@@ -1421,11 +1421,11 @@ so as I said those I think are the minimum things to have, when you first go liv
 
 354
 00:25:51,320 --> 00:25:54,400
-you don't necessarily have to have them when you start building
+ you don't necessarily have to have them when you start building
 
 355
 00:25:54,550 --> 00:25:57,575
-but you definitely have to have them when you go live with this thing
+ but you definitely have to have them when you go live with this thing
 
 356
 00:25:58,800 --> 00:26:01,275
@@ -1433,7 +1433,7 @@ so that's microservices
 
 357
 00:26:01,325 --> 00:26:02,875
-a very brief introduction
+ a very brief introduction
 
 358
 00:26:03,100 --> 00:26:07,318
