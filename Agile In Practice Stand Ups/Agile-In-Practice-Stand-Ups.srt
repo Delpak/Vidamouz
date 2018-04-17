@@ -1,0 +1,208 @@
+﻿1
+00:00:00,000 --> 00:00:02,880
+Hi! and welcome to the agile Academy
+
+2
+00:00:02,930 --> 00:00:05,080
+In this agile in practice talk 
+
+3
+00:00:05,150 --> 00:00:07,910
+we'd like to give you a quick insight into stand-ups
+
+4
+00:00:07,980 --> 00:00:10,180
+ and how they work for agile teams
+
+5
+00:00:10,270 --> 00:00:12,530
+Let me introduce you to the team 
+
+6
+00:00:12,650 --> 00:00:16,170
+ they are working on the new employee performance review system 
+
+7
+00:00:16,230 --> 00:00:18,620
+and are getting together for their daily meeting 
+
+8
+00:00:18,900 --> 00:00:23,620
+every day at the same time the team stands in a semicircle at the team wall 
+
+9
+00:00:23,720 --> 00:00:27,490
+ and turn each team member gives an update by shearing 
+
+10
+00:00:27,670 --> 00:00:29,790
+what work that I complete yesterday?
+
+11
+00:00:29,920 --> 00:00:32,270
+what do I plan to complete today?
+
+12
+00:00:32,820 --> 00:00:37,000
+what blocker, if any, do I face and getting my work done today?
+
+13
+00:00:37,450 --> 00:00:39,640
+Here is Bill. kicking off the stand up 
+
+14
+00:00:39,760 --> 00:00:43,830
+yesterday I completed the first version of the new performance review flier
+
+15
+00:00:43,920 --> 00:00:46,280
+and today, I will start the FAQ list 
+
+16
+00:00:46,560 --> 00:00:51,640
+my blocker is that some of the HR experts I need to talk with aren't available
+
+17
+00:00:51,820 --> 00:00:53,150
+They're on a team day
+
+18
+00:00:53,890 --> 00:00:56,690
+bill then passes on the Talking Stick to Megan
+
+19
+00:00:56,820 --> 00:00:58,510
+Who shares her update with the group
+
+20
+00:00:58,650 --> 00:00:59,880
+(*)Megan might see 
+
+21
+00:01:00,040 --> 00:01:03,310
+yesterday I completed not much since my computer crashed
+
+22
+00:01:03,350 --> 00:01:07,830
+ and so today I'll be catching up with my work on testing the systems login security
+
+23
+00:01:07,940 --> 00:01:10,910
+ new blockers since I got a temporary computer to work on
+
+24
+00:01:11,110 --> 00:01:13,400
+ Megan passes a talking stick on to Damien 
+
+25
+00:01:13,480 --> 00:01:14,420
+who is next? 
+
+26
+00:01:14,730 --> 00:01:17,630
+the team purposely has this meeting while standing up 
+
+27
+00:01:17,750 --> 00:01:21,310
+ because it helps him to focus on answering just these three questions 
+
+28
+00:01:21,450 --> 00:01:23,960
+keeping the stand up short and sharp
+
+29
+00:01:24,460 --> 00:01:27,480
+ since they take problem resolution outside of this meeting 
+
+30
+00:01:27,580 --> 00:01:29,230
+and the frame from storytelling
+
+31
+00:01:29,290 --> 00:01:32,810
+ their stand up takes no more than 15 minutes at the max 
+
+32
+00:01:33,090 --> 00:01:36,670
+guests and non core team members are welcome to the stand up
+
+33
+00:01:36,730 --> 00:01:37,930
+ but they can only listen 
+
+34
+00:01:38,000 --> 00:01:40,050
+and cannot actively participate
+
+35
+00:01:40,190 --> 00:01:42,870
+ Jen the business subject-matter expert
+
+36
+00:01:42,930 --> 00:01:45,320
+ thinks that the daily stand-up is very useful
+
+37
+00:01:45,410 --> 00:01:46,260
+ she says 
+
+38
+00:01:46,420 --> 00:01:49,340
+even though I don't actively participate in the stand up
+
+39
+00:01:49,370 --> 00:01:51,760
+ I know where we are with the work as a team
+
+40
+00:01:51,850 --> 00:01:55,600
+ if there are any issues that I can solve I get on it straight away 
+
+41
+00:01:55,760 --> 00:01:56,990
+ Megan adds
+
+42
+00:01:57,160 --> 00:01:59,370
+ what I find challenging about the stand up
+
+43
+00:01:59,480 --> 00:02:02,180
+ is keeping what I share relevant to my teammates
+
+44
+00:02:02,270 --> 00:02:06,060
+so that I don't waste our time with just some general update statements
+
+45
+00:02:06,100 --> 00:02:13,470
+ and short stand-ups or brief daily meetings that are made to get everyone updated on the progress of the work that your team has committed to 
+
+46
+00:02:13,620 --> 00:02:15,810
+and of any obstacles that are in the way 
+
+47
+00:02:16,010 --> 00:02:18,970
+ since you all share your updates with the whole team
+
+48
+00:02:19,100 --> 00:02:24,170
+as stand-up is not a micromanagement report to the project manager or team lead
+
+49
+00:02:24,330 --> 00:02:27,730
+the project manager is mainly there to hear about the blockers
+
+50
+00:02:27,830 --> 00:02:32,710
+ it is his or her tasks to remove these obstacles as quickly as possible
+
+51
+00:02:32,810 --> 00:02:35,590
+ we hope you enjoyed this Agile in practice talk 
+
+52
+00:02:35,690 --> 00:02:39,580
+and that it encourages you to try out stand ups with your own team
+
