@@ -1,356 +1,215 @@
-1
-00:00:00,000 --> 00:00:05,519
-hi and welcome to the agile<font color="#CCCCCC"> Academy</font><font color="#E5E5E5"> in</font>
-
-1
-00:00:02,939 --> 00:00:07,710
-this<font color="#CCCCCC"> ad gelling practice</font><font color="#E5E5E5"> talk we'd like</font>
-
-1
-00:00:05,519 --> 00:00:09,718
-to show<font color="#E5E5E5"> you how agile teams use story</font>
-
-1
-00:00:07,710 --> 00:00:11,460
-<font color="#E5E5E5">cards to capture user requirements and</font>
-
-1
-00:00:09,718 --> 00:00:14,579
-to manage<font color="#CCCCCC"> the delivery</font><font color="#E5E5E5"> of user</font>
-
-1
-00:00:11,460 --> 00:00:16,679
-functionality delivering a new employee
-
-1
-00:00:14,580 --> 00:00:19,109
-performance review system for the HR
-
-1
-00:00:16,679 --> 00:00:21,089
-department<font color="#E5E5E5"> is a big piece of work</font><font color="#CCCCCC"> so the</font>
-
-1
-00:00:19,109 --> 00:00:21,570
-team want to chunk<font color="#E5E5E5"> it down into smaller</font>
-
-1
-00:00:21,089 --> 00:00:24,268
-pieces
-
-1
-00:00:21,570 --> 00:00:26,518
-when agile teams capture requirements
-
-1
-00:00:24,268 --> 00:00:29,368
-<font color="#E5E5E5">they do so from a perspective of the</font>
-
-1
-00:00:26,518 --> 00:00:32,159
-user<font color="#E5E5E5"> hence we call the requirement user</font>
-
-1
-00:00:29,368 --> 00:00:35,640
-<font color="#E5E5E5">stories they are retinal index cards</font>
-
-1
-00:00:32,159 --> 00:00:38,369
-<font color="#E5E5E5">which we then call story cards meet</font>
-
-1
-00:00:35,640 --> 00:00:40,558
-Susan<font color="#E5E5E5"> the business analyst of the team</font>
-
-1
-00:00:38,369 --> 00:00:43,078
-<font color="#E5E5E5">she is having a conversation with</font><font color="#CCCCCC"> our</font>
-
-1
-00:00:40,558 --> 00:00:45,628
-customer<font color="#E5E5E5"> Jen the HR team</font><font color="#CCCCCC"> leader and</font>
-
-1
-00:00:43,079 --> 00:00:48,058
-product owner for the system<font color="#E5E5E5"> together</font>
-
-1
-00:00:45,628 --> 00:00:51,599
-they<font color="#CCCCCC"> are identifying some of the user</font>
-
-1
-00:00:48,058 --> 00:00:54,269
-stories for<font color="#E5E5E5"> example they have identified</font>
-
-1
-00:00:51,600 --> 00:00:56,520
-<font color="#E5E5E5">team leaders as users for the new system</font>
-
-1
-00:00:54,270 --> 00:00:59,250
-<font color="#CCCCCC">one</font><font color="#E5E5E5"> of the stories</font><font color="#CCCCCC"> that Susan captures</font>
-
-1
-00:00:56,520 --> 00:01:01,020
-is as a team leader<font color="#CCCCCC"> I need to see the</font>
-
-1
-00:00:59,250 --> 00:01:03,509
-<font color="#CCCCCC">performance reviews of my team members</font>
-
-1
-00:01:01,020 --> 00:01:06,000
-<font color="#E5E5E5">so that</font><font color="#CCCCCC"> I can</font><font color="#E5E5E5"> have a conversation with</font>
-
-1
-00:01:03,509 --> 00:01:07,798
-them about<font color="#E5E5E5"> their performance</font><font color="#CCCCCC"> do you</font>
-
-1
-00:01:06,000 --> 00:01:12,750
-notice<font color="#CCCCCC"> the structure that Susan is using</font>
-
-1
-00:01:07,799 --> 00:01:15,540
-<font color="#CCCCCC">Aza I need so that as a team leader</font>
-
-1
-00:01:12,750 --> 00:01:16,769
-<font color="#E5E5E5">refers back</font><font color="#CCCCCC"> to the user</font><font color="#E5E5E5"> who wants this</font>
-
-1
-00:01:15,540 --> 00:01:21,240
-piece of functionality
-
-1
-00:01:16,769 --> 00:01:23,849
-I need<font color="#E5E5E5"> tells us what the user wants they</font>
-
-1
-00:01:21,239 --> 00:01:27,239
-<font color="#E5E5E5">saw that part describes why the user</font>
-
-1
-00:01:23,849 --> 00:01:28,728
-wants it what benefit or value<font color="#CCCCCC"> he or she</font>
-
-1
-00:01:27,239 --> 00:01:31,078
-expects to<font color="#CCCCCC"> get out of it</font>
-
-1
-00:01:28,728 --> 00:01:33,900
-expressing the benefit is important in
-
-1
-00:01:31,078 --> 00:01:37,469
-agile<font color="#E5E5E5"> since we want to deliver value</font><font color="#CCCCCC"> to</font>
-
-1
-00:01:33,900 --> 00:01:39,420
-our customers fast<font color="#E5E5E5"> with less risk Susan</font>
-
-1
-00:01:37,469 --> 00:01:42,060
-and<font color="#CCCCCC"> Jane</font><font color="#E5E5E5"> also discuss acceptance</font>
-
-1
-00:01:39,420 --> 00:01:44,519
-criteria<font color="#CCCCCC"> these are the criteria that</font>
-
-1
-00:01:42,060 --> 00:01:45,118
-<font color="#E5E5E5">will let the team know</font><font color="#CCCCCC"> when the story is</font>
-
-1
-00:01:44,519 --> 00:01:47,908
-<font color="#E5E5E5">done</font>
-
-1
-00:01:45,118 --> 00:01:50,549
-<font color="#E5E5E5">Susan captures them in the key statement</font>
-
-1
-00:01:47,909 --> 00:01:52,649
-on the back of the story card<font color="#CCCCCC"> in short a</font>
-
-1
-00:01:50,549 --> 00:01:55,170
-story card allows you to<font color="#E5E5E5"> record a</font>
-
-1
-00:01:52,649 --> 00:01:57,810
-<font color="#E5E5E5">compelling story</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> tells you what the</font>
-
-1
-00:01:55,170 --> 00:01:59,519
-user wants<font color="#CCCCCC"> and why to collect all</font>
-
-1
-00:01:57,810 --> 00:02:01,920
-requirements<font color="#CCCCCC"> of the new performance</font>
-
-1
-00:01:59,519 --> 00:02:03,780
-review system<font color="#E5E5E5"> Susan will have many more</font>
-
-1
-00:02:01,920 --> 00:02:05,969
-<font color="#CCCCCC">workshops with Jane</font><font color="#E5E5E5"> and several</font>
-
-1
-00:02:03,780 --> 00:02:08,340
-potential users in order<font color="#CCCCCC"> to capture</font>
-
-1
-00:02:05,968 --> 00:02:10,530
-<font color="#E5E5E5">their stories the team realized that a</font>
-
-1
-00:02:08,340 --> 00:02:13,020
-story card<font color="#E5E5E5"> is too small to gather all</font>
-
-1
-00:02:10,530 --> 00:02:13,800
-<font color="#CCCCCC">the</font><font color="#E5E5E5"> information it's just</font><font color="#CCCCCC"> enough to</font>
-
-1
-00:02:13,020 --> 00:02:16,020
-<font color="#CCCCCC">identify</font>
-
-1
-00:02:13,800 --> 00:02:17,640
-by the requirement<font color="#E5E5E5"> we often say</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> a</font>
-
-1
-00:02:16,020 --> 00:02:20,010
-story card as a promise for<font color="#E5E5E5"> a</font>
-
-1
-00:02:17,639 --> 00:02:22,079
-conversation<font color="#CCCCCC"> just before we start</font>
-
-1
-00:02:20,009 --> 00:02:23,849
-working<font color="#E5E5E5"> on the story we will come and</font>
-
-1
-00:02:22,080 --> 00:02:27,060
-<font color="#E5E5E5">talk</font><font color="#CCCCCC"> with you to discuss</font><font color="#E5E5E5"> the story</font><font color="#CCCCCC"> and</font>
-
-1
-00:02:23,849 --> 00:02:29,099
-more detail<font color="#E5E5E5"> stories on the backlog</font><font color="#CCCCCC"> now</font>
-
-1
-00:02:27,060 --> 00:02:31,349
-<font color="#CCCCCC">that susan has chunked down the work</font>
-
-1
-00:02:29,099 --> 00:02:33,930
-into smaller<font color="#E5E5E5"> pieces</font><font color="#CCCCCC"> the team can start</font>
-
-1
-00:02:31,349 --> 00:02:36,239
-planning the work<font color="#CCCCCC"> Susan sticks</font><font color="#E5E5E5"> a story</font>
-
-1
-00:02:33,930 --> 00:02:36,629
-card on the wall<font color="#CCCCCC"> so everyone</font><font color="#E5E5E5"> can</font><font color="#CCCCCC"> see</font>
-
-1
-00:02:36,240 --> 00:02:39,780
-them
-
-1
-00:02:36,629 --> 00:02:42,449
-great<font color="#E5E5E5"> says Bill now we can</font><font color="#CCCCCC"> prioritize</font>
-
-1
-00:02:39,780 --> 00:02:44,699
-and estimate<font color="#E5E5E5"> the work prioritizing and</font>
-
-1
-00:02:42,449 --> 00:02:46,799
-estimating the story cards<font color="#E5E5E5"> will help the</font>
-
-1
-00:02:44,699 --> 00:02:49,769
-team<font color="#CCCCCC"> to</font><font color="#E5E5E5"> set an order and the</font><font color="#CCCCCC"> timeline</font>
-
-1
-00:02:46,800 --> 00:02:52,110
-towards the<font color="#E5E5E5"> total work Jayne and the</font>
-
-1
-00:02:49,770 --> 00:02:53,909
-team are happy<font color="#E5E5E5"> the big piece of work is</font>
-
-1
-00:02:52,110 --> 00:02:56,820
-now chunked down into smaller pieces of
-
-1
-00:02:53,909 --> 00:02:59,579
-<font color="#E5E5E5">work and put into</font><font color="#CCCCCC"> a clear order</font><font color="#E5E5E5"> in this</font>
-
-1
-00:02:56,819 --> 00:03:01,859
-talk<font color="#CCCCCC"> you saw how agile team capture user</font>
-
-1
-00:02:59,580 --> 00:03:03,810
-stories with<font color="#E5E5E5"> story cards which they then</font>
-
-1
-00:03:01,860 --> 00:03:06,630
-use to<font color="#E5E5E5"> prioritize and estimate their</font>
-
-1
-00:03:03,810 --> 00:03:08,699
-work how agile teams exactly prioritize
-
-1
-00:03:06,629 --> 00:03:10,829
-and estimate the<font color="#E5E5E5"> work is a topic for</font>
-
-1
-00:03:08,699 --> 00:03:12,869
-<font color="#CCCCCC">another time and worth checking out on</font>
-
-1
-00:03:10,830 --> 00:03:15,360
-<font color="#E5E5E5">our website if you want</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> learn more</font>
-
-1
-00:03:12,870 --> 00:03:17,640
-about<font color="#CCCCCC"> agile the agile</font><font color="#E5E5E5"> Academy offers a</font>
-
-1
-00:03:15,360 --> 00:03:19,680
-range of accredited<font color="#E5E5E5"> courses as</font><font color="#CCCCCC"> well</font><font color="#E5E5E5"> as</font>
-
-1
-00:03:17,639 --> 00:03:22,139
-lots of open source material<font color="#E5E5E5"> which you</font>
-
-1
-00:03:19,680 --> 00:03:24,719
-can<font color="#E5E5E5"> find on our</font><font color="#CCCCCC"> website</font><font color="#E5E5E5"> if you have any</font>
-
-1
-00:03:22,139 --> 00:03:26,699
-questions<font color="#E5E5E5"> also</font><font color="#CCCCCC"> feel free</font><font color="#E5E5E5"> to contact</font><font color="#CCCCCC"> us</font>
-
-1
-00:03:24,719 --> 00:03:29,729
-on<font color="#E5E5E5"> our</font><font color="#CCCCCC"> website</font><font color="#E5E5E5"> or drop</font><font color="#CCCCCC"> us a line on</font>
-
-1
-00:03:26,699 --> 00:03:32,030
-<font color="#CCCCCC">Twitter thank you and enjoy</font><font color="#E5E5E5"> your agile</font>
-
-1
-00:03:29,729 --> 00:03:32,030
-journey
+﻿1
+00:00:00,000 --> 00:00:02,860
+hi and welcome to the agile Academy
+
+2
+00:00:02,930 --> 00:00:05,090
+In this Agile in Practice talk 
+
+3
+00:00:05,180 --> 00:00:09,680
+we'd like to show you how agile teams use story cards to capture user requirements
+
+4
+00:00:09,780 --> 00:00:12,860
+and to manage the delivery of user functionality
+
+5
+00:00:13,260 --> 00:00:18,670
+delivering a new employee performance review system for the HR department is a big piece of work
+
+6
+00:00:18,740 --> 00:00:21,860
+ so the team want to chunk it down into smaller pieces
+
+7
+00:00:21,970 --> 00:00:27,130
+when agile teams capture requirements, they do so from a perspective of the user 
+
+8
+00:00:27,300 --> 00:00:30,450
+ hence we call the requirement user stories
+
+9
+00:00:30,690 --> 00:00:35,040
+ they are retinal index cards which we then call story cards
+
+10
+00:00:35,310 --> 00:00:38,580
+Meet Susan, the business analyst of the team 
+
+11
+00:00:38,710 --> 00:00:41,520
+ she is having a conversation with our customer Jen
+
+12
+00:00:41,630 --> 00:00:45,950
+ the HR team leader and product owner for the system, together
+
+13
+00:00:46,010 --> 00:00:48,960
+ they are identifying some of the user stories 
+
+14
+00:00:49,520 --> 00:00:50,660
+ for example:
+
+15
+00:00:50,740 --> 00:00:54,530
+ they have identified team leaders as users for the new system
+
+16
+00:00:54,670 --> 00:00:57,050
+ one of the stories that Susan captures is:
+
+17
+00:00:57,170 --> 00:01:01,490
+ as a team leader I need to see the performance reviews of my team members 
+
+18
+00:01:01,560 --> 00:01:05,380
+ so that I can have a conversation with them about their performance
+
+19
+00:01:05,530 --> 00:01:08,290
+Do you notice the structure that Susan is using?
+
+20
+00:01:08,410 --> 00:01:11,750
+ "As a ..."
+"I need ..."
+"So that ..."
+
+21
+00:01:11,930 --> 00:01:16,960
+ as a team leader refers back to the user who wants this piece of functionality
+
+22
+00:01:17,110 --> 00:01:20,480
+"I need", tells us what the user wants.
+
+23
+00:01:20,890 --> 00:01:24,790
+The "So That..." part, describes why the user wants it.
+
+24
+00:01:24,950 --> 00:01:28,720
+What benefit or value he or she expects to get out of it?
+
+25
+00:01:28,720 --> 00:01:31,720
+expressing the benefit is important in agile
+
+26
+00:01:31,830 --> 00:01:36,550
+since we want to deliver value to our customers fast with less risk
+
+27
+00:01:36,870 --> 00:01:40,260
+ Susan and Jane also discuss acceptance criteria 
+
+28
+00:01:40,510 --> 00:01:45,380
+ these are the criteria that will let the team know when the story is done 
+
+29
+00:01:45,570 --> 00:01:49,490
+ Susan captures them in the key statement on the back of the story card 
+
+30
+00:01:49,640 --> 00:01:50,520
+in short 
+
+31
+00:01:50,540 --> 00:01:56,930
+a story card allows you to record a compelling story that tells you what the user wants and why 
+
+32
+00:01:57,050 --> 00:02:00,470
+to collect all requirements of the new performance review system
+
+33
+00:02:00,540 --> 00:02:04,860
+Susan will have many more workshops with Jane and several potential users 
+
+34
+00:02:04,920 --> 00:02:07,050
+in order to capture their stories
+
+35
+00:02:07,160 --> 00:02:11,410
+The team realized that a story card is too small to gather all the information
+
+36
+00:02:11,850 --> 00:02:14,670
+ it's just enough to identify the requirement 
+
+37
+00:02:14,940 --> 00:02:18,550
+we often say that a story card as a promise for a conversation
+
+38
+00:02:18,780 --> 00:02:21,350
+ just before we start working on the story 
+
+39
+00:02:21,390 --> 00:02:25,120
+we will come and talk with you to discuss the story in more detail 
+
+40
+00:02:25,290 --> 00:02:27,040
+ stories on the backlog
+
+41
+00:02:27,160 --> 00:02:32,480
+ now that Susan has chunk down the work into smaller pieces, the team can start planning the work 
+
+42
+00:02:32,580 --> 00:02:36,650
+Susan sticks a story card on the wall
+so everyone can see them
+
+43
+00:02:36,740 --> 00:02:41,230
+great says Bill now we can prioritize and estimate the work
+
+44
+00:02:41,340 --> 00:02:44,040
+ prioritizing and estimating the story cards
+
+45
+00:02:44,120 --> 00:02:48,710
+ will help the team to set an order and the time-line, towards the total work.
+
+46
+00:02:49,010 --> 00:02:50,660
+Jane and the team are happy 
+
+47
+00:02:50,760 --> 00:02:54,310
+the big piece of work is now chunk downed into smaller pieces of work
+
+48
+00:02:54,440 --> 00:02:56,230
+ and put into a clear order
+
+49
+00:02:56,370 --> 00:02:57,320
+ in this talk 
+
+50
+00:02:57,400 --> 00:03:01,180
+you saw how agile team capture user stories with story cards 
+
+51
+00:03:01,240 --> 00:03:04,280
+which they then use to prioritize and estimate their work
+
+52
+00:03:04,370 --> 00:03:07,810
+How agile teams exactly prioritize and estimate the work 
+
+53
+00:03:07,980 --> 00:03:11,660
+is a topic for another time, and worth checking out on our website.
 
