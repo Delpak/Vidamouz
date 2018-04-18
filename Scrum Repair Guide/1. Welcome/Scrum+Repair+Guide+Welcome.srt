@@ -1,0 +1,224 @@
+1
+00:00:04,040 --> 00:00:09,030
+hi I'm Mike<font color="#CCCCCC"> Cohn</font><font color="#E5E5E5"> and I'd like</font><font color="#CCCCCC"> to welcome</font>
+
+1
+00:00:07,230 --> 00:00:11,910
+you<font color="#CCCCCC"> to the scrum repair guide video</font>
+
+1
+00:00:09,029 --> 00:00:14,099
+course this course came about because
+
+1
+00:00:11,910 --> 00:00:16,698
+<font color="#E5E5E5">when I was</font><font color="#CCCCCC"> in my teens and</font><font color="#E5E5E5"> early 20s</font><font color="#CCCCCC"> I</font>
+
+1
+00:00:14,099 --> 00:00:20,039
+owned a couple<font color="#E5E5E5"> of old Volkswagen bugs</font>
+
+1
+00:00:16,699 --> 00:00:22,740
+<font color="#E5E5E5">these were great cars fun to drive and</font>
+
+1
+00:00:20,039 --> 00:00:24,929
+very affordable<font color="#E5E5E5"> but driving any car</font>
+
+1
+00:00:22,739 --> 00:00:26,459
+that's<font color="#CCCCCC"> ten to twenty</font><font color="#E5E5E5"> years old means you</font>
+
+1
+00:00:24,929 --> 00:00:29,009
+have to be<font color="#E5E5E5"> prepared</font><font color="#CCCCCC"> to do some</font>
+
+1
+00:00:26,460 --> 00:00:31,410
+maintenance<font color="#E5E5E5"> this wasn't</font><font color="#CCCCCC"> a problem on old</font>
+
+1
+00:00:29,010 --> 00:00:34,380
+Volkswagens because the parts were cheap
+
+1
+00:00:31,410 --> 00:00:36,689
+<font color="#E5E5E5">and the cars were so easy to</font><font color="#CCCCCC"> work on I'm</font>
+
+1
+00:00:34,380 --> 00:00:39,600
+not mechanically inclined<font color="#CCCCCC"> but the</font>
+
+1
+00:00:36,689 --> 00:00:41,909
+engines of 1960s Volkswagens<font color="#E5E5E5"> were so</font>
+
+1
+00:00:39,600 --> 00:00:43,739
+<font color="#E5E5E5">simple even I could work on them but I</font>
+
+1
+00:00:41,909 --> 00:00:46,019
+<font color="#E5E5E5">still needed some guidance on what</font><font color="#CCCCCC"> to do</font>
+
+1
+00:00:43,738 --> 00:00:48,449
+<font color="#CCCCCC">I was fortunate to</font><font color="#E5E5E5"> have a friend who</font>
+
+1
+00:00:46,020 --> 00:00:51,449
+loved old<font color="#E5E5E5"> VW's even more than I did and</font>
+
+1
+00:00:48,450 --> 00:00:53,969
+he was<font color="#CCCCCC"> a</font><font color="#E5E5E5"> wonderful resource just as good</font>
+
+1
+00:00:51,448 --> 00:00:56,579
+was this book here how<font color="#E5E5E5"> to keep</font><font color="#CCCCCC"> your</font>
+
+1
+00:00:53,969 --> 00:00:58,670
+Volkswagen alive a manual of step by
+
+1
+00:00:56,579 --> 00:01:01,500
+<font color="#CCCCCC">step procedures for the complete idiot</font>
+
+1
+00:00:58,670 --> 00:01:03,719
+<font color="#E5E5E5">talk to nearly anyone who ever owned an</font>
+
+1
+00:01:01,500 --> 00:01:05,700
+air-cooled Volkswagen<font color="#E5E5E5"> and you'll find</font>
+
+1
+00:01:03,719 --> 00:01:08,728
+they owned this book<font color="#E5E5E5"> it was first</font>
+
+1
+00:01:05,700 --> 00:01:11,310
+<font color="#E5E5E5">published in 1969</font><font color="#CCCCCC"> and has been through</font>
+
+1
+00:01:08,728 --> 00:01:13,530
+<font color="#CCCCCC">nineteen editions with this book as my</font>
+
+1
+00:01:11,310 --> 00:01:15,659
+inspiration<font color="#CCCCCC"> I wanted</font><font color="#E5E5E5"> to create a guide</font>
+
+1
+00:01:13,530 --> 00:01:18,719
+to repairing the most common problems I
+
+1
+00:01:15,659 --> 00:01:20,909
+<font color="#CCCCCC">see on scrum teams</font><font color="#E5E5E5"> so in this course</font>
+
+1
+00:01:18,719 --> 00:01:23,340
+<font color="#CCCCCC">you'll see videos with advice on</font>
+
+1
+00:01:20,909 --> 00:01:25,770
+<font color="#CCCCCC">improving teamwork</font><font color="#E5E5E5"> like how to avoid the</font>
+
+1
+00:01:23,340 --> 00:01:27,840
+problem<font color="#E5E5E5"> of programmers handing code over</font>
+
+1
+00:01:25,769 --> 00:01:30,269
+to testers<font color="#E5E5E5"> with</font><font color="#CCCCCC"> only two days left</font><font color="#E5E5E5"> in</font>
+
+1
+00:01:27,840 --> 00:01:32,520
+the<font color="#CCCCCC"> sprint will cover how to overcome</font>
+
+1
+00:01:30,269 --> 00:01:34,649
+<font color="#E5E5E5">common problems with stakeholders like</font>
+
+1
+00:01:32,519 --> 00:01:36,989
+<font color="#E5E5E5">properly setting their expectations and</font>
+
+1
+00:01:34,650 --> 00:01:39,900
+dealing<font color="#CCCCCC"> with their desire to lock down</font>
+
+1
+00:01:36,989 --> 00:01:42,390
+<font color="#E5E5E5">scope schedule</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> cost way too early in</font>
+
+1
+00:01:39,900 --> 00:01:44,159
+a<font color="#E5E5E5"> project I'll talk about some</font><font color="#CCCCCC"> of the</font>
+
+1
+00:01:42,390 --> 00:01:46,618
+problems<font color="#CCCCCC"> that are common to scrum team</font>
+
+1
+00:01:44,159 --> 00:01:49,200
+meetings<font color="#E5E5E5"> things like sprint planning</font>
+
+1
+00:01:46,618 --> 00:01:52,170
+taking way too long<font color="#CCCCCC"> and the daily scrum</font>
+
+1
+00:01:49,200 --> 00:01:54,240
+<font color="#E5E5E5">turned into a status meeting we'll look</font>
+
+1
+00:01:52,170 --> 00:01:56,820
+at issues involving each of the roles on
+
+1
+00:01:54,239 --> 00:01:59,039
+a scrum project<font color="#E5E5E5"> we'll discuss team</font>
+
+1
+00:01:56,819 --> 00:02:00,539
+member behavior<font color="#E5E5E5"> we'll look at things</font>
+
+1
+00:01:59,040 --> 00:02:02,670
+your product owner could be doing better
+
+1
+00:02:00,540 --> 00:02:04,590
+<font color="#CCCCCC">we'll even</font><font color="#E5E5E5"> look at things the scrum</font>
+
+1
+00:02:02,670 --> 00:02:07,079
+master might be doing<font color="#CCCCCC"> wrong</font><font color="#E5E5E5"> and much</font>
+
+1
+00:02:04,590 --> 00:02:09,780
+much more<font color="#CCCCCC"> I don't expect that repairing</font>
+
+1
+00:02:07,078 --> 00:02:11,939
+problems on a scrum team<font color="#E5E5E5"> will ever be as</font>
+
+1
+00:02:09,780 --> 00:02:13,680
+easy<font color="#E5E5E5"> as repairing an old Volkswagen is</font>
+
+1
+00:02:11,939 --> 00:02:15,930
+but I do hope<font color="#CCCCCC"> that to</font>
+
+1
+00:02:13,680 --> 00:02:18,468
+together we can<font color="#E5E5E5"> make the results just as</font>
+
+1
+00:02:15,930 --> 00:02:18,468
+<font color="#E5E5E5">rewarding</font>
+

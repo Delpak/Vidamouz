@@ -1,0 +1,804 @@
+1
+00:00:04,299 --> 00:00:08,960
+sprint planning<font color="#E5E5E5"> is the longest of the</font>
+
+1
+00:00:06,769 --> 00:00:10,910
+<font color="#E5E5E5">scrum meetings depending on sprint</font>
+
+1
+00:00:08,960 --> 00:00:13,940
+<font color="#E5E5E5">length some teams will take as long as</font><font color="#CCCCCC"> a</font>
+
+1
+00:00:10,910 --> 00:00:15,650
+full<font color="#E5E5E5"> day and standard scrum advice is to</font>
+
+1
+00:00:13,939 --> 00:00:18,109
+spend up to two<font color="#CCCCCC"> hours per week</font><font color="#E5E5E5"> of the</font>
+
+1
+00:00:15,650 --> 00:00:20,060
+<font color="#CCCCCC">sprint so from two hours to</font><font color="#E5E5E5"> plan a</font>
+
+1
+00:00:18,109 --> 00:00:22,489
+one-week sprint<font color="#CCCCCC"> up to</font><font color="#E5E5E5"> eight hours to</font>
+
+1
+00:00:20,059 --> 00:00:24,799
+<font color="#E5E5E5">plan a</font><font color="#CCCCCC"> four</font><font color="#E5E5E5"> week sprint unfortunately</font>
+
+1
+00:00:22,489 --> 00:00:27,189
+some teams turn sprint planning<font color="#E5E5E5"> into a</font>
+
+1
+00:00:24,800 --> 00:00:29,690
+marathon<font color="#CCCCCC"> lasting even longer than this</font>
+
+1
+00:00:27,190 --> 00:00:31,730
+sprint planning<font color="#E5E5E5"> should never take longer</font>
+
+1
+00:00:29,690 --> 00:00:33,469
+than a day<font color="#E5E5E5"> and I find that</font><font color="#CCCCCC"> even</font><font color="#E5E5E5"> the</font>
+
+1
+00:00:31,730 --> 00:00:35,420
+<font color="#E5E5E5">advice of two hours</font><font color="#CCCCCC"> per week</font><font color="#E5E5E5"> of the</font>
+
+1
+00:00:33,469 --> 00:00:38,660
+<font color="#CCCCCC">sprint</font><font color="#E5E5E5"> is too much for a good</font>
+
+1
+00:00:35,420 --> 00:00:40,520
+experienced team<font color="#CCCCCC"> a good experienced team</font>
+
+1
+00:00:38,659 --> 00:00:42,500
+should strive<font color="#CCCCCC"> to finish sprint</font><font color="#E5E5E5"> planning</font>
+
+1
+00:00:40,520 --> 00:00:45,710
+in much closer<font color="#CCCCCC"> to just one hour per week</font>
+
+1
+00:00:42,500 --> 00:00:47,570
+<font color="#E5E5E5">of the</font><font color="#CCCCCC"> sprint so a two-hour meeting for</font>
+
+1
+00:00:45,710 --> 00:00:50,120
+a<font color="#E5E5E5"> two-week sprint and a four-hour</font>
+
+1
+00:00:47,570 --> 00:00:52,280
+meeting for a<font color="#CCCCCC"> four</font><font color="#E5E5E5"> week sprint there are</font>
+
+1
+00:00:50,119 --> 00:00:55,250
+two general reasons why sprint<font color="#E5E5E5"> planning</font>
+
+1
+00:00:52,280 --> 00:00:58,370
+can turn into<font color="#CCCCCC"> a marathon</font><font color="#E5E5E5"> one lack of</font>
+
+1
+00:00:55,250 --> 00:01:01,189
+preparation<font color="#CCCCCC"> to trying too hard</font><font color="#E5E5E5"> to get it</font>
+
+1
+00:00:58,369 --> 00:01:03,320
+perfect<font color="#CCCCCC"> the first of these</font><font color="#E5E5E5"> a lack of</font>
+
+1
+00:01:01,189 --> 00:01:05,328
+<font color="#E5E5E5">preparation is the results of not</font>
+
+1
+00:01:03,320 --> 00:01:08,269
+properly<font color="#E5E5E5"> maintaining the product backlog</font>
+
+1
+00:01:05,328 --> 00:01:10,489
+<font color="#E5E5E5">a product backlog needs maintenance care</font>
+
+1
+00:01:08,269 --> 00:01:12,170
+and feeding<font color="#E5E5E5"> if you will you can spend</font>
+
+1
+00:01:10,489 --> 00:01:14,420
+either a little time on the<font color="#E5E5E5"> product</font>
+
+1
+00:01:12,170 --> 00:01:16,609
+backlog each sprint<font color="#E5E5E5"> or you can spend a</font>
+
+1
+00:01:14,420 --> 00:01:18,649
+<font color="#CCCCCC">lot of</font><font color="#E5E5E5"> time during one sprint when you</font>
+
+1
+00:01:16,608 --> 00:01:20,839
+discover<font color="#E5E5E5"> the backlog is a mess and is</font>
+
+1
+00:01:18,649 --> 00:01:22,968
+not well<font color="#CCCCCC"> understood</font><font color="#E5E5E5"> the type of</font>
+
+1
+00:01:20,840 --> 00:01:25,130
+<font color="#E5E5E5">maintenance I'm referring to</font><font color="#CCCCCC"> here often</font>
+
+1
+00:01:22,968 --> 00:01:27,288
+<font color="#CCCCCC">called product</font><font color="#E5E5E5"> backlog grooming or</font>
+
+1
+00:01:25,129 --> 00:01:30,019
+<font color="#E5E5E5">refinement is the subject of its own</font>
+
+1
+00:01:27,289 --> 00:01:31,728
+video<font color="#CCCCCC"> in this course</font><font color="#E5E5E5"> the problem with</font>
+
+1
+00:01:30,019 --> 00:01:33,560
+<font color="#CCCCCC">not being prepared for sprint planning</font>
+
+1
+00:01:31,728 --> 00:01:35,659
+is<font color="#CCCCCC"> that the meeting will take a long</font>
+
+1
+00:01:33,560 --> 00:01:37,850
+time<font color="#CCCCCC"> because</font><font color="#E5E5E5"> the team will have a lot of</font>
+
+1
+00:01:35,659 --> 00:01:39,649
+<font color="#E5E5E5">questions for the product owner I've</font>
+
+1
+00:01:37,849 --> 00:01:42,739
+actually seen teams in this situation
+
+1
+00:01:39,649 --> 00:01:44,420
+spend a week on<font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> planning one team</font>
+
+1
+00:01:42,739 --> 00:01:46,039
+I'm thinking about<font color="#E5E5E5"> started the sprint</font>
+
+1
+00:01:44,420 --> 00:01:48,170
+planning meeting on Monday morning in
+
+1
+00:01:46,039 --> 00:01:49,728
+this<font color="#E5E5E5"> meeting it was clear that this</font><font color="#CCCCCC"> was</font>
+
+1
+00:01:48,170 --> 00:01:51,590
+the first<font color="#CCCCCC"> time that the team had heard</font>
+
+1
+00:01:49,728 --> 00:01:54,408
+<font color="#E5E5E5">of many of the product backlog</font><font color="#CCCCCC"> items and</font>
+
+1
+00:01:51,590 --> 00:01:56,149
+that many were quite large<font color="#E5E5E5"> after a few</font>
+
+1
+00:01:54,409 --> 00:01:57,740
+hours<font color="#E5E5E5"> together</font><font color="#CCCCCC"> the team and product</font>
+
+1
+00:01:56,149 --> 00:01:59,989
+owner decided<font color="#E5E5E5"> to end the meeting and</font>
+
+1
+00:01:57,739 --> 00:02:02,149
+spend the next few days working<font color="#CCCCCC"> to</font>
+
+1
+00:01:59,989 --> 00:02:04,638
+understand the top handful of product
+
+1
+00:02:02,149 --> 00:02:07,879
+backlog<font color="#CCCCCC"> items</font><font color="#E5E5E5"> they agreed to</font><font color="#CCCCCC"> reconvene</font>
+
+1
+00:02:04,638 --> 00:02:09,288
+on Friday<font color="#E5E5E5"> to finish sprint planning this</font>
+
+1
+00:02:07,879 --> 00:02:10,909
+team would<font color="#CCCCCC"> have been far better</font><font color="#E5E5E5"> off</font>
+
+1
+00:02:09,288 --> 00:02:13,219
+spreading<font color="#E5E5E5"> that time across</font><font color="#CCCCCC"> the</font>
+
+1
+00:02:10,909 --> 00:02:14,979
+<font color="#CCCCCC">proceedings sprinter to so that it could</font>
+
+1
+00:02:13,219 --> 00:02:17,650
+have<font color="#E5E5E5"> come in to sprint planning better</font>
+
+1
+00:02:14,979 --> 00:02:19,509
+prepared<font color="#E5E5E5"> the other reason why sprint</font>
+
+1
+00:02:17,650 --> 00:02:21,640
+planning<font color="#CCCCCC"> can turn</font><font color="#E5E5E5"> into a marathon</font><font color="#CCCCCC"> is</font>
+
+1
+00:02:19,509 --> 00:02:24,219
+that a team<font color="#E5E5E5"> is trying too hard to get</font>
+
+1
+00:02:21,639 --> 00:02:27,189
+sprint planning perfect there's no need
+
+1
+00:02:24,219 --> 00:02:28,870
+to be<font color="#CCCCCC"> perfect</font><font color="#E5E5E5"> in fact</font><font color="#CCCCCC"> there's an optimal</font>
+
+1
+00:02:27,189 --> 00:02:31,989
+amount<font color="#CCCCCC"> of time to spend in sprint</font>
+
+1
+00:02:28,870 --> 00:02:34,180
+planning here we see a graph<font color="#CCCCCC"> showing how</font>
+
+1
+00:02:31,989 --> 00:02:35,950
+well<font color="#E5E5E5"> a sprint is planned based on how</font>
+
+1
+00:02:34,180 --> 00:02:38,709
+much<font color="#E5E5E5"> time is spent</font><font color="#CCCCCC"> in the sprint</font>
+
+1
+00:02:35,949 --> 00:02:40,750
+planning meeting<font color="#E5E5E5"> spend too little and</font>
+
+1
+00:02:38,709 --> 00:02:42,370
+<font color="#CCCCCC">the</font><font color="#E5E5E5"> Sprint will be poorly planned this</font>
+
+1
+00:02:40,750 --> 00:02:43,870
+<font color="#E5E5E5">will also</font><font color="#CCCCCC"> lead to the wrong amount of</font>
+
+1
+00:02:42,370 --> 00:02:46,299
+work being brought into<font color="#E5E5E5"> the sprint</font>
+
+1
+00:02:43,870 --> 00:02:48,750
+<font color="#E5E5E5">either too</font><font color="#CCCCCC"> much</font><font color="#E5E5E5"> or too little</font><font color="#CCCCCC"> and that</font>
+
+1
+00:02:46,299 --> 00:02:51,189
+will lead<font color="#CCCCCC"> to problems during</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> sprint</font>
+
+1
+00:02:48,750 --> 00:02:53,259
+spending too much time in<font color="#CCCCCC"> a sprint</font>
+
+1
+00:02:51,189 --> 00:02:56,019
+planning meeting however<font color="#E5E5E5"> is just</font><font color="#CCCCCC"> as</font>
+
+1
+00:02:53,259 --> 00:02:58,389
+inefficient<font color="#E5E5E5"> going into too much detail</font>
+
+1
+00:02:56,019 --> 00:03:00,849
+with each product backlog item or trying
+
+1
+00:02:58,389 --> 00:03:03,429
+<font color="#E5E5E5">to estimate</font><font color="#CCCCCC"> - precisely waste the time</font>
+
+1
+00:03:00,848 --> 00:03:06,009
+<font color="#E5E5E5">of all team members without adding value</font>
+
+1
+00:03:03,430 --> 00:03:08,650
+to the<font color="#E5E5E5"> sprint the goal is to</font><font color="#CCCCCC"> be right</font>
+
+1
+00:03:06,009 --> 00:03:11,530
+here<font color="#E5E5E5"> in the optimal area imagine this</font>
+
+1
+00:03:08,650 --> 00:03:13,120
+<font color="#E5E5E5">scenario as a scrum master</font><font color="#CCCCCC"> you run a</font>
+
+1
+00:03:11,530 --> 00:03:15,640
+sprint planning meeting as you normally
+
+1
+00:03:13,120 --> 00:03:18,310
+<font color="#E5E5E5">would at the end of the meeting</font><font color="#CCCCCC"> you have</font>
+
+1
+00:03:15,639 --> 00:03:20,619
+a sprint backlog<font color="#E5E5E5"> a set of tasks and an</font>
+
+1
+00:03:18,310 --> 00:03:22,209
+estimate to<font color="#E5E5E5"> go with each task but you</font>
+
+1
+00:03:20,620 --> 00:03:24,700
+<font color="#CCCCCC">know the team didn't think</font><font color="#E5E5E5"> of everything</font>
+
+1
+00:03:22,209 --> 00:03:27,069
+<font color="#E5E5E5">so you tell them to stay in the room for</font>
+
+1
+00:03:24,699 --> 00:03:29,229
+<font color="#E5E5E5">another hour just silently thinking as</font>
+
+1
+00:03:27,068 --> 00:03:32,078
+hard as they can<font color="#E5E5E5"> at the end</font><font color="#CCCCCC"> of the hour</font>
+
+1
+00:03:29,229 --> 00:03:34,418
+<font color="#CCCCCC">you</font><font color="#E5E5E5"> ask what they came up</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> together</font>
+
+1
+00:03:32,079 --> 00:03:36,730
+they've identified another<font color="#E5E5E5"> five tasks</font>
+
+1
+00:03:34,419 --> 00:03:39,160
+that's great you<font color="#CCCCCC"> think the Sprint is</font><font color="#E5E5E5"> now</font>
+
+1
+00:03:36,729 --> 00:03:41,798
+better planned<font color="#E5E5E5"> but you know it's still</font>
+
+1
+00:03:39,159 --> 00:03:44,199
+<font color="#CCCCCC">not perfect</font><font color="#E5E5E5"> so you ask them</font><font color="#CCCCCC"> to sit there</font>
+
+1
+00:03:41,799 --> 00:03:46,750
+and<font color="#CCCCCC"> think for another</font><font color="#E5E5E5"> hour</font><font color="#CCCCCC"> but this time</font>
+
+1
+00:03:44,199 --> 00:03:49,598
+you pump<font color="#E5E5E5"> in some Mozart music</font><font color="#CCCCCC"> after all</font>
+
+1
+00:03:46,750 --> 00:03:51,699
+he's supposed to make<font color="#E5E5E5"> us</font><font color="#CCCCCC"> think better at</font>
+
+1
+00:03:49,598 --> 00:03:53,738
+the end<font color="#CCCCCC"> of that</font><font color="#E5E5E5"> hour</font><font color="#CCCCCC"> you ask the team</font>
+
+1
+00:03:51,699 --> 00:03:57,098
+members what<font color="#CCCCCC"> they came</font><font color="#E5E5E5"> up</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> and they</font>
+
+1
+00:03:53,739 --> 00:03:59,530
+give you another four tasks again<font color="#CCCCCC"> the</font>
+
+1
+00:03:57,098 --> 00:04:00,189
+<font color="#E5E5E5">Sprint</font><font color="#CCCCCC"> is now better planned</font><font color="#E5E5E5"> but at what</font>
+
+1
+00:03:59,530 --> 00:04:02,560
+cost
+
+1
+00:04:00,189 --> 00:04:06,090
+<font color="#CCCCCC">you've kept the</font><font color="#E5E5E5"> team walked up another</font>
+
+1
+00:04:02,560 --> 00:04:08,348
+two<font color="#CCCCCC"> hours I contend that's not worth it</font>
+
+1
+00:04:06,090 --> 00:04:09,810
+perfect sprint<font color="#E5E5E5"> planning does not mean</font>
+
+1
+00:04:08,348 --> 00:04:12,068
+the team has thought of every task
+
+1
+00:04:09,810 --> 00:04:14,409
+<font color="#E5E5E5">perfect sprint planning means the team</font>
+
+1
+00:04:12,068 --> 00:04:16,329
+has perfectly figured out what set of
+
+1
+00:04:14,409 --> 00:04:18,759
+product backlog<font color="#CCCCCC"> items they can do during</font>
+
+1
+00:04:16,329 --> 00:04:21,430
+<font color="#E5E5E5">the sprint think about that for a</font><font color="#CCCCCC"> moment</font>
+
+1
+00:04:18,759 --> 00:04:23,978
+<font color="#E5E5E5">and let it sink in being perfect is</font><font color="#CCCCCC"> not</font>
+
+1
+00:04:21,430 --> 00:04:25,930
+thinking<font color="#E5E5E5"> of every task being perfect is</font>
+
+1
+00:04:23,978 --> 00:04:27,848
+knowing<font color="#CCCCCC"> the right set of</font><font color="#E5E5E5"> product backlog</font>
+
+1
+00:04:25,930 --> 00:04:28,930
+<font color="#CCCCCC">items that can be</font><font color="#E5E5E5"> delivered in a sprint</font>
+
+1
+00:04:27,848 --> 00:04:30,909
+<font color="#CCCCCC">to</font>
+
+1
+00:04:28,930 --> 00:04:33,160
+do that the team does not need to think
+
+1
+00:04:30,910 --> 00:04:36,580
+<font color="#CCCCCC">of every</font><font color="#E5E5E5"> task they need to think of the</font>
+
+1
+00:04:33,160 --> 00:04:38,650
+big things but not everything<font color="#CCCCCC"> in my</font>
+
+1
+00:04:36,579 --> 00:04:41,079
+experience a team doing<font color="#CCCCCC"> a good</font><font color="#E5E5E5"> job of</font>
+
+1
+00:04:38,649 --> 00:04:43,448
+<font color="#E5E5E5">sprint planning will identify only about</font>
+
+1
+00:04:41,079 --> 00:04:45,668
+<font color="#E5E5E5">two-thirds of all the tasks its members</font>
+
+1
+00:04:43,449 --> 00:04:47,680
+will do<font color="#CCCCCC"> during the sprint in other words</font>
+
+1
+00:04:45,668 --> 00:04:50,228
+the team leaves the<font color="#CCCCCC"> meeting having</font>
+
+1
+00:04:47,680 --> 00:04:52,240
+<font color="#E5E5E5">failed to identify about</font><font color="#CCCCCC"> one-third of</font>
+
+1
+00:04:50,228 --> 00:04:54,849
+all the<font color="#E5E5E5"> tasks</font><font color="#CCCCCC"> that will be</font><font color="#E5E5E5"> done during</font>
+
+1
+00:04:52,240 --> 00:04:57,189
+the<font color="#E5E5E5"> sprint and I contend this is a good</font>
+
+1
+00:04:54,850 --> 00:04:59,710
+<font color="#E5E5E5">thing the team could stay longer and</font>
+
+1
+00:04:57,189 --> 00:05:02,469
+identify<font color="#E5E5E5"> more of the work but it's not</font>
+
+1
+00:04:59,709 --> 00:05:04,388
+<font color="#E5E5E5">worth</font><font color="#CCCCCC"> the extra time now notice I said</font>
+
+1
+00:05:02,470 --> 00:05:07,229
+the team fails to<font color="#CCCCCC"> identify one third of</font>
+
+1
+00:05:04,389 --> 00:05:09,668
+the tasks<font color="#E5E5E5"> not one third of the hours</font><font color="#CCCCCC"> the</font>
+
+1
+00:05:07,228 --> 00:05:12,008
+<font color="#CCCCCC">tasks that are not identified tend to be</font>
+
+1
+00:05:09,668 --> 00:05:14,469
+the smaller tasks we don't<font color="#CCCCCC"> miss the big</font>
+
+1
+00:05:12,009 --> 00:05:16,389
+<font color="#CCCCCC">two</font><font color="#E5E5E5"> dues just</font><font color="#CCCCCC"> the little ones</font><font color="#E5E5E5"> so the</font>
+
+1
+00:05:14,470 --> 00:05:19,120
+number of<font color="#E5E5E5"> hours of work not identified</font>
+
+1
+00:05:16,389 --> 00:05:21,340
+will be less than<font color="#E5E5E5"> a third if you're a</font>
+
+1
+00:05:19,120 --> 00:05:23,348
+scrum master<font color="#CCCCCC"> I encourage you to</font><font color="#E5E5E5"> know the</font>
+
+1
+00:05:21,339 --> 00:05:26,109
+<font color="#E5E5E5">percentage of tasks your team identifies</font>
+
+1
+00:05:23,348 --> 00:05:28,538
+during sprint planning this<font color="#E5E5E5"> is an easy</font>
+
+1
+00:05:26,110 --> 00:05:30,879
+metric to collect simply count<font color="#E5E5E5"> the</font>
+
+1
+00:05:28,538 --> 00:05:32,949
+number<font color="#E5E5E5"> of tasks identified during sprint</font>
+
+1
+00:05:30,879 --> 00:05:34,719
+planning<font color="#E5E5E5"> and then count the number</font><font color="#CCCCCC"> of</font>
+
+1
+00:05:32,949 --> 00:05:37,509
+tasks that<font color="#E5E5E5"> have been identified by</font><font color="#CCCCCC"> the</font>
+
+1
+00:05:34,720 --> 00:05:39,460
+end of the Sprint<font color="#CCCCCC"> divide and that will</font>
+
+1
+00:05:37,509 --> 00:05:42,069
+tell you<font color="#E5E5E5"> the percentage your team is</font>
+
+1
+00:05:39,459 --> 00:05:43,959
+<font color="#CCCCCC">identifying during sprint planning</font><font color="#E5E5E5"> if</font>
+
+1
+00:05:42,069 --> 00:05:45,610
+you find your<font color="#E5E5E5"> team's</font><font color="#CCCCCC"> identifying more</font>
+
+1
+00:05:43,959 --> 00:05:47,978
+<font color="#E5E5E5">than</font><font color="#CCCCCC"> two-thirds during sprint</font><font color="#E5E5E5"> planning</font>
+
+1
+00:05:45,610 --> 00:05:50,080
+<font color="#E5E5E5">first congratulate them</font><font color="#CCCCCC"> on doing such a</font>
+
+1
+00:05:47,978 --> 00:05:52,719
+<font color="#E5E5E5">great</font><font color="#CCCCCC"> job of identifying</font><font color="#E5E5E5"> work that needs</font>
+
+1
+00:05:50,079 --> 00:05:54,609
+to<font color="#CCCCCC"> be done</font><font color="#E5E5E5"> then try shortening their</font>
+
+1
+00:05:52,720 --> 00:05:56,470
+sprint planning<font color="#E5E5E5"> meetings they can</font>
+
+1
+00:05:54,610 --> 00:05:58,900
+probably get<font color="#CCCCCC"> by with spending a bit less</font>
+
+1
+00:05:56,470 --> 00:06:01,419
+time in sprint planning<font color="#E5E5E5"> on the other</font>
+
+1
+00:05:58,899 --> 00:06:04,089
+hand if you do the math<font color="#E5E5E5"> and find your</font>
+
+1
+00:06:01,418 --> 00:06:05,620
+team is<font color="#E5E5E5"> only identifying 50% of the</font>
+
+1
+00:06:04,089 --> 00:06:07,899
+eventual tasks during sprint planning
+
+1
+00:06:05,620 --> 00:06:10,149
+your team will probably benefit<font color="#E5E5E5"> from</font>
+
+1
+00:06:07,899 --> 00:06:12,698
+spending<font color="#E5E5E5"> a bit more time</font><font color="#CCCCCC"> in</font><font color="#E5E5E5"> the sprint</font>
+
+1
+00:06:10,149 --> 00:06:14,589
+planning meeting<font color="#E5E5E5"> the team is under</font>
+
+1
+00:06:12,699 --> 00:06:16,810
+estimating the effort required<font color="#CCCCCC"> to</font>
+
+1
+00:06:14,589 --> 00:06:18,399
+complete the<font color="#E5E5E5"> product backlog items which</font>
+
+1
+00:06:16,810 --> 00:06:20,408
+means they are<font color="#E5E5E5"> probably bringing in more</font>
+
+1
+00:06:18,399 --> 00:06:22,239
+work than they can<font color="#E5E5E5"> deliver there could</font>
+
+1
+00:06:20,408 --> 00:06:24,158
+be other<font color="#E5E5E5"> forces at work</font><font color="#CCCCCC"> here causing</font><font color="#E5E5E5"> the</font>
+
+1
+00:06:22,240 --> 00:06:26,530
+team to be unable<font color="#CCCCCC"> to identify</font><font color="#E5E5E5"> a higher</font>
+
+1
+00:06:24,158 --> 00:06:28,089
+percentage of tasks perhaps they aren't
+
+1
+00:06:26,529 --> 00:06:30,219
+adequately prepared<font color="#CCCCCC"> for</font><font color="#E5E5E5"> the sprint</font>
+
+1
+00:06:28,089 --> 00:06:31,689
+planning meeting<font color="#E5E5E5"> perhaps the product</font>
+
+1
+00:06:30,220 --> 00:06:34,389
+owner is changing what's needed<font color="#E5E5E5"> to</font>
+
+1
+00:06:31,689 --> 00:06:35,519
+<font color="#E5E5E5">deliver the product backlog item perhaps</font>
+
+1
+00:06:34,389 --> 00:06:37,269
+we don't<font color="#CCCCCC"> have the right people</font>
+
+1
+00:06:35,519 --> 00:06:40,538
+<font color="#E5E5E5">participating in the sprint planning</font>
+
+1
+00:06:37,269 --> 00:06:42,819
+meeting<font color="#E5E5E5"> but most often when a team</font>
+
+1
+00:06:40,538 --> 00:06:45,430
+routinely identifies much less than<font color="#E5E5E5"> two</font>
+
+1
+00:06:42,819 --> 00:06:47,529
+<font color="#CCCCCC">the tasks needed</font><font color="#E5E5E5"> that team will benefit</font>
+
+1
+00:06:45,430 --> 00:06:50,350
+from<font color="#CCCCCC"> spending a bit more time in sprint</font>
+
+1
+00:06:47,529 --> 00:06:52,089
+planning sprint planning<font color="#E5E5E5"> is designed to</font>
+
+1
+00:06:50,350 --> 00:06:54,430
+help the team select the right set of
+
+1
+00:06:52,089 --> 00:06:57,009
+<font color="#E5E5E5">product backlog</font><font color="#CCCCCC"> items to bring into the</font>
+
+1
+00:06:54,430 --> 00:06:59,199
+<font color="#E5E5E5">sprint the team members should discuss</font>
+
+1
+00:06:57,009 --> 00:07:01,569
+<font color="#E5E5E5">each item just enough to know how they</font>
+
+1
+00:06:59,199 --> 00:07:03,099
+<font color="#E5E5E5">will</font><font color="#CCCCCC"> implement</font><font color="#E5E5E5"> it and therefore whether</font>
+
+1
+00:07:01,569 --> 00:07:06,069
+<font color="#E5E5E5">or not they have</font><font color="#CCCCCC"> enough bandwidth to</font>
+
+1
+00:07:03,100 --> 00:07:08,290
+<font color="#CCCCCC">complete</font><font color="#E5E5E5"> that item in this sprint the</font>
+
+1
+00:07:06,069 --> 00:07:10,509
+right amount of time then is<font color="#CCCCCC"> just enough</font>
+
+1
+00:07:08,290 --> 00:07:12,520
+<font color="#E5E5E5">to correctly choose a set of</font><font color="#CCCCCC"> product</font>
+
+1
+00:07:10,509 --> 00:07:15,129
+backlog<font color="#CCCCCC"> items that can</font><font color="#E5E5E5"> be completed</font>
+
+1
+00:07:12,519 --> 00:07:17,229
+<font color="#CCCCCC">during</font><font color="#E5E5E5"> the sprint by knowing the</font>
+
+1
+00:07:15,129 --> 00:07:19,360
+percentage of tasks your team<font color="#CCCCCC"> identifies</font>
+
+1
+00:07:17,230 --> 00:07:21,400
+during sprint<font color="#E5E5E5"> planning and by remaining</font>
+
+1
+00:07:19,360 --> 00:07:21,790
+focused<font color="#E5E5E5"> on the true purpose of sprint</font>
+
+1
+00:07:21,399 --> 00:07:23,679
+<font color="#E5E5E5">planning</font>
+
+1
+00:07:21,790 --> 00:07:25,480
+selecting the right set of product
+
+1
+00:07:23,680 --> 00:07:27,400
+backlog items<font color="#CCCCCC"> to</font><font color="#E5E5E5"> bring into a sprint and</font>
+
+1
+00:07:25,480 --> 00:07:29,830
+discussing them just enough to
+
+1
+00:07:27,399 --> 00:07:31,479
+successfully<font color="#E5E5E5"> implement them you can help</font>
+
+1
+00:07:29,829 --> 00:07:35,459
+your team<font color="#CCCCCC"> find the right amount of</font><font color="#E5E5E5"> time</font>
+
+1
+00:07:31,480 --> 00:07:35,460
+it should spend in sprint<font color="#E5E5E5"> planning</font>
+

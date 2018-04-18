@@ -1,0 +1,640 @@
+1
+00:00:04,259 --> 00:00:09,219
+one of the most common<font color="#CCCCCC"> problems facing</font>
+
+1
+00:00:06,849 --> 00:00:11,589
+<font color="#CCCCCC">early-stage</font><font color="#E5E5E5"> scrum teams is when the</font>
+
+1
+00:00:09,220 --> 00:00:13,540
+programmers finish on or near the<font color="#E5E5E5"> last</font>
+
+1
+00:00:11,589 --> 00:00:16,179
+day of the<font color="#CCCCCC"> Sprint and then hand their</font>
+
+1
+00:00:13,539 --> 00:00:17,559
+work over<font color="#CCCCCC"> to the testers the testers are</font>
+
+1
+00:00:16,179 --> 00:00:19,890
+left to wonder<font color="#E5E5E5"> how they can possibly</font>
+
+1
+00:00:17,559 --> 00:00:23,379
+complete their<font color="#CCCCCC"> work in such a</font><font color="#E5E5E5"> short time</font>
+
+1
+00:00:19,890 --> 00:00:25,269
+similarly testers on such teams struggle
+
+1
+00:00:23,379 --> 00:00:27,099
+with what they're supposed to do earlier
+
+1
+00:00:25,269 --> 00:00:30,070
+in the<font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> when there's nothing yet</font>
+
+1
+00:00:27,100 --> 00:00:32,259
+<font color="#CCCCCC">to test</font><font color="#E5E5E5"> nearly every team goes</font><font color="#CCCCCC"> through a</font>
+
+1
+00:00:30,070 --> 00:00:34,299
+phase<font color="#CCCCCC"> where they face these problems so</font>
+
+1
+00:00:32,259 --> 00:00:36,039
+if you're facing<font color="#E5E5E5"> them now take heart</font>
+
+1
+00:00:34,299 --> 00:00:38,828
+that<font color="#E5E5E5"> others have overcome them before</font>
+
+1
+00:00:36,039 --> 00:00:40,600
+you I want<font color="#E5E5E5"> to make three suggestions as</font>
+
+1
+00:00:38,829 --> 00:00:43,539
+to how<font color="#E5E5E5"> you can resolve this problem</font>
+
+1
+00:00:40,600 --> 00:00:45,399
+first get<font color="#E5E5E5"> the programmers out of the</font>
+
+1
+00:00:43,539 --> 00:00:48,039
+habit<font color="#CCCCCC"> of finishing an entire product</font>
+
+1
+00:00:45,399 --> 00:00:50,649
+<font color="#E5E5E5">backlog item before handing it over to</font>
+
+1
+00:00:48,039 --> 00:00:52,799
+<font color="#E5E5E5">the testers handoffs between programmers</font>
+
+1
+00:00:50,649 --> 00:00:56,500
+and testers<font color="#CCCCCC"> should be much smaller</font>
+
+1
+00:00:52,799 --> 00:00:58,479
+<font color="#E5E5E5">second make the problem more visible by</font>
+
+1
+00:00:56,500 --> 00:01:00,878
+putting up a<font color="#CCCCCC"> new chart in your team room</font>
+
+1
+00:00:58,479 --> 00:01:04,030
+or project<font color="#E5E5E5"> home page</font><font color="#CCCCCC"> if the team is</font>
+
+1
+00:01:00,878 --> 00:01:06,310
+distributed third help the team learn
+
+1
+00:01:04,030 --> 00:01:08,859
+new ways of collaborating<font color="#E5E5E5"> through</font><font color="#CCCCCC"> a</font>
+
+1
+00:01:06,310 --> 00:01:11,350
+technique<font color="#CCCCCC"> called swarming</font><font color="#E5E5E5"> I'll talk</font>
+
+1
+00:01:08,859 --> 00:01:13,329
+<font color="#CCCCCC">about each of these approaches but let's</font>
+
+1
+00:01:11,349 --> 00:01:14,919
+start<font color="#E5E5E5"> with number one getting</font><font color="#CCCCCC"> the</font>
+
+1
+00:01:13,329 --> 00:01:17,709
+programmers out of the habit<font color="#E5E5E5"> of</font>
+
+1
+00:01:14,920 --> 00:01:20,189
+finishing an entire product<font color="#E5E5E5"> backlog item</font>
+
+1
+00:01:17,709 --> 00:01:22,780
+<font color="#E5E5E5">before handing it over to</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> testers</font><font color="#CCCCCC"> a</font>
+
+1
+00:01:20,188 --> 00:01:25,389
+good scrum team should be<font color="#E5E5E5"> doing a little</font>
+
+1
+00:01:22,780 --> 00:01:27,489
+<font color="#E5E5E5">bit of</font><font color="#CCCCCC"> everything</font><font color="#E5E5E5"> every day I should be</font>
+
+1
+00:01:25,390 --> 00:01:30,969
+able<font color="#E5E5E5"> to walk into</font><font color="#CCCCCC"> your team room any day</font>
+
+1
+00:01:27,489 --> 00:01:34,329
+and see some analysis some<font color="#E5E5E5"> design some</font>
+
+1
+00:01:30,969 --> 00:01:36,489
+coding and some testing all happening to
+
+1
+00:01:34,329 --> 00:01:38,590
+make<font color="#E5E5E5"> this a reality</font><font color="#CCCCCC"> it's important for</font>
+
+1
+00:01:36,489 --> 00:01:42,069
+team members to<font color="#E5E5E5"> reduce the size of</font>
+
+1
+00:01:38,590 --> 00:01:44,200
+handoffs<font color="#E5E5E5"> let's consider the</font><font color="#CCCCCC"> case of a</font>
+
+1
+00:01:42,069 --> 00:01:46,569
+programmer and tester<font color="#E5E5E5"> but this example</font>
+
+1
+00:01:44,200 --> 00:01:48,939
+<font color="#CCCCCC">could just as</font><font color="#E5E5E5"> easily include technical</font>
+
+1
+00:01:46,569 --> 00:01:51,399
+<font color="#E5E5E5">designers user interface designers</font>
+
+1
+00:01:48,938 --> 00:01:54,129
+database engineers<font color="#E5E5E5"> or any number of</font>
+
+1
+00:01:51,400 --> 00:01:56,530
+others if our example programmer and
+
+1
+00:01:54,129 --> 00:01:58,569
+tester are new to scrum it's likely that
+
+1
+00:01:56,530 --> 00:02:01,060
+<font color="#E5E5E5">the programmer will grab a product</font>
+
+1
+00:01:58,569 --> 00:02:03,398
+backlog item<font color="#E5E5E5"> finish the whole thing</font><font color="#CCCCCC"> a</font>
+
+1
+00:02:01,060 --> 00:02:05,379
+week or more later<font color="#E5E5E5"> and then hand it</font><font color="#CCCCCC"> over</font>
+
+1
+00:02:03,399 --> 00:02:08,110
+to the tester for testing<font color="#E5E5E5"> on the last</font>
+
+1
+00:02:05,379 --> 00:02:10,810
+few days of the<font color="#E5E5E5"> Sprint what that</font>
+
+1
+00:02:08,110 --> 00:02:12,849
+programmer<font color="#CCCCCC"> should do instead</font><font color="#E5E5E5"> is develop</font>
+
+1
+00:02:10,810 --> 00:02:15,278
+just<font color="#E5E5E5"> one small part of the product</font>
+
+1
+00:02:12,848 --> 00:02:16,989
+backlog item and then hand just that one
+
+1
+00:02:15,278 --> 00:02:19,210
+part to the<font color="#E5E5E5"> tester</font>
+
+1
+00:02:16,990 --> 00:02:22,270
+consider the case<font color="#CCCCCC"> of</font><font color="#E5E5E5"> a simple user story</font>
+
+1
+00:02:19,210 --> 00:02:25,330
+about<font color="#E5E5E5"> logging in as a user I can log in</font>
+
+1
+00:02:22,270 --> 00:02:27,790
+so<font color="#E5E5E5"> that I have access</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> my data this</font>
+
+1
+00:02:25,330 --> 00:02:29,800
+user story can have detail<font color="#E5E5E5"> added</font><font color="#CCCCCC"> to it</font>
+
+1
+00:02:27,789 --> 00:02:32,650
+in the form<font color="#E5E5E5"> of conditions of</font>
+
+1
+00:02:29,800 --> 00:02:35,410
+<font color="#CCCCCC">satisfaction which are really high</font><font color="#E5E5E5"> level</font>
+
+1
+00:02:32,650 --> 00:02:37,960
+acceptance tests for a user<font color="#E5E5E5"> story the</font>
+
+1
+00:02:35,409 --> 00:02:40,599
+conditions of<font color="#CCCCCC"> satisfaction</font><font color="#E5E5E5"> for our</font><font color="#CCCCCC"> login</font>
+
+1
+00:02:37,960 --> 00:02:43,030
+story may include these the right
+
+1
+00:02:40,599 --> 00:02:45,639
+<font color="#CCCCCC">credentials</font><font color="#E5E5E5"> grant access can</font><font color="#CCCCCC"> login</font>
+
+1
+00:02:43,030 --> 00:02:48,280
+<font color="#E5E5E5">through Facebook wrong credentials</font>
+
+1
+00:02:45,639 --> 00:02:51,519
+display an error<font color="#E5E5E5"> message can request a</font>
+
+1
+00:02:48,280 --> 00:02:53,439
+password reminder<font color="#CCCCCC"> our programmer and</font>
+
+1
+00:02:51,520 --> 00:02:53,969
+tester get together and decide where<font color="#CCCCCC"> to</font>
+
+1
+00:02:53,439 --> 00:02:55,960
+start
+
+1
+00:02:53,969 --> 00:02:57,789
+granting access<font color="#E5E5E5"> when the right</font>
+
+1
+00:02:55,960 --> 00:03:00,219
+<font color="#E5E5E5">credentials are entered seems like a</font>
+
+1
+00:02:57,789 --> 00:03:02,169
+good place<font color="#CCCCCC"> to</font><font color="#E5E5E5"> start to me so the</font>
+
+1
+00:03:00,219 --> 00:03:05,680
+programmer goes off and develops only
+
+1
+00:03:02,169 --> 00:03:08,559
+<font color="#CCCCCC">that while the programmer is coding the</font>
+
+1
+00:03:05,680 --> 00:03:11,680
+tester<font color="#E5E5E5"> is creating test plans test data</font>
+
+1
+00:03:08,560 --> 00:03:13,689
+<font color="#E5E5E5">and automated tests the tester won't be</font>
+
+1
+00:03:11,680 --> 00:03:16,300
+able<font color="#E5E5E5"> to run these tests until the</font>
+
+1
+00:03:13,689 --> 00:03:18,699
+programmer says the code is ready<font color="#E5E5E5"> and in</font>
+
+1
+00:03:16,300 --> 00:03:21,370
+some cases<font color="#E5E5E5"> the tester may have a hard</font>
+
+1
+00:03:18,699 --> 00:03:23,859
+time fully automating but in most cases
+
+1
+00:03:21,370 --> 00:03:26,530
+<font color="#E5E5E5">for most applications</font><font color="#CCCCCC"> I've encountered</font>
+
+1
+00:03:23,860 --> 00:03:28,840
+<font color="#E5E5E5">the tester can do a tremendous</font><font color="#CCCCCC"> amount in</font>
+
+1
+00:03:26,530 --> 00:03:31,900
+advance<font color="#E5E5E5"> of receiving final code from a</font>
+
+1
+00:03:28,840 --> 00:03:34,270
+programmer<font color="#E5E5E5"> when both the programmer</font><font color="#CCCCCC"> and</font>
+
+1
+00:03:31,900 --> 00:03:36,280
+tester are done they check their<font color="#E5E5E5"> work</font>
+
+1
+00:03:34,270 --> 00:03:38,920
+into<font color="#E5E5E5"> the official build system and the</font>
+
+1
+00:03:36,280 --> 00:03:41,620
+tests are run<font color="#E5E5E5"> they then talk about what</font>
+
+1
+00:03:38,919 --> 00:03:44,530
+to work on next<font color="#E5E5E5"> let's say they choose</font>
+
+1
+00:03:41,620 --> 00:03:46,599
+Facebook<font color="#CCCCCC"> integration again while the</font>
+
+1
+00:03:44,530 --> 00:03:49,479
+programmer develops the functionality
+
+1
+00:03:46,599 --> 00:03:52,239
+the tester creates<font color="#E5E5E5"> test plans</font><font color="#CCCCCC"> data and</font>
+
+1
+00:03:49,479 --> 00:03:54,219
+automation<font color="#E5E5E5"> scripts there are still</font>
+
+1
+00:03:52,240 --> 00:03:56,350
+handoffs here<font color="#E5E5E5"> there are still moments</font>
+
+1
+00:03:54,219 --> 00:03:59,109
+when the programmer yells out<font color="#E5E5E5"> it's done</font>
+
+1
+00:03:56,349 --> 00:04:01,810
+<font color="#CCCCCC">you can run the tests but the handoffs</font>
+
+1
+00:03:59,110 --> 00:04:03,940
+have been made<font color="#E5E5E5"> very</font><font color="#CCCCCC"> small and between</font>
+
+1
+00:04:01,810 --> 00:04:06,479
+each handoff both team<font color="#CCCCCC"> members are</font>
+
+1
+00:04:03,939 --> 00:04:09,250
+<font color="#CCCCCC">working on their parts of the feature</font>
+
+1
+00:04:06,479 --> 00:04:11,169
+<font color="#CCCCCC">sometimes</font><font color="#E5E5E5"> just describing this way of</font>
+
+1
+00:04:09,250 --> 00:04:13,300
+<font color="#E5E5E5">working is enough for a team to adopt it</font>
+
+1
+00:04:11,169 --> 00:04:15,759
+other teams need a bit more<font color="#CCCCCC"> of a nudge</font>
+
+1
+00:04:13,300 --> 00:04:18,220
+so<font color="#CCCCCC"> let's look at the second thing I said</font>
+
+1
+00:04:15,759 --> 00:04:20,920
+I like<font color="#CCCCCC"> to do to</font><font color="#E5E5E5"> address this problem</font><font color="#CCCCCC"> put</font>
+
+1
+00:04:18,220 --> 00:04:23,110
+up a new chart the chart graphs the
+
+1
+00:04:20,920 --> 00:04:26,140
+number of finished product backlog items
+
+1
+00:04:23,110 --> 00:04:28,240
+<font color="#E5E5E5">per day of the</font><font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> often the graph</font>
+
+1
+00:04:26,139 --> 00:04:30,399
+will<font color="#CCCCCC"> look like this</font><font color="#E5E5E5"> with the team</font>
+
+1
+00:04:28,240 --> 00:04:32,410
+clearly<font color="#E5E5E5"> expecting to finish all</font><font color="#CCCCCC"> of</font>
+
+1
+00:04:30,399 --> 00:04:35,258
+<font color="#E5E5E5">they're planned product backlog</font><font color="#CCCCCC"> items in</font>
+
+1
+00:04:32,410 --> 00:04:38,169
+the last<font color="#CCCCCC"> two days of</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> it's not</font>
+
+1
+00:04:35,259 --> 00:04:40,300
+likely<font color="#E5E5E5"> usually I put a graph like this</font>
+
+1
+00:04:38,168 --> 00:04:42,370
+<font color="#E5E5E5">up without any fanfare</font><font color="#CCCCCC"> I don't even</font>
+
+1
+00:04:40,300 --> 00:04:44,319
+<font color="#CCCCCC">mention it I just hang it on the wall</font>
+
+1
+00:04:42,370 --> 00:04:47,050
+<font color="#E5E5E5">near the team's task board or sprint</font>
+
+1
+00:04:44,319 --> 00:04:49,149
+<font color="#E5E5E5">burn down chart the axes are</font><font color="#CCCCCC"> clearly</font>
+
+1
+00:04:47,050 --> 00:04:51,400
+labeled<font color="#E5E5E5"> so it's not hard for</font><font color="#CCCCCC"> the team to</font>
+
+1
+00:04:49,149 --> 00:04:53,469
+figure<font color="#E5E5E5"> out what the chart is showing if</font>
+
+1
+00:04:51,399 --> 00:04:56,109
+the team doesn't get the hint<font color="#E5E5E5"> from me</font>
+
+1
+00:04:53,470 --> 00:04:57,220
+quietly posting and updating this<font color="#CCCCCC"> I will</font>
+
+1
+00:04:56,110 --> 00:04:59,740
+talk<font color="#CCCCCC"> to them about it</font>
+
+1
+00:04:57,220 --> 00:05:01,539
+I'll ask things like<font color="#E5E5E5"> how do you expect</font>
+
+1
+00:04:59,740 --> 00:05:04,150
+to<font color="#CCCCCC"> finish eighth product backlog items</font>
+
+1
+00:05:01,538 --> 00:05:07,509
+<font color="#E5E5E5">in two days when none have been finished</font>
+
+1
+00:05:04,149 --> 00:05:09,009
+<font color="#E5E5E5">so far or are there ways we can find to</font>
+
+1
+00:05:07,509 --> 00:05:10,839
+work together better so<font color="#E5E5E5"> that we can</font>
+
+1
+00:05:09,009 --> 00:05:13,810
+start<font color="#E5E5E5"> finishing some user stories</font>
+
+1
+00:05:10,839 --> 00:05:15,369
+<font color="#E5E5E5">earlier in the sprint one thing you can</font>
+
+1
+00:05:13,810 --> 00:05:17,350
+do to help the team<font color="#E5E5E5"> find those better</font>
+
+1
+00:05:15,370 --> 00:05:18,850
+ways<font color="#CCCCCC"> to work together</font><font color="#E5E5E5"> is the third</font>
+
+1
+00:05:17,350 --> 00:05:22,419
+<font color="#CCCCCC">suggestion of this video</font>
+
+1
+00:05:18,850 --> 00:05:24,760
+swarm<font color="#E5E5E5"> swarming refers to having the</font>
+
+1
+00:05:22,418 --> 00:05:28,209
+<font color="#E5E5E5">entire team working on a single product</font>
+
+1
+00:05:24,759 --> 00:05:30,069
+<font color="#E5E5E5">backlog item at once for most teams</font><font color="#CCCCCC"> this</font>
+
+1
+00:05:28,209 --> 00:05:32,709
+is never<font color="#E5E5E5"> something I'd suggest</font>
+
+1
+00:05:30,069 --> 00:05:36,579
+permanently<font color="#E5E5E5"> but it can be great as a</font>
+
+1
+00:05:32,709 --> 00:05:39,668
+drill<font color="#CCCCCC"> I like to swim a common swimming</font>
+
+1
+00:05:36,579 --> 00:05:41,709
+drill is<font color="#CCCCCC"> called closed fist</font><font color="#E5E5E5"> swimming you</font>
+
+1
+00:05:39,668 --> 00:05:44,589
+swim with<font color="#CCCCCC"> your hands clenched in fists</font>
+
+1
+00:05:41,709 --> 00:05:47,138
+this<font color="#E5E5E5"> is clearly inefficient</font><font color="#CCCCCC"> and you'd</font>
+
+1
+00:05:44,589 --> 00:05:49,209
+never want to<font color="#E5E5E5"> race this way but it helps</font>
+
+1
+00:05:47,139 --> 00:05:51,129
+a swimmer learn to feel the water<font color="#E5E5E5"> on the</font>
+
+1
+00:05:49,209 --> 00:05:53,310
+rest of their arm and<font color="#E5E5E5"> the swimmer</font>
+
+1
+00:05:51,129 --> 00:05:56,319
+develops a better stroke because of it
+
+1
+00:05:53,310 --> 00:05:58,810
+swarming<font color="#E5E5E5"> is similar not something to do</font>
+
+1
+00:05:56,319 --> 00:06:01,360
+permanently but great<font color="#CCCCCC"> to try during the</font>
+
+1
+00:05:58,810 --> 00:06:03,668
+occasional sprint<font color="#E5E5E5"> when five to nine</font>
+
+1
+00:06:01,360 --> 00:06:05,860
+people<font color="#E5E5E5"> work on a single</font><font color="#CCCCCC"> product backlog</font>
+
+1
+00:06:03,668 --> 00:06:08,379
+item they will<font color="#CCCCCC"> be forced</font><font color="#E5E5E5"> to find new</font>
+
+1
+00:06:05,860 --> 00:06:10,439
+ways to<font color="#E5E5E5"> collaborate</font><font color="#CCCCCC"> they'll find ways to</font>
+
+1
+00:06:08,379 --> 00:06:13,469
+<font color="#E5E5E5">split the work into smaller parts</font>
+
+1
+00:06:10,439 --> 00:06:15,959
+<font color="#CCCCCC">discover</font><font color="#E5E5E5"> new ways</font><font color="#CCCCCC"> to pair and so on</font>
+
+1
+00:06:13,470 --> 00:06:18,010
+applying these three suggestions
+
+1
+00:06:15,959 --> 00:06:20,408
+<font color="#E5E5E5">programmers and testers working together</font>
+
+1
+00:06:18,009 --> 00:06:22,329
+on subsets of<font color="#E5E5E5"> a product backlog item</font>
+
+1
+00:06:20,408 --> 00:06:25,089
+<font color="#E5E5E5">putting up a chart to</font><font color="#CCCCCC"> make the issue</font>
+
+1
+00:06:22,329 --> 00:06:26,889
+visible and swarming should help solve
+
+1
+00:06:25,089 --> 00:06:29,408
+the problem<font color="#E5E5E5"> of programmers finishing</font>
+
+1
+00:06:26,889 --> 00:06:31,889
+work<font color="#CCCCCC"> too late for the testers to fully</font>
+
+1
+00:06:29,408 --> 00:06:31,889
+test<font color="#E5E5E5"> it</font>
+
