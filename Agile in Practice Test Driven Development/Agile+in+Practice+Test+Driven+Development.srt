@@ -16,12 +16,12 @@ we'd like to talk about test-driven development
 4
 00:00:07,820 --> 00:00:10,460
 which is commonly referred to as TDD
-که عموما با عنوان TDD شناخته می‌شود
+که عموما با عنوان تی.دی.دی شناخته می‌شود
 
 5
 00:00:10,920 --> 00:00:13,600
 TDD is a software development discipline where 
-TDD دستورالعملی برای توسعه نرم افزار است که
+تی.دی.دی دستورالعملی برای توسعه نرم افزار است که
 
 6
 00:00:13,720 --> 00:00:16,930
@@ -34,7 +34,7 @@ developers write automated test cases for enhancements or new features before th
 8
 00:00:20,120 --> 00:00:22,490
 the basic premise of TDD
-اصل اولیه TDD این است که
+منطق ساده‌ی تی.دی.دی این است که
 
 9
 00:00:22,500 --> 00:00:24,910
