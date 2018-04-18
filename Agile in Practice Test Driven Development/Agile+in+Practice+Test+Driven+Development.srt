@@ -3,7 +3,6 @@
 hi and welcome to the agile Academy 
 سلام، به آکادمی چابک خوش آمدید 
 
-
 2
 00:00:03,370 --> 00:00:05,360
 in this Agile and practice talk
@@ -26,13 +25,11 @@ TDD دستورالعملی برای توسعه نرم افزار است که
 
 6
 00:00:13,720 --> 00:00:16,930
-developers write automated test cases for enhancements 
-که توسعه دهندگان قبل از اعمال تغییرات یا تولید ویژگی جدید
+developers write automated test cases for enhancements or new features before they write any code
+بر آن اساس، توسعه دهندگان قبل از کد نویسی برای توسعه یا افزودن قابلیت جدید، باید تست‌های موردی بنویسند
 
 7
 00:00:16,970 --> 00:00:19,840
-or new features before they write any code 
-تست کیس‌های (موارد آزمون) خودکار برای آن می‌نویسند
 
 8
 00:00:20,120 --> 00:00:22,490
@@ -40,9 +37,12 @@ the basic premise of TDD
 اصل اولیه TDD این است که
 
 9
-00:00:28,210 --> 00:00:24,910
+00:00:22,500 --> 00:00:24,910
 is that you begin by writing a failing test for the simplest piece of functionality that you need to implement
 ابتدا برای جزیی ساده‌‌ از عملکردی که می‌خواهید پیاده‌سازی کنید، تستی می‌نویسید که پاس نمی‌شود
+
+10
+00:00:24,950 --> 00:00:28,210
 
 11
 00:00:28,360 --> 00:00:32,070
