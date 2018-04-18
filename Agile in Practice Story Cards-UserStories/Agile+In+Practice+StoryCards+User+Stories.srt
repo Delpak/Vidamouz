@@ -1,215 +1,267 @@
 ﻿1
 00:00:00,000 --> 00:00:02,860
+سلام و به آکادمی اجایل خوش آمدید
 hi and welcome to the agile Academy
 
 2
 00:00:02,930 --> 00:00:05,090
-In this Agile in Practice talk 
+در این گفتار از سری گفتارهای چابکی در عمل
+In this Agile in Practice talk
 
 3
-00:00:05,180 --> 00:00:09,680
-we'd like to show you how agile teams use story cards to capture user requirements
+00:00:05,180 --> 00:00:08,150
+می‌خواهیم نشان دهیم که تیم‌های چابک، چگونه از «برگه‌های داستان کاربری»
+we'd like to show you how agile teams use story cards
 
 4
-00:00:09,780 --> 00:00:12,860
-and to manage the delivery of user functionality
+00:00:08,160 --> 00:00:12,860
+برای ثبت و ضبط نیازمندی‌ کاربر و سامان‌دهی روش تحویل قابلیت‌ها، استفاده می‌کنند
+to capture user requirements and to manage the delivery of user functionality
 
 5
 00:00:13,260 --> 00:00:18,670
+تحویل سامانه جدید ارزیابی عمکرد کارکنان کار بزرگیست
+توسعه این سامانه، به درخواست واحد منابع انسانی در حال انجام است
 delivering a new employee performance review system for the HR department is a big piece of work
 
 6
 00:00:18,740 --> 00:00:21,860
- so the team want to chunk it down into smaller pieces
+تیم مایل است تا چنین کار بزرگی را به کارهای کوچکتری بشکند
+so the team want to chunk it down into smaller pieces
 
 7
 00:00:21,970 --> 00:00:27,130
-when agile teams capture requirements, they do so from a perspective of the user 
+تیم‌های چابک، ثبت و ضبط نیازمندی‌های کاربر را از نگاه خودِ کاربر انجام می‌دهند
+when agile teams capture requirements, they do so from a perspective of the user
 
 8
 00:00:27,300 --> 00:00:30,450
- hence we call the requirement user stories
+به همین دلیل است که «نیازمندی»‌ را، «داستانِ کاربر» می‌گوییم
+hence we call the requirement user stories
 
 9
 00:00:30,690 --> 00:00:35,040
- they are retinal index cards which we then call story cards
+آنها «داستانِ کاربر» را روی برگه‌هایی می‌نویسند که حالا آنها را «برگه داستان کاربر» می‌نامیم
+they are write on index cards, which we then call "story cards"
 
 10
 00:00:35,310 --> 00:00:38,580
-Meet Susan, the business analyst of the team 
+به سراغ سوزان برویم که به عنوان تحلیل‌گر کسب و کار در تیم فعالیت می‌کند
+Meet Susan. The business analyst of the team
 
 11
 00:00:38,710 --> 00:00:41,520
- she is having a conversation with our customer Jen
+او با سرپرست تیم منابع انسانی و نیز مالک محصول سامانه، یعنی جین،‌در حال گفتگوست
+she is having a conversation with our customer Jen, the HR team leader and product owner for the system
 
 12
-00:00:41,630 --> 00:00:45,950
- the HR team leader and product owner for the system, together
+00:00:46,010 --> 00:00:48,960
+هر دو با هم مشغول شناسایی داستان‌های کابر هستند
+together they are identifying some of the user stories
 
 13
-00:00:46,010 --> 00:00:48,960
- they are identifying some of the user stories 
+00:00:49,520 --> 00:00:50,660
+مثلا:
+for example:
 
 14
-00:00:49,520 --> 00:00:50,660
- for example:
+00:00:50,740 --> 00:00:54,530
+برای آنها معلوم شد که سرپرستان تیم‌ها نیز، جزو کاربران سیستم جدید هستند
+they have identified team leaders as users for the new system
 
 15
-00:00:50,740 --> 00:00:54,530
- they have identified team leaders as users for the new system
+00:00:54,670 --> 00:00:57,050
+یکی از داستانهایی که سوزان ثبت کرده این است:
+one of the stories that Susan captures is:
 
 16
-00:00:54,670 --> 00:00:57,050
- one of the stories that Susan captures is:
+00:00:57,170 --> 00:01:01,490
+«من به عنوان سرپرست تیم،‌نیاز دارم تا ارزیابی عملکرد اعضای تیمم را ببینم»
+as a team leader I need to see the performance reviews of my team members
 
 17
-00:00:57,170 --> 00:01:01,490
- as a team leader I need to see the performance reviews of my team members 
+00:01:01,560 --> 00:01:05,380
+به این ترتیب می‌توانم با آنها در خصوص عملکردشان صحبت کنم
+so that I can have a conversation with them about their performance
 
 18
-00:01:01,560 --> 00:01:05,380
- so that I can have a conversation with them about their performance
-
-19
 00:01:05,530 --> 00:01:08,290
+متوجه شدید که سوزان از چه ساختاری (برای بیان داستان کاربر) استفاده کرد؟
 Do you notice the structure that Susan is using?
 
-20
+19
 00:01:08,410 --> 00:01:11,750
- "As a ..."
+«من به عنوان ...»
+«می‌خواهم که ...»
+«به این ترتیب ...»
+"As a ..."
 "I need ..."
 "So that ..."
 
-21
+20
 00:01:11,930 --> 00:01:16,960
- as a team leader refers back to the user who wants this piece of functionality
+«من به عنوان سرپرست تیم» ارجاعیست به کاربری که به چنین کارکردی نیازمند است
+"As a team leader", refers back to the user who wants this piece of functionality
 
-22
+21
 00:01:17,110 --> 00:01:20,480
+در قسمت «نیاز دارم»، خواست کاربر به ما گفته می‌شود
 "I need", tells us what the user wants.
 
-23
+22
 00:01:20,890 --> 00:01:24,790
+و قسمت «به این ترتیب...» می‌گوید که چرا کاربر همچین چیزی می‌خواهد
 The "So That..." part, describes why the user wants it.
 
-24
+23
 00:01:24,950 --> 00:01:28,720
+کاربر انتظار دارد که چه دستاورد یا ارزشی، نصیبش شود؟
 What benefit or value he or she expects to get out of it?
 
-25
+24
 00:01:28,720 --> 00:01:31,720
+بیان اینکه چه نفعی حاصل می‌شود، موضوع مهمی در متدهای چابک است
 expressing the benefit is important in agile
 
-26
+25
 00:01:31,830 --> 00:01:36,550
+زیرا خواسته‌ی ما، تحویل سریع و کم ریسکِ ارزش، به مشتریان‌مان است
 since we want to deliver value to our customers fast with less risk
 
-27
+26
 00:01:36,870 --> 00:01:40,260
- Susan and Jane also discuss acceptance criteria 
+سوزان و جین، درباره «شروط پذیرش» نیز به بحث و تبادل نظر می‌پردازند
+Susan and Jane also discuss acceptance criteria
+
+27
+00:01:40,510 --> 00:01:45,380
+منظور شروطی هستند که تشخیص انجام شدن داستان را، برای تیم ممکن می‌کنند
+these are the criteria that will let the team know when the story is done
 
 28
-00:01:40,510 --> 00:01:45,380
- these are the criteria that will let the team know when the story is done 
+00:01:45,570 --> 00:01:49,490
+سوزان این شروط را به صورت جملات تاکیدی در پشت برگه داستان کاربر، یادداشت می‌کند
+Susan captures them in the key statement on the back of the story card
 
 29
-00:01:45,570 --> 00:01:49,490
- Susan captures them in the key statement on the back of the story card 
+00:01:49,640 --> 00:01:50,520
+پس به طور مختصر
+in short
 
 30
-00:01:49,640 --> 00:01:50,520
-in short 
+00:01:50,540 --> 00:01:56,930
+برگه داستان کاربر این امکان را به شما می‌دهد تا داستانی متقاعدکننده از خواسته‌ی کاربر و دلیل خواستنش بنویسید
+a story card allows you to record a compelling story that tells you what the user wants and why
 
 31
-00:01:50,540 --> 00:01:56,930
-a story card allows you to record a compelling story that tells you what the user wants and why 
-
-32
 00:01:57,050 --> 00:02:00,470
+برای گردآوری همه نیازمندی‌های سامانه جدید ارزیابی عملکرد
 to collect all requirements of the new performance review system
 
-33
+32
 00:02:00,540 --> 00:02:04,860
-Susan will have many more workshops with Jane and several potential users 
+سوزان کارگاه‌های زیادی با جین و چند کاربر بالقوه دیگر
+Susan will have many more workshops with Jane and several potential users
 
-34
+33
 00:02:04,920 --> 00:02:07,050
+با هدف ثبت داستان‌های کاربری برگزار خواهد کرد
 in order to capture their stories
 
-35
+34
 00:02:07,160 --> 00:02:11,410
+تیم فهمیده که برگه داستان کاربر، برای یادداشت کردن همه اطلاعات، خیلی کوچک است
 The team realized that a story card is too small to gather all the information
 
-36
+35
 00:02:11,850 --> 00:02:14,670
- it's just enough to identify the requirement 
+و فقط برای مشخص کردن نیازمندی مناسب است
+it's just enough to identify the requirement
 
-37
+36
 00:02:14,940 --> 00:02:18,550
+ما معمولا اینطور می‌گوییم که برگه‌ی داستان، قراری برای گفتگوست
 we often say that a story card as a promise for a conversation
 
-38
+37
 00:02:18,780 --> 00:02:21,350
- just before we start working on the story 
+حتما قبل از اینکه کار روی این داستان کاربری را شروع کنیم
+just before we start working on the story
+
+38
+00:02:21,390 --> 00:02:25,120
+می‌آییم و با جزییات بیشتری درباره آن داستان بحث می‌کنیم
+we will come and talk with you to discuss the story in more detail
 
 39
-00:02:21,390 --> 00:02:25,120
-we will come and talk with you to discuss the story in more detail 
+00:02:25,290 --> 00:02:27,040
+داستان‌ها در بکلاگ
+stories on the backlog
 
 40
-00:02:25,290 --> 00:02:27,040
- stories on the backlog
+00:02:27,160 --> 00:02:32,480
+حالا که سوزان کار را به تکه‌های کوچکتری شکسته است، تیم می‌تواند برنامه‌ریزی کارش را شروع کند
+now that Susan has chunk down the work into smaller pieces, the team can start planning the work
 
 41
-00:02:27,160 --> 00:02:32,480
- now that Susan has chunk down the work into smaller pieces, the team can start planning the work 
-
-42
 00:02:32,580 --> 00:02:36,650
+سوزان یک برگه داستان را روی دیوار می‌چسباند
+و همه می‌توانند آن‌را ببینند
 Susan sticks a story card on the wall
 so everyone can see them
 
-43
+42
 00:02:36,740 --> 00:02:41,230
+بیل: «عالیه! حالا می‌تونیم اولویت‌بندی و برآورد کارها رو انجام بدیم»
 great says Bill now we can prioritize and estimate the work
 
-44
+43
 00:02:41,340 --> 00:02:44,040
- prioritizing and estimating the story cards
+اولویت‌بندی و برآورد کردن برگه‌های داستان کاربر
+prioritizing and estimating the story cards
+
+44
+00:02:44,120 --> 00:02:48,710
+به تیم کمک می‌کند تا
+will help the team to set an order and the time-line, towards the total work.
 
 45
-00:02:44,120 --> 00:02:48,710
- will help the team to set an order and the time-line, towards the total work.
+00:02:49,010 --> 00:02:50,660
+جین و تیم خوشحالند
+Jane and the team are happy
 
 46
-00:02:49,010 --> 00:02:50,660
-Jane and the team are happy 
-
-47
 00:02:50,760 --> 00:02:54,310
+یک کار عظیم، به تکه کارهای کوچکتری شکسته شده است
 the big piece of work is now chunk downed into smaller pieces of work
 
-48
+47
 00:02:54,440 --> 00:02:56,230
- and put into a clear order
+و به ترتیب مشخص شده‌اند
+and put into a clear order
+
+48
+00:02:56,370 --> 00:02:57,320
+در این گفتار
+in this talk
 
 49
-00:02:56,370 --> 00:02:57,320
- in this talk 
+00:02:57,400 --> 00:03:01,180
+دیدید که چگونه تیم چابک، داستان‌های کاربر را در برگه‌های داستان کاربر ثبت کرده
+you saw how agile team capture user stories with story cards
 
 50
-00:02:57,400 --> 00:03:01,180
-you saw how agile team capture user stories with story cards 
-
-51
 00:03:01,240 --> 00:03:04,280
+و سپس از آنها، برای اولویت بندی و برآورد کار استفاده می‌کند
 which they then use to prioritize and estimate their work
 
-52
+51
 00:03:04,370 --> 00:03:07,810
-How agile teams exactly prioritize and estimate the work 
+اما اینکه تیم‌های چابک دقیقا چگونه اولویت‌بندی و برآورد کارها را انجام می‌دهند
+How agile teams exactly prioritize and estimate the work
 
-53
+52
 00:03:07,980 --> 00:03:11,660
-is a topic for another time, and worth checking out on our website.
+موضوعی است که در زمانی دیگر به آن خواهیم پرداخت.
+is a topic for another time
 
