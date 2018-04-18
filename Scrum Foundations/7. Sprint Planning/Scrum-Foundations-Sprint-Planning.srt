@@ -1,0 +1,700 @@
+1
+00:00:04,549 --> 00:00:09,179
+in this<font color="#E5E5E5"> video we'll learn all about the</font>
+
+1
+00:00:07,318 --> 00:00:14,129
+sprint planning meeting<font color="#E5E5E5"> we will cover</font>
+
+1
+00:00:09,179 --> 00:00:18,448
+the inputs to the<font color="#E5E5E5"> meeting the goals who</font>
+
+1
+00:00:14,130 --> 00:00:21,480
+attends<font color="#CCCCCC"> the time box the general</font>
+
+1
+00:00:18,449 --> 00:00:26,368
+<font color="#E5E5E5">approach to running the meeting</font><font color="#CCCCCC"> and the</font>
+
+1
+00:00:21,480 --> 00:00:28,199
+outputs<font color="#E5E5E5"> as its name implies the sprint</font>
+
+1
+00:00:26,368 --> 00:00:30,960
+planning meeting<font color="#CCCCCC"> is used to plan the</font>
+
+1
+00:00:28,199 --> 00:00:33,750
+<font color="#E5E5E5">work of the</font><font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> the meeting doesn't</font>
+
+1
+00:00:30,960 --> 00:00:36,570
+<font color="#E5E5E5">happen before the sprint starts but is</font>
+
+1
+00:00:33,750 --> 00:00:39,329
+the<font color="#E5E5E5"> first</font><font color="#CCCCCC"> event within</font><font color="#E5E5E5"> the sprint this</font>
+
+1
+00:00:36,570 --> 00:00:42,058
+<font color="#E5E5E5">is true of all scrum events everything</font>
+
+1
+00:00:39,329 --> 00:00:45,450
+<font color="#E5E5E5">happens within a sprint and there is no</font>
+
+1
+00:00:42,058 --> 00:00:47,570
+<font color="#E5E5E5">pause between</font><font color="#CCCCCC"> sprints the sprint</font>
+
+1
+00:00:45,450 --> 00:00:50,640
+planning meeting has two<font color="#E5E5E5"> primary goals</font>
+
+1
+00:00:47,570 --> 00:00:53,789
+first<font color="#E5E5E5"> determine what can be delivered in</font>
+
+1
+00:00:50,640 --> 00:00:57,270
+<font color="#E5E5E5">the sprint and second to plan how to</font>
+
+1
+00:00:53,789 --> 00:00:59,329
+achieve that<font color="#E5E5E5"> delivery the entire scrum</font>
+
+1
+00:00:57,270 --> 00:01:02,219
+team attends the sprint planning meeting
+
+1
+00:00:59,329 --> 00:01:04,290
+<font color="#E5E5E5">the product owners role tends to be more</font>
+
+1
+00:01:02,219 --> 00:01:06,659
+active during<font color="#E5E5E5"> discussions of what can be</font>
+
+1
+00:01:04,290 --> 00:01:08,430
+<font color="#CCCCCC">delivered</font><font color="#E5E5E5"> and less active while the</font>
+
+1
+00:01:06,659 --> 00:01:11,219
+<font color="#E5E5E5">development team plans how to achieve</font>
+
+1
+00:01:08,430 --> 00:01:14,340
+the delivery participating as questions
+
+1
+00:01:11,219 --> 00:01:16,408
+arise the sprint planning meeting is
+
+1
+00:01:14,340 --> 00:01:19,500
+time boxed to<font color="#CCCCCC"> eight hours for</font><font color="#E5E5E5"> a</font>
+
+1
+00:01:16,409 --> 00:01:22,439
+<font color="#CCCCCC">one-month sprint</font><font color="#E5E5E5"> for shorter</font><font color="#CCCCCC"> sprints the</font>
+
+1
+00:01:19,500 --> 00:01:25,438
+time box is shorter<font color="#E5E5E5"> a standard guideline</font>
+
+1
+00:01:22,438 --> 00:01:28,828
+is<font color="#E5E5E5"> two hours</font><font color="#CCCCCC"> of planning for every one</font>
+
+1
+00:01:25,438 --> 00:01:31,949
+week of<font color="#CCCCCC"> sprint remember a time box is a</font>
+
+1
+00:01:28,828 --> 00:01:34,529
+maximum amount<font color="#CCCCCC"> of</font><font color="#E5E5E5"> time not a minimum or</font>
+
+1
+00:01:31,950 --> 00:01:36,810
+suggested<font color="#E5E5E5"> amount of time many</font>
+
+1
+00:01:34,530 --> 00:01:38,969
+experienced scrum teams<font color="#CCCCCC"> regularly spend</font>
+
+1
+00:01:36,810 --> 00:01:44,840
+far less than<font color="#E5E5E5"> the time box</font><font color="#CCCCCC"> in sprint</font>
+
+1
+00:01:38,969 --> 00:01:47,759
+planning all scrum events<font color="#CCCCCC"> are time boxed</font>
+
+1
+00:01:44,840 --> 00:01:50,040
+with a limited amount<font color="#E5E5E5"> of time</font><font color="#CCCCCC"> the team</font>
+
+1
+00:01:47,759 --> 00:01:52,950
+feels a sense<font color="#E5E5E5"> of urgency</font><font color="#CCCCCC"> to accomplish</font>
+
+1
+00:01:50,040 --> 00:01:54,868
+the goals of the time boxed event<font color="#E5E5E5"> nearly</font>
+
+1
+00:01:52,950 --> 00:01:57,000
+all people work most<font color="#CCCCCC"> effectively when</font>
+
+1
+00:01:54,868 --> 00:02:01,438
+<font color="#E5E5E5">there are realistic but honored</font>
+
+1
+00:01:57,000 --> 00:02:03,810
+deadlines in place since<font color="#E5E5E5"> the team knows</font>
+
+1
+00:02:01,438 --> 00:02:05,699
+there is<font color="#E5E5E5"> limited time they tend to focus</font>
+
+1
+00:02:03,810 --> 00:02:08,848
+<font color="#E5E5E5">on accomplishing</font><font color="#CCCCCC"> the most important</font>
+
+1
+00:02:05,700 --> 00:02:11,189
+things during<font color="#CCCCCC"> that</font><font color="#E5E5E5"> time skilled scrum</font>
+
+1
+00:02:08,848 --> 00:02:13,049
+masters use the time box<font color="#E5E5E5"> as a reason to</font>
+
+1
+00:02:11,189 --> 00:02:13,800
+move the conversation along<font color="#E5E5E5"> when it is</font>
+
+1
+00:02:13,050 --> 00:02:17,400
+not<font color="#E5E5E5"> serving the</font>
+
+1
+00:02:13,800 --> 00:02:19,800
+<font color="#E5E5E5">meetings purpose in this way time boxes</font>
+
+1
+00:02:17,400 --> 00:02:23,510
+are a constraint<font color="#E5E5E5"> that help focus on the</font>
+
+1
+00:02:19,800 --> 00:02:26,490
+value we can add by<font color="#E5E5E5"> collaborating</font>
+
+1
+00:02:23,509 --> 00:02:29,429
+Parkinson's<font color="#E5E5E5"> law states that work expands</font>
+
+1
+00:02:26,490 --> 00:02:31,560
+to fill the time<font color="#E5E5E5"> allotted in everyday</font>
+
+1
+00:02:29,430 --> 00:02:33,960
+terms<font color="#E5E5E5"> this</font><font color="#CCCCCC"> means</font><font color="#E5E5E5"> that a meeting</font><font color="#CCCCCC"> that is</font>
+
+1
+00:02:31,560 --> 00:02:35,909
+scheduled for one<font color="#CCCCCC"> hour</font><font color="#E5E5E5"> will tend to take</font>
+
+1
+00:02:33,960 --> 00:02:38,550
+the full hour<font color="#CCCCCC"> regardless of what gets</font>
+
+1
+00:02:35,909 --> 00:02:40,530
+accomplished rather than allotting the
+
+1
+00:02:38,550 --> 00:02:43,290
+exact amount of time<font color="#CCCCCC"> a scrum event will</font>
+
+1
+00:02:40,530 --> 00:02:46,289
+take scrum specifies the maximum<font color="#E5E5E5"> time</font>
+
+1
+00:02:43,289 --> 00:02:47,729
+<font color="#E5E5E5">the time box</font><font color="#CCCCCC"> a skilled scrum master will</font>
+
+1
+00:02:46,289 --> 00:02:49,969
+help the<font color="#E5E5E5"> team focus only on</font>
+
+1
+00:02:47,729 --> 00:02:52,289
+<font color="#E5E5E5">accomplishing the goals of the meeting</font>
+
+1
+00:02:49,969 --> 00:02:54,180
+<font color="#CCCCCC">experienced scrum teams should</font><font color="#E5E5E5"> find that</font>
+
+1
+00:02:52,289 --> 00:02:58,859
+many scrum events<font color="#E5E5E5"> are accomplished well</font>
+
+1
+00:02:54,180 --> 00:03:00,480
+before the time box expires the sprint
+
+1
+00:02:58,860 --> 00:03:03,900
+planning meeting is<font color="#E5E5E5"> typically divided</font>
+
+1
+00:03:00,479 --> 00:03:06,689
+<font color="#CCCCCC">into two parts</font><font color="#E5E5E5"> historically these were</font>
+
+1
+00:03:03,900 --> 00:03:08,430
+referred to<font color="#CCCCCC"> as Part A and Part B</font><font color="#E5E5E5"> though</font>
+
+1
+00:03:06,689 --> 00:03:11,490
+that language is not<font color="#CCCCCC"> part of the current</font>
+
+1
+00:03:08,430 --> 00:03:13,740
+<font color="#E5E5E5">official scrum guide instead the scrum</font>
+
+1
+00:03:11,490 --> 00:03:16,260
+guide refers to two topics of discussion
+
+1
+00:03:13,740 --> 00:03:20,070
+related<font color="#E5E5E5"> to the two goals</font><font color="#CCCCCC"> what can be</font>
+
+1
+00:03:16,259 --> 00:03:23,669
+delivered<font color="#E5E5E5"> and how will</font><font color="#CCCCCC"> we deliver it the</font>
+
+1
+00:03:20,069 --> 00:03:25,979
+<font color="#E5E5E5">four inputs to the meeting are the</font>
+
+1
+00:03:23,669 --> 00:03:29,219
+<font color="#E5E5E5">latest product increment if the Sprint</font>
+
+1
+00:03:25,979 --> 00:03:32,849
+<font color="#CCCCCC">is for ongoing</font><font color="#E5E5E5"> development the current</font>
+
+1
+00:03:29,219 --> 00:03:34,680
+product<font color="#E5E5E5"> backlog the projected capacity</font>
+
+1
+00:03:32,849 --> 00:03:37,829
+of the development team<font color="#E5E5E5"> during this</font>
+
+1
+00:03:34,680 --> 00:03:41,370
+sprint and past<font color="#E5E5E5"> performance of the</font>
+
+1
+00:03:37,830 --> 00:03:44,580
+development team<font color="#CCCCCC"> the first two inputs</font>
+
+1
+00:03:41,370 --> 00:03:46,770
+<font color="#E5E5E5">the increment</font><font color="#CCCCCC"> and product backlog</font><font color="#E5E5E5"> help</font>
+
+1
+00:03:44,580 --> 00:03:49,350
+us inspect and adapt on<font color="#E5E5E5"> the product</font>
+
+1
+00:03:46,770 --> 00:03:51,659
+<font color="#CCCCCC">itself</font><font color="#E5E5E5"> what is the most important thing</font>
+
+1
+00:03:49,349 --> 00:03:55,109
+to deliver which we can use to<font color="#CCCCCC"> craft the</font>
+
+1
+00:03:51,659 --> 00:03:57,750
+Sprint<font color="#CCCCCC"> goal the second two inputs are</font>
+
+1
+00:03:55,110 --> 00:04:00,170
+<font color="#E5E5E5">related to understanding how much can we</font>
+
+1
+00:03:57,750 --> 00:04:00,169
+take on
+
+1
+00:04:01,169 --> 00:04:06,509
+past performance<font color="#E5E5E5"> is helpful guidance to</font>
+
+1
+00:04:04,409 --> 00:04:08,549
+the team to understand what<font color="#E5E5E5"> on average</font>
+
+1
+00:04:06,509 --> 00:04:11,849
+<font color="#E5E5E5">they can achieve during a given sprint</font>
+
+1
+00:04:08,550 --> 00:04:13,709
+<font color="#E5E5E5">an analogy from the sports world</font><font color="#CCCCCC"> is that</font>
+
+1
+00:04:11,849 --> 00:04:15,750
+historic<font color="#CCCCCC"> performance</font><font color="#E5E5E5"> would</font><font color="#CCCCCC"> be like the</font>
+
+1
+00:04:13,709 --> 00:04:17,759
+average<font color="#E5E5E5"> number of points scored per game</font>
+
+1
+00:04:15,750 --> 00:04:21,620
+<font color="#E5E5E5">for a team over</font><font color="#CCCCCC"> the course of an entire</font>
+
+1
+00:04:17,759 --> 00:04:24,750
+season<font color="#CCCCCC"> it is a good</font><font color="#E5E5E5"> long-term guideline</font>
+
+1
+00:04:21,620 --> 00:04:27,209
+capacity in the sports<font color="#CCCCCC"> analogy would</font><font color="#E5E5E5"> be</font>
+
+1
+00:04:24,750 --> 00:04:29,730
+<font color="#E5E5E5">to look at tonight's game assessing who</font>
+
+1
+00:04:27,209 --> 00:04:31,349
+is on the active roster<font color="#E5E5E5"> whether the team</font>
+
+1
+00:04:29,730 --> 00:04:33,030
+might be<font color="#E5E5E5"> fatigued from the recent</font>
+
+1
+00:04:31,350 --> 00:04:36,090
+schedule and the strengths and
+
+1
+00:04:33,029 --> 00:04:38,159
+<font color="#E5E5E5">weaknesses</font><font color="#CCCCCC"> of tonight's opponent a scrum</font>
+
+1
+00:04:36,089 --> 00:04:40,139
+team might consider various individuals
+
+1
+00:04:38,160 --> 00:04:42,660
+<font color="#E5E5E5">plan to time off or other commitments</font>
+
+1
+00:04:40,139 --> 00:04:44,189
+<font color="#E5E5E5">inside and out of work the specific</font>
+
+1
+00:04:42,660 --> 00:04:45,960
+product backlog<font color="#CCCCCC"> items under</font>
+
+1
+00:04:44,189 --> 00:04:48,509
+consideration<font color="#E5E5E5"> and what skills are</font>
+
+1
+00:04:45,959 --> 00:04:51,918
+<font color="#E5E5E5">required to</font><font color="#CCCCCC"> deliver them any holidays</font>
+
+1
+00:04:48,509 --> 00:04:55,199
+that might fall within the<font color="#CCCCCC"> Sprint etc</font>
+
+1
+00:04:51,918 --> 00:04:57,120
+with these<font color="#E5E5E5"> inputs in place the scrum</font>
+
+1
+00:04:55,199 --> 00:04:59,519
+team<font color="#E5E5E5"> enters into the first topic of</font>
+
+1
+00:04:57,120 --> 00:05:03,060
+discussion<font color="#E5E5E5"> what can be achieved</font><font color="#CCCCCC"> in the</font>
+
+1
+00:04:59,519 --> 00:05:05,189
+<font color="#CCCCCC">sprint this</font><font color="#E5E5E5"> is accomplished by the scrum</font>
+
+1
+00:05:03,060 --> 00:05:07,110
+team collaborating to understand all<font color="#CCCCCC"> of</font>
+
+1
+00:05:05,189 --> 00:05:09,240
+the inputs and finally by the
+
+1
+00:05:07,110 --> 00:05:11,970
+development team polling product backlog
+
+1
+00:05:09,240 --> 00:05:13,228
+items<font color="#E5E5E5"> into the</font><font color="#CCCCCC"> Sprint</font><font color="#E5E5E5"> only the</font>
+
+1
+00:05:11,970 --> 00:05:14,940
+<font color="#E5E5E5">development team can make this</font>
+
+1
+00:05:13,228 --> 00:05:17,250
+assessment<font color="#E5E5E5"> of what to pull into the</font>
+
+1
+00:05:14,939 --> 00:05:19,589
+<font color="#CCCCCC">sprint</font><font color="#E5E5E5"> and any attempt by others outside</font>
+
+1
+00:05:17,250 --> 00:05:21,899
+<font color="#CCCCCC">of the development team</font><font color="#E5E5E5"> will lead to</font>
+
+1
+00:05:19,589 --> 00:05:25,349
+some<font color="#E5E5E5"> sort of dysfunction and typically</font>
+
+1
+00:05:21,899 --> 00:05:27,269
+to a reduction<font color="#CCCCCC"> in quality experience</font>
+
+1
+00:05:25,350 --> 00:05:29,160
+scrum teams<font color="#E5E5E5"> tend to spend very little</font>
+
+1
+00:05:27,269 --> 00:05:31,228
+time<font color="#CCCCCC"> on the first topic</font><font color="#E5E5E5"> since they</font>
+
+1
+00:05:29,160 --> 00:05:36,630
+actively refine the<font color="#E5E5E5"> product backlog</font><font color="#CCCCCC"> on</font>
+
+1
+00:05:31,228 --> 00:05:38,490
+an ongoing basis once the development
+
+1
+00:05:36,629 --> 00:05:40,860
+team has made their<font color="#CCCCCC"> forecasts for</font><font color="#E5E5E5"> what</font>
+
+1
+00:05:38,490 --> 00:05:42,629
+can be<font color="#CCCCCC"> achieved</font><font color="#E5E5E5"> in the Sprint</font><font color="#CCCCCC"> the entire</font>
+
+1
+00:05:40,860 --> 00:05:45,449
+scrum team collaborates<font color="#E5E5E5"> to choose a</font>
+
+1
+00:05:42,629 --> 00:05:47,668
+<font color="#E5E5E5">sprint goal the Sprint goal helps</font>
+
+1
+00:05:45,449 --> 00:05:50,069
+clarify the overarching purpose<font color="#E5E5E5"> of the</font>
+
+1
+00:05:47,668 --> 00:05:52,199
+<font color="#E5E5E5">Sprint understanding the purpose and</font>
+
+1
+00:05:50,069 --> 00:05:56,610
+impact<font color="#E5E5E5"> of the work is a critical factor</font>
+
+1
+00:05:52,199 --> 00:05:58,918
+<font color="#E5E5E5">in</font><font color="#CCCCCC"> creating high-performing teams with</font>
+
+1
+00:05:56,610 --> 00:06:00,780
+the selected product<font color="#E5E5E5"> backlog items and a</font>
+
+1
+00:05:58,918 --> 00:06:02,579
+sprint goal in place<font color="#E5E5E5"> the scrum team</font>
+
+1
+00:06:00,779 --> 00:06:04,859
+moves<font color="#E5E5E5"> into the second topic of</font>
+
+1
+00:06:02,579 --> 00:06:08,430
+discussion how will the chosen work get
+
+1
+00:06:04,860 --> 00:06:10,290
+<font color="#CCCCCC">done the selected</font>
+
+1
+00:06:08,430 --> 00:06:12,269
+product backlog<font color="#E5E5E5"> items are now contained</font>
+
+1
+00:06:10,290 --> 00:06:14,210
+<font color="#E5E5E5">in the</font><font color="#CCCCCC"> sprint backlog</font><font color="#E5E5E5"> which is the</font>
+
+1
+00:06:12,269 --> 00:06:17,069
+development<font color="#CCCCCC"> teams plan for the sprint</font>
+
+1
+00:06:14,209 --> 00:06:19,109
+<font color="#E5E5E5">they collaborate to design the system</font>
+
+1
+00:06:17,069 --> 00:06:20,969
+<font color="#E5E5E5">and decompose the work required to</font>
+
+1
+00:06:19,110 --> 00:06:24,180
+<font color="#CCCCCC">deliver</font><font color="#E5E5E5"> the selected product backlog</font>
+
+1
+00:06:20,970 --> 00:06:27,090
+items<font color="#E5E5E5"> these details are added to the</font>
+
+1
+00:06:24,180 --> 00:06:29,639
+<font color="#E5E5E5">sprint backlog effective</font><font color="#CCCCCC"> development</font>
+
+1
+00:06:27,089 --> 00:06:31,799
+teams tend to decompose<font color="#E5E5E5"> all work into</font>
+
+1
+00:06:29,639 --> 00:06:34,439
+small<font color="#CCCCCC"> units that can</font><font color="#E5E5E5"> be completed in no</font>
+
+1
+00:06:31,800 --> 00:06:36,240
+<font color="#E5E5E5">more than a day</font><font color="#CCCCCC"> or two</font><font color="#E5E5E5"> the ensure that</font>
+
+1
+00:06:34,439 --> 00:06:38,219
+all work required<font color="#E5E5E5"> to meet the team's</font>
+
+1
+00:06:36,240 --> 00:06:42,210
+definition of done is captured in the
+
+1
+00:06:38,220 --> 00:06:44,250
+<font color="#CCCCCC">sprint backlog as the development team</font>
+
+1
+00:06:42,209 --> 00:06:45,870
+creates the<font color="#CCCCCC"> sprint backlog they may</font>
+
+1
+00:06:44,250 --> 00:06:48,540
+discover<font color="#CCCCCC"> that the work was larger than</font>
+
+1
+00:06:45,870 --> 00:06:50,040
+forecasted<font color="#E5E5E5"> in which case they discuss</font>
+
+1
+00:06:48,540 --> 00:06:51,750
+with the product owner what might be
+
+1
+00:06:50,040 --> 00:06:54,120
+removed<font color="#CCCCCC"> while still meeting</font><font color="#E5E5E5"> the Sprint</font>
+
+1
+00:06:51,750 --> 00:06:57,300
+goal<font color="#CCCCCC"> or if the Sprint goal</font><font color="#E5E5E5"> should</font><font color="#CCCCCC"> be</font>
+
+1
+00:06:54,120 --> 00:06:59,220
+revised<font color="#E5E5E5"> the product owner also answers</font>
+
+1
+00:06:57,300 --> 00:07:01,020
+any new questions<font color="#CCCCCC"> that</font><font color="#E5E5E5"> arise about the</font>
+
+1
+00:06:59,220 --> 00:07:03,960
+details of<font color="#CCCCCC"> the product backlog items</font>
+
+1
+00:07:01,019 --> 00:07:04,740
+that have<font color="#CCCCCC"> been selected</font><font color="#E5E5E5"> when the meeting</font>
+
+1
+00:07:03,959 --> 00:07:06,149
+is complete
+
+1
+00:07:04,740 --> 00:07:08,069
+the<font color="#E5E5E5"> development team</font><font color="#CCCCCC"> should be</font><font color="#E5E5E5"> able to</font>
+
+1
+00:07:06,149 --> 00:07:10,379
+<font color="#E5E5E5">explain</font><font color="#CCCCCC"> how they plan to</font><font color="#E5E5E5"> act as a</font>
+
+1
+00:07:08,069 --> 00:07:12,779
+self-organizing unit to deliver a
+
+1
+00:07:10,379 --> 00:07:14,969
+working<font color="#E5E5E5"> product increment</font><font color="#CCCCCC"> that meets the</font>
+
+1
+00:07:12,779 --> 00:07:17,159
+Sprint<font color="#CCCCCC"> goal and contains all of the</font>
+
+1
+00:07:14,970 --> 00:07:20,640
+capabilities represented by the selected
+
+1
+00:07:17,160 --> 00:07:22,650
+product<font color="#E5E5E5"> backlog items the outputs of the</font>
+
+1
+00:07:20,639 --> 00:07:24,509
+<font color="#CCCCCC">sprint planning meeting then are a</font>
+
+1
+00:07:22,649 --> 00:07:27,120
+finalized sprint goal and the
+
+1
+00:07:24,509 --> 00:07:28,920
+development<font color="#CCCCCC"> team</font><font color="#E5E5E5"> sprint backlog with</font>
+
+1
+00:07:27,120 --> 00:07:30,720
+those in place<font color="#CCCCCC"> the development</font><font color="#E5E5E5"> team is</font>
+
+1
+00:07:28,920 --> 00:07:33,530
+ready<font color="#CCCCCC"> to begin working</font><font color="#E5E5E5"> on the</font><font color="#CCCCCC"> items in</font>
+
+1
+00:07:30,720 --> 00:07:33,530
+the sprint backlog
+

@@ -1,0 +1,256 @@
+1
+00:00:04,700 --> 00:00:11,699
+for an individual<font color="#E5E5E5"> team or</font><font color="#CCCCCC"> organization</font>
+
+1
+00:00:08,580 --> 00:00:13,679
+<font color="#E5E5E5">to realize the benefits of scrum the</font>
+
+1
+00:00:11,699 --> 00:00:16,608
+structural components of<font color="#E5E5E5"> the</font><font color="#CCCCCC"> framework</font>
+
+1
+00:00:13,679 --> 00:00:19,320
+are an important but incomplete factor
+
+1
+00:00:16,609 --> 00:00:23,100
+the components of the framework<font color="#E5E5E5"> are the</font>
+
+1
+00:00:19,320 --> 00:00:25,079
+<font color="#E5E5E5">visible logical system of scrum since</font>
+
+1
+00:00:23,100 --> 00:00:28,109
+scrum is meant to be used by<font color="#E5E5E5"> people who</font>
+
+1
+00:00:25,079 --> 00:00:30,538
+<font color="#CCCCCC">have complex</font><font color="#E5E5E5"> varied beliefs and values</font>
+
+1
+00:00:28,109 --> 00:00:32,368
+that<font color="#E5E5E5"> influence their behavior</font><font color="#CCCCCC"> it is</font>
+
+1
+00:00:30,539 --> 00:00:34,350
+important to describe<font color="#E5E5E5"> the values that</font>
+
+1
+00:00:32,368 --> 00:00:37,140
+make the<font color="#CCCCCC"> system work in practice</font>
+
+1
+00:00:34,350 --> 00:00:40,760
+the components of the framework<font color="#CCCCCC"> are like</font>
+
+1
+00:00:37,140 --> 00:00:46,070
+the brain<font color="#E5E5E5"> of scrum</font><font color="#CCCCCC"> the five scrum values</font>
+
+1
+00:00:40,759 --> 00:00:49,878
+<font color="#E5E5E5">commitment courage focus openness and</font>
+
+1
+00:00:46,070 --> 00:00:52,710
+respect<font color="#E5E5E5"> are like the heart of scrum</font>
+
+1
+00:00:49,878 --> 00:00:56,670
+commitment<font color="#E5E5E5"> literally means joined</font>
+
+1
+00:00:52,710 --> 00:00:59,640
+together<font color="#CCCCCC"> it involves sharing</font><font color="#E5E5E5"> our sincere</font>
+
+1
+00:00:56,670 --> 00:01:02,129
+intent<font color="#E5E5E5"> to act and then accepting</font>
+
+1
+00:00:59,640 --> 00:01:06,450
+responsibility for following<font color="#E5E5E5"> through</font><font color="#CCCCCC"> on</font>
+
+1
+00:01:02,128 --> 00:01:08,519
+that intended action<font color="#E5E5E5"> in scrum people</font>
+
+1
+00:01:06,450 --> 00:01:12,570
+personally<font color="#E5E5E5"> commit to achieving the</font>
+
+1
+00:01:08,519 --> 00:01:16,590
+shared goals of the scrum team<font color="#E5E5E5"> courage</font>
+
+1
+00:01:12,569 --> 00:01:19,019
+means from the heart<font color="#E5E5E5"> it involves acting</font>
+
+1
+00:01:16,590 --> 00:01:22,320
+in alignment<font color="#CCCCCC"> with our</font><font color="#E5E5E5"> beliefs especially</font>
+
+1
+00:01:19,019 --> 00:01:24,420
+<font color="#CCCCCC">when</font><font color="#E5E5E5"> that is hard scrum team members</font>
+
+1
+00:01:22,319 --> 00:01:29,578
+have courage<font color="#CCCCCC"> to do the</font><font color="#E5E5E5"> right thing and</font>
+
+1
+00:01:24,420 --> 00:01:32,820
+work on tough problems focus comes<font color="#E5E5E5"> from</font>
+
+1
+00:01:29,578 --> 00:01:34,919
+<font color="#E5E5E5">the Latin</font><font color="#CCCCCC"> word for</font><font color="#E5E5E5"> domestic hearth which</font>
+
+1
+00:01:32,819 --> 00:01:37,798
+was the location<font color="#E5E5E5"> of the fire at the</font>
+
+1
+00:01:34,920 --> 00:01:39,810
+<font color="#E5E5E5">center of the home</font><font color="#CCCCCC"> people in the home</font>
+
+1
+00:01:37,799 --> 00:01:42,780
+gathered around the hearth<font color="#E5E5E5"> for warmth</font>
+
+1
+00:01:39,810 --> 00:01:46,200
+<font color="#E5E5E5">light and sustenance</font><font color="#CCCCCC"> since it was used</font>
+
+1
+00:01:42,780 --> 00:01:48,320
+<font color="#E5E5E5">for cooking the focus was literally the</font>
+
+1
+00:01:46,200 --> 00:01:51,390
+<font color="#E5E5E5">thing that brought people together</font><font color="#CCCCCC"> in</font>
+
+1
+00:01:48,319 --> 00:01:53,368
+scrum everyone focuses on the work of
+
+1
+00:01:51,390 --> 00:01:58,819
+the<font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> and the goals of the scrum</font>
+
+1
+00:01:53,368 --> 00:02:01,170
+team openness means exposed or evident
+
+1
+00:01:58,819 --> 00:02:03,868
+<font color="#E5E5E5">the scrum team and its stakeholders</font>
+
+1
+00:02:01,170 --> 00:02:06,409
+<font color="#E5E5E5">agreed to be open about all the work</font><font color="#CCCCCC"> and</font>
+
+1
+00:02:03,868 --> 00:02:08,939
+the challenges with performing the work
+
+1
+00:02:06,409 --> 00:02:12,849
+<font color="#E5E5E5">openness is closely related to the</font>
+
+1
+00:02:08,939 --> 00:02:17,019
+<font color="#E5E5E5">empirical pillar of transparency</font>
+
+1
+00:02:12,848 --> 00:02:19,878
+respect means to look or view again
+
+1
+00:02:17,019 --> 00:02:22,610
+respect involves taking<font color="#E5E5E5"> a second</font><font color="#CCCCCC"> look at</font>
+
+1
+00:02:19,878 --> 00:02:25,188
+how we view others to develop<font color="#CCCCCC"> a sincere</font>
+
+1
+00:02:22,610 --> 00:02:28,370
+appreciation for the unique capabilities
+
+1
+00:02:25,188 --> 00:02:30,199
+that<font color="#CCCCCC"> they contribute scrum team members</font>
+
+1
+00:02:28,370 --> 00:02:34,219
+respect each other to be<font color="#E5E5E5"> capable</font>
+
+1
+00:02:30,199 --> 00:02:36,439
+independent people when these five
+
+1
+00:02:34,219 --> 00:02:39,408
+<font color="#E5E5E5">values are embodied and lived by the</font>
+
+1
+00:02:36,439 --> 00:02:41,628
+scrum team<font color="#E5E5E5"> the structures become far</font>
+
+1
+00:02:39,408 --> 00:02:44,780
+more<font color="#E5E5E5"> effective at their intended goal of</font>
+
+1
+00:02:41,628 --> 00:02:47,179
+empirical improvement at the<font color="#CCCCCC"> same time</font>
+
+1
+00:02:44,780 --> 00:02:49,848
+the structures are designed<font color="#E5E5E5"> to encourage</font>
+
+1
+00:02:47,180 --> 00:02:52,790
+<font color="#E5E5E5">the development of the values giving</font>
+
+1
+00:02:49,848 --> 00:02:54,828
+<font color="#E5E5E5">meaning and depth to the</font><font color="#CCCCCC"> work successful</font>
+
+1
+00:02:52,789 --> 00:02:56,539
+use of<font color="#CCCCCC"> scrum</font><font color="#E5E5E5"> depends on people</font>
+
+1
+00:02:54,829 --> 00:02:58,689
+developing a greater<font color="#E5E5E5"> awareness and</font>
+
+1
+00:02:56,539 --> 00:03:00,798
+<font color="#E5E5E5">proficiency at both the intelligence</font>
+
+1
+00:02:58,689 --> 00:03:03,590
+represented by the structural framework
+
+1
+00:03:00,799 --> 00:03:07,129
+<font color="#E5E5E5">and the</font><font color="#CCCCCC"> intension represented by the</font>
+
+1
+00:03:03,590 --> 00:03:09,829
+five values both are important areas<font color="#CCCCCC"> for</font>
+
+1
+00:03:07,128 --> 00:03:11,858
+<font color="#E5E5E5">inspection and adaptation by a scrum</font>
+
+1
+00:03:09,829 --> 00:03:11,859
+team
+

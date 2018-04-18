@@ -1,0 +1,212 @@
+1
+00:00:04,009 --> 00:00:09,888
+in this section we'll learn all<font color="#E5E5E5"> about</font>
+
+1
+00:00:06,990 --> 00:00:15,210
+the<font color="#E5E5E5"> Sprint review meeting we will cover</font>
+
+1
+00:00:09,888 --> 00:00:19,799
+the input to the meeting the goal who
+
+1
+00:00:15,210 --> 00:00:22,859
+attends<font color="#CCCCCC"> the time box</font><font color="#E5E5E5"> the general</font>
+
+1
+00:00:19,800 --> 00:00:27,240
+<font color="#E5E5E5">approach to running the meeting and the</font>
+
+1
+00:00:22,859 --> 00:00:30,269
+output the<font color="#E5E5E5"> Sprint review meeting is held</font>
+
+1
+00:00:27,239 --> 00:00:32,579
+<font color="#E5E5E5">at the</font><font color="#CCCCCC"> end</font><font color="#E5E5E5"> of the Sprint</font><font color="#CCCCCC"> the primary</font>
+
+1
+00:00:30,268 --> 00:00:36,329
+input is the increment developed during
+
+1
+00:00:32,579 --> 00:00:39,480
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> the goal of the</font><font color="#CCCCCC"> meeting is to</font>
+
+1
+00:00:36,329 --> 00:00:43,259
+<font color="#CCCCCC">inspect that product</font><font color="#E5E5E5"> increment and adapt</font>
+
+1
+00:00:39,479 --> 00:00:45,238
+the product backlog<font color="#E5E5E5"> as needed the</font>
+
+1
+00:00:43,259 --> 00:00:48,269
+attendees of<font color="#E5E5E5"> the meeting are the scrum</font>
+
+1
+00:00:45,238 --> 00:00:52,468
+team<font color="#E5E5E5"> and any stakeholders invited to</font>
+
+1
+00:00:48,270 --> 00:00:54,359
+attend by the product owner<font color="#E5E5E5"> the time box</font>
+
+1
+00:00:52,469 --> 00:00:57,719
+for the<font color="#E5E5E5"> Sprint</font><font color="#CCCCCC"> review meeting is four</font>
+
+1
+00:00:54,359 --> 00:00:59,549
+hours<font color="#CCCCCC"> for a one-month sprint for shorter</font>
+
+1
+00:00:57,719 --> 00:01:02,670
+<font color="#E5E5E5">sprints</font><font color="#CCCCCC"> the time box is typically</font>
+
+1
+00:00:59,549 --> 00:01:04,259
+shorter and in practice most sprint
+
+1
+00:01:02,670 --> 00:01:07,920
+<font color="#E5E5E5">planning meetings are completed well</font>
+
+1
+00:01:04,260 --> 00:01:09,900
+before the time box expires the approach
+
+1
+00:01:07,920 --> 00:01:13,740
+to the meeting is<font color="#E5E5E5"> focused</font><font color="#CCCCCC"> around three</font>
+
+1
+00:01:09,900 --> 00:01:15,540
+key areas<font color="#E5E5E5"> first the team demonstrates</font>
+
+1
+00:01:13,739 --> 00:01:18,179
+the product increment developed during
+
+1
+00:01:15,540 --> 00:01:19,979
+<font color="#CCCCCC">the</font><font color="#E5E5E5"> Sprint the team answers any</font>
+
+1
+00:01:18,180 --> 00:01:23,340
+questions that might<font color="#CCCCCC"> arise</font><font color="#E5E5E5"> about the</font>
+
+1
+00:01:19,978 --> 00:01:24,658
+demonstrated increment next the
+
+1
+00:01:23,340 --> 00:01:27,390
+attendees have a collaborative
+
+1
+00:01:24,659 --> 00:01:29,850
+discussion<font color="#CCCCCC"> of the business context for</font>
+
+1
+00:01:27,390 --> 00:01:32,460
+the product including any new
+
+1
+00:01:29,849 --> 00:01:35,368
+developments in the<font color="#E5E5E5"> marketplace feedback</font>
+
+1
+00:01:32,459 --> 00:01:37,530
+from users<font color="#E5E5E5"> projected</font><font color="#CCCCCC"> release dates if</font>
+
+1
+00:01:35,368 --> 00:01:39,900
+applicable<font color="#E5E5E5"> and any other relevant</font>
+
+1
+00:01:37,530 --> 00:01:41,790
+<font color="#E5E5E5">details that help the team decide what</font>
+
+1
+00:01:39,900 --> 00:01:46,469
+would<font color="#E5E5E5"> be the most</font><font color="#CCCCCC"> valuable thing</font><font color="#E5E5E5"> to work</font>
+
+1
+00:01:41,790 --> 00:01:49,409
+on next<font color="#E5E5E5"> finally the product backlog is</font>
+
+1
+00:01:46,469 --> 00:01:51,359
+adapted based<font color="#E5E5E5"> on the discussion so that</font>
+
+1
+00:01:49,409 --> 00:01:53,490
+<font color="#E5E5E5">the scrum team enters the next sprint</font>
+
+1
+00:01:51,359 --> 00:01:57,840
+<font color="#E5E5E5">with a shared</font><font color="#CCCCCC"> understanding of the</font>
+
+1
+00:01:53,489 --> 00:02:00,629
+<font color="#E5E5E5">priority and context of their work the</font>
+
+1
+00:01:57,840 --> 00:02:03,600
+output of the<font color="#E5E5E5"> Sprint review then is a</font>
+
+1
+00:02:00,629 --> 00:02:05,578
+revised product backlog<font color="#E5E5E5"> that</font><font color="#CCCCCC"> defines the</font>
+
+1
+00:02:03,599 --> 00:02:07,369
+probable product backlog items<font color="#CCCCCC"> for the</font>
+
+1
+00:02:05,578 --> 00:02:09,709
+next sprint
+
+1
+00:02:07,370 --> 00:02:13,009
+some people incorrectly<font color="#E5E5E5"> refer to the</font>
+
+1
+00:02:09,710 --> 00:02:14,629
+<font color="#E5E5E5">Sprint review as the</font><font color="#CCCCCC"> sprint demo</font><font color="#E5E5E5"> notice</font>
+
+1
+00:02:13,009 --> 00:02:16,370
+that the demonstration of<font color="#E5E5E5"> the working</font>
+
+1
+00:02:14,629 --> 00:02:18,310
+<font color="#E5E5E5">product increment is only a small</font>
+
+1
+00:02:16,370 --> 00:02:21,140
+portion<font color="#E5E5E5"> of the</font><font color="#CCCCCC"> sprint review meeting</font>
+
+1
+00:02:18,310 --> 00:02:23,210
+while it covers an important<font color="#E5E5E5"> aspect of</font>
+
+1
+00:02:21,139 --> 00:02:26,419
+the inspect step of an empirical process
+
+1
+00:02:23,210 --> 00:02:28,700
+<font color="#CCCCCC">a demonstration alone</font><font color="#E5E5E5"> does not</font><font color="#CCCCCC"> cover</font><font color="#E5E5E5"> the</font>
+
+1
+00:02:26,419 --> 00:02:31,359
+important<font color="#E5E5E5"> adapt step of the Sprint</font>
+
+1
+00:02:28,699 --> 00:02:31,359
+<font color="#CCCCCC">review</font><font color="#E5E5E5"> meeting</font>
+
