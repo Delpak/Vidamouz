@@ -7,7 +7,7 @@ hi and welcome to the agile Academy
 2
 00:00:03,370 --> 00:00:05,360
 in this Agile and practice talk
-در این آموزش عملی
+در این گفتار از سری گفتارهای «چابکی در عمل»
 
 3
 00:00:05,420 --> 00:00:07,750
@@ -17,16 +17,16 @@ we'd like to talk about test-driven development
 4
 00:00:07,820 --> 00:00:10,460
 which is commonly referred to as TDD
-که معمولا با عنوان TDD شناخته می‌شود
+که عموما با عنوان TDD شناخته می‌شود
 
 5
 00:00:10,920 --> 00:00:13,600
-TDD is a software development discipline 
-TDD یک نظام توسعه نرم‌افزار است
+TDD is a software development discipline where 
+TDD دستورالعملی برای توسعه نرم افزار است که
 
 6
 00:00:13,720 --> 00:00:16,930
-where developers write automated test cases for enhancements 
+developers write automated test cases for enhancements 
 که توسعه دهندگان قبل از اعمال تغییرات یا تولید ویژگی جدید
 
 7
@@ -40,29 +40,24 @@ the basic premise of TDD
 اصل اولیه TDD این است که
 
 9
-00:00:22,500 --> 00:00:24,910
- is that you begin by writing a failing test
- شما ابتدا یک آزمون ناموفق می‌نویسید
-
-10
-00:00:24,950 --> 00:00:28,210
- for the simplest piece of functionality that you need to implement
- برای ساده‌ترین قطعه‌ای از عملکردهایی که باید پیاده‌سازی شود
+00:00:28,210 --> 00:00:24,910
+is that you begin by writing a failing test for the simplest piece of functionality that you need to implement
+ابتدا برای جزیی ساده‌‌ از عملکردی که می‌خواهید پیاده‌سازی کنید، تستی می‌نویسید که پاس نمی‌شود
 
 11
 00:00:28,360 --> 00:00:32,070
  you then write the simplest code possible to pass that test
- سپس ساده ترین کد را برای پاس شدن این آزمون می‌نویسید
+و بعد ساده‌ترین کد ممکن، برای پاس شدن آن تست را می‌نویسید
 
 12
 00:00:32,170 --> 00:00:33,390
  once this is done
- وقتی این کار انجام شد
+وقتی این کار انجام شد (تست پاس شد)
 
 13
 00:00:33,420 --> 00:00:37,150
  the new code is reworked or re-factored as it is better known
- کد را برای بهتر شدن بازنویسی می‌کنید(ریفکتور)
+روی کد جدید کار می‌کنید و آن را بازسازی می‌کنید تا به شکل بهتری درآید
 
 14
 00:00:37,290 --> 00:00:40,500
@@ -72,7 +67,7 @@ the basic premise of TDD
 15
 00:00:40,770 --> 00:00:42,730
  so why do all this?
- پس چرا همه این کارها را انجام می دهید؟
+ خب! چرا این همه کار کنیم؟
 
 16
 00:00:42,840 --> 00:00:43,940
