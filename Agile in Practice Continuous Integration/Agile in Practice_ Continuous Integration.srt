@@ -5,7 +5,7 @@ hi and welcome to the agile Academy
 
 2
 00:00:03,330 --> 00:00:05,400
-در این گفتگوی چابک در عمل
+در این قسمت از گفتگوی چابک در عمل
 in this Agile in practice talk
 
 3
@@ -15,7 +15,7 @@ we'd like to address how agile teams use continuous integration
 
 4
 00:00:09,060 --> 00:00:13,100
-راه‌حلی کار کننده را سریع و با کمترین ریسک به مشتریان خود تحویل دهند
+راه‌کاری قابل استفاده را سریع و با کمترین ریسک به مشتریان خود تحویل دهند
 to deliver working solution to their customer fast with minimum risk
 
 5
@@ -40,7 +40,7 @@ Hi Tom what's this red light in your computer
 
 9
 00:00:24,940 --> 00:00:26,980
-انگار داره نشون میده که به فنا رفتی
+  انگار داره نشون می‌ده که به فنا رفتی
 is that signaling you're having a meltdown
 
 10
@@ -55,7 +55,7 @@ but I've managed to break the build so I'm working hard to fix it
 
 12
 00:00:31,500 --> 00:00:32,820
-بعدش این چراغ سبز میشه
+بعدش این چراغ سبز می‌شه
 so the light will turn green
 
 13
@@ -110,7 +110,7 @@ it's like making a movie by continuously adding new frames to it
 
 23
 00:00:58,180 --> 00:00:59,660
-هر بار که یک فریم جدید به فیلم اضافه می‌کنیم
+هر بار که یک فریم جدید رو به فیلم اضافه می‌کنیم
 every time we add a new frame
 
 24
