@@ -15,7 +15,7 @@ we'd like to address how agile teams use continuous integration
 
 4
 00:00:09,060 --> 00:00:13,100
-راه‌حلی کار کننده را سریع و با کمترین ریسک به مشتریان خود تحویل دهند
+راهکاری قابل استفاده را، سریع و با کمترین ریسک به مشتریان خود تحویل دهند
 to deliver working solution to their customer fast with minimum risk
 
 5
@@ -25,7 +25,7 @@ Jen the HR team leader and product owner of the project
 
 6
 00:00:16,660 --> 00:00:20,120
-سیستم ارزیابی کارایی کارمندهای جدید را برای واحد منابع انسانی مهیا می‌کند
+سیستم ارزیابی کارایی کارمندهای جدید را برای استفاده واحد منابع انسانی آماده می‌کند
 delivering a new employee performance review system for the HR department
 
 7
@@ -40,17 +40,17 @@ Hi Tom what's this red light in your computer
 
 9
 00:00:24,940 --> 00:00:26,980
-انگار داره نشون میده که به فنا رفتی
+انگار داره نشون می‌ده که به فنا رفتی
 is that signaling you're having a meltdown
 
 10
 00:00:27,080 --> 00:00:28,580
-تام: ها ها! نه اینطوریا هم نیست
+تام: ها ها! نه خیلی هم اینجوری نیست
 haha not quite
 
 11
 00:00:28,660 --> 00:00:31,460
-من یه کاری کردم که «فرآیند ساخت» رو خراب کرده، دارم تلاش می‌کنم درستش کنم
+باعث شدم که «فرایند ساخت» خراب بشه، سخت در تلاشم که درستش کنم
 but I've managed to break the build so I'm working hard to fix it
 
 12
@@ -60,7 +60,7 @@ so the light will turn green
 
 13
 00:00:32,900 --> 00:00:35,020
-جِن: خرابی در ساخت! به نظر خوب نمیاد
+جِن: خرابی توی ساخت سیستم که به نظر چیز خوبی نمی‌آد
 broken the build that doesn't sound good
 
 14
@@ -75,17 +75,17 @@ I can't imagine but let me explain
 
 16
 00:00:38,250 --> 00:00:40,360
-اون‌جوری هم نیست که احتمالاً فکر می‌کنی
+اون‌جوری هم که احتمالاً فکر می‌کنی، نیست
 it's not as dialed as what you might think
 
 17
 00:00:40,640 --> 00:00:43,360
-بِل، لیز و من به‌عنوان توسعه‌دهنده‌ها
+لیز، بل و من به‌عنوان توسعه‌دهنده‌ی سیستم
 as developers Liz Belle and I
 
 18
 00:00:43,420 --> 00:00:46,700
-داریم «در هرلحظه یک بخش» از سیستم ارزیابی کارایی رو توسعه می‌دیم
+داریم در هرلحظه یک بخش از سیستم بررسی عملکرد رو توسعه می‌دیم
 have been developing the new performance review system one part at a time
 
 19
@@ -95,17 +95,17 @@ every time a new part or feature is completed
 
 20
 00:00:49,940 --> 00:00:51,820
-اون رو به اونچه که از قبل داریم اضافه می‌کنیم
+اون رو به قبلی‌ها اضافه می‌کنیم
 we add it to what we already have
 
 21
 00:00:52,020 --> 00:00:54,500
-این همون کاریه که بهش «ساختن» میگیم
+این همون کاریه که بهش «ساخت سیستم» میگیم
 this is what we refer to as the build
 
 22
 00:00:54,580 --> 00:00:58,080
-مثل ساختن یک فیلم سینمایی با اضافه کردن مداوم فریم‌های جدید به اون می‌مونه
+مثل ساختن یک فیلم سینمایی با اضافه کردن پی در پی فریم‌های جدید به اون می‌مونه
 it's like making a movie by continuously adding new frames to it
 
 23
@@ -115,7 +115,7 @@ every time we add a new frame
 
 24
 00:00:59,720 --> 00:01:03,300
-فیلم رو از اول پخش می‌کنیم تا ببینیم هنوز کل فیلم معقول به نظر میاد یا نه
+فیلم رو از اول پخش می‌کنیم تا ببینیم هنوز کل فیلم منطقی به نظر میاد یا نه
 we run the movie from the start to see the whole movie is still making sense
 
 25
@@ -135,8 +135,8 @@ and when it was running the tests
 
 28
 00:01:11,300 --> 00:01:14,660
-- مثل بازپخش کردن فیلمی از ابتدا -
-نشون داد که قطعه کدِ جدید متناسب نیست
+- مثل بازپخش یه فیلم از ابتدا -
+نشون داد که جای قطعه کد جدید درست نیست
 like rerunning the movie it turned out that the new piece didn't fit in
 
 29
@@ -156,7 +156,7 @@ let me see if I've got this right
 
 32
 00:01:20,560 --> 00:01:27,480
-شماها سیستم رو به‌طور «مداوم بسط می‌دید» و می‌سازید، به‌جای اینکه قطعاتش رو جداجدا بسازید و دست‌آخر سرهمشون کنید! درسته؟
+شما به جای این که مولفه‌های سیستم رو جداجدا بسازید و دست‌آخر اون‌ها رو سرهم کنید، سیستم رو کم‌کم و پی‌درپی می‌سازید و توسعه می‌دید؟ 
 you're building and expanding the system continuously instead of building the components separately and putting them together at the end right?
 
 33
@@ -181,7 +181,7 @@ this is what continuous integration dones
 
 37
 00:01:37,220 --> 00:01:39,620
-ما کدهای جدید رو «مکرر» و «زود» یکپارچه می‌کنیم
+ما کدهای جدید رو «پی در پی» و «زود به زود» یکپارچه می‌کنیم
 we integrate new code often and early
 
 38
@@ -196,7 +196,7 @@ and often means that we integrate new code several times a day
 
 40
 00:01:46,300 --> 00:01:49,040
-این‌طوری سیستم رو بدون نقص نگه می‌داریم
+در نتیجه سیستم بدون نقص باقی می‌مونه
 as a result we keep the system free of defects
 
 41
@@ -227,26 +227,25 @@ in fact it's the opposite Jen
 
 46
 00:02:03,340 --> 00:02:07,680
-ماها مخصوصاً از چراغ‌های سبز و قرمز استفاده می‌کنیم تا برای هرکسی که دوروبر تیم هست قابل‌دیدن باشه
+ماها مخصوصاً از چراغ‌های سبز و قرمز استفاده می‌کنیم تا همه‌ی افرادی که دوروبر تیم هستند، بتونند ببینند
 
 -- مترجم --
 برخی از تیم‌های چابک هنوز هم به‌عنوان یک رسم دیرینه از چراغ‌های رنگی بزرگ بر روی دیوار استفاده می‌کنند
-(Build Light Indicator)
 we use the red and green lights so that it's visible to everyone around the team area
 
 47
 00:02:07,740 --> 00:02:12,860
-چراغِ قرمز به توسعه‌دهنده‌ها هشدار میده تا وقتی چراغ سبز رو ندیدن از اضافه کردن کد جدید پرهیز کنن
+چراغِ قرمز به توسعه‌دهنده‌ها اعلام می‌کنه که تا وقتی چراغ سبز رو ندیدن، کد جدیدی اضافه نکنند
 the red light warns other developers not to add a new piece of code until they see the light go green
 
 48
 00:02:13,060 --> 00:02:15,500
-جِن: چراغه دوباره سبز شد. پس «ساخت» رو درستش کردی
+جِن: چراغ دوباره سبز شد. پس «ساخت» رو درست کردی
 the light is green again! So you fixed the build
 
 49
 00:02:15,580 --> 00:02:19,380
-تام: بله! الآن بقیه می‌تونن کدهای خودشون رو اضافه کنن، درنتیجه می‌تونیم [توسعه رو] ادامه بدیم
+تام: بله! الآن بقیه می‌تونن کدهای خودشون رو اضافه کنن، در نتیجه می‌تونیم کارمون رو ادامه بدیم
 yes now that others can check in their code so we can keep going
 
 50
@@ -266,16 +265,16 @@ In this agile in practice talk
 
 53
 00:02:25,160 --> 00:02:30,920
-دیدید که تیم‌های چابک از «یکپارچه‌سازی مداوم» برای کاهش ریسک و ارائه راه‌حلی بی‌نقص استفاده می‌کنند
+دیدید که تیم‌های چابک از «یکپارچه‌سازی مداوم» برای کاهش ریسک و ارائه یک راهکار بی‌نقص استفاده می‌کنند
 you saw that agile teams use continuous integration to reduce risk and deliver a defect free solution
 
 54
 00:02:30,980 --> 00:02:36,510
-یکپارچه‌سازی مداوم به تیم‌های چابک اجازه می‌دهد تا راه‌حلی کار کننده ارائه کرده و انتشارهایی کوچک و پی‌درپی داشته باشند
+یکپارچه‌سازی مداوم به تیم‌های چابک اجازه می‌دهد تا راهکار قابل استفاده ارائه کرده و انتشارهایی کوچک و پی‌درپی داشته باشند
 continuous integration allows agile teams to offer a working solution and frequent small releases
 
 55
 00:02:36,540 --> 00:02:40,160
-پرداختن به این موضوع زمان دیگری می‌طلبد که ارزش سر زدن به وب‌سایتمان را دارد
+که یکی از موضوعات بعدی ماست و ارزش سر زدن به وب‌سایتمان را دارد
 which is a topic for another time and worth checking out on our website
 
