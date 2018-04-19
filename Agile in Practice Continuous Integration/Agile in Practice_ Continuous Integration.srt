@@ -1,280 +1,223 @@
 ﻿1
 00:00:00,380 --> 00:00:03,300
 سلام و به «آکادمی اجایل» خوش‌آمدید
-hi and welcome to the agile Academy
 
 2
 00:00:03,330 --> 00:00:05,400
 در این گفتگوی چابک در عمل
-in this Agile in practice talk
 
 3
 00:00:05,500 --> 00:00:09,060
 می‌خواهیم به این بپردازیم که تیم‌های چابک چگونه با استفاده از «یکپارچه‌سازی مداوم» می‌توانند
-we'd like to address how agile teams use continuous integration
 
 4
 00:00:09,060 --> 00:00:13,100
 راهکاری قابل استفاده را، سریع و با کمترین ریسک به مشتریان خود تحویل دهند
-to deliver working solution to their customer fast with minimum risk
 
 5
 00:00:13,220 --> 00:00:16,600
 جِن - سرپرست تیم منابع انسانی و مالک محصولِ پروژه‌ای که
-Jen the HR team leader and product owner of the project
 
 6
 00:00:16,660 --> 00:00:20,120
 سیستم ارزیابی کارایی کارمندهای جدید را برای استفاده واحد منابع انسانی آماده می‌کند
-delivering a new employee performance review system for the HR department
 
 7
 00:00:20,220 --> 00:00:22,300
 آمده تا ببیند که تیم در چه حالی است
-has come in to see how the team is going
 
 8
 00:00:22,520 --> 00:00:24,860
 جِن: سلام تام! اون چراغِ قرمز توی کامپیوترت چیه؟
-Hi Tom what's this red light in your computer
 
 9
 00:00:24,940 --> 00:00:26,980
 انگار داره نشون می‌ده که به فنا رفتی
-is that signaling you're having a meltdown
 
 10
 00:00:27,080 --> 00:00:28,580
 تام: ها ها! نه خیلی هم اینجوری نیست
-haha not quite
 
 11
 00:00:28,660 --> 00:00:31,460
 باعث شدم که «فرایند ساخت» خراب بشه، سخت در تلاشم که درستش کنم
-but I've managed to break the build so I'm working hard to fix it
 
 12
 00:00:31,500 --> 00:00:32,820
 بعدش این چراغ سبز میشه
-so the light will turn green
 
 13
 00:00:32,900 --> 00:00:35,020
 جِن: خرابی توی ساخت سیستم که به نظر چیز خوبی نمی‌آد
-broken the build that doesn't sound good
 
 14
 00:00:35,100 --> 00:00:35,860
 معنیش چیه؟
-what does that mean
 
 15
 00:00:36,000 --> 00:00:38,180
 تام: من که این‌جوری تصور نمی‌کنم! اما بذار برات توضیح بدم
-I can't imagine but let me explain
 
 16
 00:00:38,250 --> 00:00:40,360
 اون‌جوری هم که احتمالاً فکر می‌کنی، نیست
-it's not as dialed as what you might think
 
 17
 00:00:40,640 --> 00:00:43,360
 لیز، بل و من به‌عنوان توسعه‌دهنده‌ی سیستم
-as developers Liz Belle and I
 
 18
 00:00:43,420 --> 00:00:46,700
 داریم در هرلحظه یک بخش از سیستم بررسی عملکرد رو توسعه می‌دیم
-have been developing the new performance review system one part at a time
 
 19
 00:00:46,960 --> 00:00:49,880
 هر وقت یک بخش یا قابلیت جدید تکمیل میشه
-every time a new part or feature is completed
 
 20
 00:00:49,940 --> 00:00:51,820
 اون رو به قبلی‌ها اضافه می‌کنیم
-we add it to what we already have
 
 21
 00:00:52,020 --> 00:00:54,500
 این همون کاریه که بهش «ساخت سیستم» میگیم
-this is what we refer to as the build
 
 22
 00:00:54,580 --> 00:00:58,080
 مثل ساختن یک فیلم سینمایی با اضافه کردن پی در پی فریم‌های جدید به اون می‌مونه
-it's like making a movie by continuously adding new frames to it
 
 23
 00:00:58,180 --> 00:00:59,660
 هر بار که یک فریم جدید به فیلم اضافه می‌کنیم
-every time we add a new frame
 
 24
 00:00:59,720 --> 00:01:03,300
 فیلم رو از اول پخش می‌کنیم تا ببینیم هنوز کل فیلم منطقی به نظر میاد یا نه
-we run the movie from the start to see the whole movie is still making sense
 
 25
 00:01:03,360 --> 00:01:06,960
 اگر مسیر داستان منطقی بود، میگیم که یک «ساخت سبز» داریم
-if the storyline store makes sense we say we have a green build
 
 26
 00:01:07,020 --> 00:01:09,680
 من الآن یه تکه کد جدید به «ساخت سبز» قبلی اضافه کردم
-I just added a new piece of code to the green build
 
 27
 00:01:09,740 --> 00:01:11,260
 و وقتی داشت تست‌ها رو اجرا می‌کرد
-and when it was running the tests
 
 28
 00:01:11,300 --> 00:01:14,660
 - مثل بازپخش یه فیلم از ابتدا -
 نشون داد که جای قطعه کد جدید درست نیست
-like rerunning the movie it turned out that the new piece didn't fit in
 
 29
 00:01:14,720 --> 00:01:17,360
 اون قطعه کد نتونست یکپارچه بشه درنتیجه فرآیند «ساخت سیستم» رو خراب کرد
-it just didn't integrate so it brought the build
 
 30
 00:01:17,460 --> 00:01:18,840
 خب حالا باید درستش کنم
-so now I have to fix it
 
 31
 00:01:18,900 --> 00:01:20,500
 جِن: بذار ببینم درست متوجه شدم
-let me see if I've got this right
 
 32
 00:01:20,560 --> 00:01:27,480
 شما به جای این که مولفه‌های سیستم رو جداجدا بسازید و دست‌آخر اون‌ها رو سرهم کنید، سیستم رو کم‌کم و پی‌درپی می‌سازید و توسعه می‌دید؟ 
-you're building and expanding the system continuously instead of building the components separately and putting them together at the end right?
 
 33
 00:01:27,580 --> 00:01:29,060
 تام: بله، کاملاً درسته
-that's exactly right
 
 34
 00:01:29,120 --> 00:01:31,180
 ما بهش «یکپارچه‌سازی مداوم» میگیم
-we call it continuous integration
 
 35
 00:01:31,220 --> 00:01:34,780
 دلیل اینکه ما چابک کارها این کار رو می‌کنیم اینه که واقعاً ریسک رو کم می‌کنه
-the reason we do this in agile is that it actually reduces risk
 
 36
 00:01:34,840 --> 00:01:37,180
 یکپارچه‌سازی مداوم این‌جوری انجام میشه که
-this is what continuous integration dones
 
 37
 00:01:37,220 --> 00:01:39,620
 ما کدهای جدید رو «پی در پی» و «زود به زود» یکپارچه می‌کنیم
-we integrate new code often and early
 
 38
 00:01:39,700 --> 00:01:42,640
 زود یعنی از همون روز اول یکپارچه‌سازی کد جدید رو شروع می‌کنیم
-early means that we start integrating new code from day one
 
 39
 00:01:42,680 --> 00:01:46,220
 و مکرر هم یعنی یکپارچه‌سازی کد رو چند بار در روز انجام می‌دیم
-and often means that we integrate new code several times a day
 
 40
 00:01:46,300 --> 00:01:49,040
 در نتیجه سیستم بدون نقص باقی می‌مونه
-as a result we keep the system free of defects
 
 41
 00:01:49,100 --> 00:01:53,580
 و می‌تونیم اضافه کردن قابلیت‌های جدیدی رو ادامه بدیم
 با خیال راحت! یه ساخت‌وساز واقعی روی یه زیرساخت محکم
-and we can keep adding features to it confident the real building on a solid foundation
 
 42
 00:01:53,660 --> 00:01:55,880
 جِن: به‌عنوان مالک محصول همین رو می‌خواستم بشنوم
-that's what I like to hear as a product owner
 
 43
 00:01:55,940 --> 00:01:58,500
 پس سوابق این چراغ‌های سبز و قرمز چی میشه تام؟
-what's the history of the red and green light so tom?
 
 44
 00:01:58,500 --> 00:02:01,260
 مطمئناً دلت نمی‌خواد وقتی یه «ساخت» رو می‌ترکونی، همه خبردار بشن!
-surely you don't want everyone to know when you break a build!
 
 45
 00:02:01,380 --> 00:02:03,300
 تام: اتفاقاً برعکسه، جِن
-in fact it's the opposite Jen
 
 46
 00:02:03,340 --> 00:02:07,680
 ماها مخصوصاً از چراغ‌های سبز و قرمز استفاده می‌کنیم تا همه‌ی افرادی که دوروبر تیم هستند، بتونند ببینند
-
 -- مترجم --
 برخی از تیم‌های چابک هنوز هم به‌عنوان یک رسم دیرینه از چراغ‌های رنگی بزرگ بر روی دیوار استفاده می‌کنند
-we use the red and green lights so that it's visible to everyone around the team area
 
 47
 00:02:07,740 --> 00:02:12,860
 چراغِ قرمز به توسعه‌دهنده‌ها اعلام می‌کنه که تا وقتی چراغ سبز رو ندیدن، کد جدیدی اضافه نکنند
-the red light warns other developers not to add a new piece of code until they see the light go green
 
 48
 00:02:13,060 --> 00:02:15,500
 جِن: چراغ دوباره سبز شد. پس «ساخت» رو درست کردی
-the light is green again! So you fixed the build
 
 49
 00:02:15,580 --> 00:02:19,380
 تام: بله! الآن بقیه می‌تونن کدهای خودشون رو اضافه کنن، در نتیجه می‌تونیم کارمون رو ادامه بدیم
-yes now that others can check in their code so we can keep going
 
 50
 00:02:19,520 --> 00:02:21,380
 جِن: امیدوارم بتونی ساخت رو همیشه سبز نگه داری
-hopefully you'll keep the build green
 
 51
 00:02:21,520 --> 00:02:22,900
 تام: منم امیدوارم، جِن
-I hope so to Jen
 
 52
 00:02:23,120 --> 00:02:25,140
 در این گفتگوی چابک در عمل
-In this agile in practice talk
 
 53
 00:02:25,160 --> 00:02:30,920
 دیدید که تیم‌های چابک از «یکپارچه‌سازی مداوم» برای کاهش ریسک و ارائه یک راهکار بی‌نقص استفاده می‌کنند
-you saw that agile teams use continuous integration to reduce risk and deliver a defect free solution
 
 54
 00:02:30,980 --> 00:02:36,510
 یکپارچه‌سازی مداوم به تیم‌های چابک اجازه می‌دهد تا راهکار قابل استفاده ارائه کرده و انتشارهایی کوچک و پی‌درپی داشته باشند
-continuous integration allows agile teams to offer a working solution and frequent small releases
 
 55
 00:02:36,540 --> 00:02:40,160
 که یکی از موضوعات بعدی ماست و ارزش سر زدن به وب‌سایتمان را دارد
-which is a topic for another time and worth checking out on our website
-
