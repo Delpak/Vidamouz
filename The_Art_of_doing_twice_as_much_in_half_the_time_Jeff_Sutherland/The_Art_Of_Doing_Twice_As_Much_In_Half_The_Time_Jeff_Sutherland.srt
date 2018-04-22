@@ -206,124 +206,152 @@ and every time I'd read that plaque I'd remember
 
 42
 00:02:43,920 --> 00:02:49,080
-"برنامه های بی ارزش هستند ، اما برنامه ریزی همه چیز است"
+"برنامه ها بی ارزش هستند اما برنامه ریزی همه چیز است"
 "Plans are worthless, but planning is everything"
 
 43
 00:02:50,100 --> 00:02:55,040
-
+بنابراین زمانی که به عنوان یک خلبان جنگنده در تیم شناسایی بودم ، برنامه ریزی های زیادی انجام دادیم
 so when I got to be a fighter pilot I was in reconnaissance we did a lot of planning
 
 44
 00:02:55,820 --> 00:02:58,940
+اما یک روز یکی از خلبانان همکار من 
  but one day one of my fellow pilots
 
 45
 00:02:59,400 --> 00:03:04,780
+در حین عملیات بر روی هانوی(پایتخت ویتنام) مورد اصابت یک موشک زمین به هوای سام قرار گرفت و هواپیمای او منفجر شد
  ed attebery was blown out of the air over Hanoi, by a SAM (Surface-to-Air) Missile
 
 46
 00:03:06,380 --> 00:03:10,620
+من با خودم گفتم که او برنامه ریزی بسیار خوبی داشت
  and I said to myself he did really good planning
 
 47
 00:03:11,560 --> 00:03:14,320
+ولی او عموماً بر روی هدف به صورت افقی پرواز می کرد و در نهایت اقدام به گرفتن عکس می کرد
  but he was flying straight and level over the target
 
 48
 00:03:14,700 --> 00:03:16,900
+که اینکار می تواند من را بکشتن بدهد
 that could get me killed
 
 49
 00:03:18,300 --> 00:03:19,960
+از آن روز به بعد
 from that day forward
 
 50
 00:03:20,540 --> 00:03:24,260
+برنامه من این بود که ببینم هدف چیست
 my plan was to have a vision where the target was
 
 51
 00:03:24,420 --> 00:03:29,380
+
 and as soon as I crossed North Vietnam I went into an evasive maneuver
 
 52
 00:03:29,500 --> 00:03:32,520
+
 because every second I knew I was being fired at
 
 53
 00:03:33,000 --> 00:03:39,560
+
 and only at the last moment would i come up straight level offer a target just for a second
 
 54
 00:03:40,340 --> 00:03:41,780
+
 to snap that photo
 
 55
 00:03:43,160 --> 00:03:45,480
+حالا من زنده ام
 now I got out of there alive
 
 56
 00:03:45,800 --> 00:03:50,620
+بیش از نیمی از همراهان من همچون فلوید از مأموریت خود بازنگشتند
 over half the people like fluid, did not come back from their missions
 
 57
 00:03:50,760 --> 00:03:54,100
+و هنگامی که من به ایالات متحده برگشتم
  and when I came back to the United States
 
 58
 00:03:54,580 --> 00:03:59,400
+سورپرایز بزرگی بود چراکه من بارها به کشته شدن نزدیک شده بودم
  it was a big surprise I'd come so close to getting killed so many times
 
 59
 00:03:59,520 --> 00:04:00,920
+احساس می کردم
 it felt like
 
 60
 00:04:01,880 --> 00:04:03,570
+که یک زندگی جدید به من بخشیده شده است
 it was a new life.
 
 61
 00:04:03,570 --> 00:04:05,880
+هر روز برای من مثل یک هدیه ویژه بود
 every day was like a bonus day
 
 62
 00:04:05,940 --> 00:04:07,330
+یک روز کامل
 a free day
 
 63
 00:04:09,360 --> 00:04:11,240
+و این سؤال که من با این روز چیکار می توانستم بکنم
 and what was I going to do with it
 
 64
 00:04:12,120 --> 00:04:14,580
+بنابراین من از نیروی هوایی خواستم تا من را به کشورم برگردانند
  so I asked the Air Force to send me back
 
 65
 00:04:14,920 --> 00:04:19,400
+به آکادمی نیروی هوایی تا به عنوان یک مدرس آموزش دیده مشغول به کار شوم
 to the Air Force Academy to become a trained to be a professor
 
 66
 00:04:19,580 --> 00:04:24,380
+یا به مدرسه آموزشی در استنفورد تا به عنوان یک آموزش دیده آکادمی نیروی هوایی ایالات متحده در آنجا مشغول به کار شوم
 or back to school at Stanford trained to be a professor at the Air Force Academy
 
 67
 00:04:24,460 --> 00:04:28,360
+و از آنجا به دانشکده پزشکی دانشگاه کلرادو(از ایالت های جنوب غربی امریکا) رفتم
 and from there I went into the University of Colorado medical school
 
 68
 00:04:28,360 --> 00:04:30,600
+من برای مدت یازده سال در آن دانشکده بودم
 I was on the faculty they for 11 years
 
 69
 00:04:31,960 --> 00:04:33,380
+تا زمانی که آنجا بودم
 while I was there
 
 70
 00:04:33,740 --> 00:04:40,660
+تخصص من ساخت سوپر مدل های کامپیوتری با استفاده از ساختار سلول های انسانی بود
  my expertise was building super computer models of the human cell
 
 71
 00:04:41,220 --> 00:04:43,980
+و نشان دادن چگونگی تکامل آنها
 and showing how it evolved
 
 72
