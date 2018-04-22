@@ -91,104 +91,127 @@ so I knew I had to do something different
 
 19
 00:01:09,200 --> 00:01:12,440
-نمی‌توانستم به آنها بگویم که باید چه کار کنند. خب تصمیم گرفتم
+خب تصمیمی که گرفتم این بود ، من نمی توانستم به آنها بگویم چه کاری انجام دهند 
 so what I decided to do is, I couldn't tell them what to do
 
 20
 00:01:12,900 --> 00:01:16,480
-ولی من باید 
+اما نشانه ها و شبنماهای مشخصی برای یافتن مسیر برای آنها قرار دادم
  but I could put up in the bulletin board at night and color coded notes
 
 21
 00:01:18,140 --> 00:01:21,430
+نشانه های که دقیقاً نمایشگر عملکرد آنها در میدان رژه بود
  exactly how their performance was in the parade field
 
 22
 00:01:21,800 --> 00:01:25,100
+دقیقاً همان چیزی که آنها باید برای بهبود انجام دهند
 in exactly what they needed to do to improve
 
 23
 00:01:25,600 --> 00:01:30,160
+برای مثال شما می دانید که چارلی باید با توقف شمشیر بر روی زمین 
 you know Charlie has got to stop sticking his sword in the ground
 
 24
 00:01:30,400 --> 00:01:31,920
+در میان اجرای رژه
  in the middle of a parade
 
 25
 00:01:32,420 --> 00:01:36,160
+تا نشانی برای تغییر جهت در گوشه میدان برای سومین گردان بفرستد
 the 3rd platoon has got to turn the corner
 
 26
 00:01:36,900 --> 00:01:42,800
+و تمامی این فعالیت ها باید در هماهنگی کامل و با دستور دقیق فرمانده انجام پذیرد
 in synchronization and the commander has to enunciate his commands crisply
 
 27
 00:01:43,000 --> 00:01:44,880
+بدون لحظه ای درنگ یا اختلاف زمانی
  in exactly right timing
 
 28
 00:01:45,920 --> 00:01:48,060
+به گونه ای که همه شگفت زده شوند
  to everyone's amazement
 
 29
 00:01:48,440 --> 00:01:54,480
+در طی سه ماه این گروهان به بهترین گروهان لشکر تبدیل شد
  they became the number one  company in the Corps cadets within three months
 
 30
 00:01:55,340 --> 00:01:58,140
+و در همان زمان ژنرال مک آرتور درگذشت
  and General MacArthur died at this time
 
 31
 00:01:58,860 --> 00:02:04,280
+و او درخواست کرده بود تا یک گروهان از دانش آموختگان دانشکده افسری برای بدرقه تابوت او تا آرامگاهش حاضر باشند و گروهان ال.2 انتخاب شد
 and he had specified there must be a company cadets marching behind his casket
 
 32
 00:02:04,560 --> 00:02:08,480
+
  to lay him to rest, and L2 was chosen
 
 33
 00:02:09,820 --> 00:02:11,800
+برای آخرین مراسم خاکسپاری
 so for dead last
 
 34
 00:02:12,720 --> 00:02:16,500
+برای انجام مراسم خاکسپاری یکی از بزرگترین ژنرال های (آکادمی نظامی ایالات متحده)
 to putting out one of our greatest generals in the grave
 
 35
 00:02:17,840 --> 00:02:21,820
+یک تحول بزرگ در یک بازه زمانی بسیار کوتاه
 was a long journey in a very short period of time
 
 36
 00:02:22,000 --> 00:02:25,340
+بعد از آن من از وست پوینت (آکادمی نظامی ایالات متحده) فارغ التحصیل شدم و به نیروی هوایی رفتم
  now I graduated from West Point and I went into the air force
 
 37
 00:02:26,200 --> 00:02:30,560
+در زمانی که در وست پوینت بودم من آموخته های زیادی از سایر فرماندهان داشتم
 while i was at West Point I learned something from other leaders
 
 38
 00:02:30,620 --> 00:02:34,800
+من در اتاقی زندگی می کردم که روی پلاکی که روی گچ بری دور بخاری آن نصب شده بود ، نوشته بود
 I lived in a room which were they had a plaque on the mantelpiece it said
 
 39
 00:02:34,980 --> 00:02:38,060
+ژنرال دوایت آیزنهاور ( سی و چهارمین رئیس جمهور ایالات متحده) اینجا می خوابیده است
 general DWIGHT D. EISENHOWER slept here
 
 40
 00:02:38,540 --> 00:02:41,480
+هر زمان که این پلاک را می خواندم نقل قول معروفی از او را به یاد می آوردم که 
 and every time I'd read that plaque I'd remember
 
 41
 00:02:41,680 --> 00:02:43,280
+
  his famous quote
 
 42
 00:02:43,920 --> 00:02:49,080
+"برنامه های بی ارزش هستند ، اما برنامه ریزی همه چیز است"
 "Plans are worthless, but planning is everything"
 
 43
 00:02:50,100 --> 00:02:55,040
+
 so when I got to be a fighter pilot I was in reconnaissance we did a lot of planning
 
 44
