@@ -1,38 +1,48 @@
 ﻿1
 00:00:04,920 --> 00:00:07,320
+حول یک تیم اسکرام بیش از یک دقیقه پرسه بزنید
 hang around a scrum team for more than a few minutes
 
 2
 00:00:07,390 --> 00:00:10,170
+و احتمالا سازماندهی کردن بک لاگ ها را خواهید شنید
  and you'll probably hear the term product backlog grooming
 
 3
 00:00:10,710 --> 00:00:15,230
+یک مفهومی که در میان تیم های اسکرام در چند سال گذشته خیلی رایج شده 
  this is a concept that has gotten very popular among scrum teams over the past few years
 
 4
 00:00:15,830 --> 00:00:19,170
+به خوبی نگهداری کردن بک لاگ ها اشاره دارد
  it refers to the idea of keeping the product backlog well maintained 
 
 5
 00:00:19,570 --> 00:00:23,130
+چونکه بک لاگی که خوب نگهداری شده 
+می تواند مشکلات زیادی را حل کند
 since a well-maintained product backlog
 can solve a lot of problems
 
 6
 00:00:23,230 --> 00:00:26,430
+اجازه دهید ببینیم سازماندهی کردن بک لاگ محصول به چه معناست
  let's see exactly what grooming the product backlog means 
 
 7
 00:00:27,040 --> 00:00:28,510
+در نخستین روزهای اسکرام
  in the early days of scrum 
 
 8
 00:00:28,580 --> 00:00:32,440
+با بک لاگ محصول خیلی شبیه به کشویی است که همه ما در آشپزخانه 
  the product backlog was treated pretty much like that drawer we all have in our kitchens
 
 9
 00:00:32,570 --> 00:00:33,760
+یا جای دیگر خانه داریم
  or somewhere in the house 
 
 10
@@ -40,31 +50,37 @@ can solve a lot of problems
  you know the one full of all sorts of junk you don't have any better place for
 
 11
-00:00:38,180 --> 00:00:43,060
+00:00:38,180 --> 00:00:43,060 
  the product backlog was just the place early scrum teams but anything they needed to remember to do 
 
 12
 00:00:43,580 --> 00:00:48,010
+ نیاز  نبود آیتمها به روشی نوشته شوند که تیم بعدا بخاطر بیاورد معنی آن چیست
 The items weren't necessarily written in a way that the team would later remember what the items meant 
 
 13
 00:00:48,270 --> 00:00:50,900
+و مسلما تیم بصورت منظم زمان روی آن اختصصاص نمی داد
  and team certainly didn't have regular time devoted 
 
 14
 00:00:51,030 --> 00:00:53,570
+برای پاکسازی این بک لاگهای آشفته اولیه 
 to clean up these messy, early product backlogs
 
 15
 00:00:54,620 --> 00:00:57,700
+تیم به زودی متوجه شد که اسپرینت بخوبی عمل کرده است اگر
 well team soon learned that Sprint's went a whole lot better
 
 16
 00:00:57,780 --> 00:01:00,740
+ بک لاگها به شکل خوبی نگهداری شوند  
  if the product backlog was looked after and kept in good shape
 
 17
 00:01:01,080 --> 00:01:02,560
+یا به عبارت دیگر سازماندهی شوند
  or in other words groomed 
 
 18
