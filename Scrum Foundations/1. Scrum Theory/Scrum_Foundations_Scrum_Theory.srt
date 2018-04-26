@@ -1,452 +1,272 @@
-1
-00:00:01,110 --> 00:00:04,778
-[Music]
+﻿1
+00:00:12,060 --> 00:00:15,270
+this definition is from the "SCRUM GUIDE"
 
-1
-00:00:11,630 --> 00:00:17,460
-this definition<font color="#E5E5E5"> is from the scrum guide</font>
+2
+00:00:15,470 --> 00:00:20,350
+the official document created and regulary updated by Scrum's co-creators:
 
-1
-00:00:14,660 --> 00:00:20,189
-<font color="#E5E5E5">the official document created and</font>
+3
+00:00:20,370 --> 00:00:22,740
+Jeff Sutherland and Ken Schweiber
 
-1
-00:00:17,460 --> 00:00:22,830
-regularly updated by scrums co-creators
+4
+00:00:22,824 --> 00:00:25,870
+in this video, we will explain that definition
 
-1
-00:00:20,189 --> 00:00:24,899
-Jeff Sutherland<font color="#E5E5E5"> and Ken</font><font color="#CCCCCC"> schweiber</font><font color="#E5E5E5"> in</font>
+5
+00:00:25,950 --> 00:00:28,930
+and describe the underlying theory of Scrum
 
-1
-00:00:22,829 --> 00:00:27,028
-this video we will explain<font color="#CCCCCC"> that</font>
+6
+00:00:29,690 --> 00:00:36,560
+Scrum is described as a process framework rather than a complete process for building products
 
-1
-00:00:24,899 --> 00:00:31,288
-definition<font color="#E5E5E5"> and describe the underlying</font>
+7
+00:00:36,860 --> 00:00:42,750
+one important distinction is that Scrum is intentionally incomplete
 
-1
-00:00:27,028 --> 00:00:34,350
-theory<font color="#E5E5E5"> of scrum scrum is described as a</font>
+8
+00:00:42,800 --> 00:00:46,880
+it does not specify all of the steps required to build a product
 
-1
-00:00:31,289 --> 00:00:37,469
-process framework rather than a<font color="#E5E5E5"> complete</font>
+9
+00:00:47,380 --> 00:00:54,460
+instead, It describes the framework within which a variety of processes and techniques can be deployed
 
-1
-00:00:34,350 --> 00:00:40,189
-<font color="#CCCCCC">process for building</font><font color="#E5E5E5"> products one</font>
+10
+00:00:55,910 --> 00:00:59,450
+the Scrum framework consists of Scrum teams
 
-1
-00:00:37,469 --> 00:00:43,500
-important distinction is<font color="#E5E5E5"> that scrum is</font>
+11
+00:00:59,698 --> 00:01:03,140
+and their associated roles
 
-1
-00:00:40,189 --> 00:00:45,959
-intentionally incomplete<font color="#E5E5E5"> it does not</font>
-
-1
-00:00:43,500 --> 00:00:49,409
-specify<font color="#E5E5E5"> all</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> the steps</font><font color="#CCCCCC"> required to</font>
-
-1
-00:00:45,960 --> 00:00:51,448
-build a<font color="#E5E5E5"> product instead it describes the</font>
-
-1
-00:00:49,409 --> 00:00:55,069
-framework within which a variety<font color="#E5E5E5"> of</font>
-
-1
-00:00:51,448 --> 00:00:58,468
-<font color="#CCCCCC">processes and techniques can be deployed</font>
-
-1
-00:00:55,070 --> 00:01:03,198
-the scrum framework<font color="#E5E5E5"> consists of scrum</font>
-
-1
-00:00:58,469 --> 00:01:03,198
-teams and their associated roles
-
-1
-00:01:04,200 --> 00:01:14,240
+12
+00:01:04,460 --> 00:01:07,660
 events
 
-1
-00:01:07,099 --> 00:01:17,169
-and<font color="#E5E5E5"> artifacts each of these core</font>
-
-1
-00:01:14,239 --> 00:01:20,118
-components<font color="#CCCCCC"> has a few simple rules</font><font color="#E5E5E5"> and</font>
-
-1
-00:01:17,170 --> 00:01:22,280
-there<font color="#CCCCCC"> are simple</font><font color="#E5E5E5"> rules describing the</font>
-
-1
-00:01:20,118 --> 00:01:25,909
-<font color="#CCCCCC">relationship</font><font color="#E5E5E5"> and interaction</font><font color="#CCCCCC"> between the</font>
-
-1
-00:01:22,280 --> 00:01:28,250
-components anything not described by
-
-1
-00:01:25,909 --> 00:01:31,940
-those components<font color="#E5E5E5"> and rules is not part</font>
-
-1
-00:01:28,250 --> 00:01:34,368
-of the framework<font color="#E5E5E5"> the scrum team decides</font>
-
-1
-00:01:31,939 --> 00:01:38,509
-which<font color="#E5E5E5"> processes and techniques</font><font color="#CCCCCC"> to use</font>
-
-1
-00:01:34,368 --> 00:01:41,269
-within the framework if the team or<font color="#E5E5E5"> the</font>
-
-1
-00:01:38,509 --> 00:01:43,640
-organization were to decide<font color="#E5E5E5"> to remove or</font>
-
-1
-00:01:41,269 --> 00:01:46,189
-alter any of<font color="#CCCCCC"> the components or their</font>
-
-1
-00:01:43,640 --> 00:01:49,579
-rules<font color="#CCCCCC"> they are no</font><font color="#E5E5E5"> longer using scrum</font>
-
-1
-00:01:46,189 --> 00:01:52,039
-scrum exists only in its entirety<font color="#E5E5E5"> and</font>
-
-1
-00:01:49,579 --> 00:01:54,079
-each<font color="#E5E5E5"> of the core</font><font color="#CCCCCC"> components and their</font>
-
-1
-00:01:52,039 --> 00:01:58,789
-associated rules<font color="#E5E5E5"> serves a specific</font>
-
-1
-00:01:54,079 --> 00:02:00,920
-purpose the second part<font color="#CCCCCC"> of the</font>
-
-1
-00:01:58,789 --> 00:02:05,060
-<font color="#E5E5E5">definition describes something called a</font>
-
-1
-00:02:00,920 --> 00:02:09,019
-<font color="#E5E5E5">complex adaptive problem to understand</font>
-
-1
-00:02:05,060 --> 00:02:11,269
-<font color="#E5E5E5">that let's look at a spectrum</font><font color="#CCCCCC"> on one end</font>
-
-1
-00:02:09,019 --> 00:02:14,689
-<font color="#E5E5E5">of the spectrum</font><font color="#CCCCCC"> we will place problems</font>
-
-1
-00:02:11,269 --> 00:02:19,039
-that are simple predictable and static
-
-1
-00:02:14,689 --> 00:02:21,340
-or<font color="#CCCCCC"> unchanging on the other end will</font>
-
-1
-00:02:19,039 --> 00:02:24,620
-place problems that are complex
-
-1
-00:02:21,340 --> 00:02:28,939
-unpredictable and adaptive or<font color="#E5E5E5"> always</font>
-
-1
-00:02:24,620 --> 00:02:30,859
-changing most professionals are familiar
-
-1
-00:02:28,939 --> 00:02:33,680
-with how to address<font color="#E5E5E5"> problems at the left</font>
-
-1
-00:02:30,859 --> 00:02:35,900
-end of this spectrum<font color="#E5E5E5"> since these are</font>
-
-1
-00:02:33,680 --> 00:02:39,650
-predictable problems<font color="#E5E5E5"> we are</font><font color="#CCCCCC"> able to</font>
-
-1
-00:02:35,900 --> 00:02:42,859
-<font color="#E5E5E5">create a detailed plan the plan might</font>
-
-1
-00:02:39,650 --> 00:02:45,500
-have many steps and dependencies but if
-
-1
-00:02:42,859 --> 00:02:48,379
-the<font color="#E5E5E5"> system is predictable the plan will</font>
-
-1
-00:02:45,500 --> 00:02:51,650
-progress<font color="#E5E5E5"> without any surprises or the</font>
-
-1
-00:02:48,379 --> 00:02:54,079
-need<font color="#E5E5E5"> to change things along the way this</font>
-
-1
-00:02:51,650 --> 00:02:56,599
-<font color="#E5E5E5">approach is known as defined process</font>
-
-1
-00:02:54,079 --> 00:02:58,670
-control which means that we define a
-
-1
-00:02:56,599 --> 00:03:01,489
-specific<font color="#CCCCCC"> process for every step</font><font color="#E5E5E5"> along</font>
-
-1
-00:02:58,669 --> 00:03:04,818
-<font color="#E5E5E5">the</font><font color="#CCCCCC"> way</font><font color="#E5E5E5"> this works well when things are</font>
-
-1
-00:03:01,489 --> 00:03:07,609
-<font color="#CCCCCC">predictable</font><font color="#E5E5E5"> when things are more complex</font>
-
-1
-00:03:04,818 --> 00:03:10,039
-<font color="#E5E5E5">and unpredictable</font><font color="#CCCCCC"> this approach</font><font color="#E5E5E5"> is not</font>
-
-1
-00:03:07,609 --> 00:03:12,140
-very effective<font color="#E5E5E5"> one of the most</font>
-
-1
-00:03:10,039 --> 00:03:15,289
-<font color="#E5E5E5">frequently</font><font color="#CCCCCC"> cited books on this</font><font color="#E5E5E5"> topic</font><font color="#CCCCCC"> is</font>
-
-1
-00:03:12,139 --> 00:03:19,099
-called<font color="#E5E5E5"> process</font><font color="#CCCCCC"> dynamics modeling and</font>
-
-1
-00:03:15,289 --> 00:03:20,509
-control by<font color="#E5E5E5"> Babatunde</font><font color="#CCCCCC"> ogen</font><font color="#E5E5E5"> Aki</font><font color="#CCCCCC"> and W</font>
-
-1
-00:03:19,099 --> 00:03:23,539
-<font color="#CCCCCC">Harmon</font><font color="#E5E5E5"> ray</font>
-
-1
-00:03:20,509 --> 00:03:25,489
-in this book the<font color="#E5E5E5"> authors</font><font color="#CCCCCC"> explain it is</font>
-
-1
-00:03:23,539 --> 00:03:27,530
-typical<font color="#E5E5E5"> to adopt the defined approach</font>
-
-1
-00:03:25,489 --> 00:03:29,900
-<font color="#E5E5E5">when the underlying mechanisms by which</font>
-
-1
-00:03:27,530 --> 00:03:32,870
-a process<font color="#E5E5E5"> operates are reasonably well</font>
-
-1
-00:03:29,900 --> 00:03:35,480
-<font color="#CCCCCC">understood when the process</font><font color="#E5E5E5"> is too</font>
-
-1
-00:03:32,870 --> 00:03:36,860
-complicated<font color="#E5E5E5"> for the defined approach the</font>
-
-1
-00:03:35,479 --> 00:03:41,689
-empirical approach is the appropriate
-
-1
-00:03:36,860 --> 00:03:43,489
-<font color="#E5E5E5">choice</font><font color="#CCCCCC"> o Ghannouchi and</font><font color="#E5E5E5"> Ray are telling</font>
-
-1
-00:03:41,689 --> 00:03:45,289
-<font color="#E5E5E5">us</font><font color="#CCCCCC"> that the defined approach</font><font color="#E5E5E5"> doesn't</font>
-
-1
-00:03:43,489 --> 00:03:48,259
-<font color="#CCCCCC">work</font><font color="#E5E5E5"> when things are complex and</font>
-
-1
-00:03:45,289 --> 00:03:49,150
-adaptive<font color="#E5E5E5"> and that we should instead use</font>
-
-1
-00:03:48,259 --> 00:03:52,340
-something called
-
-1
-00:03:49,150 --> 00:03:55,280
-empirical process control<font color="#E5E5E5"> so let's</font>
-
-1
-00:03:52,340 --> 00:03:56,989
-<font color="#E5E5E5">explore what that means an empirical</font>
-
-1
-00:03:55,280 --> 00:04:01,310
-approach is one<font color="#E5E5E5"> that is based</font><font color="#CCCCCC"> on</font>
-
-1
-00:03:56,989 --> 00:04:03,590
-observations<font color="#E5E5E5"> and evidence empiricism</font><font color="#CCCCCC"> is</font>
-
-1
-00:04:01,310 --> 00:04:06,229
-the central<font color="#E5E5E5"> idea behind the scientific</font>
-
-1
-00:04:03,590 --> 00:04:07,848
-method<font color="#E5E5E5"> that</font><font color="#CCCCCC"> we can find out what is true</font>
-
-1
-00:04:06,229 --> 00:04:11,328
-through experiments with concrete
-
-1
-00:04:07,848 --> 00:04:14,358
-observable results in order<font color="#CCCCCC"> to make good</font>
-
-1
-00:04:11,329 --> 00:04:18,978
-<font color="#E5E5E5">observations an empirical process</font><font color="#CCCCCC"> has</font>
-
-1
-00:04:14,359 --> 00:04:22,120
-<font color="#CCCCCC">three pillars transparency inspection</font>
-
-1
-00:04:18,978 --> 00:04:22,120
+13
+00:01:08,480 --> 00:01:11,080
+and artifacts
+
+14
+00:01:13,190 --> 00:01:17,140
+each of these core-components has a few rules
+
+15
+00:01:17,440 --> 00:01:23,760
+and there are simple rules describing the relationship and interaction between the components
+
+16
+00:01:24,130 --> 00:01:29,440
+anything not described by those components and rules is not part of the framework
+
+17
+00:01:30,070 --> 00:01:36,530
+the Scrum team decides which processes and techniques to use within the framework
+
+18
+00:01:37,100 --> 00:01:44,406
+if the team orthe organization were to decide to remove or alter any of the components or their rules
+
+19
+00:01:44,621 --> 00:01:46,870
+they are no longer using Scrum
+
+20
+00:01:47,160 --> 00:01:49,840
+Scrum exists only in it's entirety
+
+21
+00:01:49,920 --> 00:01:56,150
+and each of the core-components and their associated rules serves a specific purpose
+
+22
+00:01:57,430 --> 00:02:03,450
+the second part of the definition, describes something called a "Complex Adaptive Problem"
+
+23
+00:02:03,890 --> 00:02:07,530
+to understand that, let's look at a spectrum
+
+24
+00:02:08,080 --> 00:02:16,780
+on one end of the spectrum we will place problems that are simple,predictable and static... or unchanging
+
+25
+00:02:17,180 --> 00:02:25,830
+on the other end, we will place problems that are complex, unpredictable and adaptive... or always changing
+
+26
+00:02:26,820 --> 00:02:32,330
+most professionals are familiar with how to address problems at the left end of this spectrum
+
+27
+00:02:32,820 --> 00:02:38,130
+since these are predictable problems, we are able to create a detailed plan
+
+28
+00:02:38,570 --> 00:02:42,120
+the plan might have many steps and dependencies
+
+29
+00:02:42,227 --> 00:02:50,730
+but, if the system is predictable, the plan will progress without any surprises or the need to change things along the way
+
+30
+00:02:51,330 --> 00:02:54,873
+this approach is known as "Defined Process Control"
+
+31
+00:02:55,130 --> 00:02:59,700
+which means that we define a specific process for every step along the way
+
+32
+00:02:59,700 --> 00:03:02,790
+this works well when things are predictable
+
+33
+00:03:03,510 --> 00:03:06,680
+when things are more complex and unpredictable
+
+34
+00:03:06,880 --> 00:03:09,020
+this approach is not very effective
+
+35
+00:03:09,280 --> 00:03:13,190
+one of the most frequently cited books on this topic is called:
+
+36
+00:03:13,270 --> 00:03:16,400
+process dynamics,modeling and control
+
+37
+00:03:16,600 --> 00:03:20,370
+by Babatunde A. Ogunnaike and W. Harman Ray
+
+38
+00:03:20,460 --> 00:03:23,140
+in this book the authors explain:
+
+39
+00:03:23,240 --> 00:03:25,790
+It is typical to adopt a defined approach
+
+40
+00:03:25,827 --> 00:03:31,030
+when underlying mechanisms by which a process operates are resonably well understood
+
+41
+00:03:31,840 --> 00:03:38,640
+when the process is too complicated for the defined approach, the empirical approach is the appropriate choice
+
+42
+00:03:39,580 --> 00:03:46,290
+Ogunnaike and Ray are telling us that the defined approach doesn't work when things are complex and adaptive
+
+43
+00:03:46,550 --> 00:03:49,350
+and that we should instead use something called:
+
+44
+00:03:49,507 --> 00:03:51,450
+Empirical Process Control
+
+45
+00:03:51,740 --> 00:03:54,140
+so let's explore what that means
+
+46
+00:03:54,350 --> 00:03:59,490
+an empirical approach is one that is based on observations and evidence
+
+47
+00:04:00,220 --> 00:04:04,450
+empiricism is the central idea behinde the scientific method
+
+48
+00:04:04,600 --> 00:04:09,910
+that we can find out what is true through experiments with concrete observable results
+
+49
+00:04:10,580 --> 00:04:15,790
+in order to make good observations, an empirical process has three pillars
+
+50
+00:04:16,040 --> 00:04:18,010
+transparency
+
+51
+00:04:18,090 --> 00:04:19,090
+inspection
+
+52
+00:04:19,720 --> 00:04:21,620
 and adaptation
 
-1
-00:04:23,129 --> 00:04:28,930
-scrum is based on<font color="#E5E5E5"> empirical process</font>
+53
+00:04:23,430 --> 00:04:26,810
+Scrum is based on empirical process control
 
-1
-00:04:25,720 --> 00:04:30,850
-<font color="#E5E5E5">control and so significant aspects of</font>
+54
+00:04:26,930 --> 00:04:34,390
+and so significant aspects of Scrum are designed to provide transparency,inspection and adaptation
 
-1
-00:04:28,930 --> 00:04:35,100
-scrum<font color="#E5E5E5"> are designed to provide</font>
+55
+00:04:35,740 --> 00:04:43,440
+to creat transparency, Scrums events and artifacts are visible to all of those responsible for their outcomes
 
-1
-00:04:30,850 --> 00:04:38,920
-<font color="#E5E5E5">transparency</font><font color="#CCCCCC"> inspection and adaptation</font>
+56
+00:04:44,240 --> 00:04:48,763
+organizations using Scrums, frequently inspect Scrum artifacts
 
-1
-00:04:35,100 --> 00:04:41,260
-<font color="#CCCCCC">to create transparency</font><font color="#E5E5E5"> scrums events and</font>
+57
+00:04:48,843 --> 00:04:50,781
+and progress towards a sprint goal
 
-1
-00:04:38,920 --> 00:04:44,310
-artifacts are visible to<font color="#E5E5E5"> all of those</font>
+58
+00:04:50,870 --> 00:04:53,480
+to detect undesirable variances
 
-1
-00:04:41,259 --> 00:04:47,019
-responsible<font color="#CCCCCC"> for their outcomes</font>
+59
+00:04:53,870 --> 00:04:58,280
+they balance the frequency of the inspection, so it doesn't get in the way of the work
 
-1
-00:04:44,310 --> 00:04:49,420
-<font color="#E5E5E5">organizations using scrum frequently</font>
+60
+00:04:58,412 --> 00:05:02,370
+but still provides sufficient opportunities to course-correct
 
-1
-00:04:47,019 --> 00:04:51,399
-inspect scrum artifacts<font color="#E5E5E5"> and progress</font>
+61
+00:05:03,030 --> 00:05:08,910
+if during inspections, anything is determined to be outside of the goals of the effort,
 
-1
-00:04:49,420 --> 00:04:54,759
-towards a sprint goal to detect
+62
+00:05:09,170 --> 00:05:12,640
+the process,plans or product are adapted
 
-1
-00:04:51,399 --> 00:04:56,979
-undesirable variances<font color="#E5E5E5"> they balance the</font>
+63
+00:05:13,120 --> 00:05:18,640
+the adaptation is made  as son as possible to optimize for a better outcome
 
-1
-00:04:54,759 --> 00:04:58,899
-frequency of inspection<font color="#CCCCCC"> so it doesn't</font>
+64
+00:05:19,250 --> 00:05:20,393
+to summarize:
 
-1
-00:04:56,980 --> 00:05:00,819
-get<font color="#E5E5E5"> in the way</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> the work but still</font>
+65
+00:05:20,646 --> 00:05:23,600
+Scrum is a lightweigh framework
 
-1
-00:04:58,899 --> 00:05:04,899
-provides<font color="#E5E5E5"> sufficient opportunities to</font>
+66
+00:05:23,790 --> 00:05:31,390
+made up of a few roles, events,artifacts and their rules that is simple to understand
 
-1
-00:05:00,819 --> 00:05:07,149
-<font color="#E5E5E5">course-correct if during inspections</font>
+67
+00:05:31,840 --> 00:05:38,140
+however, since it relies on empirical process control to address complex adaptive problems,
 
-1
-00:05:04,899 --> 00:05:09,699
-anything is determined<font color="#CCCCCC"> to be outside</font><font color="#E5E5E5"> of</font>
-
-1
-00:05:07,149 --> 00:05:13,269
-<font color="#E5E5E5">the goals of the effort the process</font>
-
-1
-00:05:09,699 --> 00:05:15,909
-plans<font color="#E5E5E5"> or product are adapted the</font>
-
-1
-00:05:13,269 --> 00:05:19,449
-adaptation is made as soon<font color="#E5E5E5"> as possible</font>
-
-1
-00:05:15,910 --> 00:05:22,510
-to<font color="#CCCCCC"> optimize for</font><font color="#E5E5E5"> a better outcome to</font>
-
-1
-00:05:19,449 --> 00:05:26,639
-<font color="#E5E5E5">summarize scrum is a lightweight</font>
-
-1
-00:05:22,509 --> 00:05:30,339
-framework<font color="#E5E5E5"> made up of a few</font><font color="#CCCCCC"> roles</font><font color="#E5E5E5"> events</font>
-
-1
-00:05:26,639 --> 00:05:33,729
-artifacts and their rules that is simple
-
-1
-00:05:30,339 --> 00:05:36,219
-to<font color="#E5E5E5"> understand however since it relies on</font>
-
-1
-00:05:33,730 --> 00:05:38,740
-empirical<font color="#CCCCCC"> process control to address</font>
-
-1
-00:05:36,220 --> 00:05:41,820
-complex<font color="#E5E5E5"> adaptive</font><font color="#CCCCCC"> problems it is</font>
-
-1
-00:05:38,740 --> 00:05:41,819
-difficult<font color="#E5E5E5"> to master</font>
+68
+00:05:38,480 --> 00:05:40,960
+it is difficult to master
 
