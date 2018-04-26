@@ -1,210 +1,262 @@
-﻿1
+1
 00:00:00,000 --> 00:00:02,720
+سلام و به «آکادمی اجایل» خوش آمدید
 Hi! and welcome to the agile Academy
 
 2
 00:00:02,870 --> 00:00:04,800
+در این گفتار از سری گفتارهای چابکی در عمل
 in this Agile in practice talk
 
 3
 00:00:04,870 --> 00:00:07,890
+می‌خواهیم به شما نشان بدهیم که چگونه توسعه‌دهندگان در یک تیم چابک
 we'd like to show you how developers on an agile team
 
 4
 00:00:07,940 --> 00:00:13,060
+از برنامه‌نویسی دونفره برای رفع اشکالات، کمک به تحویل سریع‌تر و تولید کار باکیفیت‌تر استفاده می‌کنند
 use pair programming to work defects, help deliver faster, and produce higher quality work
 
 5
 00:00:13,120 --> 00:00:15,600
+بیایید نگاهی به طرز کار این تکنیک بیندازیم
 let's have a look at how this practice works
 
 6
 00:00:15,680 --> 00:00:20,100
+روش همکاری توسعه‌دهنده‌ها شبیه رانندگی ماشین در یک رالی است
 the way developers are collaborating is a bit like driving a car on a rally
 
 7
 00:00:20,230 --> 00:00:23,900
+یکی از شما رانندگی می‌کند، و نفر کناری با خواندن نقشه، مسیریابی می‌کند
 one of you is driving while the other is navigating reading the map
 
 8
 00:00:23,970 --> 00:00:26,440
+در حالی که راننده چشمش به جاده است
  while the driver is keeping their eyes in the road
 
 9
 00:00:26,490 --> 00:00:30,110
+مسیریاب روی مقصد و چگونگی رسیدن به آنجا تمرکز می‌کند
  the Navigator is focusing on the destination and how to get there
 
 10
 00:00:30,290 --> 00:00:32,350
+مستقل از نوع کاری که انجام می‌دهید
 regardless of the kind of work you do
 
 11
 00:00:32,400 --> 00:00:35,630
+ممکن است شما بخواهید به همین روش با همکارتان همکاری کنید
  you may want to try out collaborating with a colleague in the same way
 
 12
 00:00:35,680 --> 00:00:38,220
+به‌خصوص وقتی که درگیر یک وظیفهٔ دشوار هستید
  especially when you are dealing with a difficult task
 
 13
 00:00:38,300 --> 00:00:40,570
-it works based if both people are pairs
+این روش وقتی بهتر جواب می‌دهد که دو نفر هم‌سطح باشند
+it works based (--> best) if both people are pairs (--> peers)
 
 14
 00:00:40,600 --> 00:00:44,700
+و یک نقش (در تیم توسعه) داشته باشند و سطح مهارت و تجربهٔ مشابهی داشته باشند
  sharing the same role and having a similar skill and experience level
 
 15
 00:00:44,880 --> 00:00:46,590
+(مثلاً) در اینجا «بیل» و «لیز» را می‌بینید
 here are Bill and Liz
 
 16
 00:00:46,670 --> 00:00:52,230
+که ۲ نفر از یک تیم چابک هستند که یک سیستم جدید ارزیابی عملکرد کارکنان را برای واحد منابع انسانی تولید می‌کنند
 2 developers from the agile team who are delivering a new employee performance review system for the HR department
 
 17
 00:00:52,430 --> 00:00:55,510
+آن‌ها در کنار همدیگر پشت یک کامپیوتر کار می‌کنند
  they will be working together side by side at the same computer
 
 18
 00:00:55,550 --> 00:00:57,090
+و روی حل یک مسئله کار می‌کنند
  solving the same problem
 
 19
 00:00:57,160 --> 00:00:59,830
+آن‌ها به نوبت از کیبورد و ماوس استفاده می‌کنند
 they take turns using the keyboard and mouse
 
 20
 00:00:59,930 --> 00:01:02,240
+در این لحظه لیز راننده است
 at the moment liz is the driver
 
 21
 00:01:02,300 --> 00:01:05,590
+در حالی که او در حال نوشتن کُد و اجرای تست روی آن است
 while she is writing the code and performs tests on that code
 
 22
 00:01:05,820 --> 00:01:08,350
+بیل به عنوان مسیریاب کارش را مشاهده می‌کند
  bill as a navigator observes her work
 
 23
 00:01:08,440 --> 00:01:10,360
+و به جهت کلی و استراتژیکِ کار فکر می‌کند
 considering the strategic direction
 
 24
 00:01:10,440 --> 00:01:12,710
+گام‌های بعدی و دام‌های احتمالی
 the next steps and potential pitfalls
 
 25
 00:01:12,780 --> 00:01:16,010
+او همچنین به این فکر می‌کند که آیا این ساده‌ترین طراحی ممکن است یا نه
  he also considers if this is a simplest design possible
 
 26
 00:01:16,060 --> 00:01:18,180
+و ایده‌هایی برای بهبود طراحی می‌دهد
  and comes up with ideas for improvement
 
 27
 00:01:18,240 --> 00:01:19,880
+بعد از گذشت مدتی
  after the period of time
 
 28
 00:01:19,950 --> 00:01:22,860
+آن‌ها جایشان را عوض می‌کنند و این بار لیز مسیریابی و بیل رانندگی می‌کنند
  they swap rules and Liz navigates while Bill drives
 
 29
 00:01:22,900 --> 00:01:26,120
+از آنجا که آن‌ها دائماً در حال ارتباط و مرور کار با همدیگر هستند
 because they are constantly communicating and reviewing together
 
 30
 00:01:26,170 --> 00:01:30,280
+آن‌ها کاری با کیفیت بالاتر و با سرعت بالاتر نسبت به وقتی که تنها کار می‌کردند، تولید می‌کنند
  they produce higher quality work at a faster pace than either could do on their own
 
 31
 00:01:30,340 --> 00:01:34,730
+این روش همچنین باعث می‌شود که بیش از یک توسعه‌دهنده هر قسمت از سیستم را بشناسد
  it also ensures that more than just one developer
  knows each part of the system
 
 32
 00:01:34,860 --> 00:01:37,360
+جابه‌جایی بین دو نفر مرتباً در طول روز اتفاق می‌افتد
  pair swap places frequently throughout the day
 
 33
 00:01:37,400 --> 00:01:40,860
+و همچنین جفت‌های جدید مرتباً تشکیل می‌شوند تا به‌اشتراک‌گذاری دانش در تیم ترویج شود
  and also new pairs are formed to promote sharing of knowledge throughout the team
 
 34
 00:01:41,020 --> 00:01:44,190
+همزمان یک روش یکسان برنامه‌ریزی اجرا می‌شود
  at the same time a uniform style of planning is carried out
 
 35
 00:01:44,270 --> 00:01:46,280
+که کار کردن با همدیگر را آسان‌تر می‌کند
  which makes working together easier
 
 36
 00:01:46,400 --> 00:01:49,850
+همچنین یک حس مالکیت و تعهد به کُد مشترک ایجاد می‌کند
  it also creates an ownership and commitment to the collective code
 
 37
 00:01:49,970 --> 00:01:53,060
+علی‌رغم مزایایش، برنامه‌نویسی دونفره همیشه راحت نیست
  despite the benefits, pair program is not always easy
 
 38
 00:01:53,210 --> 00:01:56,050
+به عنوان راننده، همیشه یک نفر در حال مشاهدهٔ شماست
  as a driver you have someone observing you constantly
 
 39
 00:01:56,100 --> 00:02:01,830
+و وقتی مسیریابی می‌کنید، باید در گرفتن ایرادات جزئی مثل فراموش شدن سمیکولون یا اشتباهات تایپی، از عجله کردن خودداری کنید
 and when you're navigating you need to refrain from rushing to point out details like messing semicolons or typos
 
 40
 00:02:02,030 --> 00:02:04,760
+و به جایش باید به راننده زمان بدهید تا کد را بنویسد
 instead you need to get the driver time to write
 
 41
 00:02:04,790 --> 00:02:08,130
+و دوباره بنویسد، در حالی که شما تمرکزتان روی جهت پیشرفت کار است
 and rewrite the work while you focus on the direction the work is going
 
 42
 00:02:08,360 --> 00:02:13,680
+همچنین باید این را در نظر بگیرید که برنامه‌نویسی دونفره برای همهٔ کارها و شرایط مناسب نیست
  also you should consider that pair programming isn't suitable for all tasks or situations
 
 43
 00:02:13,740 --> 00:02:17,390
+ولی وقتی می‌خواهید انجامش دهید، باید به همدیگر احترام بگذارید، صحبت کنید
 but if you choose to do it, you need to respect each other, communicate
 
 44
 00:02:17,420 --> 00:02:20,590
+و با استفاده از کامپیوتری با نمایشگر بزرگ، کار را برای خودتان آسان کنید
 and make it easy on yourselves by using a computer with a big screen
 
 45
 00:02:20,770 --> 00:02:22,140
+از سواری لذت ببرید!
  enjoy the right
 
 46
 00:02:22,230 --> 00:02:24,140
+در این گفتار از سری گفتارهای چابکی در عمل
  in this agile in practice talk
 
 47
 00:02:24,240 --> 00:02:30,030
+شما دیدید که چگونه تیم‌های چابک همکاری می‌کنند و از تکنیک برنامه‌نویسی دونفره برای افزایش کیفیت کارشان استفاده می‌کنند
  you saw how agile teams collaborate and use a practice of pair programming to increase the quality of the work
 
 48
 00:02:30,060 --> 00:02:33,850
+ممکن است گاهی به اصطلاح «کار دونفره» هم برخورد کنید
 you may also from time to time hear the term pairing news to
 
 49
 00:02:33,940 --> 00:02:39,860
+که به کار دو شخص تجاری (غیرفنی) یا یک شخص تجاری و یک توسعه‌دهنده که روی یک موضوع با همدیگر کار می‌کنند اشاره دارد
  this can refer to 2 business people or one business person 
 and a developer working together on one piece of work
 
 50
 00:02:40,010 --> 00:02:44,790
+اینکه کار را از ابتدا با کیفیت انجام دهید دیگر فقط محدود به آی‌تی‌کارها نیست
 you can see that building quality into a task isn't just limited to IT folks anymore
 
 51
 00:02:44,880 --> 00:02:48,010
+کار دو نفره در ضمن می‌تواند باعث شود دو نفر احساس عِرق بیشتری نسبت به کارشان بکنند
  pairing can also encourage the pairs to take pride in their work
 
 52
 00:02:48,050 --> 00:02:50,060
+چون دارند آن را با یک نفر دیگر به اشتراک می‌گذارند
 because they are sharing it with someone else
 

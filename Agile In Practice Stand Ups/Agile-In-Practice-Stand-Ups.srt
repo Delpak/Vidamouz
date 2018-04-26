@@ -1,208 +1,238 @@
 ﻿1
 00:00:00,000 --> 00:00:02,880
 Hi! and welcome to the agile Academy
+سلام و به «آکادمی اجایل» خوش آمدید
 
 2
 00:00:02,930 --> 00:00:05,080
-In this agile in practice talk 
+In this agile in practice talk
+در این گفتگوی «چابک در عمل»
 
 3
-00:00:05,150 --> 00:00:07,910
-we'd like to give you a quick insight into stand-ups
+00:00:05,150 --> 00:00:10,180
+we'd like to give you a quick insight into stand-ups and how they work for agile teams
+می‌خواهیم خیلی سریع، درکی از «جلسه‌ی ایستاده» (Stand-up) به شما بدهیم
+و ببینیم که چگونه به کارِ تیم‌های چابک می‌آید
 
 4
-00:00:07,980 --> 00:00:10,180
- and how they work for agile teams
+00:00:10,270 --> 00:00:12,530
+Let me introduce you to the team
+اجازه بدهید شما را با تیم آشنا کنم
 
 5
-00:00:10,270 --> 00:00:12,530
-Let me introduce you to the team 
+00:00:12,650 --> 00:00:16,170
+they are working on the new employee performance review system
+آنها مشغول کار روی سامانه جدید بررسی عملکرد کارکنان هستند
 
 6
-00:00:12,650 --> 00:00:16,170
- they are working on the new employee performance review system 
+00:00:16,230 --> 00:00:18,620
+and are getting together for their daily meeting
+هر روز دور هم جمع می‌شوند تا جلسه‌ی روزانه داشته باشند
 
 7
-00:00:16,230 --> 00:00:18,620
-and are getting together for their daily meeting 
+00:00:18,900 --> 00:00:23,620
+every day at the same time the team stands in a semicircle at the team wall
+راس ساعت معینی در روز، در گوشه‌ی اتاق، ایستاده حلقه می‌زنند
 
 8
-00:00:18,900 --> 00:00:23,620
-every day at the same time the team stands in a semicircle at the team wall 
+00:00:23,720 --> 00:00:27,490
+in turn, each team member gives an update by sharing
+به نوبت، هر کس آخرین وضعیتش را به این شکل اعلام می‌کند که
 
 9
-00:00:23,720 --> 00:00:27,490
- and turn each team member gives an update by shearing 
-
-10
 00:00:27,670 --> 00:00:29,790
 what work that I complete yesterday?
+دیروز چه کاری را تکمیل کردم؟
 
-11
+10
 00:00:29,920 --> 00:00:32,270
 what do I plan to complete today?
+برنامه امروزم چیست و می‌خواهم چه کار کنم؟
+
+11
+00:00:32,820 --> 00:00:37,000
+what blocker, if any, do I face in getting my work done today?
+و چه مانعی -در صورت وجود- بر سر راهم برای انجام کار امروزم قرار دارد؟
 
 12
-00:00:32,820 --> 00:00:37,000
-what blocker, if any, do I face and getting my work done today?
+00:00:37,450 --> 00:00:39,640
+Here is Bill. kicking off the stand up
+«بیل» جلسه را شروع می‌کند
 
 13
-00:00:37,450 --> 00:00:39,640
-Here is Bill. kicking off the stand up 
-
-14
 00:00:39,760 --> 00:00:43,830
 yesterday I completed the first version of the new performance review flier
+بیل: دیروز نسخه‌ی اول بخش اعلاناتِ سامانه‌ی بررسی عملکرد را تکمیل کردم
+
+14
+00:00:43,920 --> 00:00:46,280
+and today, I will start the FAQ list
+و امروز بخش پرسش-پاسخ‌های رایج را شروع می‌کنم
 
 15
-00:00:43,920 --> 00:00:46,280
-and today, I will start the FAQ list 
+00:00:46,560 --> 00:00:53,150
+my blocker is that some of the HR experts I need to talk with aren't available
+They're on a team day
+مانعی که امروز پیش رو دارم اینه که بعضی از کارشناسان منابع انسانی
+که باید باهاشون صحبت کنم، جلسه داخلی دارند و در دسترس نیستند.
 
 16
-00:00:46,560 --> 00:00:51,640
-my blocker is that some of the HR experts I need to talk with aren't available
-
-17
-00:00:51,820 --> 00:00:53,150
-They're on a team day
-
-18
 00:00:53,890 --> 00:00:56,690
 bill then passes on the Talking Stick to Megan
+سپس بیل «گوی صحبت» را به مگان می‌دهد
+(گوی صحبت: برای رعایت نظم جلسه و افزایش تمرکز، گوینده نشانه‌ای در دست می‌گیرد و فقط دارنده این نشانه، مجاز به صحبت کردن است)
 
-19
+17
 00:00:56,820 --> 00:00:58,510
 Who shares her update with the group
+او هم آخرین وضعیتش را به گروه اطلاع می‌دهد
 
-20
+18
 00:00:58,650 --> 00:00:59,880
-(*)Megan might see 
+(*)Megan might see
+می‌گوید:
 
-21
+19
 00:01:00,040 --> 00:01:03,310
 yesterday I completed not much since my computer crashed
+دیروز چون کامپیوترم خراب شده بود، کار زیادی انجام ندادم
+
+20
+00:01:03,350 --> 00:01:07,830
+and so today I'll be catching up with my work on testing the systems login security
+امروز کارهای مربوط به تستِ امنیتِ لاگین رو انجام می‌دم
+
+21
+00:01:07,940 --> 00:01:10,910
+no blockers! since I got a temporary computer to work on
+مشکلی هم نمی‌بینم! چون یه کامپیوتر موقت تحویل گرفتم
 
 22
-00:01:03,350 --> 00:01:07,830
- and so today I'll be catching up with my work on testing the systems login security
+00:01:11,110 --> 00:01:13,400
+Megan passes a talking stick on to Damien
+مگان «گوی صحبت» را به دَمین می‌دهد
 
 23
-00:01:07,940 --> 00:01:10,910
- new blockers since I got a temporary computer to work on
+00:01:13,480 --> 00:01:14,420
+who is next?
+خب نفر بعدی کیه؟
 
 24
-00:01:11,110 --> 00:01:13,400
- Megan passes a talking stick on to Damien 
+00:01:14,730 --> 00:01:17,630
+the team purposely has this meeting while standing up
+تیم عمداً این جلسه را ایستاده برگزار می‌کند
 
 25
-00:01:13,480 --> 00:01:14,420
-who is next? 
+00:01:17,750 --> 00:01:21,310
+because it helps him to focus on answering just these three questions keeping the stand up short and sharp
+چون باعث می‌شود تا به پاسخ ۳ سوال تمرکز کرده و جلسه را مختصر و مفید برگزار کنند
 
 26
-00:01:14,730 --> 00:01:17,630
-the team purposely has this meeting while standing up 
+00:01:24,460 --> 00:01:27,480
+since they take problem resolution outside of this meeting
+به این علت که در این جلسه به رفع مشکل پرداخته نمی‌شود و
 
 27
-00:01:17,750 --> 00:01:21,310
- because it helps him to focus on answering just these three questions 
-
-28
-00:01:21,450 --> 00:01:23,960
-keeping the stand up short and sharp
-
-29
-00:01:24,460 --> 00:01:27,480
- since they take problem resolution outside of this meeting 
-
-30
 00:01:27,580 --> 00:01:29,230
 and the frame from storytelling
+از گفتن داستان و جزییات پرهیز می‌شود
 
-31
+28
 00:01:29,290 --> 00:01:32,810
- their stand up takes no more than 15 minutes at the max 
+their stand up takes no more than 15 minutes at the max
+جلسه‌ی ایستاده آنها بیشتر از 15 دقیقه طول نمی‌کشد
 
-32
+29
 00:01:33,090 --> 00:01:36,670
 guests and non core team members are welcome to the stand up
+کسانی که از اعضای اصلی تیم نیستند هم می‌توانند در این جلسه حاضر باشند
 
-33
+30
 00:01:36,730 --> 00:01:37,930
- but they can only listen 
+but they can only listen
+به شرطی که فقط شنونده باشند
 
-34
+31
 00:01:38,000 --> 00:01:40,050
 and cannot actively participate
+و نتوانند بر جلسه تاثیر بگذارند
+
+32
+00:01:40,190 --> 00:01:45,320
+Jen the business subject-matter expert thinks that the daily stand-up is very useful
+از نظر جِین که تحلیلگر حوزه کسب و کار است، جلسات ایستاده روزانه خیلی مفیدند
+
+33
+00:01:45,410 --> 00:01:49,340
+she says: even I don't actively participate in the stand up
+می‌گوید: هرچند در این جلسه شرکت فعال ندارم
+
+34
+00:01:49,370 --> 00:01:51,760
+I know where we are with the work as a team
+ولی می‌فهمم که کجای کار هستیم
 
 35
-00:01:40,190 --> 00:01:42,870
- Jen the business subject-matter expert
+00:01:51,850 --> 00:01:55,600
+if there are any issues that I can solve, I get on it straight away
+و اگر مشکلی وجود داشته باشد که بتوانم حلش کنم، بلافاصله آن را از پیش پا برمی‌دارم
 
 36
-00:01:42,930 --> 00:01:45,320
- thinks that the daily stand-up is very useful
+00:01:55,760 --> 00:01:56,990
+Megan adds
+مِگان اضافه می‌کند که
 
 37
-00:01:45,410 --> 00:01:46,260
- she says 
+00:01:57,160 --> 00:01:59,370
+what I find challenging about the stand up
+به نظر من یکی از چالشهای این جلسه این است که
 
 38
-00:01:46,420 --> 00:01:49,340
-even though I don't actively participate in the stand up
+00:01:59,480 --> 00:02:02,180
+is keeping what I share relevant to my teammates
+به بیان موضوعاتی بسنده کنم که به هم تیمی‌ها مربوط است
 
 39
-00:01:49,370 --> 00:01:51,760
- I know where we are with the work as a team
-
-40
-00:01:51,850 --> 00:01:55,600
- if there are any issues that I can solve I get on it straight away 
-
-41
-00:01:55,760 --> 00:01:56,990
- Megan adds
-
-42
-00:01:57,160 --> 00:01:59,370
- what I find challenging about the stand up
-
-43
-00:01:59,480 --> 00:02:02,180
- is keeping what I share relevant to my teammates
-
-44
 00:02:02,270 --> 00:02:06,060
 so that I don't waste our time with just some general update statements
+و وقت‌مان را با طرح موضوعات کلی هدر ندهم
 
-45
+40
 00:02:06,100 --> 00:02:13,470
- and short stand-ups or brief daily meetings that are made to get everyone updated on the progress of the work that your team has committed to 
+and short, stand-ups are brief daily meetings that are made to get everyone updated on the progress of the work that your team has committed to
+به طور خلاصه جلسات ایستاده روزانه، جلساتی کوتاه‌اند تا همه‌ی تیم از آخرین وضعیت کاری که به عهده گرفته
 
-46
+41
 00:02:13,620 --> 00:02:15,810
-and of any obstacles that are in the way 
+and of any obstacles that are in the way
+و نیز موانع پیش رو، مطلع شوند
 
-47
+42
 00:02:16,010 --> 00:02:18,970
- since you all share your updates with the whole team
+since you all share your update with the whole team
+از آنجا که شما وضعیت‌تان را با همه‌ی تیم به اشتراک می‌گذارید
 
-48
+43
 00:02:19,100 --> 00:02:24,170
-as stand-up is not a micromanagement report to the project manager or team lead
+Stand-up is not a micromanagement report to the project manager or team lead
+این جلسه متفاوت با جلسات رایج در مدیریت ذره‌بینی و ارایه گزارش به مدیر و سرپرست تیم است
 
-49
+44
 00:02:24,330 --> 00:02:27,730
 the project manager is mainly there to hear about the blockers
+دلیل اصلی حضور مدیر پروژه در جلسه این است که از موانع موجود مطلع شده و
 
-50
+45
 00:02:27,830 --> 00:02:32,710
- it is his or her tasks to remove these obstacles as quickly as possible
+it is his or her tasks to remove these obstacles as quickly as possible
+طبق وظیفه، هر چه سریعتر آنها را رفع کند
 
-51
+46
 00:02:32,810 --> 00:02:35,590
- we hope you enjoyed this Agile in practice talk 
+we hope you enjoyed this Agile in practice talk
+امیدواریم از این قسمت «چابکی در عمل» لذت برده باشید
 
-52
+47
 00:02:35,690 --> 00:02:39,580
 and that it encourages you to try out stand ups with your own team
-
+و تشویق شده باشید که در تیم خودتان این جلسات را برگزار کنید
