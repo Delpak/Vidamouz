@@ -1,120 +1,116 @@
-1
-00:00:04,730 --> 00:00:11,670
-scrum teams are self organizing and
+﻿1
+00:00:05,377 --> 00:00:09,523
+Scrum teams are self-organizing and cross-functional
 
-1
-00:00:08,210 --> 00:00:14,280
-cross-functional these characteristics
+2
+00:00:10,333 --> 00:00:13,293
+these characteristics are often misunderstood
 
-1
-00:00:11,669 --> 00:00:16,109
-<font color="#E5E5E5">are often misunderstood so let's talk</font>
+3
+00:00:13,642 --> 00:00:17,261
+so let's talk about what they mean in the context of Scrum
 
-1
-00:00:14,279 --> 00:00:20,309
-<font color="#CCCCCC">about what they mean in the context of</font>
+4
+00:00:18,087 --> 00:00:20,515
+a Scrum team is self-organizing
 
-1
-00:00:16,109 --> 00:00:22,980
-scrum<font color="#E5E5E5"> a scrum team is</font><font color="#CCCCCC"> self organizing</font>
+5
+00:00:20,742 --> 00:00:24,497
+meaning that the team chooses how best to accomplish their work
 
-1
-00:00:20,309 --> 00:00:25,528
-meaning that the team<font color="#E5E5E5"> chooses how best</font>
+6
+00:00:24,872 --> 00:00:28,518
+rather than being directed by others outside the team
 
-1
-00:00:22,980 --> 00:00:27,750
-to accomplish<font color="#E5E5E5"> their work rather</font><font color="#CCCCCC"> than</font>
+7
+00:00:29,274 --> 00:00:35,624
+within the Scrum framework, the team has total autonomy to choose how things get done
 
-1
-00:00:25,528 --> 00:00:31,589
-being directed<font color="#E5E5E5"> by others</font><font color="#CCCCCC"> outside the</font>
+8
+00:00:36,512 --> 00:00:38,759
+how do you estimate in Scrum?
 
-1
-00:00:27,750 --> 00:00:34,320
-team within the scrum framework<font color="#CCCCCC"> the team</font>
+9
+00:00:39,355 --> 00:00:40,355
+ask the team!
 
-1
-00:00:31,589 --> 00:00:38,628
-has total<font color="#E5E5E5"> autonomy to choose how things</font>
+10
+00:00:41,462 --> 00:00:44,156
+what technical practices should be used?
 
-1
-00:00:34,320 --> 00:00:42,899
-get done how do you<font color="#CCCCCC"> estimate in scrum</font>
+11
+00:00:44,676 --> 00:00:45,863
+ask the team!
 
-1
-00:00:38,628 --> 00:00:47,218
-ask the team what technical<font color="#CCCCCC"> practices</font>
+12
+00:00:46,514 --> 00:00:49,394
+what tools should we use to track our work?
 
-1
-00:00:42,899 --> 00:00:50,759
-should<font color="#E5E5E5"> be used ask the team what tools</font>
+13
+00:00:49,918 --> 00:00:51,537
+ask the team!
 
-1
-00:00:47,219 --> 00:00:54,090
-should<font color="#CCCCCC"> we use to track our work</font><font color="#E5E5E5"> ask the</font>
+14
+00:00:52,100 --> 00:00:55,069
+how is work distributed during the sprint?
 
-1
-00:00:50,759 --> 00:00:59,640
-team how<font color="#CCCCCC"> is work distributed during</font><font color="#E5E5E5"> the</font>
+15
+00:00:55,621 --> 00:00:56,621
+ask the team!
 
-1
-00:00:54,090 --> 00:01:02,040
-<font color="#CCCCCC">sprint ask the team the traditional of</font>
+16
+00:00:58,401 --> 00:01:01,085
+the traditional approach to organizing teams
 
-1
-00:00:59,640 --> 00:01:05,519
-<font color="#E5E5E5">to organizing teams is to do so by</font>
+17
+00:01:01,194 --> 00:01:03,678
+is to do so by skillset or job title
 
-1
-00:01:02,039 --> 00:01:07,349
-<font color="#CCCCCC">skillset or job title</font><font color="#E5E5E5"> for example all</font><font color="#CCCCCC"> of</font>
+18
+00:01:04,126 --> 00:01:07,593
+for example, all of the researchers might be on one team,
 
-1
-00:01:05,519 --> 00:01:11,209
-the researchers might be on one<font color="#CCCCCC"> team</font>
+19
+00:01:07,839 --> 00:01:09,631
+sales on another,
 
-1
-00:01:07,349 --> 00:01:14,759
-<font color="#E5E5E5">sales on another engineering another and</font>
+20
+00:01:09,777 --> 00:01:11,110
+engineeing another,
 
-1
-00:01:11,209 --> 00:01:16,589
-marketing on yet another team<font color="#E5E5E5"> this</font>
+21
+00:01:11,545 --> 00:01:13,783
+and marketing on yet another team
 
-1
-00:01:14,760 --> 00:01:18,690
-structure results in a relay race
+22
+00:01:14,411 --> 00:01:17,348
+this structure results in a relay race approach
 
-1
-00:01:16,590 --> 00:01:22,228
-approach to<font color="#CCCCCC"> delivering new products and</font>
+23
+00:01:17,432 --> 00:01:19,490
+to delivering new products and services
 
-1
-00:01:18,689 --> 00:01:26,189
-<font color="#E5E5E5">services</font><font color="#CCCCCC"> which impedes</font><font color="#E5E5E5"> speed flexibility</font>
+24
+00:01:19,775 --> 00:01:21,323
+which impedes speed,
 
-1
-00:01:22,228 --> 00:01:28,560
-and quality instead scrum teams are
+25
+00:01:21,514 --> 00:01:23,363
+flexibility, and quality
 
-1
-00:01:26,189 --> 00:01:30,509
-cross-functional meaning that the
+26
+00:01:24,078 --> 00:01:27,394
+instead, Scrum teams are cross-functional
 
-1
-00:01:28,560 --> 00:01:32,820
-members of the<font color="#CCCCCC"> team have all</font>
+27
+00:01:27,636 --> 00:01:29,787
+meaning that the members of the team
 
-1
-00:01:30,510 --> 00:01:35,009
-competencies needed<font color="#CCCCCC"> to accomplish</font><font color="#E5E5E5"> the</font>
+28
+00:01:30,012 --> 00:01:33,231
+have all competencies needed to accomplish the work
 
-1
-00:01:32,819 --> 00:01:37,879
-work without depending<font color="#E5E5E5"> on others not</font>
-
-1
-00:01:35,009 --> 00:01:37,879
-part of the team
+29
+00:01:33,341 --> 00:01:36,634
+without depending on others not part of the team
 

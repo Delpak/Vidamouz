@@ -1,5 +1,5 @@
 ﻿1
-00:00:05,570 --> 00:00:09,240
+00:00:05,610 --> 00:00:09,240
 The team is an extremely important concept in scrum
 
 2
@@ -7,7 +7,7 @@ The team is an extremely important concept in scrum
 so let's start with the definition of that term
 
 3
-00:00:13,070 --> 00:00:14,430
+00:00:13,060 --> 00:00:14,430
 at the highest level
 
 4
@@ -31,11 +31,11 @@ as defined by the great team expert J.Richard Hackman
 the first characteristic is something that Hackman called a real team
 
 9
-00:00:37,500 --> 00:00:40,630
+00:00:37,520 --> 00:00:40,630
 Successful teams have clear membership boundaries ,
 
 10
-00:00:41,044 --> 00:00:43,015
+00:00:40,840 --> 00:00:43,010
 interdependence among the members ,
 
 11
@@ -47,11 +47,11 @@ and at least moderate stability of membership over time
 The second characteristic is compelling direction
 
 13
-00:00:51,976 --> 00:00:54,609
+00:00:51,620 --> 00:00:54,600
 Successful teams , have a compelling direction.
 
 14
-00:00:54,760 --> 00:00:59,130
+00:00:54,690 --> 00:00:59,130
 a purpose that is clear , challenging and consequential
 
 15
@@ -59,7 +59,7 @@ a purpose that is clear , challenging and consequential
 and that focuses on the ends to be achieved
 
 16
-00:01:02,801 --> 00:01:06,196
+00:01:02,630 --> 00:01:06,190
 rather than the means the team must use in persuing them
 
 17
@@ -67,7 +67,7 @@ rather than the means the team must use in persuing them
 Third is enabling structure
 
 18
-00:01:11,538 --> 00:01:15,538
+00:01:11,180 --> 00:01:15,710
 Successful teams have structures , tasks , composition ,
 
 19
@@ -75,11 +75,11 @@ Successful teams have structures , tasks , composition ,
 and core norms of conduct that enable rather than impede teamwork
 
 20
-00:01:22,200 --> 00:01:25,120
+00:01:22,230 --> 00:01:25,020
 Fourth , supportive context
 
 21
-00:01:25,860 --> 00:01:29,680
+00:01:25,850 --> 00:01:29,680
 Successful teams have structures and systems around them
 
 22
@@ -91,7 +91,7 @@ that provide the resources and support
 that members need to carry out their collective work
 
 24
-00:01:35,920 --> 00:01:38,580
+00:01:35,790 --> 00:01:38,580
 And fifth , competent coaching
 
 25
@@ -99,11 +99,11 @@ And fifth , competent coaching
 Successful teams have competent coaching available
 
 26
-00:01:42,540 --> 00:01:44,730
+00:01:42,550 --> 00:01:44,730
 to help members get over rough spots
 
 27
-00:01:45,191 --> 00:01:47,791
+00:01:45,070 --> 00:01:47,790
 and take advantage of emerging opportunities
 
 28
@@ -111,7 +111,7 @@ and take advantage of emerging opportunities
 That coaching is provided at times in the team lifecycle ,
 
 29
-00:01:52,320 --> 00:01:55,810
+00:01:52,310 --> 00:01:55,810
 when members are most ready to receive and use it
 
 30
@@ -123,7 +123,7 @@ If we take any of these characteristics away ,
 the team starts to struggle to be effective
 
 32
-00:02:03,270 --> 00:02:06,150
+00:02:03,220 --> 00:02:06,150
 Scrum supports each one of this characteristics
 
 33
@@ -143,7 +143,7 @@ Second , the product backlog , product owner role and sprint goals ,
 all help provide compelling direction for the scrum team
 
 37
-00:02:26,985 --> 00:02:32,950
+00:02:26,630 --> 00:02:32,950
 Third , Scrum is itself a set of enabling structures for how to do work within a team
 
 38
@@ -151,7 +151,7 @@ Third , Scrum is itself a set of enabling structures for how to do work within a
 Fourth , the role of management in an organization using scrum ,
 
 39
-00:02:38,900 --> 00:02:42,840
+00:02:38,910 --> 00:02:42,840
 shifts to providing supportive context for the scrum team
 
 40
@@ -167,7 +167,7 @@ And fifth , the scrum master role is created
 to provide ongoing competent coaching to the team
 
 43
-00:02:55,044 --> 00:02:58,696
+00:02:54,850 --> 00:02:58,690
 Scrum also specifies two characteristics for scrum teams :
 
 44
@@ -175,6 +175,6 @@ Scrum also specifies two characteristics for scrum teams :
 Self organization and cross functionality
 
 45
-00:03:02,636 --> 00:03:06,369
+00:03:02,470 --> 00:03:06,080
 We will explore these two concepts later in this section
 
