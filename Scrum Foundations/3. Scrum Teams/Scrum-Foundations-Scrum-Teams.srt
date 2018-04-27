@@ -1,240 +1,180 @@
-1
-00:00:04,790 --> 00:00:10,259
-the team is an extremely important
+﻿1
+00:00:05,570 --> 00:00:09,240
+The team is an extremely important concept in scrum
 
-1
-00:00:07,620 --> 00:00:13,650
-concept<font color="#E5E5E5"> in scrum so let's start with a</font>
+2
+00:00:09,519 --> 00:00:12,119
+so let's start with the definition of that term
 
-1
-00:00:10,259 --> 00:00:16,439
-<font color="#CCCCCC">definition of that term at the highest</font>
+3
+00:00:13,070 --> 00:00:14,430
+at the highest level
 
-1
-00:00:13,650 --> 00:00:18,539
-level<font color="#CCCCCC"> a team is any group</font><font color="#E5E5E5"> of</font><font color="#CCCCCC"> individuals</font>
+4
+00:00:14,527 --> 00:00:16,904
+a team is any group of individuals
 
-1
-00:00:16,440 --> 00:00:21,270
-that<font color="#E5E5E5"> work independently and</font>
+5
+00:00:17,141 --> 00:00:22,142
+that work independently and collaboratively to accomplish a shared goal
 
-1
-00:00:18,539 --> 00:00:24,630
-collaboratively to accomplish a shared
+6
+00:00:23,084 --> 00:00:26,884
+let's delve into some of the key characteristics of a successful team ,
 
-1
-00:00:21,269 --> 00:00:26,899
-goal<font color="#E5E5E5"> let's delve into some</font><font color="#CCCCCC"> of the key</font>
+7
+00:00:27,255 --> 00:00:30,952
+as defined by the great team expert J.Richard Hackman
 
-1
-00:00:24,629 --> 00:00:29,549
-characteristics<font color="#E5E5E5"> of a</font><font color="#CCCCCC"> successful</font><font color="#E5E5E5"> team</font><font color="#CCCCCC"> as</font>
+8
+00:00:32,357 --> 00:00:36,746
+the first characteristic is something that Hackman called a real team
 
-1
-00:00:26,899 --> 00:00:33,359
-<font color="#E5E5E5">defined by the great team expert</font><font color="#CCCCCC"> J</font>
+9
+00:00:37,500 --> 00:00:40,630
+Successful teams have clear membership boundaries ,
 
-1
-00:00:29,550 --> 00:00:35,730
-Richard<font color="#E5E5E5"> Hackman the first characteristic</font>
+10
+00:00:41,044 --> 00:00:43,015
+interdependence among the members ,
 
-1
-00:00:33,359 --> 00:00:39,269
-<font color="#E5E5E5">is something that Hackman called a real</font>
+11
+00:00:43,324 --> 00:00:46,990
+and at least moderate stability of membership over time
 
-1
-00:00:35,729 --> 00:00:41,849
-team<font color="#E5E5E5"> successful teams have clear</font>
+12
+00:00:47,649 --> 00:00:51,275
+The second characteristic is compelling direction
 
-1
-00:00:39,270 --> 00:00:44,399
-membership boundaries<font color="#E5E5E5"> interdependence</font>
+13
+00:00:51,976 --> 00:00:54,609
+Successful teams , have a compelling direction.
 
-1
-00:00:41,850 --> 00:00:47,789
-among the members<font color="#E5E5E5"> and at least moderate</font>
+14
+00:00:54,760 --> 00:00:59,130
+a purpose that is clear , challenging and consequential
 
-1
-00:00:44,399 --> 00:00:49,859
-stability of membership<font color="#CCCCCC"> over</font><font color="#E5E5E5"> time the</font>
+15
+00:00:59,479 --> 00:01:02,386
+and that focuses on the ends to be achieved
 
-1
-00:00:47,789 --> 00:00:53,280
-second characteristic is compelling
+16
+00:01:02,801 --> 00:01:06,196
+rather than the means the team must use in persuing them
 
-1
-00:00:49,859 --> 00:00:55,619
-<font color="#CCCCCC">Direction successful teams have a</font>
+17
+00:01:08,036 --> 00:01:10,680
+Third is enabling structure
 
-1
-00:00:53,280 --> 00:00:59,120
-compelling<font color="#E5E5E5"> direction</font><font color="#CCCCCC"> a purpose that is</font>
+18
+00:01:11,538 --> 00:01:15,538
+Successful teams have structures , tasks , composition ,
 
-1
-00:00:55,619 --> 00:01:02,070
-<font color="#E5E5E5">clear challenging and consequential and</font>
+19
+00:01:15,866 --> 00:01:21,066
+and core norms of conduct that enable rather than impede teamwork
 
-1
-00:00:59,119 --> 00:01:04,829
-that focuses on<font color="#E5E5E5"> the ends to</font><font color="#CCCCCC"> be achieved</font>
+20
+00:01:22,200 --> 00:01:25,120
+Fourth , supportive context
 
-1
-00:01:02,070 --> 00:01:09,688
-rather than the means the team<font color="#E5E5E5"> must use</font>
+21
+00:01:25,860 --> 00:01:29,680
+Successful teams have structures and systems around them
 
-1
-00:01:04,829 --> 00:01:12,688
-in pursuing them<font color="#E5E5E5"> third is enabling</font>
+22
+00:01:29,809 --> 00:01:32,148
+that provide the resources and support
 
-1
-00:01:09,688 --> 00:01:16,379
-structure successful teams have
+23
+00:01:32,253 --> 00:01:34,966
+that members need to carry out their collective work
 
-1
-00:01:12,688 --> 00:01:19,379
-structures<font color="#CCCCCC"> tasks composition and core</font>
+24
+00:01:35,920 --> 00:01:38,580
+And fifth , competent coaching
 
-1
-00:01:16,379 --> 00:01:24,060
-norms of<font color="#CCCCCC"> conduct</font><font color="#E5E5E5"> that enable rather than</font>
+25
+00:01:39,290 --> 00:01:42,480
+Successful teams have competent coaching available
 
-1
-00:01:19,379 --> 00:01:27,868
-impede<font color="#CCCCCC"> teamwork fourth supportive</font>
+26
+00:01:42,540 --> 00:01:44,730
+to help members get over rough spots
 
-1
-00:01:24,060 --> 00:01:30,420
-context successful teams have structures
+27
+00:01:45,191 --> 00:01:47,791
+and take advantage of emerging opportunities
 
-1
-00:01:27,868 --> 00:01:33,060
-and systems<font color="#CCCCCC"> around them that provide the</font>
+28
+00:01:48,300 --> 00:01:52,067
+That coaching is provided at times in the team lifecycle ,
 
-1
-00:01:30,420 --> 00:01:35,509
-resources<font color="#E5E5E5"> and support</font><font color="#CCCCCC"> that members need</font>
+29
+00:01:52,320 --> 00:01:55,810
+when members are most ready to receive and use it
 
-1
-00:01:33,060 --> 00:01:40,079
-to<font color="#E5E5E5"> carry out their collective work and</font>
+30
+00:01:57,315 --> 00:01:59,974
+If we take any of these characteristics away ,
 
-1
-00:01:35,509 --> 00:01:42,359
-fifth<font color="#E5E5E5"> competent coaching successful</font>
+31
+00:02:00,227 --> 00:02:02,632
+the team starts to struggle to be effective
 
-1
-00:01:40,078 --> 00:01:44,669
-teams have competent coaching available
+32
+00:02:03,270 --> 00:02:06,150
+Scrum supports each one of this characteristics
 
-1
-00:01:42,359 --> 00:01:47,539
-to<font color="#E5E5E5"> help members get over rough spots and</font>
+33
+00:02:07,318 --> 00:02:11,799
+First , Scrum asks organizations to creat real teams
 
-1
-00:01:44,670 --> 00:01:50,640
-take advantage<font color="#E5E5E5"> of emerging opportunities</font>
+34
+00:02:12,005 --> 00:02:15,212
+by clearly defining team membership and roles
 
-1
-00:01:47,540 --> 00:01:53,368
-that coaching is provided at times in
+35
+00:02:16,476 --> 00:02:21,542
+Second , the product backlog , product owner role and sprint goals ,
 
-1
-00:01:50,640 --> 00:01:57,750
-the team<font color="#E5E5E5"> lifecycle when members are most</font>
+36
+00:02:21,769 --> 00:02:25,502
+all help provide compelling direction for the scrum team
 
-1
-00:01:53,368 --> 00:02:00,359
-ready to<font color="#E5E5E5"> receive and use it if we take</font>
+37
+00:02:26,985 --> 00:02:32,950
+Third , Scrum is itself a set of enabling structures for how to do work within a team
 
-1
-00:01:57,750 --> 00:02:02,750
-any of these characteristics away the
+38
+00:02:34,522 --> 00:02:38,855
+Fourth , the role of management in an organization using scrum ,
 
-1
-00:02:00,359 --> 00:02:05,069
-team starts to<font color="#CCCCCC"> struggle to be</font><font color="#E5E5E5"> effective</font>
+39
+00:02:38,900 --> 00:02:42,840
+shifts to providing supportive context for the scrum team
 
-1
-00:02:02,750 --> 00:02:07,200
-scrum supports<font color="#E5E5E5"> each one of these</font>
+40
+00:02:43,021 --> 00:02:45,834
+by removing organizational impediments
 
-1
-00:02:05,069 --> 00:02:10,590
-characteristics
+41
+00:02:47,136 --> 00:02:50,363
+And fifth , the scrum master role is created
 
-1
-00:02:07,200 --> 00:02:13,289
-first<font color="#E5E5E5"> scrum asks organizations to create</font>
+42
+00:02:50,448 --> 00:02:53,564
+to provide ongoing competent coaching to the team
 
-1
-00:02:10,590 --> 00:02:18,000
-real teams<font color="#E5E5E5"> by clearly defining team</font>
+43
+00:02:55,044 --> 00:02:58,696
+Scrum also specifies two characteristics for scrum teams :
 
-1
-00:02:13,289 --> 00:02:20,848
-membership<font color="#E5E5E5"> and roles second the product</font>
+44
+00:02:58,947 --> 00:03:02,122
+Self organization and cross functionality
 
-1
-00:02:18,000 --> 00:02:23,128
-backlog product owner role and<font color="#CCCCCC"> sprint</font>
-
-1
-00:02:20,848 --> 00:02:28,199
-goals<font color="#E5E5E5"> all help provide compelling</font>
-
-1
-00:02:23,128 --> 00:02:30,840
-direction for the scrum team third scrum
-
-1
-00:02:28,199 --> 00:02:34,768
-is itself a set of enabling structures
-
-1
-00:02:30,840 --> 00:02:36,930
-<font color="#E5E5E5">for how to do work within a team fourth</font>
-
-1
-00:02:34,769 --> 00:02:40,019
-the role of<font color="#E5E5E5"> management in an</font>
-
-1
-00:02:36,930 --> 00:02:42,030
-organization<font color="#CCCCCC"> using scrum shifts to</font>
-
-1
-00:02:40,019 --> 00:02:44,819
-providing supportive context for the
-
-1
-00:02:42,030 --> 00:02:48,659
-scrum team<font color="#E5E5E5"> by removing organizational</font>
-
-1
-00:02:44,818 --> 00:02:51,289
-impediments<font color="#E5E5E5"> and fifth the scrum master</font>
-
-1
-00:02:48,659 --> 00:02:55,289
-role is created to provide<font color="#E5E5E5"> ongoing</font>
-
-1
-00:02:51,289 --> 00:02:57,629
-<font color="#E5E5E5">competent coaching to the team scrum</font>
-
-1
-00:02:55,289 --> 00:03:00,959
-also specifies two characteristics for
-
-1
-00:02:57,629 --> 00:03:03,750
-scrum teams<font color="#E5E5E5"> self-organization and cross</font>
-
-1
-00:03:00,959 --> 00:03:07,489
-functionality we will explore these two
-
-1
-00:03:03,750 --> 00:03:07,489
-concepts<font color="#E5E5E5"> later in this section</font>
+45
+00:03:02,636 --> 00:03:06,369
+We will explore these two concepts later in this section
 
