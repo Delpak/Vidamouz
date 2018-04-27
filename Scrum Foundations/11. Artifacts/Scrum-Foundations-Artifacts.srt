@@ -1,308 +1,256 @@
-1
-00:00:04,609 --> 00:00:11,330
-in<font color="#CCCCCC"> archaeology</font><font color="#E5E5E5"> the term artifact refers</font>
-
-1
-00:00:08,550 --> 00:00:14,490
-to an<font color="#CCCCCC"> object</font><font color="#E5E5E5"> that was made by a human</font>
-
-1
-00:00:11,330 --> 00:00:19,070
-<font color="#E5E5E5">the Latin roots of the word artifact</font>
-
-1
-00:00:14,490 --> 00:00:21,300
-<font color="#CCCCCC">roughly translate to work of art so an</font>
-
-1
-00:00:19,070 --> 00:00:24,899
-artifact<font color="#E5E5E5"> is something that we make</font>
-
-1
-00:00:21,300 --> 00:00:29,010
-either a tool<font color="#E5E5E5"> that solves a problem or a</font>
-
-1
-00:00:24,899 --> 00:00:32,668
-work of<font color="#E5E5E5"> art that inspires scrum</font>
-
-1
-00:00:29,010 --> 00:00:35,780
-describes<font color="#E5E5E5"> three primary artifacts the</font>
-
-1
-00:00:32,668 --> 00:00:39,959
-product backlog the<font color="#CCCCCC"> Sprint backlog and</font>
-
-1
-00:00:35,780 --> 00:00:42,689
-the product increment<font color="#E5E5E5"> the product</font>
-
-1
-00:00:39,960 --> 00:00:45,689
-backlog and<font color="#CCCCCC"> sprint backlog</font><font color="#E5E5E5"> describe work</font>
-
-1
-00:00:42,689 --> 00:00:47,968
-to be<font color="#E5E5E5"> done that</font><font color="#CCCCCC"> will add value and the</font>
-
-1
-00:00:45,689 --> 00:00:51,019
-product increment<font color="#CCCCCC"> is the</font><font color="#E5E5E5"> done portion of</font>
-
-1
-00:00:47,969 --> 00:00:54,359
-the product<font color="#E5E5E5"> completed during a sprint</font>
-
-1
-00:00:51,020 --> 00:00:58,969
-the three scrum artifacts<font color="#E5E5E5"> share the same</font>
-
-1
-00:00:54,359 --> 00:01:01,439
-goals<font color="#E5E5E5"> to maximize transparency</font><font color="#CCCCCC"> and</font>
-
-1
-00:00:58,969 --> 00:01:06,750
-promote a shared understanding<font color="#CCCCCC"> of the</font>
-
-1
-00:01:01,439 --> 00:01:08,969
-<font color="#E5E5E5">work the product backlog is the ordered</font>
-
-1
-00:01:06,750 --> 00:01:11,280
-list of everything<font color="#E5E5E5"> we</font><font color="#CCCCCC"> might want the</font>
-
-1
-00:01:08,969 --> 00:01:13,489
-development team to<font color="#E5E5E5"> work on related to</font>
-
-1
-00:01:11,280 --> 00:01:16,799
-the product<font color="#CCCCCC"> under</font><font color="#E5E5E5"> development</font>
-
-1
-00:01:13,489 --> 00:01:19,618
-having a single ordered list makes
-
-1
-00:01:16,799 --> 00:01:21,840
-organizational priorities<font color="#E5E5E5"> transparent to</font>
-
-1
-00:01:19,618 --> 00:01:25,019
-<font color="#CCCCCC">all internal stakeholders of the product</font>
-
-1
-00:01:21,840 --> 00:01:27,570
-<font color="#E5E5E5">a single product owner is responsible</font>
-
-1
-00:01:25,019 --> 00:01:30,030
-<font color="#CCCCCC">for</font><font color="#E5E5E5"> the ordering of</font><font color="#CCCCCC"> the product backlog</font>
-
-1
-00:01:27,569 --> 00:01:32,039
-<font color="#E5E5E5">which provides transparency to the</font>
-
-1
-00:01:30,030 --> 00:01:36,540
-organization about<font color="#CCCCCC"> the decision making</font>
-
-1
-00:01:32,040 --> 00:01:38,850
-process<font color="#E5E5E5"> used to arrive at the order the</font>
-
-1
-00:01:36,540 --> 00:01:41,490
-product backlog is a dynamic<font color="#E5E5E5"> artifact</font>
-
-1
-00:01:38,849 --> 00:01:43,589
-<font color="#E5E5E5">meaning that it is constantly</font><font color="#CCCCCC"> evolving</font>
-
-1
-00:01:41,489 --> 00:01:44,449
-<font color="#E5E5E5">based on what is known at a given point</font>
-
-1
-00:01:43,590 --> 00:01:47,040
-<font color="#E5E5E5">in time</font>
-
-1
-00:01:44,450 --> 00:01:49,109
-the product owner collaborates with the
-
-1
-00:01:47,040 --> 00:01:52,530
-development team<font color="#CCCCCC"> to refine the</font><font color="#E5E5E5"> product</font>
-
-1
-00:01:49,109 --> 00:01:55,228
-backlog<font color="#E5E5E5"> product backlog refinement is an</font>
-
-1
-00:01:52,530 --> 00:01:57,530
-ongoing activity<font color="#CCCCCC"> that can require up to</font>
-
-1
-00:01:55,228 --> 00:02:01,019
-<font color="#E5E5E5">10 percent</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> the development teams time</font>
-
-1
-00:01:57,530 --> 00:02:02,728
-this<font color="#E5E5E5"> dynamic ongoing and collaborative</font>
-
-1
-00:02:01,019 --> 00:02:05,158
-refinement of the product backlog
-
-1
-00:02:02,728 --> 00:02:08,750
-promotes a shared<font color="#CCCCCC"> understanding of</font><font color="#E5E5E5"> the</font>
-
-1
-00:02:05,159 --> 00:02:11,129
-work the Sprint backlog is
-
-1
-00:02:08,750 --> 00:02:13,650
-collaboratively created<font color="#E5E5E5"> during sprint</font>
-
-1
-00:02:11,128 --> 00:02:15,598
-planning<font color="#E5E5E5"> by the development team</font>
-
-1
-00:02:13,650 --> 00:02:17,549
-it is their<font color="#E5E5E5"> plan</font><font color="#CCCCCC"> for how they</font><font color="#E5E5E5"> will</font>
-
-1
-00:02:15,598 --> 00:02:19,438
-deliver<font color="#E5E5E5"> the Sprint goal and related</font>
-
-1
-00:02:17,549 --> 00:02:22,739
-product backlog<font color="#CCCCCC"> items</font><font color="#E5E5E5"> during the current</font>
-
-1
-00:02:19,438 --> 00:02:24,658
-<font color="#E5E5E5">sprint it is regularly</font><font color="#CCCCCC"> updated</font>
-
-1
-00:02:22,739 --> 00:02:27,539
-throughout<font color="#CCCCCC"> the Sprint</font><font color="#E5E5E5"> as the development</font>
-
-1
-00:02:24,658 --> 00:02:30,269
-<font color="#E5E5E5">team learns more it is a transparent</font>
-
-1
-00:02:27,539 --> 00:02:34,650
-<font color="#E5E5E5">real-time picture of all of the work in</font>
-
-1
-00:02:30,269 --> 00:02:36,989
-the current sprint<font color="#E5E5E5"> the product</font><font color="#CCCCCC"> increment</font>
-
-1
-00:02:34,650 --> 00:02:40,379
-is the sum of all completed product
-
-1
-00:02:36,989 --> 00:02:44,128
-backlog<font color="#E5E5E5"> items</font><font color="#CCCCCC"> in a given</font><font color="#E5E5E5"> Sprint plus the</font>
-
-1
-00:02:40,378 --> 00:02:45,649
-value<font color="#CCCCCC"> of</font><font color="#E5E5E5"> previous increments the product</font>
-
-1
-00:02:44,128 --> 00:02:48,179
-increment<font color="#E5E5E5"> provides an accurate</font>
-
-1
-00:02:45,650 --> 00:02:50,510
-<font color="#E5E5E5">transparent picture of the state of the</font>
-
-1
-00:02:48,180 --> 00:02:53,790
-product at<font color="#E5E5E5"> the</font><font color="#CCCCCC"> end of each sprint</font>
-
-1
-00:02:50,509 --> 00:02:56,548
-it helps scrum teams realize the agile
-
-1
-00:02:53,789 --> 00:02:59,519
-principle that working software<font color="#E5E5E5"> is the</font>
-
-1
-00:02:56,549 --> 00:03:01,889
-<font color="#E5E5E5">primary measure of</font><font color="#CCCCCC"> progress which can be</font>
-
-1
-00:02:59,519 --> 00:03:03,719
-rephrased<font color="#E5E5E5"> as working product</font><font color="#CCCCCC"> is the</font>
-
-1
-00:03:01,889 --> 00:03:07,469
-<font color="#E5E5E5">primary measure of progress</font><font color="#CCCCCC"> for</font><font color="#E5E5E5"> non</font>
-
-1
-00:03:03,719 --> 00:03:09,750
-software uses of scrum since the product
-
-1
-00:03:07,469 --> 00:03:12,289
-increment<font color="#CCCCCC"> meets the team's definition of</font>
-
-1
-00:03:09,750 --> 00:03:14,908
-done<font color="#E5E5E5"> it is usable by</font><font color="#CCCCCC"> stakeholders</font>
-
-1
-00:03:12,289 --> 00:03:18,479
-providing an opportunity for inspection
-
-1
-00:03:14,908 --> 00:03:20,489
-of<font color="#E5E5E5"> the current state of the product to</font>
-
-1
-00:03:18,479 --> 00:03:22,828
-the extent<font color="#E5E5E5"> that scrum artifacts are</font>
-
-1
-00:03:20,489 --> 00:03:25,650
-completely<font color="#CCCCCC"> transparent and have</font><font color="#E5E5E5"> shared</font>
-
-1
-00:03:22,829 --> 00:03:28,829
-understanding good decisions can be<font color="#CCCCCC"> made</font>
-
-1
-00:03:25,650 --> 00:03:31,260
-through inspecting and adapting<font color="#E5E5E5"> in</font>
-
-1
-00:03:28,829 --> 00:03:33,840
-<font color="#E5E5E5">complete</font><font color="#CCCCCC"> transparency can lead to flawed</font>
-
-1
-00:03:31,259 --> 00:03:37,590
-decisions<font color="#E5E5E5"> reduced value delivery and</font>
-
-1
-00:03:33,840 --> 00:03:39,689
-increased risk for this reason the scrum
-
-1
-00:03:37,590 --> 00:03:43,908
-master<font color="#E5E5E5"> focuses on</font><font color="#CCCCCC"> increasing</font>
-
-1
-00:03:39,689 --> 00:03:43,908
-transparency of the scrum artifacts
+﻿1
+00:00:05,317 --> 00:00:07,841
+in archaeology, the term artifact
+
+2
+00:00:08,040 --> 00:00:11,523
+refers to an object that was made by a human
+
+3
+00:00:12,135 --> 00:00:16,106
+the Latin roots of the world artifact roughly translate to:
+
+4
+00:00:16,417 --> 00:00:17,417
+work of art
+
+5
+00:00:18,288 --> 00:00:21,640
+so, an artifact is something that we make
+
+6
+00:00:21,975 --> 00:00:24,308
+either a tool that solves a problem
+
+7
+00:00:24,762 --> 00:00:26,979
+or a work of art that inspires
+
+8
+00:00:28,449 --> 00:00:31,963
+Scrum describes 3 primary artifacts
+
+9
+00:00:32,550 --> 00:00:33,900
+the product backlog
+
+10
+00:00:34,504 --> 00:00:35,861
+the sprint backlog
+
+11
+00:00:36,407 --> 00:00:38,036
+and the product increment
+
+12
+00:00:39,387 --> 00:00:43,363
+the product backlog and sprint backlog describe work to be done
+
+13
+00:00:43,459 --> 00:00:44,792
+that would add value
+
+14
+00:00:45,394 --> 00:00:48,497
+and the product increment is the done portion of the product
+
+15
+00:00:48,679 --> 00:00:50,338
+completed during a sprint
+
+16
+00:00:51,839 --> 00:00:55,342
+the theree Scrum artifacts share the same goals
+
+17
+00:00:55,888 --> 00:00:58,217
+to maximize transparency
+
+18
+00:00:59,209 --> 00:01:02,373
+and promote a shared understanding of the work
+
+19
+00:01:04,383 --> 00:01:05,837
+the product backlog,
+
+20
+00:01:06,042 --> 00:01:10,535
+is the ordered list of everything we might want the development team to work on
+
+21
+00:01:10,610 --> 00:01:12,942
+related to the product under development
+
+22
+00:01:14,098 --> 00:01:16,466
+having a single ordered list
+
+23
+00:01:16,585 --> 00:01:19,345
+makes organizational priorities transparent
+
+24
+00:01:19,485 --> 00:01:21,963
+to all internal stakeholders of the product
+
+25
+00:01:23,270 --> 00:01:27,749
+a single product owner is responsible for the ordering of the product backlog
+
+26
+00:01:28,296 --> 00:01:30,956
+which provides transparency to the organization
+
+27
+00:01:31,039 --> 00:01:34,623
+about the decision making process used to arrive at the order
+
+28
+00:01:36,299 --> 00:01:38,990
+the product backlog is the dynamic artifact
+
+29
+00:01:39,380 --> 00:01:41,619
+meaning that it is constantly evolving
+
+30
+00:01:41,743 --> 00:01:44,460
+based on what is known at a given point in time
+
+31
+00:01:45,403 --> 00:01:47,984
+the product owner collaborates with the development team
+
+32
+00:01:48,076 --> 00:01:49,810
+to refine the product backlog
+
+33
+00:01:50,832 --> 00:01:53,720
+product backlog refinement is an ongoing activity
+
+34
+00:01:53,928 --> 00:01:57,563
+that can require up to 10 percent of the development teams time
+
+35
+00:01:58,352 --> 00:02:02,926
+this dynamic, ongoing, and collaborative refinement of the product backlog,
+
+36
+00:02:03,289 --> 00:02:05,601
+promotes a shared understanding of the work
+
+37
+00:02:07,371 --> 00:02:11,649
+the sprint backlog is collaboratively created during sprint planning
+
+38
+00:02:11,762 --> 00:02:13,093
+by the development team
+
+39
+00:02:14,028 --> 00:02:16,847
+it is their plan for how they will deliver the sprint  goal
+
+40
+00:02:16,952 --> 00:02:20,116
+and related product backlog items during the current sprint
+
+41
+00:02:21,166 --> 00:02:23,826
+it is regularly updated throughout the sprint
+
+42
+00:02:23,889 --> 00:02:25,810
+as the development team learns more
+
+43
+00:02:26,666 --> 00:02:31,212
+it is a transparent, real-time picture of all of the work in the current sprint
+
+44
+00:02:33,530 --> 00:02:37,847
+the product increment is the sum of all completed product backlog items
+
+45
+00:02:38,127 --> 00:02:39,370
+in a given sprint
+
+46
+00:02:39,878 --> 00:02:42,148
+plus the value of previous increments
+
+47
+00:02:43,462 --> 00:02:47,193
+the product increment provides an accurate, transparent picture
+
+48
+00:02:47,278 --> 00:02:50,177
+of the state of the product at the end of each sprint
+
+49
+00:02:51,402 --> 00:02:54,497
+it helps Scrum teams realize the agile principle
+
+50
+00:02:54,571 --> 00:02:58,228
+that working software is the primary measure of progress
+
+51
+00:02:58,917 --> 00:03:03,180
+which can be refrased as working product is the primary measure  of progress
+
+52
+00:03:03,336 --> 00:03:05,132
+for nonsoftware uses of Scrum
+
+53
+00:03:06,600 --> 00:03:10,307
+since the product increment, meets the team's definition of done
+
+54
+00:03:10,501 --> 00:03:12,482
+it is usable by stakeholders
+
+55
+00:03:12,743 --> 00:03:16,767
+providing an opportunity for inspection of the current state of the product
+
+56
+00:03:18,339 --> 00:03:19,101
+to the extent
+
+57
+00:03:19,215 --> 00:03:21,958
+that Scrum artifacts are completely transparent
+
+58
+00:03:22,092 --> 00:03:23,894
+and have shared understanding
+
+59
+00:03:24,303 --> 00:03:27,497
+good decisions can be made through inspecting and adapting
+
+60
+00:03:28,745 --> 00:03:32,094
+incomplete transparency can lead to flawd decisions,
+
+61
+00:03:32,456 --> 00:03:33,840
+reduced value delivery,
+
+62
+00:03:34,080 --> 00:03:35,348
+and increased risk
+
+63
+00:03:36,031 --> 00:03:37,031
+for this reason
+
+64
+00:03:37,163 --> 00:03:42,492
+the Scrum master focuses on increasing transparency of the Scrum artifacts
 
