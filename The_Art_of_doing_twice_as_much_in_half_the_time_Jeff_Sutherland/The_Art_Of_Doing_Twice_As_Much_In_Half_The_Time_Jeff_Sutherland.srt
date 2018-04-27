@@ -5,26 +5,26 @@ http://strategicdiscipline.positioningsystems.com/blog-0/west-points-pearsons-la
 2
 00:00:03,240 --> 00:00:08,160
 سلام. اینجا هستم تا درباره زندگی، رهایی و جستجوی شادمانی صحبت کنم
-hello I'm here to talk about life, liberty and the pursuit of happiness
+Hello I'm here to talk about life, liberty and the pursuit of happiness
 
 3
 00:00:08,240 --> 00:00:12,340
 رویای بزرگِ آمریکایی‌ها، که اغلب محقق نشده است
-a great American dream that's often not fulfilled
+A great American dream that's often not fulfilled
 
 4
 00:00:13,580 --> 00:00:15,920
 به قول رابرت بِرنز (شاعر اسکاتلندی - قرن ۱۷ میلادی)
-in the words of the poet Robert Burns
+In the words of the poet Robert Burns
 
 5
 00:00:16,000 --> 00:00:21,460
-«بهترین نقشه‌های آدمها و موشها، اغلب اوقات به شکل وحشتناکی غلط از آب در می‌آیند
+«بهترین نقشه‌های حساب‌شده آدم‌ها و موش‌ها، بیشتر وقت‌ها، به طور وحشتناکی غلط از آب در می‌آیند
 "The best-laid plans of mice and men, often go terribly wrong"
 
 6
 00:00:21,540 --> 00:00:25,780
-و جای رسیدن به آرزو 
+و جای رسیدن به آرزو
 به درد و رنج، ختم می‌شوند»
 and lead to pain and suffering
 instead of the promised hope
@@ -61,1139 +61,1104 @@ company L2 is known as the "Loose Deuce"
 
 13
 00:00:49,300 --> 00:00:51,400
-چون به مدت ۱۰۰ سال
-because for a hundred years
+چرا که برای ۱۰۰ سال
+Because for a hundred years
 
 14
 00:00:51,800 --> 00:00:54,420
-معمولی بودن را به مثابه یک سنت پذیرفته بودند
-they had a tradition of mediocrity
+میراث‌دار میان‌مایگی، و بی‌انظباطی بودند
+They had a tradition of mediocrity sloppy performance
 
 15
-00:00:55,400 --> 00:00:57,200
-با عملکردی بی‌نظم و شلخته
-sloppy performance
+00:00:58,120 --> 00:01:03,960
+افرادی در طی ده‌ها سال سعی کردند تا با رژه‌های طولانی‌تر و آموزش‌های سخت‌تر آنها را اصلاح کنند
+For decades people had tried to get them to march longer train harder
 
 16
-00:00:58,120 --> 00:01:03,960
-ده‌ها سال افرادی سعی کردند که آنها را بیشتر آموزش دهند
-for decades people had tried to get them to march longer train harder
-
-17
 00:01:04,140 --> 00:01:05,520
 اما هر کاری کردند، بی‌فایده بود
-but nothing worked
+But nothing worked
 
-18
+17
 00:01:05,960 --> 00:01:08,140
 می‌دانستم باید کار متفاوتی بکنم
-so I knew I had to do something different
+So I knew I had to do something different
+
+18
+00:01:09,200 --> 00:01:12,440
+از طرفی هم نمی‌توانستم آنها را مجبور به انجام کاری کنم. تصمیم گرفتم که
+So what I decided to do is, I couldn't tell them what to do
 
 19
-00:01:09,200 --> 00:01:12,440
-خب تصمیمی که گرفتم این بود ، من نمی توانستم به آنها بگویم چه کاری انجام دهند 
-so what I decided to do is, I couldn't tell them what to do
+00:01:12,900 --> 00:01:16,480
+هر شب در تابلو اعلانات، یادداشت‌هایی رنگی نصب کنم.
+but I could put up in the bulletin board at night and color coded notes
 
 20
-00:01:12,900 --> 00:01:16,480
-اما نشانه ها و شبنماهای مشخصی برای یافتن مسیر برای آنها قرار دادم
- but I could put up in the bulletin board at night and color coded notes
+00:01:18,140 --> 00:01:21,430
+یادداشت‌هایی که دقیقاً به نحوه عملکرد آنها در میدان رژه اشاره می‌کرد
+exactly how their performance was in the parade field
 
 21
-00:01:18,140 --> 00:01:21,430
-نشانه های که دقیقاً نمایشگر عملکرد آنها در میدان رژه بود
- exactly how their performance was in the parade field
+00:01:21,800 --> 00:01:25,100
+و اینکه برای بهتر شدن، دقیقاً به چه چیزی نیاز دارند
+and exactly what they needed to do to improve
 
 22
-00:01:21,800 --> 00:01:25,100
-دقیقاً همان چیزی که آنها باید برای بهبود انجام دهند
-in exactly what they needed to do to improve
-
-23
 00:01:25,600 --> 00:01:30,160
-برای مثال شما می دانید که چارلی باید با توقف شمشیر بر روی زمین 
+چارلی نباید شمیرش را در زمین فرو کند
 you know Charlie has got to stop sticking his sword in the ground
 
-24
+23
 00:01:30,400 --> 00:01:31,920
-در میان اجرای رژه
- in the middle of a parade
+چوخه سوم در وسط میدان، باید به سمت گوشه زمین بچرخد
+in the middle of a parade the 3rd platoon has got to turn the corner
 
-25
-00:01:32,420 --> 00:01:36,160
-تا نشانی برای تغییر جهت در گوشه میدان برای سومین گردان بفرستد
-the 3rd platoon has got to turn the corner
-
-26
+24
 00:01:36,900 --> 00:01:42,800
-و تمامی این فعالیت ها باید در هماهنگی کامل و با دستور دقیق فرمانده انجام پذیرد
+کاملا هماهنگ. فرمانده هم باید دستوراتش را قاطعانه صادر کند
 in synchronization and the commander has to enunciate his commands crisply
 
-27
+25
 00:01:43,000 --> 00:01:44,880
-بدون لحظه ای درنگ یا اختلاف زمانی
- in exactly right timing
+بدون لحظه‌ای درنگ یا اختلاف زمان
+in exactly right timing
+
+26
+00:01:45,920 --> 00:01:48,060
+همه در کمال شگفتی دیدند که
+to everyone's amazement
+
+27
+00:01:48,440 --> 00:01:54,480
+طی سه ماه، این گروهان به بهترین گروهان لشکر تبدیل شد
+they became the number one  company in the Corps cadets within three months
 
 28
-00:01:45,920 --> 00:01:48,060
-به گونه ای که همه شگفت زده شوند
- to everyone's amazement
+00:01:55,340 --> 00:01:58,140
+و این مصادف شد با زمانی که ژنرال مک آرتور درگذشت
+and General MacArthur died at this time
 
 29
-00:01:48,440 --> 00:01:54,480
-در طی سه ماه این گروهان به بهترین گروهان لشکر تبدیل شد
- they became the number one  company in the Corps cadets within three months
+00:01:58,860 --> 00:02:04,280
+او وصیت کرده بود که یک گروهان از دانش‌آموختگان دانشکده افسری، تابوت او را با رژه نظامی تا آرامگاهش بدرقه کنند
+and he had specified there must be a company cadets marching behind his casket to lay him to rest,
 
 30
-00:01:55,340 --> 00:01:58,140
-و در همان زمان ژنرال مک آرتور درگذشت
- and General MacArthur died at this time
+00:02:09,820 --> 00:02:11,800
+و این گروهان ال.2 بود که برای مراسم تشعیع پیکر او انتخاب شد
+and L2 was chosen so for dead last
 
 31
-00:01:58,860 --> 00:02:04,280
-و او درخواست کرده بود تا یک گروهان از دانش آموختگان دانشکده افسری برای بدرقه تابوت او تا آرامگاهش حاضر باشند و گروهان ال.2 انتخاب شد
-and he had specified there must be a company cadets marching behind his casket
-
-32
-00:02:04,560 --> 00:02:08,480
-
- to lay him to rest, and L2 was chosen
-
-33
-00:02:09,820 --> 00:02:11,800
-برای آخرین مراسم خاکسپاری
-so for dead last
-
-34
 00:02:12,720 --> 00:02:16,500
-برای انجام مراسم خاکسپاری یکی از بزرگترین ژنرال های (آکادمی نظامی ایالات متحده)
+برای انجام مراسم خاکسپاری یکی از بزرگترین ژنرال‌ها!
 to putting out one of our greatest generals in the grave
 
-35
+32
 00:02:17,840 --> 00:02:21,820
 یک تحول بزرگ در یک بازه زمانی بسیار کوتاه
 was a long journey in a very short period of time
 
-36
+33
 00:02:22,000 --> 00:02:25,340
-بعد از آن من از وست پوینت (آکادمی نظامی ایالات متحده) فارغ التحصیل شدم و به نیروی هوایی رفتم
- now I graduated from West Point and I went into the air force
+بعد از آن من از وست پوینت (آکادمی نظامی ایالات متحده) فارغ التحصیل شدم و به نیروی هوایی ملحق شدم
+now I graduated from West Point and I went into the air force
 
-37
+34
 00:02:26,200 --> 00:02:30,560
-در زمانی که در وست پوینت بودم من آموخته های زیادی از سایر فرماندهان داشتم
+در مدتی که در «وست پوینت» بودم، از دیگر رهبرانی که آنجا بودند، مطلبی یاد گرفتم
 while i was at West Point I learned something from other leaders
 
-38
+35
 00:02:30,620 --> 00:02:34,800
-من در اتاقی زندگی می کردم که روی پلاکی که روی گچ بری دور بخاری آن نصب شده بود ، نوشته بود
+در اتاقی که من اقامت داشتم، پلاکی بالای شومینه نصب شده بود که در آن نوشته شده بود
 I lived in a room which were they had a plaque on the mantelpiece it said
 
-39
+36
 00:02:34,980 --> 00:02:38,060
-ژنرال دوایت آیزنهاور ( سی و چهارمین رئیس جمهور ایالات متحده) اینجا می خوابیده است
-general DWIGHT D. EISENHOWER slept here
+ژنرال آیزنهاور (سی و چهارمین رئیس جمهور ایالات متحده) اینجا آرمیده است
+General DWIGHT D. EISENHOWER slept here
 
-40
+37
 00:02:38,540 --> 00:02:41,480
-هر زمان که این پلاک را می خواندم نقل قول معروفی از او را به یاد می آوردم که 
-and every time I'd read that plaque I'd remember
+هربار که این پلاک را می‌خواندم، نقل قول معروفی از او یادم می‌آمد که
+and every time I'd read that plaque I'd remember his famous quote
 
-41
-00:02:41,680 --> 00:02:43,280
-
- his famous quote
-
-42
+38
 00:02:43,920 --> 00:02:49,080
-"برنامه ها بی ارزش هستند اما برنامه ریزی همه چیز است"
+"برنامه‌ها ارزشی ندارند؛ اما برنامه‌ریزی همه چیز است"
 "Plans are worthless, but planning is everything"
 
-43
+39
 00:02:50,100 --> 00:02:55,040
-بنابراین زمانی که به عنوان یک خلبان جنگنده در تیم شناسایی بودم ، برنامه ریزی های زیادی انجام دادیم
+خب، زمانی که به عنوان یک خلبان جنگنده در تیم شناسایی بودم، برنامه‌ریزی‌های زیادی انجام می‌دادیم
 so when I got to be a fighter pilot I was in reconnaissance we did a lot of planning
 
-44
+40
 00:02:55,820 --> 00:02:58,940
-اما یک روز یکی از خلبانان همکار من 
- but one day one of my fellow pilots
+اما روزی یکی از خلبانان همکارم
+but one day one of my fellow pilots
 
-45
+41
 00:02:59,400 --> 00:03:04,780
-در حین عملیات بر روی هانوی(پایتخت ویتنام) مورد اصابت یک موشک زمین به هوای سام قرار گرفت و هواپیمای او منفجر شد
- ed attebery was blown out of the air over Hanoi, by a SAM (Surface-to-Air) Missile
+در حین عملیات بر روی هانوی (پایتخت ویتنام) مورد اصابت یک موشک زمین به هوای سام قرار گرفت و هواپیمای او منفجر شد
+ed attebery was blown out of the air over Hanoi, by a SAM (Surface-to-Air) Missile
 
-46
+42
 00:03:06,380 --> 00:03:10,620
-من با خودم گفتم که او برنامه ریزی بسیار خوبی داشت
- and I said to myself he did really good planning
+من با خودم گفتم: «او که برنامه‌ریزی خیلی خوبی انجام داده بود»
+and I said to myself he did really good planning
 
-47
+43
 00:03:11,560 --> 00:03:14,320
-ولی او عموماً بر روی هدف به صورت افقی پرواز می کرد و در نهایت اقدام به گرفتن عکس می کرد
- but he was flying straight and level over the target
+اما با یک ارتفاع و جهت ثابت در بالای هدف پرواز می‌کرد
+but he was flying straight-and-level over the target
 
-48
+44
 00:03:14,700 --> 00:03:16,900
-که اینکار می تواند من را بکشتن بدهد
+این‌کار می‌تواند من را به‌کشتن بدهد
 that could get me killed
 
-49
+45
 00:03:18,300 --> 00:03:19,960
 از آن روز به بعد
 from that day forward
 
-50
+46
 00:03:20,540 --> 00:03:24,260
-برنامه من این بود که ببینم هدف چیست
+برنامه من تبدیل شد به این که فقط یک دورنمایی از موقعیت هدف به دست بیاورم
 my plan was to have a vision where the target was
 
-51
+47
 00:03:24,420 --> 00:03:29,380
-در اولین فرصت که از ویتنام شمالی برگشتم به یک مانور آموزشی فرار رفتم
+همین که به ویتنام شمالی رسیدم به یک ماموریت شناسایی اعزام شدم
 and as soon as I crossed North Vietnam I went into an evasive maneuver
 
-52
+48
 00:03:29,500 --> 00:03:32,520
-برای اینکه در هر ثانیه از پرواز می دانستم ممکن است مورد اصابت یک موشک قرار بگیرم
+چون می‌دانستم که هر لحظه ممکن است مورد هدف قرار بگیرم
 because every second I knew I was being fired at
 
-53
+49
 00:03:33,000 --> 00:03:39,560
-و تنها در آخرین لحظاتی که مستقیم بر روی سطح هدف قرار می گیرم فرصت دارم
-and only at the last moment would i come up straight level offer a target just for a second
+فقط در همان لحظه‌ای که بالای هدف قرار گرفتم، فقط برای یک لحظه، ارتفاع و جهت پرواز را ثابت نگه داشتم
+and only at the last moment would i come up straight level over a target just for a second
 
-54
+50
 00:03:40,340 --> 00:03:41,780
-تا عکسی که باید را از هدف بگیرم
+تا عکس بگیرم
 to snap that photo
 
-55
+51
 00:03:43,160 --> 00:03:45,480
-حالا من زنده ام
+من از آنجا جان سالم به‌در بردم
 now I got out of there alive
 
-56
+52
 00:03:45,800 --> 00:03:50,620
-بیش از نیمی از همراهان من همچون فلوید از مأموریت خود بازنگشتند
-over half the people like fluid, did not come back from their missions
+بیش از نیمی از آنهایی که با من پرواز کردند، هیچ‌گاه از مأموریت خود بازنگشتند
+over half the people I flew with fluid, did not come back from their missions
+
+53
+00:03:50,760 --> 00:03:54,100
+وقتی به ایالات متحده برگشتم
+and when I came back to the United States
+
+54
+00:03:54,580 --> 00:03:59,400
+برای سورپرایز بزرگی بود. زیرا بارها به مرگ نزدیک شده بودم
+it was a big surprise I'd come so close to getting killed so many times
+
+55
+00:03:59,520 --> 00:04:00,920
+احساس می کردم که یک زندگی جدید به من بخشیده شده است
+it was a new life. it felt like 
+
+56
+00:04:01,880 --> 00:04:03,570
+
 
 57
-00:03:50,760 --> 00:03:54,100
-و هنگامی که من به ایالات متحده برگشتم
- and when I came back to the United States
-
-58
-00:03:54,580 --> 00:03:59,400
-سورپرایز بزرگی بود چراکه من بارها به کشته شدن نزدیک شده بودم
- it was a big surprise I'd come so close to getting killed so many times
-
-59
-00:03:59,520 --> 00:04:00,920
-احساس می کردم
-it felt like
-
-60
-00:04:01,880 --> 00:04:03,570
-که یک زندگی جدید به من بخشیده شده است
-it was a new life.
-
-61
 00:04:03,570 --> 00:04:05,880
 هر روز برای من مثل یک هدیه ویژه بود
 every day was like a bonus day
 
-62
+58
 00:04:05,940 --> 00:04:07,330
-یک روز کامل
+مثل لذت یک روز تعطیل
 a free day
 
-63
+59
 00:04:09,360 --> 00:04:11,240
-و این سؤال که من با این روز چیکار می توانستم بکنم
+از خودم می‌پرسیدم در این زندگی جدیدم چه کار کنم؟
 and what was I going to do with it
 
-64
+60
 00:04:12,120 --> 00:04:14,580
-بنابراین من از نیروی هوایی خواستم تا من را به کشورم برگردانند
- so I asked the Air Force to send me back
+درخواست کردم من را به دانشکده نیروی هوایی برگردانند تا تحصیلاتم را برای کسب درجه استادی ادامه دهم
+so I asked the Air Force to send me back to the Air Force Academy to become a trained to be a professor
 
-65
+61
 00:04:14,920 --> 00:04:19,400
-به آکادمی نیروی هوایی تا به عنوان یک مدرس آموزش دیده مشغول به کار شوم
-to the Air Force Academy to become a trained to be a professor
 
-66
+62
 00:04:19,580 --> 00:04:24,380
-یا به مدرسه آموزشی در استنفورد تا به عنوان یک آموزش دیده آکادمی نیروی هوایی ایالات متحده در آنجا مشغول به کار شوم
+یا برگردم به مرکز آموزش استنفورد و آنجا برای کسب درجه استادی آکادمی نیروی هوایی، آموزش ببینم
 or back to school at Stanford trained to be a professor at the Air Force Academy
 
-67
+63
 00:04:24,460 --> 00:04:28,360
-و از آنجا به دانشکده پزشکی دانشگاه کلرادو(از ایالت های جنوب غربی امریکا) رفتم
+و از آنجا به دانشکده پزشکی دانشگاه کلرادو (از ایالت های جنوب غربی امریکا) رفتم
 and from there I went into the University of Colorado medical school
 
-68
+64
 00:04:28,360 --> 00:04:30,600
-من برای مدت یازده سال در آن دانشکده بودم
+من ۱۱ سال در آن دانشکده بودم
 I was on the faculty they for 11 years
 
-69
+65
 00:04:31,960 --> 00:04:33,380
-تا زمانی که آنجا بودم
+مدتی که آنجا بودم
 while I was there
 
-70
+66
 00:04:33,740 --> 00:04:40,660
-تخصص من ساخت سوپر مدل های کامپیوتری روی سلول های انسانی بود
- my expertise was building super computer models of the human cell
+به طور تخصصی روی ساخت سوپر مدلهای کامپیوتری از سلول‌های انسان کار می‌کردم 
+my expertise was building super computer models of the human cell
 
-71
+67
 00:04:41,220 --> 00:04:43,980
-و نشان دادن چگونگی تکامل آنها
-and showing how it evolved
+نشان دادن اینکه سلولها چگونه تکامل، رشد و تکثیر پیدا می‌کنند
+and showing how it evolved and multiplied
 
-72
+68
 00:04:44,260 --> 00:04:46,200
-و رشد و تکثیر شدن آنها
- and multiplied
 
-73
+69
 00:04:46,560 --> 00:04:51,220
-و چه چیزی موجب بروز سرطان در آنها می شود یا چه چیزی می تواند آنها را متوقف کند
+و اینکه چه چیزی موجب سرطانی شدن سلولها یا توقف روند سرطانی شدن آنها می‌شود
 and what caused it to become cancerous what could make that stop
 
-74
+70
 00:04:51,580 --> 00:04:52,940
-چگونه ما سرطان را درمان می کنیم
+و نیز چگونه سرطان را درمان کنیم
 how do we cure cancer
 
-75
+71
 00:04:54,640 --> 00:04:56,480
-و در زمانی  که آنجا بودم
- and while I was there
+در مدتی که آنجا بودم
+and while I was there
 
-76
+72
 00:04:56,740 --> 00:05:01,900
-یکی از بزرگترین بانکهای امریکای شمالی که بیش از 150 شعبه در این منطقه دارد مسإله ای را مطرح کرد
- a big banking company running 150 banks all over North America came by, they said
+یکی از بزرگترین بانک‌های امریکای شمالی، با بیش از 150 شعبه، آمدند و گفتند
+a big banking company running 150 banks all over North America came by, they said
 
-77
+73
 00:05:02,120 --> 00:05:09,120
-آنها گفتند شما در دانشگاه بهترین تجربیات را در ارتباط با تکنولوژی هایی که ما در بانک ها استفاده می کنیم دارید
+شما در دانشگاه، بهترین تجربیات مرتبط با تکنولوژی‌های مورد استفاده ما در بانک را دارید
 you know at the University you have the best expertise in technologies we use at the bank
 
-78
+74
 00:05:09,220 --> 00:05:11,820
-شما تمامی این دانش را دارید و همه آنها را بدون سرمایه و پول به دست آورده اید
+شما دانش آن را دارید ولی پولی ندارید
 you have all the knowledge and know that none of the money
 
-79
+75
 00:05:11,920 --> 00:05:14,780
-ولی در بانک ، ما سرمایه داریم
+ولی در بانک، ما پول در اختیار داریم
 but at the bank we've got all the money
 
-80
+76
 00:05:15,500 --> 00:05:17,240
-ولی در واقع نمی دانیم که چه کار داریم می کنیم
- and we don't know what we're doing
+ولی در واقع نمی‌دانیم که داریم چه کار می‌کنیم
+and we don't know what we're doing
 
-81
+77
 00:05:17,880 --> 00:05:22,840
-شما باید به ما ملحق شوید چراکه این ارتباط می تواند همکاری سودمندی برای دانش و سرمایه باشد
- you should come work for the bank and it would be a perfect marriage of knowledge and money
+شما باید به ما ملحق شوید چراکه این همکاری می‌تواند یک پیوند عالی بین دانش و سرمایه باشد
+you should come work for the bank and it would be a perfect marriage of knowledge and money
 
-82
+78
 00:05:23,440 --> 00:05:28,100
-آنها پیشنهاد اغوا کننده ای به من دادند که همسرم در مقایسه با حقوق ناچیز یک استاد دانشگاه نمی توانست از آن چشم پوشی کند
+آنها پیشنهادی به من دادند که همسرم در مقایسه با حقوق ناچیز یک استاد دانشگاه نمی‌توانست از آن چشم پوشی کند
 and they may be an offer that my wife couldn't refuse a poor university professor
 
-83
+79
 00:05:29,020 --> 00:05:31,820
-بنابراین من به بانک رفتم و در آنجا با واقعیت بزرگی رو به رو شدم
+خب، من سرانجام به بانک رفتم و چیزی که آنجا دیدم این بود که
 so I wind up at the bank and what do I see
 
-84
+80
 00:05:32,000 --> 00:05:35,080
- آنها همه این پروژه های بزرگ را
- I see they're running all these huge projects
+آنها این پروژه‌های بزرگ، با صدها توسعه‌دهنده  را
+I see they're running all these huge projects, hundreds of developers 
 
-85
+81
 00:05:36,620 --> 00:05:38,500
-با چندصد توسعه دهنده  و برنامه نویس
- hundreds of developers
 
-86
+82
 00:05:39,260 --> 00:05:43,180
-همه این پروژه های بزرگ سیستمی را با گانت چارت اجرا  و مدیریت می کنند
+با گانت چارت اجرا و مدیریت می‌کنند
 and they manage all these projects with a Gantt chart
 
-87
+83
 00:05:43,440 --> 00:05:49,700
-تکنولوژی که در سال 1910 در ارتش ایالات متحده مورد استفاده قرار گرفته بود 
+گانت چارت تکنولوژی بود که در سال 1910 در ارتش ایالات متحده مورد استفاده قرار گرفته بود
 and this is a technology that was introduced to the military in the United States in 1910
 
-88
+84
 00:05:51,480 --> 00:05:54,420
-تکنولوژی که در جنگ جهانی اول به خوبی کار نکرد
+تکنولوژی که در جنگ جهانی اول خیلی خوب جواب نداد
 it didn't work very well in World War one
 
-89
+85
 00:05:54,640 --> 00:05:56,820
-و بعد از آن هم نتوانست به خوبی کار کند
+و بعد از آن هم نتوانست خیلی خوب کار کند
 and it didn't work very well then
 
-90
+86
 00:05:57,020 --> 00:06:02,500
-چرا که هر قسمتی از پروژه با یک تاریخ به پایان رسیده است
+چرا که برای هر قسمت پروژه، یک تاریخ مشخص تنظیم شده 
 because every piece of the project is lined up with a date
 
-91
+87
 00:06:02,940 --> 00:06:05,520
-و اگر یکی از قسمت های پروژه دچار تأخیر شود
+و اگر حتی یک نفر از این زمان‌بندی عقب بیفتد
 and if anybody misses that timing
 
-92
+88
 00:06:05,860 --> 00:06:09,520
 همه پروژه دچار تأخیر خواهد شد
 the whole project is delayed
 
-93
+89
 00:06:09,660 --> 00:06:13,820
-و این تأخیر باعث می شود که مشتری آشفته و ناراحت و مدیران هم عصبانی و خشمگین شوند
+و با این تاخیر، مشتری آشفته و ناراحت، و مدیران هم عصبانی و خشمگین می‌شوند
 and when it gets delayed the customers get upset the managers get angry
 
-94
+90
 00:06:13,920 --> 00:06:19,260
-و در نهایت باعث می شود که برنامه نویسان و توسعه دهندگان را مجبور به کار در طی شب یا آخر هفته ها مشابه راهپیمایی های اجباری زندانیان در شرایط سخت بکند
+و باعث می‌شود تا توسعه‌دهندگان، شبها و آخر هفته‌ها، مثل زندانیان کار طاقت فرسا کنند 
 that would force these developers to work nights, weekends they go on death marches
 
-95
+91
 00:06:19,360 --> 00:06:22,100
-من را به یاد کشتی های پارویی که شما هم می شناسید می انداخت
-it reminded me of the Roman galleys you know
+یاد کشتی‌های پارویی رومی‌ها می‌افتادم
+It reminded me of the Roman galleys you know
 
-96
+92
 00:06:22,140 --> 00:06:27,060
-برده هایی که دائم در حال پارو زدن هستند و شلاقی که به گرده آنها زده می شود
-the slaves rowing rowing the whip is cracking
+برده‌های پارو زن و صدای شلاق
+The slaves rowing the whip is cracking
 
-97
+93
 00:06:28,420 --> 00:06:32,920
-ولی به عنوان یک خلبان جنگنده ، من ماهیت اصلی مشکل را می دانستم
-but as a fighter pile, I knew the essence of the problem
+ولی به عنوان یک خلبان جنگنده، ماهیت اصلی مشکل را می‌دانستم
+But as a fighter pile, I knew the essence of the problem
 
-98
+94
 00:06:33,540 --> 00:06:37,260
-این بچه ها نمی توانستند یک پروژه را به زمین بنشانند ( منظور این است که به اتمام برسانند)
-these guys could not land a project
+این بچه‌ها نمی‌توانستند یک پروژه را به زمین بنشانند (منظور این است که به اتمام برسانند)
+These guys could not land a project
 
-99
+95
 00:06:38,220 --> 00:06:44,460
-شما می دانید که ما به عنوان یک خلبان چنگنده می آموزیم که هواپیما را در یک بستر مشخص و محدود به دقت فرود آوریم
+ما خلبان‌های جنگنده، یاد گرفتیم که در کمال دقت هواپیما را به زمین بنشانیم
 you know we learned as a fighter pilot that we had very carefully bed that airplane
 
-100
+96
 00:06:44,580 --> 00:06:46,100
-درست در انتهای باند فرود 
- right on the end of the runway
+دقیقا در انتهای باند فرود
+right on the end of the runway
 
-101
+97
 00:06:46,360 --> 00:06:47,880
-و اگر این کار را انجام ندهیم
-and if we did
+و اگر این کار را نکنیم
+and if we didn't
 
-102
+98
 00:06:48,240 --> 00:06:52,220
-به راحتی ممکن است ما تا اواسط باند پیش برویم و در نهایت هواپیما را از انتهای باند فرودگاه به درخت ها منحرف کنیم
- it we might go halfway down the runway and slide off the runway into the trees
+ممکن است که هواپیما وسط باند فرود بیاید و در انتهای باند متوقف نشود و به درخت‌ها برخورد کند
+we might go halfway down the runway and slide off the runway into the trees
 
-103
+99
 00:06:52,300 --> 00:06:54,260
-همان اتفاقی که برای اکثر پروژه ها رخ می دهد
- and that's what they were doing every project
+همان کاری که برای همه پروژه‌های‌شان انجام می‌دادند 
+and that's what they were doing every project
 
-104
+100
 00:06:54,360 --> 00:06:56,520
-گذشتن از تمام باند فرودگاه و رسیدن به درختان انتهایی باند
+رد کردن باند فرود و تصادف با درختان 
 sliding off the runway into the trees
 
-105
+101
 00:06:57,860 --> 00:06:59,900
-بنابراین من پیش مدیرعامل رفتم و گفتم
- so I went to the CEO and I said
+من پیش مدیرعامل رفتم و گفتم
+so I went to the CEO and I said
 
-106
+102
 00:07:00,600 --> 00:07:03,000
-این بانک به طور کامل دچار پیجیدگی شده است
- this Bank is totally screwed up
+بانک کاملا گیج و آشفته است 
+this Bank is totally screwed up
 
-107
+103
 00:07:03,580 --> 00:07:07,220
-اگر شما بدترین قسمت از کسب و کار بانک را به من بدهید
+اگر بدترین واحد از کل بانک را به من بسپارید
 if you give me the worst, business unit in the bank
 
-108
+104
 00:07:07,260 --> 00:07:11,380
-من میتوانم آن را اصلاح کنم همانگونه که توانستم گروهان ال.2 را تغییر بدهم
- I will fix it, just like I fixed company L2
+می‌توانم درستش کنم؛ همانطور که توانستم گروهان ال.2 را اصلاح کنم
+I will fix it, just like I fixed company L2
 
-109
+105
 00:07:12,620 --> 00:07:16,080
-او به من گفت که " سادرلند اگر عاشق این دردسر هستی ، باشه . مال تو" 
+به من گفت: "سادرلند، اگر عاشق این دردسر هستی، خیلی خب! بفرما"
 and he said Sutherland if you want that headache, you've got it
 
-110
+106
 00:07:16,680 --> 00:07:17,980
-بعد من گفتم باشه
+قبول کردم و گفتم:
 so I said okay
 
-111
+107
 00:07:18,100 --> 00:07:20,420
-من به صورت ماهیانه شما را در جریان وضعیت کار قرار می دم
- I will report to you once a month
+من هر ماه به شما به عنوان مدیر ارشد، گزارش می‌دهم
+I will report to you once a month, to you in the senior management
 
-112
+108
 00:07:20,480 --> 00:07:25,140
-به شما به عنوان مدیریت ارشد 
-و بقیه زمانی که شما از واحد من بیرون می روید
- to you in the senior management 
-and the rest of the time you stay out of my unit
+در غیر از این زمانها، شما باید بیرون از واحد من باشید (دخالت نکنید)
+and the rest of the time, you stay out of my unit
 
-113
+109
 00:07:25,320 --> 00:07:28,600
-ما قصد داریم تا اینجا را به عنوان یک شرکت کوچک مشابه استارتاپ  در دل کمپانی شما فعال کنیم
+می‌خواهیم اینجا را به عنوان یک شرکت کوچک استارتاپی در دل شرکت شما راه‌اندازی کنیم
 we're going to run this as a little company at a company like a start-up
 
-114
+110
 00:07:29,760 --> 00:07:31,920
-بنابراین ما کل تیم را به تیم های کوچک تر تقسیم می کنیم
+ما آن واحد بانک را به تیم‌های کوچک تفکیک کردیم 
 and so we broke them down into small team
 
-115
+111
 00:07:31,980 --> 00:07:34,620
-فروش ، بازاریابی ، نصب و پشتیبانی 
- sales, marketing, installs engineering everyone
+تیم‌های فروش، بازاریابی، نصب و پشتیبانی و ...
+sales, marketing, installs engineering everyone
 
-116
+112
 00:07:35,280 --> 00:07:37,680
-همه با انگیزه های تیم با یکدیگر همکاری می کنند
-all working together with team incentives
+همه با انگیزه‌های تیمی و در فضای مبتنی بر همکاری با هم کار می‌کردند
+all working together with team incentives, in a collaborative space
 
-117
+113
 00:07:37,800 --> 00:07:41,640
-در یک فضای مبتنی بر همکاری 
-و ما چرخه هفتگی را اجرا کردیم
- in a collaborative space
+ما دوره‌های هفتگی راه انداختیم 
 and we ran weekly cycles
 
-118
+114
 00:07:42,620 --> 00:07:46,060
-ما شروع کردیم به ساختن بکلاگی از کارهایی که لازم داشتیم انجام دهیم
- we began building a backlog of what we needed to do
+و شروع کردیم به ساختن بکلاگ از کارهایی که باید انجام می‌شد
+we began building a backlog of what we needed to do
 
-119
+115
 00:07:47,060 --> 00:07:50,200
- و من شروع کردم تا به بقیه تیم راز و رمز تجربه فرود موفقیت آمیز هواپیما را بیاموزم
+و به آنها نشان دادم که چگونه می‌توانند هواپیما را با موفقیت به زمین بنشانند
 and I began to show them how to lay in the airplane
 
-120
+116
 00:07:51,240 --> 00:07:52,500
 
-how is it ?
+117
+00:07:53,920 --> 00:07:57,040
+و خلبان چگونه می‌تواند فرودی نرم و عالی داشته باشد؟
+how is it that a pilot can make a perfect touchdown?
+
+118
+00:07:57,140 --> 00:08:01,960
+او باید ارتفاع، سرعت باد، زاویه کاهش ارتفاع و مسیر حرکت را زیر نظر داشته باشد
+He has to look at an altitude airspeed rate of descent, the heading of the airplane 
+
+119
+00:08:02,140 --> 00:08:03,620
+
+120
+00:08:03,760 --> 00:08:09,360
+و هر چند لحظه، با تغییر باد و شرایط آب و هوا، آنها را دوباره تنظیم کند
+Understand the wind and the weather in every few seconds being adjusting, constantly
 
 121
-00:07:53,920 --> 00:07:57,040
-تکنیک هایی که یک خلبان با استفاده از آنها می تواند یک فرود بی نقص انجام دهد
-that a pilot can make a perfect touchdown
-
-122
-00:07:57,140 --> 00:08:01,960
-او باید قبل از فرود و در سرعت مافوق صوت قبل از فرود مراقب بسیاری موارد باشد
-he has to look at an altitude airspeed rate of descent
-
-123
-00:08:02,140 --> 00:08:03,620
-به عنوان هدایت گر هواپیما
-the heading of the airplane
-
-124
-00:08:03,760 --> 00:08:09,360
-باید از تغییرات مربوط به شرایط جوی و سرعت باد در هر چند ثانیه مطلع گردد
-understand the wind and the weather in every few seconds being adjusting, constantly
-
-125
 00:08:10,620 --> 00:08:14,600
 و با وجود همه این شرایط متغییر آنها تلاش می کنند تا هواپیمای خود را روی باند قبل از انتهای باند بنشانند
- so every week they would try to land the airplane at the end of the runway
+so every week they would try to land the airplane at the end of the runway
 
-126
+122
 00:08:14,800 --> 00:08:15,680
 بنگ
 bang
 
-127
+123
 00:08:17,140 --> 00:08:19,940
 و هفته به هفته به صورت مداوم این کار را انجام می دهند
 and week after week they did it
 
-128
+124
 00:08:20,940 --> 00:08:23,560
 و در کمال تعجب و شگفتی
 and surprise surprise
 
-129
+125
 00:08:23,840 --> 00:08:26,160
-در کمتر از شش ماه 
+در کمتر از شش ماه
 in less than six months
 
-130
+126
 00:08:26,640 --> 00:08:31,480
 تیم ما تبدیل به بهترین تیم در بانک شد
- that team, was the best team in the bank!
+that team, was the best team in the bank!
 
-131
+127
 00:08:31,740 --> 00:08:35,420
 آنها از زیان ده ترین واحد بانک
 they had gone from the worst money-losing unit
 
-132
+128
 00:08:35,600 --> 00:08:37,720
 به بهترین و سود ده ترین واحد بانک تبدیل شدند
 to the most profitable use it in the back
 
-133
+129
 00:08:37,880 --> 00:08:40,300
 چرا که آنها توانستند اثرات مشهودی از فعالیت خود به نمایش بگذارند
 because they made their work visible
 
-134
+130
 00:08:41,970 --> 00:08:45,820
 تیم تعهد و پاسخگویی بالایی برای اصلاح اشکالات سیستم از خود نشان دادند
- the team was given the responsibility to fix the problem
+the team was given the responsibility to fix the problem
 
-135
+131
 00:08:46,570 --> 00:08:50,950
 و آنها به صورت خود سازمان ده این نتایج را محقق کردند
 and they self-organized to make it happen
 
-136
+132
 00:08:52,570 --> 00:08:56,020
 و همه اینها مربوط به درک درست آنها برای فرود هواپیما در شرایط متغیر بود
 it's all about learning how to land the airplane
 
-137
+133
 00:08:57,250 --> 00:09:01,700
 بعد از آن تجربه موفق در بانک درخواست های زیادی به من رسید
 now from that banking experience I was asked by
 
-138
+134
 00:09:01,800 --> 00:09:05,770
 تا به تعداد زیادی از شرکت ها وارد شوم و با مشکلات مشابه آنها رو به رو شوم
- a series of companies to come in and deal with tough problems
+a series of companies to come in and deal with tough problems
 
-139
+135
 00:09:07,170 --> 00:09:15,400
 بنابراین من مجبور شدم به راهکارهایی بیندیشم که در نبود من و توسط افراد دیگر هم بتوان نتایجی مشابه برای تکرار این تجربه به وجود بیاید
 so I needed to figure out how to do this consistently and get other people to do it other than me I couldn't be there all the time for everyone
 
-140
+136
 00:09:16,320 --> 00:09:19,970
 بنابراین من برای انجام این کار شروع به فکر کردن کردم
 and so I began to think about how would I do this
 
-141
+137
 00:09:20,820 --> 00:09:26,550
 همان موقع بود که در مؤسسه فناوری ماساچوست (ام آی تی) در شهر کمبریج ایالت ماساچوست اقدام به تأسیس یک شرکت کوچک کردم
- I was running a little French company in Cambridge Massachusetts on the eye on the MIT campus
+I was running a little French company in Cambridge Massachusetts on the eye on the MIT campus
 
-142
+138
 00:09:27,620 --> 00:09:31,720
 روزی پنج نفر از فارغ التحصیلان ام آی تی به من مراجعه کردند و گفتند که
 and five graduate students for MIT came by and they said
 
-143
+139
 00:09:32,470 --> 00:09:36,850
 ما در حال راه اندازی یک شرکت کوچک برای ساخت ربات هستیم. آیا مکن است مقداری از فضای دفتر شما را اجاره کنیم ؟
 we're starting up a company building robots can you rent us some space
 
-144
+140
 00:09:37,470 --> 00:09:41,500
 و من گفتم بله . ما دو تا اتاق اضافه داریم که شما می توانید از آنها به عنوان آزمایشگاه از آنها استفاده کنید
- and I said sure, We have a couple of extra rooms you can use for a lab
+and I said sure, We have a couple of extra rooms you can use for a lab
 
-145
+141
 00:09:41,770 --> 00:09:45,020
 و آنها در آنجا اقدام به ساخت این ربات ها کردند که بسیار شبیه حشرات هستند
 and they were building these insect-like robots
 
-146
+142
 00:09:45,700 --> 00:09:47,270
 در تمام آن مدت
 and every other day
 
-147
+143
 00:09:48,270 --> 00:09:52,660
 ربات های آنها در محیط دفتر من پرسه می زدند
 the robots would come wandering into my office
 
-148
+144
 00:09:52,730 --> 00:09:55,800
 آنها تلاش می کردند که با سنسورهای حرارتی من را پیدا کنند
 they were trying to hunt me down with heat-seeking sensors
 
-149
+145
 00:09:57,100 --> 00:10:02,370
 یکی از اساتید ارشد ام آی تی که به عنوان هم بنیان گذار با آنها همکاری داشت هر جمعه به آنها سر می زد
- and senior professor at MIT was a co-founder he would come by on Fridays, and he would
+and senior professor at MIT was a co-founder he would come by on Fridays, and he would
 
-150
+146
 00:10:02,600 --> 00:10:04,950
 تا بر فرآیند کاری آنها نظارت داشته باشد. و من از او پرسیدم
- see how they were doing and I asked him I said
+see how they were doing and I asked him I said
 
-151
+147
 00:10:05,130 --> 00:10:08,220
 پروفسور بروکس این ربات ها چگونه کار می کنند؟
- professor Brooks how do these robots work
+professor Brooks how do these robots work
 
-152
+148
 00:10:08,680 --> 00:10:11,200
-او گفت جف ، اولین چیزی که باید بدانی 
+او گفت جف ، اولین چیزی که باید بدانی
 he said Jeff: the first thing you understand
 
-153
+149
 00:10:11,280 --> 00:10:13,860
-نیاز به درک این موضوع است که برای سی سال 
- need to understand is that for 30 years
+نیاز به درک این موضوع است که برای سی سال
+need to understand is that for 30 years
 
-154
+150
 00:10:13,950 --> 00:10:16,400
 ما در ام آی تی تلاش برای ساخت یک سیستم هوشمند می کردیم
- we've tried to build a smart system at MIT
+we've tried to build a smart system at MIT
 
-155
+151
 00:10:16,480 --> 00:10:18,860
 که این به یک شکست به تمام معنا انجامید
- and it's been a total failure
+and it's been a total failure
 
-156
+152
 00:10:19,730 --> 00:10:23,150
 بعد از آن ما تلاش کردیم سیستمی برای فرمان و کنترل  بسازیم
 we tried to build this command and control system
 
-157
+153
 00:10:23,370 --> 00:10:26,860
 با محاسبه گر های بزرگ و بانک های اطلاعاتی عظیم
 with really big computers and huge databases
 
-158
+154
 00:10:27,020 --> 00:10:28,820
 که این هم کار نکرد
- and it didn't work it
+and it didn't work it
 
-159
+155
 00:10:28,930 --> 00:10:31,370
 بهترین کار این بود که از سیستمی مشابه برنامه های هوشمند شطرنج استفاده کنیم
 the best it could do was a smart chess program
 
-160
+156
 00:10:31,550 --> 00:10:36,240
 او گفت به همین منظور من به تماشای حشرات و تلاش برای الگوبرداری و ساخت مشابه آنها اقدام کردم
- so he said: I watched insects, and I wanted to create
+so he said: I watched insects, and I wanted to create
 
-161
+157
 00:10:38,150 --> 00:10:40,550
 چیزی شبیه اینکه هر قسمت بتواند هوش مستقل برای تصمیم گیری داشته باشد
 something that had distributed intelligence
 
-162
+158
 00:10:40,640 --> 00:10:42,640
 یک تراشه در پاها که می توانست پاها را حرکت دهد
- a chip in the leg that can move a leg
+a chip in the leg that can move a leg
 
-163
+159
 00:10:42,800 --> 00:10:45,240
 و یک تراشه در ستون فقرات که می توانست حرکت پاها را هماهنگ کند
- a chip in the spine that can coordinate legs
+a chip in the spine that can coordinate legs
 
-164
+160
 00:10:45,510 --> 00:10:47,510
 یک شبکه عصبی در سر
 a neural network in the head
 
-165
+161
 00:10:48,510 --> 00:10:50,460
 که مشخص می کرد کجا باید برود
- that figures out where to go
+that figures out where to go
 
-166
+162
 00:10:51,000 --> 00:10:58,240
 و این دستور را به پاها منتقل می کرد و بعد از حدود سه دقیقه که این ربات در اطراف اتاق گیج  می زند و مثل اردک راه می رود مثل یادگرفتن بچه های کوچک راه درست درست را می آموزد
- and he turned it on the legs flapped and it waddle to its feed was like a baby learning how to walk and three minutes was running around the room
+and he turned it on the legs flapped and it waddle to its feed was like a baby learning how to walk and three minutes was running around the room
 
-167
+163
 00:10:58,510 --> 00:11:03,330
 من گفتم واای ، این خیلی هیجان انگیز است ولی من فکر می کنم این بچه ها خیلی کند سیستم را توسعه می دهند
- I said wow that's amazing i used to have these really slow developers
+I said wow that's amazing i used to have these really slow developers
 
-168
+164
 00:11:03,420 --> 00:11:06,550
 ممکن است ما بتوانیم با آموختن چند قانون ساده به آنها
- maybe we could give them some simple rules
+maybe we could give them some simple rules
 
-169
+165
 00:11:07,460 --> 00:11:12,150
 راهی را بیاموزیم  که آنها بفهمند چگونه می توانند به یک تیم فوق هوشمند برای انجام کارها تبدیل شوند
- and they would learn how to boot up into a super-intelligent team do you think that work
+and they would learn how to boot up into a super-intelligent team do you think that work
 
-170
+166
 00:11:13,620 --> 00:11:15,580
 و او گفت چرا شروع نمی کنی؟
 and he said why don't you try it?
 
-171
+167
 00:11:15,580 --> 00:11:18,020
 کاری که زمان کوتاهی بعد من آن را انجام دادم
 well I did a short time later
 
-172
+168
 00:11:20,150 --> 00:11:25,440
 یک شرکت فوق العاده موفق من را برای ساخت یک محصول جدید استخدام کرد
- a company a very successful company hired me in to build a new product
+a company a very successful company hired me in to build a new product
 
-173
+169
 00:11:25,660 --> 00:11:30,240
 محصولی که قرار بود در نصف زمان تولید محصولات پیچیده گذشته شرکت ، جایگزین این محصول شود
 that was going to replace all the rolled products at half the time they'd ever done it before
 
-174
+170
 00:11:30,400 --> 00:11:31,950
 و من مجبور بودم که این کار را انجام دهم
 and I had to figure it out
 
-175
+171
 00:11:32,400 --> 00:11:35,340
 و محصول ما باید توسط کمپانی های بسیار بزرگی مورد استفاده قرار می گرفت
 and our product had to be used by really big companies
 
-176
+172
 00:11:35,380 --> 00:11:39,860
 و من مجبور شدم که به آنها بگویم که چگونه باید از راه های چابک برای توسعه این محصول استفاده کنیم
 and I had to tell them how to use the product in an agile way
 
-177
+173
 00:11:40,300 --> 00:11:42,700
 ما شروع به مطالعه مقالات مربوط به موضوع کردیم
- and we studied the literature
+and we studied the literature
 
-178
+174
 00:11:42,760 --> 00:11:46,580
 و بهرین مقاله را در مجله کسب و کار هاروارد پیدا کردیم
 and we found the best paper in the Harvard Business Review
 
-179
+175
 00:11:46,900 --> 00:11:50,180
 ما قصد نداریم در مورد دو نفر از پروفسورهای ژاپنی واقعیتی را بیان نکنیم ولی آنها هر کدام
 we're not gonna talk to you cheat two Japanese professors had
 
-180
+176
 00:11:50,400 --> 00:11:52,460
 از این سه نفر ،  سبک متفاوتی از رهبری را نشان می دادند
 shown three different styles of leadership
 
-181
+177
 00:11:52,500 --> 00:11:54,860
 شماره یک : گانت چارت
 number one: the Gantt chart
 
-182
+178
 00:11:54,940 --> 00:11:56,380
 که شما می دانید با این روش چه اتفاقاتی روی می دهد
 you know what happens with that one
 
-183
+179
 00:11:56,660 --> 00:11:59,760
 شماره دو یک استراتژی انتقالی از فوجی و زیراکس
 number two a transitional strategy at Fuji xerox
 
-184
+180
 00:11:59,820 --> 00:12:01,040
 و شماره سه
- and number three
+and number three
 
-185
+181
 00:12:02,960 --> 00:12:06,660
 بهترین فرآیند ساختی که آنها دیده اند و تا امروز در دنیا مورد استفاده قرار گرفته است
- that what they saw and the best manufacturing plants of the world
+that what they saw and the best manufacturing plants of the world
 
-186
+182
 00:12:07,820 --> 00:12:10,660
 بنابراین ما شروع کردیم تا بفهمیم چگونه روش سوم را پیاده سازی کنیم
 so we ran how to implement number three
 
-187
+183
 00:12:10,960 --> 00:12:16,260
 و صحبت های ما با تاناکا به ما نشان داد که به تیم هایی خود سازمان ده و خود انگیزاننده  احتیاج داریم
- and talking Tanaka said it needs to be self-organizing self-motivated teams
+and talking Tanaka said it needs to be self-organizing self-motivated teams
 
-188
+184
 00:12:16,400 --> 00:12:19,160
 مدیریتی که به تیم ها اجازه جرکت بدهد و خود یک گام عقب تر تیم را همراهی کند
 management needs to let go and step back
 
-189
+185
 00:12:19,180 --> 00:12:21,180
 به نحوی که آنها از پس کارهای خود بر بیایند
 they need to get out of the way
 
-190
+186
 00:12:22,540 --> 00:12:24,720
 به ترتیبی که بتوانند کاری که باید انجام بدهند را تصور کنند
 so the teams can figure out what to do
 
-191
+187
 00:12:25,980 --> 00:12:34,240
 و اینچنین بود که من و همکارم کن شوئبر در طی سالهای 1993 تا 1995 اقدام به پیاده سازی آن کردیم
 so we implemented that in 1993 by 1995 I got together with my partner Ken Schwaber
 
-192
+188
 00:12:34,740 --> 00:12:36,980
 و شروع به تسری دادن آن به صنعت کردیم
- we started rolling it out to industry
+we started rolling it out to industry
 
-193
+189
 00:12:37,100 --> 00:12:39,990
 در سال 2001 ما اولین بیانیه چابک را منتشر کردیم
- in 2001 we wrote the agile manifesto
+in 2001 we wrote the agile manifesto
 
-194
+190
 00:12:41,020 --> 00:12:45,920
 و از آن زمان این بیانیه در همه جای دنیا منتشر و دیده شده است
- and since then it's gone everywhere in the world
+and since then it's gone everywhere in the world
 
-195
+191
 00:12:46,420 --> 00:12:48,460
 در همه شرکت های بزرگ نرم افزاری
 all the major software companies
 
-196
+192
 00:12:48,680 --> 00:12:50,220
-آنهایی که هواپیماهای جنگنده را می ساختند 
+آنهایی که هواپیماهای جنگنده را می ساختند
 they're building fighters
 
-197
+193
 00:12:51,280 --> 00:12:54,460
 ماشین آلات کشاورزی یا کاوشگران فضایی
- agricultural machinery, space probes
+agricultural machinery, space probes
 
-198
+194
 00:12:54,540 --> 00:12:57,900
 جو جاستیک که در این تصویر در یکی از شرکت های ماشین سازی نشان داده می شود
- Joe justice in the picture there is showing a car company
+Joe justice in the picture there is showing a car company
 
-199
+195
 00:12:58,120 --> 00:13:01,140
 نشان می دهد که چگونه می توان در یک چرخه یک هفته ای یک ماشین ساخت
 how to build a car in one week cycles
 
-200
+196
 00:13:01,260 --> 00:13:02,620
 یک ماشین جدید در هر هفته
- a new car every week
+a new car every week
 
-201
+197
 00:13:04,180 --> 00:13:09,620
 اما پیشرو ترین نتیجه و کاربرد این جنبش چابک را امروز می توانید
 but the leading edge of this agile movement today
 
-202
+198
 00:13:09,840 --> 00:13:12,780
 در مدارسی در اروپا و ایالات متحده به صورت واقعی ببینید
- is actually in the schools of the US and Europe
+is actually in the schools of the US and Europe
 
-203
+199
 00:13:12,920 --> 00:13:16,360
 من جدیداً بازدیدی از یکی از مدارس هلند داشتم
- I recently visited a school in the Netherlands
+I recently visited a school in the Netherlands
 
-204
+200
 00:13:17,840 --> 00:13:19,800
 جایی که بچه های خردسال در آن آموزش دیده بودند
 where the kids have been trained
 
-205
+201
 00:13:20,580 --> 00:13:21,860
 تا خودشان بدون کمک از کسی  بیاموزند
 to self learn
 
-206
+202
 00:13:23,080 --> 00:13:26,400
 هنگامی که زنگ کلاس ها به صدا می آمد آنها وارد کلاس درس می شدند
- the bell would ring they'd come running into the room
+the bell would ring they'd come running into the room
 
-207
+203
 00:13:26,820 --> 00:13:31,720
 
 tease of four they would run to the wall put up their scrum boards of the wall
 
-208
+204
 00:13:31,900 --> 00:13:35,920
 آنها یک جلسه روزانه کوتاه برگزار می کنند که در طی آن به کارهایی که دیروز کرده اند و کارهایی که امروز می خواهند انجام بدهند می پردازند
- they'd have a short daily meeting what did we do yesterday what would we do today
+they'd have a short daily meeting what did we do yesterday what would we do today
 
-209
+205
 00:13:36,200 --> 00:13:38,080
-به مشکلاتی که برای انجام کارها با آن رو به رو شده اند نیز اشاره می کنند 
- what are the problems that are getting in the way
+به مشکلاتی که برای انجام کارها با آن رو به رو شده اند نیز اشاره می کنند
+what are the problems that are getting in the way
 
-210
+206
 00:13:38,160 --> 00:13:40,220
 و بعد از آن هر کدام به میز خود می روند و شروع به کار می کنند
 run to the desk and start to work
 
-211
+207
 00:13:40,720 --> 00:13:43,360
 معلم های آنها تنها در کلاس حضور دارند ولی هیچ چیزی نمی گویند
- the teachers just standing there saying nothing
+the teachers just standing there saying nothing
 
-212
+208
 00:13:44,480 --> 00:13:46,580
-آنها فقط زمانی حرف می زنند که یکی از بچه ها از آنها کمکی بخواهد 
- they only talk when they're asked for help
+آنها فقط زمانی حرف می زنند که یکی از بچه ها از آنها کمکی بخواهد
+they only talk when they're asked for help
 
-213
+209
 00:13:48,360 --> 00:13:51,020
 شور و شوق این بچه ها
- the enthusiasm of these kids
+the enthusiasm of these kids
 
-214
+210
 00:13:51,160 --> 00:13:55,580
 به قدری تأثیر گذار بود که باعث شد من به همراه سایر معلمان بیایستیم و گریه کنیم
 was so overwhelming I'm standing there with other teachers we're crying
 
-215
+211
 00:13:57,480 --> 00:14:03,940
 بچه ها می گویند که این روش آموزشی بسیار سریع و تأثیرگذارتر بر روی نمرات آنها ست و باعث می شود اوقات بسیار خوشی را در طول هفته تجربه کنند
 the kids say it's faster learning better grades they finish weeks early they have more fun
 
-216
+212
 00:14:04,000 --> 00:14:07,700
 اینجا تعریفی از سرگرمی برای همه چیز وجود دارد چرا که آنها مطمئن هستند آخر هر هفته دستاوردهای مشخصی داشته اند
- there's a definition of fun for everything they do they make sure it's achieved
+there's a definition of fun for everything they do they make sure it's achieved
 
-217
+213
 00:14:08,100 --> 00:14:12,960
 کودکان توانیاب در این فرآیند همچون سایر اعضای تیم به صورت کاملاً طبیعی مشغول انجام وظایف تیمی خود می شوند
- the handicapped children are involved naturally in the workings of the teams as team members
+the handicapped children are involved naturally in the workings of the teams as team members
 
-218
+214
 00:14:12,980 --> 00:14:15,160
-مشکل ایجاد انگیزه کلاً فراموش می شود 
- the motivation problems go away
+مشکل ایجاد انگیزه کلاً فراموش می شود
+the motivation problems go away
 
-219
+215
 00:14:15,280 --> 00:14:17,340
 مشکل نظم و ترتیب دادن نیز به همچنین
- the disciplinary problems go away
+the disciplinary problems go away
 
-220
+216
 00:14:17,600 --> 00:14:21,400
 چرا که تیم به صورت خود  نظم دهنده عمل می کند
 the team execute self-discipline
 
-221
+217
 00:14:22,680 --> 00:14:26,900
 اگر آنها نیاز به یک کمک کوچک داشته باشند می توانند از مربیان خود کمک بخواهند ولی در اکثر مواقع آنها نیاز به این کمک های کوچک هم ندارند
- if they need a little help from the teacher they might ask for it but generally they don't need it
+if they need a little help from the teacher they might ask for it but generally they don't need it
 
-222
+218
 00:14:27,420 --> 00:14:30,660
-این آینده آموزش است 
+این آینده آموزش است
 so this is the future of learning
 
-223
+219
 00:14:32,060 --> 00:14:35,120
 و اگر شما به دنیایی که اکثر ما در آن زندگی می کنیم برگردید
 and if you go back into the world that most of us live in
 
-224
+220
 00:14:35,240 --> 00:14:36,880
 ما به این روش عمل نمی کنیم
 we're not operating that way
 
-225
+221
 00:14:36,920 --> 00:14:42,360
 نظر سنجی ها نشان می دهد که اکثر مردم فکر می کنند کار کردن بسیار سهت و ناراحت کننده است
-	the surveys show that most people think work really sucks
+the surveys show that most people think work really sucks
 
-226
+222
 00:14:43,460 --> 00:14:46,820
 و تنها چیزی که از آن بدتر است افتادن به بستر بیماری در گوشه خانه است
 the only thing worse at work is being sick in bed
 
-227
+223
 00:14:48,740 --> 00:14:55,420
 جدیداً من سؤالی از یکی از برنامه نویسانی که در شرکت نرم افزاری بی ام دبلیو پاریس کار می کرد پرسیدم
 I recently asked a software developer for working on BMW software in Paris
 
-228
+224
 00:14:55,640 --> 00:14:57,120
 پرسیدم که حس تو نسبت به تیم اسکرامی که در آن فعالیت می کنی چیست ؟
 how he liked his scrum team
 
-229
+225
 00:14:57,220 --> 00:15:00,540
 او در حالی که داشت فکر می کرد و سعی می کرد احساسات خود را کنترل کند گفت
- he started choking up he started bursting into tears he said
+he started choking up he started bursting into tears he said
 
-230
+226
 00:15:00,640 --> 00:15:05,520
 من نمی توانم تأثیر شگرفی که در تغییر زندگی من داشته است را بیان کنم، من احساس می کنم زندگی من تغییر کرده است
 I can't tell you the acceleration I feel it's changed my life
 
-231
+227
 00:15:08,220 --> 00:15:10,640
 هر یک از شما می توانید این حس را تجربه کنید
- every one of you could experience that
+every one of you could experience that
 
-232
+228
 00:15:10,760 --> 00:15:12,900
 شما می توانید قدرت و توان خود را بازیابید
- you could grab back your power
+you could grab back your power
 
-233
+229
 00:15:13,320 --> 00:15:15,020
 حس آزادی خود را مجدداً به دست بیاورید
- grab back your freedom
+grab back your freedom
 
-234
+230
 00:15:15,120 --> 00:15:17,920
 زندگی کاری را تجربه کنید که مافوق تمامی تصورات شماست
 gain a life that's transcendent
 
-235
+231
 00:15:18,000 --> 00:15:22,100
 شادی بی نظیری در محیط کار که شما با آن احساس خوشبختی می کنید
 and the xhilaration you would feel would give you an a happiness
 
-236
+232
 00:15:23,240 --> 00:15:25,880
 خوشبختی که تا انتهای عمر آن را به خاطر خواهید سپرد
- that you would remember till your grave
+that you would remember till your grave
 
-237
+233
 00:15:26,380 --> 00:15:30,250
 چیزی که من برای همه کسانی که در این سالن هستند آرزو می کنم
- that's what I wish for every person in this room
+that's what I wish for every person in this room
 
-238
+234
 00:15:30,880 --> 00:15:36,420
 و شما لازم است که خود را به امکان وقوع این تجربه بسپارید و اجازه بدهید که رخ بدهد
- and you need to give up and let go to make it happen
+and you need to give up and let go to make it happen
 
-239
+235
 00:15:37,960 --> 00:15:39,360
 از همه شما بسیار ممنونم
 thank you very much
