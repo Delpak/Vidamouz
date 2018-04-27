@@ -1,200 +1,136 @@
-1
-00:00:04,549 --> 00:00:09,359
-in this section we'll learn about<font color="#E5E5E5"> the</font>
+﻿1
+00:00:05,536 --> 00:00:08,836
+In this section , we'll learn about the sprint retrospective meeting
 
-1
-00:00:06,990 --> 00:00:14,669
-<font color="#E5E5E5">Sprint retrospective meeting we will</font>
+2
+00:00:09,050 --> 00:00:11,360
+we will cover the goal
 
-1
-00:00:09,359 --> 00:00:17,429
-cover the goal<font color="#E5E5E5"> who attends</font><font color="#CCCCCC"> the time box</font>
+3
+00:00:12,060 --> 00:00:13,270
+Who attends
 
-1
-00:00:14,669 --> 00:00:21,269
-and the general<font color="#E5E5E5"> approach</font><font color="#CCCCCC"> to running</font><font color="#E5E5E5"> the</font>
+4
+00:00:13,910 --> 00:00:15,290
+The time box
 
-1
-00:00:17,429 --> 00:00:23,879
-meeting the Sprint retrospective<font color="#E5E5E5"> meeting</font>
+5
+00:00:15,670 --> 00:00:18,260
+An the general approach to running the meeting
 
-1
-00:00:21,269 --> 00:00:26,460
-is the final event<font color="#CCCCCC"> of</font><font color="#E5E5E5"> the Sprint held</font>
+6
+00:00:19,820 --> 00:00:23,220
+the sprint retrospective meeting is the final event of the sprint ,
 
-1
-00:00:23,879 --> 00:00:28,320
-after the<font color="#E5E5E5"> Sprint review meeting the</font>
+7
+00:00:23,610 --> 00:00:25,530
+held after the sprint review meeting
 
-1
-00:00:26,460 --> 00:00:30,960
-Sprint retrospective<font color="#CCCCCC"> is one of the most</font>
+8
+00:00:26,230 --> 00:00:30,050
+the sprint retrospective is one of the most important parts of scrum
 
-1
-00:00:28,320 --> 00:00:33,149
-important parts of scrum when done well
+9
+00:00:30,150 --> 00:00:35,617
+When done well it enables the scrum team to continuously improve their approach to their work
 
-1
-00:00:30,960 --> 00:00:35,130
-<font color="#E5E5E5">it enables the scrum team to</font>
+10
+00:00:35,740 --> 00:00:37,220
+sprint after sprint
 
-1
-00:00:33,149 --> 00:00:38,670
-continuously improve their approach<font color="#CCCCCC"> to</font>
+11
+00:00:38,350 --> 00:00:42,990
+The goal of the meeting is to inspect and adapt the scrum teams approach to their work
 
-1
-00:00:35,130 --> 00:00:40,859
-their work<font color="#E5E5E5"> sprint after</font><font color="#CCCCCC"> Sprint</font><font color="#E5E5E5"> the goal</font>
+12
+00:00:43,200 --> 00:00:46,220
+And all members of the scrum team attend
 
-1
-00:00:38,670 --> 00:00:42,629
-of the meeting<font color="#E5E5E5"> is to</font><font color="#CCCCCC"> inspect</font><font color="#E5E5E5"> and adapt</font>
+13
+00:00:46,930 --> 00:00:50,990
+The time box for the sprint is three hours for a one month sprint
 
-1
-00:00:40,859 --> 00:00:46,159
-the scrum teams approach to their work
+14
+00:00:51,575 --> 00:00:54,675
+For shorter sprints , the time box is typically shorter
 
-1
-00:00:42,628 --> 00:00:48,808
-<font color="#E5E5E5">and all members</font><font color="#CCCCCC"> of the scrum team</font><font color="#E5E5E5"> attend</font>
+15
+00:00:55,800 --> 00:01:00,110
+There are many effective patterns to approach running the sprint retrospective meeting
 
-1
-00:00:46,159 --> 00:00:52,140
-the time box for the<font color="#E5E5E5"> Sprint</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> three</font>
+16
+00:01:00,340 --> 00:01:03,650
+Three elements are common across most of these patterns
 
-1
-00:00:48,808 --> 00:00:54,000
-hours<font color="#CCCCCC"> for a</font><font color="#E5E5E5"> one month sprint for shorter</font>
+17
+00:01:04,405 --> 00:01:08,738
+First , the team inspects how the work was completed in the last sprint ,
 
-1
-00:00:52,140 --> 00:00:56,909
-<font color="#CCCCCC">Sprint's</font><font color="#E5E5E5"> the time box is typically</font>
+18
+00:01:08,990 --> 00:01:10,960
+Focusing on areas such as :
 
-1
-00:00:54,000 --> 00:00:58,769
-shorter there are many<font color="#E5E5E5"> effective</font>
+19
+00:01:11,198 --> 00:01:12,198
+people
 
-1
-00:00:56,909 --> 00:01:01,229
-patterns to approach running the Sprint
+20
+00:01:12,910 --> 00:01:14,210
+Relationships
 
-1
-00:00:58,770 --> 00:01:03,618
-retrospective meeting<font color="#E5E5E5"> three elements are</font>
+21
+00:01:14,800 --> 00:01:16,220
+Process
 
-1
-00:01:01,229 --> 00:01:06,539
-<font color="#CCCCCC">common across most of</font><font color="#E5E5E5"> these</font><font color="#CCCCCC"> patterns</font>
+22
+00:01:16,510 --> 00:01:17,810
+And tools
 
-1
-00:01:03,618 --> 00:01:09,719
-first the team inspects how the work was
+23
+00:01:18,960 --> 00:01:25,840
+Next the attendees have a collaborative discussion to identify and order major items that went well
 
-1
-00:01:06,540 --> 00:01:14,509
-<font color="#CCCCCC">completed in</font><font color="#E5E5E5"> the last sprint focusing on</font>
+24
+00:01:25,980 --> 00:01:28,560
+And , opportunities for improvement
 
-1
-00:01:09,719 --> 00:01:20,400
-<font color="#E5E5E5">areas such</font><font color="#CCCCCC"> as people relationships</font>
+25
+00:01:29,570 --> 00:01:34,930
+Finally , the team creates a plan for how they will roll out any chosen improvements
 
-1
-00:01:14,509 --> 00:01:22,560
-process and tools next<font color="#E5E5E5"> the attendees</font>
+26
+00:01:35,020 --> 00:01:39,950
+The plan should be specific so that improvements are actually carried out in the next sprint
 
-1
-00:01:20,400 --> 00:01:25,170
-have a collaborative discussion<font color="#E5E5E5"> to</font>
+27
+00:01:40,430 --> 00:01:44,090
+A planned improvement that is not carried out , does not help the team
 
-1
-00:01:22,560 --> 00:01:29,090
-<font color="#E5E5E5">identify and order major items that went</font>
+28
+00:01:45,410 --> 00:01:50,430
+Teams that are new to scrum often focus largely on improvements within the team itself
 
-1
-00:01:25,170 --> 00:01:32,159
-well and opportunities for improvement
+29
+00:01:51,260 --> 00:01:53,920
+As improvements are made over multiple sprints ,
 
-1
-00:01:29,090 --> 00:01:33,478
-<font color="#E5E5E5">finally the team creates a plan for how</font>
+30
+00:01:54,320 --> 00:01:57,420
+the scrum team reaches a level of internal effectiveness
 
-1
-00:01:32,159 --> 00:01:36,479
-they<font color="#E5E5E5"> will roll out any chosen</font>
+31
+00:01:57,890 --> 00:02:01,080
+Such that the largest opportunities for improvement ,
 
-1
-00:01:33,478 --> 00:01:38,158
-improvements the plan should be<font color="#E5E5E5"> specific</font>
+32
+00:02:01,150 --> 00:02:05,640
+shift to how the scrum team interacts with the broader organizational system
 
-1
-00:01:36,478 --> 00:01:40,978
-<font color="#E5E5E5">so</font><font color="#CCCCCC"> that improvements are actually</font>
+33
+00:02:06,520 --> 00:02:12,100
+By constantly focusing sprint after sprint on the largest opportunities to improve ,
 
-1
-00:01:38,159 --> 00:01:42,960
-carried<font color="#E5E5E5"> out in the next sprint</font><font color="#CCCCCC"> a planned</font>
-
-1
-00:01:40,978 --> 00:01:46,289
-improvement<font color="#CCCCCC"> that</font><font color="#E5E5E5"> is not carried out does</font>
-
-1
-00:01:42,959 --> 00:01:48,328
-<font color="#CCCCCC">not help the team teams that are new to</font>
-
-1
-00:01:46,290 --> 00:01:51,140
-<font color="#E5E5E5">scrum often focus largely on</font>
-
-1
-00:01:48,328 --> 00:01:53,250
-improvements<font color="#CCCCCC"> within the team itself as</font>
-
-1
-00:01:51,140 --> 00:01:55,769
-improvements are made<font color="#E5E5E5"> over multiple</font>
-
-1
-00:01:53,250 --> 00:01:58,769
-<font color="#E5E5E5">sprints the scrum team reaches a level</font>
-
-1
-00:01:55,769 --> 00:02:00,658
-<font color="#E5E5E5">of internal effectiveness such that the</font>
-
-1
-00:01:58,769 --> 00:02:03,060
-largest<font color="#E5E5E5"> opportunities for improvement</font>
-
-1
-00:02:00,659 --> 00:02:05,750
-shift to how the scrum team<font color="#E5E5E5"> interacts</font>
-
-1
-00:02:03,060 --> 00:02:08,759
-with the broader organizational system
-
-1
-00:02:05,750 --> 00:02:11,159
-by constantly focusing sprint after
-
-1
-00:02:08,758 --> 00:02:13,739
-<font color="#CCCCCC">Sprint</font><font color="#E5E5E5"> on the largest opportunities to</font>
-
-1
-00:02:11,159 --> 00:02:16,139
-improve effective scrum teams
-
-1
-00:02:13,740 --> 00:02:17,570
-a larger and larger impact on the
-
-1
-00:02:16,139 --> 00:02:20,569
-effectiveness<font color="#CCCCCC"> of</font><font color="#E5E5E5"> the overall</font>
-
-1
-00:02:17,569 --> 00:02:20,569
-<font color="#CCCCCC">organization</font>
+34
+00:02:12,320 --> 00:02:18,910
+effective scrum teams have a larger and larger impact on the effectiveness of the overall organization
 
