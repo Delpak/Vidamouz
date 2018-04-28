@@ -1,70 +1,88 @@
 ﻿1
 00:00:04,920 --> 00:00:07,320
+اگر چند دقیقه‌ای را کنار یک تیم اسکرام سپری کنید
 hang around a scrum team for more than a few minutes
 
 2
 00:00:07,390 --> 00:00:10,170
+احتمالا اصطلاح «پیرایش بکلاگ محصول» را خواهید شنید
 and you'll probably hear the term product backlog grooming
 
 3
 00:00:10,710 --> 00:00:15,230
+این مفهوم در سالیان اخیر بین تیم‌های اسکرام، خیلی متداول شده است
 this is a concept that has gotten very popular among scrum teams over the past few years
 
 4
 00:00:15,830 --> 00:00:19,170
+منظور این اصطلاح این است که بکلاگ محصول به درستی نگهداری شود
 it refers to the idea of keeping the product backlog well maintained
 
 5
 00:00:19,570 --> 00:00:23,130
+زیرا بکلاگی که سالم و درست نگهداری شده
+می‌تواند مشکلات زیادی را رفع کند
 since a well-maintained product backlog
 can solve a lot of problems
 
 6
 00:00:23,230 --> 00:00:26,430
+اجازه دهید ببینیم معنی «پیرایش بکلاگ محصول» دقیقا چیست؟
 let's see exactly what grooming the product backlog means
 
 7
 00:00:27,040 --> 00:00:28,510
+در نخستین روزهای (پیدایش) اسکرام
 in the early days of scrum
 
 8
 00:00:28,580 --> 00:00:32,440
+به بکلاگ محصول، تا حدی شبیه به کشوی کمد آشپزخانه
 the product backlog was treated pretty much like that drawer we all have in our kitchens
 
 9
 00:00:32,570 --> 00:00:33,760
+ یا کمدی که در جای دیگری از خانه داریم، نگاه می‌شد
 or somewhere in the house
 
 10
 00:00:34,080 --> 00:00:37,530
+کمدی پر از خرت و پرت‌هایی که جای بهتری برایشان پیدا نمی‌کنیم
 you know the one full of all sorts of junk you don't have any better place for
 
 11
 00:00:38,180 --> 00:00:43,060
+آن وقت‌ها (اوایل پیدایش اسکرام) بکلاگ محصول فقط وسیله‌ای بود برای ثبت کارهایی که باید یادآوری می‌شد تا انجام شوند
 the product backlog was just the place early scrum teams put anything they needed to remember to do
 
 12
 00:00:43,580 --> 00:00:48,010
+اقلام الزاما طوری نوشته نمی‌شدند که تیم بعدا منظور آن را به یاد آورد
 The items weren't necessarily written in a way that the team would later remember what the items meant
 
 13
 00:00:48,270 --> 00:00:50,900
+و برای بکلاگ‌های اولیه، مسلما تیم زمان منظمی صرفِ
 and team certainly didn't have regular time devoted
 
 14
 00:00:51,030 --> 00:00:53,570
+پاکسازی این بکلاگ‌های شلخته و شلوغ نمی‌کرد
 to clean up these messy, early product backlogs
 
 15
 00:00:54,620 --> 00:00:57,700
+طولی نکشید تا تیم دریافت که در کل، اسپرینت‌ها خیلی بهتر می‌شدند اگر که
 well team soon learned that Sprint's went a whole lot better
 
 16
 00:00:57,780 --> 00:01:00,740
+بکلاگ محصول مورد توجه قرار می‌گرفت و خوش فرم و شکل نگهداری می‌شد
 if the product backlog was looked after and kept in good shape
 
 17
 00:01:01,080 --> 00:01:02,560
+یا به عبارت بهتر «پیرایش» می‌شد
 or in other words groomed
 
 18
