@@ -1,208 +1,116 @@
-1
-00:00:05,000 --> 00:00:11,789
-scrum<font color="#E5E5E5"> defines three roles within the</font>
+﻿1
+00:00:05,000 --> 00:00:09,290
+scrum defines three roles within the
+scrum team
 
-1
-00:00:08,339 --> 00:00:15,469
-scrum team<font color="#E5E5E5"> the product owner the</font>
+2
+00:00:09,590 --> 00:00:15,150
+the product owner, the development team and the scrum master
 
-1
-00:00:11,789 --> 00:00:18,149
-development team and<font color="#CCCCCC"> the scrum master</font>
+3
+00:00:16,160 --> 00:00:22,170
+the product owner is responsible for maximizing the value of the product and
+the work of the development team
 
-1
-00:00:15,470 --> 00:00:20,399
-<font color="#E5E5E5">the product owner</font><font color="#CCCCCC"> is responsible for</font>
+4
+00:00:22,340 --> 00:00:28,110
+one of the primary ways the product owner
+manages this work is through the product backlog
 
-1
-00:00:18,149 --> 00:00:23,640
-maximizing<font color="#CCCCCC"> the value of the product</font><font color="#E5E5E5"> and</font>
+5
+00:00:28,210 --> 00:00:35,090
+the product owner is accountable
+for the order of the items in the product backlog
 
-1
-00:00:20,399 --> 00:00:25,320
-the work of<font color="#E5E5E5"> the development team one of</font>
+6
+00:00:35,190 --> 00:00:38,260
+for ensuring that the
+items are clearly understood
 
-1
-00:00:23,640 --> 00:00:27,510
-the<font color="#CCCCCC"> primary ways the product owner</font>
+7
+00:00:39,030 --> 00:00:45,740
+and that the product backlog is transparent to
+the scrum team and other stakeholders in
+the organization
 
-1
-00:00:25,320 --> 00:00:31,349
-manages this work is<font color="#E5E5E5"> through the product</font>
+8
+00:00:47,620 --> 00:00:52,030
+the product owner can choose whether to manage the product
+backlog on their own
 
-1
-00:00:27,510 --> 00:00:33,090
-backlog<font color="#E5E5E5"> the product owner is accountable</font>
+9
+00:00:52,630 --> 00:00:59,779
+or to involve the development team in the work however the
+product owner remains accountable
 
-1
-00:00:31,349 --> 00:00:36,090
-<font color="#CCCCCC">for</font><font color="#E5E5E5"> the order of the items</font><font color="#CCCCCC"> in the</font>
+10
+00:01:01,079 --> 00:01:05,710
+the development team is responsible for
+building the actual product increment
 
-1
-00:00:33,090 --> 00:00:39,960
-product backlog for ensuring that the
+11
+00:01:06,810 --> 00:01:12,910
+in this work the development team is
+cross-functional & self-organizing and
 
-1
-00:00:36,090 --> 00:00:42,300
-<font color="#E5E5E5">items are clearly</font><font color="#CCCCCC"> understood and that</font>
-
-1
-00:00:39,960 --> 00:00:44,370
-the product<font color="#E5E5E5"> backlog is transparent to</font>
-
-1
-00:00:42,299 --> 00:00:48,419
-the scrum team and other stakeholders<font color="#CCCCCC"> in</font>
-
-1
-00:00:44,369 --> 00:00:50,308
-the organization the product owner can
-
-1
-00:00:48,420 --> 00:00:53,429
-choose whether to<font color="#E5E5E5"> manage the product</font>
-
-1
-00:00:50,308 --> 00:00:56,789
-<font color="#E5E5E5">backlog on their own or to involve the</font>
-
-1
-00:00:53,429 --> 00:01:01,079
-<font color="#CCCCCC">development team in the work</font><font color="#E5E5E5"> however the</font>
-
-1
-00:00:56,789 --> 00:01:03,090
-product owner remains accountable the
-
-1
-00:01:01,079 --> 00:01:06,810
-development<font color="#E5E5E5"> team is responsible</font><font color="#CCCCCC"> for</font>
-
-1
-00:01:03,090 --> 00:01:08,780
-building the<font color="#CCCCCC"> actual product increment in</font>
-
-1
-00:01:06,810 --> 00:01:12,109
-this work<font color="#CCCCCC"> the development</font><font color="#E5E5E5"> team is</font>
-
-1
-00:01:08,780 --> 00:01:15,239
-cross-functional<font color="#CCCCCC"> &</font><font color="#E5E5E5"> self-organizing and</font>
-
-1
-00:01:12,109 --> 00:01:18,840
+12
+00:01:12,910 --> 00:01:18,540
 while individuals often have specialized
+skills or areas of focus
 
-1
-00:01:15,239 --> 00:01:22,069
-skills<font color="#E5E5E5"> or areas</font><font color="#CCCCCC"> of focus</font><font color="#E5E5E5"> accountability</font>
+13
+00:01:18,840 --> 00:01:22,090
+accountability belongs to the team as a whole
 
-1
-00:01:18,840 --> 00:01:25,290
-belongs to the team as a whole
+14
+00:01:22,390 --> 00:01:27,160
+development teams tend to have between 3 and 9 team members
 
-1
-00:01:22,069 --> 00:01:28,798
-development<font color="#E5E5E5"> teams tend to have between</font><font color="#CCCCCC"> 3</font>
+15
+00:01:27,560 --> 00:01:32,200
+smaller than three may result in a skill gap that makes it difficult
 
-1
-00:01:25,290 --> 00:01:31,560
-<font color="#CCCCCC">and</font><font color="#E5E5E5"> 9 team members smaller than</font><font color="#CCCCCC"> three</font>
+16
+00:01:32,260 --> 00:01:35,720
+to deliver potentially releasable increments during a sprint
 
-1
-00:01:28,799 --> 00:01:33,420
-may result in a skill gap<font color="#E5E5E5"> that makes it</font>
+17
+00:01:36,420 --> 00:01:46,120
+larger than nine results in a level of
+complexity that makes coordination self-organization and empirical
+management difficult
 
-1
-00:01:31,560 --> 00:01:36,228
-difficult to<font color="#CCCCCC"> deliver potentially</font>
+18
+00:01:46,320 --> 00:01:55,259
+the scrum master is responsible for ensuring that scrum is
+understood and used skillfully by the scrum team
 
-1
-00:01:33,420 --> 00:01:39,570
-releasable<font color="#E5E5E5"> increments during a sprint</font>
+19
+00:01:55,559 --> 00:02:02,959
+scrum masters do this by
+acting as a guide to the organization on scrum theory practices and rules
 
-1
-00:01:36,228 --> 00:01:42,319
-<font color="#E5E5E5">larger than</font><font color="#CCCCCC"> nine results in a level of</font>
+20
+00:02:03,259 --> 00:02:08,749
+the scrum master is often described as a servant leader role
 
-1
-00:01:39,569 --> 00:01:44,728
-complexity that<font color="#CCCCCC"> makes coordination</font>
+21
+00:02:08,949 --> 00:02:14,140
+this description means that the scrum master leads by
+helping rather than coercing
 
-1
-00:01:42,319 --> 00:01:48,658
-self-organization<font color="#E5E5E5"> and empirical</font>
+22
+00:02:14,579 --> 00:02:21,210
+it can also be viewed as a role that
+serves through modeling and agile mindset and skillful use of the scrum
+framework
 
-1
-00:01:44,728 --> 00:01:50,969
-management difficult the scrum master<font color="#CCCCCC"> is</font>
+23
+00:02:21,910 --> 00:02:28,960
+the scrum master ensures that the product owner development team and
+organization as a whole
 
-1
-00:01:48,659 --> 00:01:53,759
-<font color="#CCCCCC">responsible for ensuring that scrum is</font>
-
-1
-00:01:50,969 --> 00:01:57,118
-understood and<font color="#E5E5E5"> used</font><font color="#CCCCCC"> skillfully by the</font>
-
-1
-00:01:53,759 --> 00:01:59,549
-scrum<font color="#CCCCCC"> team scrum masters do this by</font>
-
-1
-00:01:57,118 --> 00:02:04,170
-acting<font color="#E5E5E5"> as a guide to the organization on</font>
-
-1
-00:01:59,549 --> 00:02:06,240
-scrum<font color="#CCCCCC"> theory practices and</font><font color="#E5E5E5"> rules the</font>
-
-1
-00:02:04,170 --> 00:02:09,479
-scrum master<font color="#CCCCCC"> is often described as a</font>
-
-1
-00:02:06,239 --> 00:02:11,519
-servant leader role this description
-
-1
-00:02:09,479 --> 00:02:13,710
-<font color="#E5E5E5">means that the scrum master leads by</font>
-
-1
-00:02:11,520 --> 00:02:16,450
-helping<font color="#E5E5E5"> rather than coercing</font>
-
-1
-00:02:13,710 --> 00:02:18,490
-it can also<font color="#E5E5E5"> be viewed as a role</font><font color="#CCCCCC"> that</font>
-
-1
-00:02:16,449 --> 00:02:20,739
-serves<font color="#E5E5E5"> through modeling and agile</font>
-
-1
-00:02:18,490 --> 00:02:23,740
-mindset<font color="#E5E5E5"> and skillful use of the scrum</font>
-
-1
-00:02:20,740 --> 00:02:26,909
-framework<font color="#E5E5E5"> the scrum master ensures that</font>
-
-1
-00:02:23,740 --> 00:02:29,920
-the product owner development team and
-
-1
-00:02:26,909 --> 00:02:31,659
-<font color="#CCCCCC">organization as a whole understand how</font>
-
-1
-00:02:29,919 --> 00:02:35,519
-scrum can be used to<font color="#E5E5E5"> help them</font>
-
-1
-00:02:31,659 --> 00:02:35,520
-accomplish and align their<font color="#CCCCCC"> goals</font>
+24
+00:02:29,150 --> 00:02:34,290
+understand how scrum can be used to help them accomplish and align their goals
 

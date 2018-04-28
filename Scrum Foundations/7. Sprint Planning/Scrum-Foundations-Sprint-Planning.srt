@@ -1,700 +1,336 @@
-1
-00:00:04,549 --> 00:00:09,179
-in this<font color="#E5E5E5"> video we'll learn all about the</font>
-
-1
-00:00:07,318 --> 00:00:14,129
-sprint planning meeting<font color="#E5E5E5"> we will cover</font>
-
-1
-00:00:09,179 --> 00:00:18,448
-the inputs to the<font color="#E5E5E5"> meeting the goals who</font>
-
-1
-00:00:14,130 --> 00:00:21,480
-attends<font color="#CCCCCC"> the time box the general</font>
-
-1
-00:00:18,449 --> 00:00:26,368
-<font color="#E5E5E5">approach to running the meeting</font><font color="#CCCCCC"> and the</font>
-
-1
-00:00:21,480 --> 00:00:28,199
-outputs<font color="#E5E5E5"> as its name implies the sprint</font>
-
-1
-00:00:26,368 --> 00:00:30,960
-planning meeting<font color="#CCCCCC"> is used to plan the</font>
-
-1
-00:00:28,199 --> 00:00:33,750
-<font color="#E5E5E5">work of the</font><font color="#CCCCCC"> sprint</font><font color="#E5E5E5"> the meeting doesn't</font>
-
-1
-00:00:30,960 --> 00:00:36,570
-<font color="#E5E5E5">happen before the sprint starts but is</font>
-
-1
-00:00:33,750 --> 00:00:39,329
-the<font color="#E5E5E5"> first</font><font color="#CCCCCC"> event within</font><font color="#E5E5E5"> the sprint this</font>
-
-1
-00:00:36,570 --> 00:00:42,058
-<font color="#E5E5E5">is true of all scrum events everything</font>
-
-1
-00:00:39,329 --> 00:00:45,450
-<font color="#E5E5E5">happens within a sprint and there is no</font>
-
-1
-00:00:42,058 --> 00:00:47,570
-<font color="#E5E5E5">pause between</font><font color="#CCCCCC"> sprints the sprint</font>
-
-1
-00:00:45,450 --> 00:00:50,640
-planning meeting has two<font color="#E5E5E5"> primary goals</font>
-
-1
-00:00:47,570 --> 00:00:53,789
-first<font color="#E5E5E5"> determine what can be delivered in</font>
-
-1
-00:00:50,640 --> 00:00:57,270
-<font color="#E5E5E5">the sprint and second to plan how to</font>
-
-1
-00:00:53,789 --> 00:00:59,329
-achieve that<font color="#E5E5E5"> delivery the entire scrum</font>
-
-1
-00:00:57,270 --> 00:01:02,219
-team attends the sprint planning meeting
-
-1
-00:00:59,329 --> 00:01:04,290
-<font color="#E5E5E5">the product owners role tends to be more</font>
-
-1
-00:01:02,219 --> 00:01:06,659
-active during<font color="#E5E5E5"> discussions of what can be</font>
-
-1
-00:01:04,290 --> 00:01:08,430
-<font color="#CCCCCC">delivered</font><font color="#E5E5E5"> and less active while the</font>
-
-1
-00:01:06,659 --> 00:01:11,219
-<font color="#E5E5E5">development team plans how to achieve</font>
-
-1
-00:01:08,430 --> 00:01:14,340
-the delivery participating as questions
-
-1
-00:01:11,219 --> 00:01:16,408
-arise the sprint planning meeting is
-
-1
-00:01:14,340 --> 00:01:19,500
-time boxed to<font color="#CCCCCC"> eight hours for</font><font color="#E5E5E5"> a</font>
-
-1
-00:01:16,409 --> 00:01:22,439
-<font color="#CCCCCC">one-month sprint</font><font color="#E5E5E5"> for shorter</font><font color="#CCCCCC"> sprints the</font>
-
-1
-00:01:19,500 --> 00:01:25,438
-time box is shorter<font color="#E5E5E5"> a standard guideline</font>
-
-1
-00:01:22,438 --> 00:01:28,828
-is<font color="#E5E5E5"> two hours</font><font color="#CCCCCC"> of planning for every one</font>
-
-1
-00:01:25,438 --> 00:01:31,949
-week of<font color="#CCCCCC"> sprint remember a time box is a</font>
-
-1
-00:01:28,828 --> 00:01:34,529
-maximum amount<font color="#CCCCCC"> of</font><font color="#E5E5E5"> time not a minimum or</font>
-
-1
-00:01:31,950 --> 00:01:36,810
-suggested<font color="#E5E5E5"> amount of time many</font>
-
-1
-00:01:34,530 --> 00:01:38,969
-experienced scrum teams<font color="#CCCCCC"> regularly spend</font>
-
-1
-00:01:36,810 --> 00:01:44,840
-far less than<font color="#E5E5E5"> the time box</font><font color="#CCCCCC"> in sprint</font>
-
-1
-00:01:38,969 --> 00:01:47,759
-planning all scrum events<font color="#CCCCCC"> are time boxed</font>
-
-1
-00:01:44,840 --> 00:01:50,040
-with a limited amount<font color="#E5E5E5"> of time</font><font color="#CCCCCC"> the team</font>
-
-1
-00:01:47,759 --> 00:01:52,950
-feels a sense<font color="#E5E5E5"> of urgency</font><font color="#CCCCCC"> to accomplish</font>
-
-1
-00:01:50,040 --> 00:01:54,868
-the goals of the time boxed event<font color="#E5E5E5"> nearly</font>
-
-1
-00:01:52,950 --> 00:01:57,000
-all people work most<font color="#CCCCCC"> effectively when</font>
-
-1
-00:01:54,868 --> 00:02:01,438
-<font color="#E5E5E5">there are realistic but honored</font>
-
-1
-00:01:57,000 --> 00:02:03,810
-deadlines in place since<font color="#E5E5E5"> the team knows</font>
-
-1
-00:02:01,438 --> 00:02:05,699
-there is<font color="#E5E5E5"> limited time they tend to focus</font>
-
-1
-00:02:03,810 --> 00:02:08,848
-<font color="#E5E5E5">on accomplishing</font><font color="#CCCCCC"> the most important</font>
-
-1
-00:02:05,700 --> 00:02:11,189
-things during<font color="#CCCCCC"> that</font><font color="#E5E5E5"> time skilled scrum</font>
-
-1
-00:02:08,848 --> 00:02:13,049
-masters use the time box<font color="#E5E5E5"> as a reason to</font>
-
-1
-00:02:11,189 --> 00:02:13,800
-move the conversation along<font color="#E5E5E5"> when it is</font>
-
-1
-00:02:13,050 --> 00:02:17,400
-not<font color="#E5E5E5"> serving the</font>
-
-1
-00:02:13,800 --> 00:02:19,800
-<font color="#E5E5E5">meetings purpose in this way time boxes</font>
-
-1
-00:02:17,400 --> 00:02:23,510
-are a constraint<font color="#E5E5E5"> that help focus on the</font>
-
-1
-00:02:19,800 --> 00:02:26,490
-value we can add by<font color="#E5E5E5"> collaborating</font>
-
-1
-00:02:23,509 --> 00:02:29,429
-Parkinson's<font color="#E5E5E5"> law states that work expands</font>
-
-1
-00:02:26,490 --> 00:02:31,560
-to fill the time<font color="#E5E5E5"> allotted in everyday</font>
-
-1
-00:02:29,430 --> 00:02:33,960
-terms<font color="#E5E5E5"> this</font><font color="#CCCCCC"> means</font><font color="#E5E5E5"> that a meeting</font><font color="#CCCCCC"> that is</font>
-
-1
-00:02:31,560 --> 00:02:35,909
-scheduled for one<font color="#CCCCCC"> hour</font><font color="#E5E5E5"> will tend to take</font>
-
-1
-00:02:33,960 --> 00:02:38,550
-the full hour<font color="#CCCCCC"> regardless of what gets</font>
-
-1
-00:02:35,909 --> 00:02:40,530
-accomplished rather than allotting the
-
-1
-00:02:38,550 --> 00:02:43,290
-exact amount of time<font color="#CCCCCC"> a scrum event will</font>
-
-1
-00:02:40,530 --> 00:02:46,289
-take scrum specifies the maximum<font color="#E5E5E5"> time</font>
-
-1
-00:02:43,289 --> 00:02:47,729
-<font color="#E5E5E5">the time box</font><font color="#CCCCCC"> a skilled scrum master will</font>
-
-1
-00:02:46,289 --> 00:02:49,969
-help the<font color="#E5E5E5"> team focus only on</font>
-
-1
-00:02:47,729 --> 00:02:52,289
-<font color="#E5E5E5">accomplishing the goals of the meeting</font>
-
-1
-00:02:49,969 --> 00:02:54,180
-<font color="#CCCCCC">experienced scrum teams should</font><font color="#E5E5E5"> find that</font>
-
-1
-00:02:52,289 --> 00:02:58,859
-many scrum events<font color="#E5E5E5"> are accomplished well</font>
-
-1
-00:02:54,180 --> 00:03:00,480
-before the time box expires the sprint
-
-1
-00:02:58,860 --> 00:03:03,900
-planning meeting is<font color="#E5E5E5"> typically divided</font>
-
-1
-00:03:00,479 --> 00:03:06,689
-<font color="#CCCCCC">into two parts</font><font color="#E5E5E5"> historically these were</font>
-
-1
-00:03:03,900 --> 00:03:08,430
-referred to<font color="#CCCCCC"> as Part A and Part B</font><font color="#E5E5E5"> though</font>
-
-1
-00:03:06,689 --> 00:03:11,490
-that language is not<font color="#CCCCCC"> part of the current</font>
-
-1
-00:03:08,430 --> 00:03:13,740
-<font color="#E5E5E5">official scrum guide instead the scrum</font>
-
-1
-00:03:11,490 --> 00:03:16,260
-guide refers to two topics of discussion
-
-1
-00:03:13,740 --> 00:03:20,070
-related<font color="#E5E5E5"> to the two goals</font><font color="#CCCCCC"> what can be</font>
-
-1
-00:03:16,259 --> 00:03:23,669
-delivered<font color="#E5E5E5"> and how will</font><font color="#CCCCCC"> we deliver it the</font>
-
-1
-00:03:20,069 --> 00:03:25,979
-<font color="#E5E5E5">four inputs to the meeting are the</font>
-
-1
-00:03:23,669 --> 00:03:29,219
-<font color="#E5E5E5">latest product increment if the Sprint</font>
-
-1
-00:03:25,979 --> 00:03:32,849
-<font color="#CCCCCC">is for ongoing</font><font color="#E5E5E5"> development the current</font>
-
-1
-00:03:29,219 --> 00:03:34,680
-product<font color="#E5E5E5"> backlog the projected capacity</font>
-
-1
-00:03:32,849 --> 00:03:37,829
-of the development team<font color="#E5E5E5"> during this</font>
-
-1
-00:03:34,680 --> 00:03:41,370
-sprint and past<font color="#E5E5E5"> performance of the</font>
-
-1
-00:03:37,830 --> 00:03:44,580
-development team<font color="#CCCCCC"> the first two inputs</font>
-
-1
-00:03:41,370 --> 00:03:46,770
-<font color="#E5E5E5">the increment</font><font color="#CCCCCC"> and product backlog</font><font color="#E5E5E5"> help</font>
-
-1
-00:03:44,580 --> 00:03:49,350
-us inspect and adapt on<font color="#E5E5E5"> the product</font>
-
-1
-00:03:46,770 --> 00:03:51,659
-<font color="#CCCCCC">itself</font><font color="#E5E5E5"> what is the most important thing</font>
-
-1
-00:03:49,349 --> 00:03:55,109
-to deliver which we can use to<font color="#CCCCCC"> craft the</font>
-
-1
-00:03:51,659 --> 00:03:57,750
-Sprint<font color="#CCCCCC"> goal the second two inputs are</font>
-
-1
-00:03:55,110 --> 00:04:00,170
-<font color="#E5E5E5">related to understanding how much can we</font>
-
-1
-00:03:57,750 --> 00:04:00,169
-take on
-
-1
-00:04:01,169 --> 00:04:06,509
-past performance<font color="#E5E5E5"> is helpful guidance to</font>
-
-1
-00:04:04,409 --> 00:04:08,549
-the team to understand what<font color="#E5E5E5"> on average</font>
-
-1
-00:04:06,509 --> 00:04:11,849
-<font color="#E5E5E5">they can achieve during a given sprint</font>
-
-1
-00:04:08,550 --> 00:04:13,709
-<font color="#E5E5E5">an analogy from the sports world</font><font color="#CCCCCC"> is that</font>
-
-1
-00:04:11,849 --> 00:04:15,750
-historic<font color="#CCCCCC"> performance</font><font color="#E5E5E5"> would</font><font color="#CCCCCC"> be like the</font>
-
-1
-00:04:13,709 --> 00:04:17,759
-average<font color="#E5E5E5"> number of points scored per game</font>
-
-1
-00:04:15,750 --> 00:04:21,620
-<font color="#E5E5E5">for a team over</font><font color="#CCCCCC"> the course of an entire</font>
-
-1
-00:04:17,759 --> 00:04:24,750
-season<font color="#CCCCCC"> it is a good</font><font color="#E5E5E5"> long-term guideline</font>
-
-1
-00:04:21,620 --> 00:04:27,209
-capacity in the sports<font color="#CCCCCC"> analogy would</font><font color="#E5E5E5"> be</font>
-
-1
-00:04:24,750 --> 00:04:29,730
-<font color="#E5E5E5">to look at tonight's game assessing who</font>
-
-1
-00:04:27,209 --> 00:04:31,349
-is on the active roster<font color="#E5E5E5"> whether the team</font>
-
-1
-00:04:29,730 --> 00:04:33,030
-might be<font color="#E5E5E5"> fatigued from the recent</font>
-
-1
-00:04:31,350 --> 00:04:36,090
-schedule and the strengths and
-
-1
-00:04:33,029 --> 00:04:38,159
-<font color="#E5E5E5">weaknesses</font><font color="#CCCCCC"> of tonight's opponent a scrum</font>
-
-1
-00:04:36,089 --> 00:04:40,139
-team might consider various individuals
-
-1
-00:04:38,160 --> 00:04:42,660
-<font color="#E5E5E5">plan to time off or other commitments</font>
-
-1
-00:04:40,139 --> 00:04:44,189
-<font color="#E5E5E5">inside and out of work the specific</font>
-
-1
-00:04:42,660 --> 00:04:45,960
-product backlog<font color="#CCCCCC"> items under</font>
-
-1
-00:04:44,189 --> 00:04:48,509
-consideration<font color="#E5E5E5"> and what skills are</font>
-
-1
-00:04:45,959 --> 00:04:51,918
-<font color="#E5E5E5">required to</font><font color="#CCCCCC"> deliver them any holidays</font>
-
-1
-00:04:48,509 --> 00:04:55,199
-that might fall within the<font color="#CCCCCC"> Sprint etc</font>
-
-1
-00:04:51,918 --> 00:04:57,120
-with these<font color="#E5E5E5"> inputs in place the scrum</font>
-
-1
-00:04:55,199 --> 00:04:59,519
-team<font color="#E5E5E5"> enters into the first topic of</font>
-
-1
-00:04:57,120 --> 00:05:03,060
-discussion<font color="#E5E5E5"> what can be achieved</font><font color="#CCCCCC"> in the</font>
-
-1
-00:04:59,519 --> 00:05:05,189
-<font color="#CCCCCC">sprint this</font><font color="#E5E5E5"> is accomplished by the scrum</font>
-
-1
-00:05:03,060 --> 00:05:07,110
-team collaborating to understand all<font color="#CCCCCC"> of</font>
-
-1
-00:05:05,189 --> 00:05:09,240
-the inputs and finally by the
-
-1
-00:05:07,110 --> 00:05:11,970
-development team polling product backlog
-
-1
-00:05:09,240 --> 00:05:13,228
-items<font color="#E5E5E5"> into the</font><font color="#CCCCCC"> Sprint</font><font color="#E5E5E5"> only the</font>
-
-1
-00:05:11,970 --> 00:05:14,940
-<font color="#E5E5E5">development team can make this</font>
-
-1
-00:05:13,228 --> 00:05:17,250
-assessment<font color="#E5E5E5"> of what to pull into the</font>
-
-1
-00:05:14,939 --> 00:05:19,589
-<font color="#CCCCCC">sprint</font><font color="#E5E5E5"> and any attempt by others outside</font>
-
-1
-00:05:17,250 --> 00:05:21,899
-<font color="#CCCCCC">of the development team</font><font color="#E5E5E5"> will lead to</font>
-
-1
-00:05:19,589 --> 00:05:25,349
-some<font color="#E5E5E5"> sort of dysfunction and typically</font>
-
-1
-00:05:21,899 --> 00:05:27,269
-to a reduction<font color="#CCCCCC"> in quality experience</font>
-
-1
-00:05:25,350 --> 00:05:29,160
-scrum teams<font color="#E5E5E5"> tend to spend very little</font>
-
-1
-00:05:27,269 --> 00:05:31,228
-time<font color="#CCCCCC"> on the first topic</font><font color="#E5E5E5"> since they</font>
-
-1
-00:05:29,160 --> 00:05:36,630
-actively refine the<font color="#E5E5E5"> product backlog</font><font color="#CCCCCC"> on</font>
-
-1
-00:05:31,228 --> 00:05:38,490
-an ongoing basis once the development
-
-1
-00:05:36,629 --> 00:05:40,860
-team has made their<font color="#CCCCCC"> forecasts for</font><font color="#E5E5E5"> what</font>
-
-1
-00:05:38,490 --> 00:05:42,629
-can be<font color="#CCCCCC"> achieved</font><font color="#E5E5E5"> in the Sprint</font><font color="#CCCCCC"> the entire</font>
-
-1
-00:05:40,860 --> 00:05:45,449
-scrum team collaborates<font color="#E5E5E5"> to choose a</font>
-
-1
-00:05:42,629 --> 00:05:47,668
-<font color="#E5E5E5">sprint goal the Sprint goal helps</font>
-
-1
-00:05:45,449 --> 00:05:50,069
-clarify the overarching purpose<font color="#E5E5E5"> of the</font>
-
-1
-00:05:47,668 --> 00:05:52,199
-<font color="#E5E5E5">Sprint understanding the purpose and</font>
-
-1
-00:05:50,069 --> 00:05:56,610
-impact<font color="#E5E5E5"> of the work is a critical factor</font>
-
-1
-00:05:52,199 --> 00:05:58,918
-<font color="#E5E5E5">in</font><font color="#CCCCCC"> creating high-performing teams with</font>
-
-1
-00:05:56,610 --> 00:06:00,780
-the selected product<font color="#E5E5E5"> backlog items and a</font>
-
-1
-00:05:58,918 --> 00:06:02,579
-sprint goal in place<font color="#E5E5E5"> the scrum team</font>
-
-1
-00:06:00,779 --> 00:06:04,859
-moves<font color="#E5E5E5"> into the second topic of</font>
-
-1
-00:06:02,579 --> 00:06:08,430
-discussion how will the chosen work get
-
-1
-00:06:04,860 --> 00:06:10,290
-<font color="#CCCCCC">done the selected</font>
-
-1
-00:06:08,430 --> 00:06:12,269
-product backlog<font color="#E5E5E5"> items are now contained</font>
-
-1
-00:06:10,290 --> 00:06:14,210
-<font color="#E5E5E5">in the</font><font color="#CCCCCC"> sprint backlog</font><font color="#E5E5E5"> which is the</font>
-
-1
-00:06:12,269 --> 00:06:17,069
-development<font color="#CCCCCC"> teams plan for the sprint</font>
-
-1
-00:06:14,209 --> 00:06:19,109
-<font color="#E5E5E5">they collaborate to design the system</font>
-
-1
-00:06:17,069 --> 00:06:20,969
-<font color="#E5E5E5">and decompose the work required to</font>
-
-1
-00:06:19,110 --> 00:06:24,180
-<font color="#CCCCCC">deliver</font><font color="#E5E5E5"> the selected product backlog</font>
-
-1
-00:06:20,970 --> 00:06:27,090
-items<font color="#E5E5E5"> these details are added to the</font>
-
-1
-00:06:24,180 --> 00:06:29,639
-<font color="#E5E5E5">sprint backlog effective</font><font color="#CCCCCC"> development</font>
-
-1
-00:06:27,089 --> 00:06:31,799
-teams tend to decompose<font color="#E5E5E5"> all work into</font>
-
-1
-00:06:29,639 --> 00:06:34,439
-small<font color="#CCCCCC"> units that can</font><font color="#E5E5E5"> be completed in no</font>
-
-1
-00:06:31,800 --> 00:06:36,240
-<font color="#E5E5E5">more than a day</font><font color="#CCCCCC"> or two</font><font color="#E5E5E5"> the ensure that</font>
-
-1
-00:06:34,439 --> 00:06:38,219
-all work required<font color="#E5E5E5"> to meet the team's</font>
-
-1
-00:06:36,240 --> 00:06:42,210
-definition of done is captured in the
-
-1
-00:06:38,220 --> 00:06:44,250
-<font color="#CCCCCC">sprint backlog as the development team</font>
-
-1
-00:06:42,209 --> 00:06:45,870
-creates the<font color="#CCCCCC"> sprint backlog they may</font>
-
-1
-00:06:44,250 --> 00:06:48,540
-discover<font color="#CCCCCC"> that the work was larger than</font>
-
-1
-00:06:45,870 --> 00:06:50,040
-forecasted<font color="#E5E5E5"> in which case they discuss</font>
-
-1
-00:06:48,540 --> 00:06:51,750
-with the product owner what might be
-
-1
-00:06:50,040 --> 00:06:54,120
-removed<font color="#CCCCCC"> while still meeting</font><font color="#E5E5E5"> the Sprint</font>
-
-1
-00:06:51,750 --> 00:06:57,300
-goal<font color="#CCCCCC"> or if the Sprint goal</font><font color="#E5E5E5"> should</font><font color="#CCCCCC"> be</font>
-
-1
-00:06:54,120 --> 00:06:59,220
-revised<font color="#E5E5E5"> the product owner also answers</font>
-
-1
-00:06:57,300 --> 00:07:01,020
-any new questions<font color="#CCCCCC"> that</font><font color="#E5E5E5"> arise about the</font>
-
-1
-00:06:59,220 --> 00:07:03,960
-details of<font color="#CCCCCC"> the product backlog items</font>
-
-1
-00:07:01,019 --> 00:07:04,740
-that have<font color="#CCCCCC"> been selected</font><font color="#E5E5E5"> when the meeting</font>
-
-1
-00:07:03,959 --> 00:07:06,149
-is complete
-
-1
-00:07:04,740 --> 00:07:08,069
-the<font color="#E5E5E5"> development team</font><font color="#CCCCCC"> should be</font><font color="#E5E5E5"> able to</font>
-
-1
-00:07:06,149 --> 00:07:10,379
-<font color="#E5E5E5">explain</font><font color="#CCCCCC"> how they plan to</font><font color="#E5E5E5"> act as a</font>
-
-1
-00:07:08,069 --> 00:07:12,779
-self-organizing unit to deliver a
-
-1
-00:07:10,379 --> 00:07:14,969
-working<font color="#E5E5E5"> product increment</font><font color="#CCCCCC"> that meets the</font>
-
-1
-00:07:12,779 --> 00:07:17,159
-Sprint<font color="#CCCCCC"> goal and contains all of the</font>
-
-1
-00:07:14,970 --> 00:07:20,640
-capabilities represented by the selected
-
-1
-00:07:17,160 --> 00:07:22,650
-product<font color="#E5E5E5"> backlog items the outputs of the</font>
-
-1
-00:07:20,639 --> 00:07:24,509
-<font color="#CCCCCC">sprint planning meeting then are a</font>
-
-1
-00:07:22,649 --> 00:07:27,120
-finalized sprint goal and the
-
-1
-00:07:24,509 --> 00:07:28,920
-development<font color="#CCCCCC"> team</font><font color="#E5E5E5"> sprint backlog with</font>
-
-1
-00:07:27,120 --> 00:07:30,720
-those in place<font color="#CCCCCC"> the development</font><font color="#E5E5E5"> team is</font>
-
-1
-00:07:28,920 --> 00:07:33,530
-ready<font color="#CCCCCC"> to begin working</font><font color="#E5E5E5"> on the</font><font color="#CCCCCC"> items in</font>
-
-1
-00:07:30,720 --> 00:07:33,530
-the sprint backlog
+﻿1
+00:00:05,220 --> 00:00:08,480
+in this video we'll learn all about the sprint planning meeting
+
+2
+00:00:08,570 --> 00:00:12,705
+we will cover the inputs to the meeting,
+
+3
+00:00:12,705 --> 00:00:13,744
+the goals,
+
+4
+00:00:13,744 --> 00:00:15,114
+who attends,
+
+5
+00:00:15,114 --> 00:00:16,591
+the time box ,
+
+6
+00:00:16,591 --> 00:00:21,217
+the general approach to running the meeting
+
+7
+00:00:21,217 --> 00:00:22,940
+and the outputs
+
+8
+00:00:24,049 --> 00:00:29,269
+as its name implies the sprint planning meeting is used to plan the work of the sprint
+
+9
+00:00:30,069 --> 00:00:33,660
+the meeting doesn't happen before the sprint starts,
+
+10
+00:00:33,760 --> 00:00:36,070
+but is the first event within the sprint
+
+11
+00:00:36,570 --> 00:00:38,759
+this is true of all scrum events
+
+12
+00:00:38,859 --> 00:00:43,470
+everything happens within a sprint and there is no pause between sprints
+
+13
+00:00:44,800 --> 00:00:48,026
+the sprint planning meeting has two primary goals
+
+14
+00:00:48,026 --> 00:00:51,481
+first determine what can be delivered in the sprint
+
+15
+00:00:51,481 --> 00:00:54,619
+and second to plan how to achieve that delivery
+
+16
+00:00:56,089 --> 00:00:59,729
+the entire scrum team attends the sprint planning meeting
+
+17
+00:00:59,720 --> 00:01:05,090
+the product owners role tends to be more active during discussions of what can be delivered
+
+18
+00:01:05,390 --> 00:01:12,130
+and less active while the development team plans how to achieve the delivery participating as questions arise
+
+19
+00:01:13,030 --> 00:01:17,940
+the sprint planning meeting is time boxed to eight hours for a one-month sprint
+
+20
+00:01:18,220 --> 00:01:20,760
+for shorter sprints the time box is shorter
+
+21
+00:01:21,000 --> 00:01:26,039
+a standard guideline is two hours of planning for every one week of sprint
+
+22
+00:01:27,030 --> 00:01:30,616
+remember a time box is a maximum amount of time
+
+23
+00:01:30,616 --> 00:01:33,680
+not a minimum or suggested amount of time
+
+24
+00:01:33,850 --> 00:01:39,010
+many experienced scrum teams regularly spend far less than the time box in sprint planning
+
+25
+00:01:42,910 --> 00:01:44,840
+all scrum events are time boxed
+
+26
+00:01:45,040 --> 00:01:51,340
+with a limited amount of time the team feels a sense of urgency to accomplish the goals of the time boxed event
+
+27
+00:01:52,140 --> 00:01:56,269
+nearly all people work most effectively when there are realistic,
+
+28
+00:01:56,569 --> 00:01:58,339
+but honored deadlines in place
+
+29
+00:01:59,930 --> 00:02:07,530
+since the team knows there is limited time they tend to focus on accomplishing the most important things during that time
+
+30
+00:02:07,920 --> 00:02:14,760
+skilled scrum masters use the time box as a reason to move the conversation along when it is not serving the meetings purpose
+
+31
+00:02:15,090 --> 00:02:22,300
+in this way time boxes are a constraint that help focus on the value we can add by collaborating
+
+32
+00:02:23,100 --> 00:02:27,700
+Parkinson's law states that work expands to fill the time allotted
+
+33
+00:02:28,700 --> 00:02:32,811
+in everyday terms this means that a meeting that is scheduled for one hour
+
+34
+00:02:32,811 --> 00:02:36,590
+will tend to take the full hour regardless of what gets accomplished
+
+35
+00:02:37,090 --> 00:02:43,960
+rather than allotting the exact amount of time a scrum event will take, scrum specifies the maximum time the time box
+
+36
+00:02:44,160 --> 00:02:49,210
+a skilled scrum master will help the team focus only on accomplishing the goals of the meeting
+
+37
+00:02:50,010 --> 00:02:55,330
+experienced scrum teams should find that many scrum events are accomplished well before the time box expires
+
+38
+00:02:58,130 --> 00:03:01,690
+the sprint planning meeting is typically divided into two parts
+
+39
+00:03:02,090 --> 00:03:09,570
+historically these were referred to as Part A and Part B though that language is not part of the current official scrum guide
+
+40
+00:03:10,070 --> 00:03:13,380
+instead, the scrum guide refers to two topics of discussion,
+
+41
+00:03:14,080 --> 00:03:18,180
+related to the two goals what can be delivered and how will we deliver it
+
+42
+00:03:19,100 --> 00:03:27,030
+the four inputs to the meeting are the latest product increment if the Sprint is for ongoing development,
+
+43
+00:03:28,430 --> 00:03:30,643
+the current product backlog ,
+
+44
+00:03:31,280 --> 00:03:35,907
+the projected capacity of the development team during this sprint
+
+45
+00:03:35,907 --> 00:03:39,040
+and past performance of the development team
+
+46
+00:03:40,140 --> 00:03:43,952
+the first two inputs the increment and product backlog
+
+47
+00:03:43,952 --> 00:03:47,270
+help us inspect and adapt on the product itself
+
+48
+00:03:47,670 --> 00:03:53,220
+what is the most important thing to deliver. which we can use to craft the Sprint goal
+
+49
+00:03:53,520 --> 00:03:58,480
+the second two inputs are related to understanding how much can we take on
+
+50
+00:04:01,380 --> 00:04:08,070
+past performance is helpful guidance to the team to understand what on average they can achieve during a given sprint
+
+51
+00:04:09,030 --> 00:04:18,480
+an analogy from the sports world is that historic performance would be like the average number of points scored per game for a team over the course of an entire season
+
+52
+00:04:18,550 --> 00:04:20,920
+it is a good long-term guideline
+
+53
+00:04:21,620 --> 00:04:27,910
+capacity in the sports analogy would be to look at tonight's game assessing who is on the active roster,
+
+54
+00:04:28,110 --> 00:04:34,950
+whether the team might be fatigued from the recent schedule and the strengths and weaknesses of tonight's opponent
+
+55
+00:04:35,150 --> 00:04:39,190
+a scrum team might consider various individuals plan to time off
+
+56
+00:04:39,560 --> 00:04:44,560
+or other commitments inside and out of work the specific product backlog items under consideration
+
+57
+00:04:45,060 --> 00:04:50,860
+and what skills are required to deliver them any holidays that might fall within the Sprint etc
+
+58
+00:04:52,010 --> 00:05:00,000
+with these inputs in place the scrum team enters into the first topic of discussion what can be achieved in the sprint
+
+59
+00:05:01,020 --> 00:05:06,070
+this is accomplished by the scrum team collaborating to understand all of the inputs
+
+60
+00:05:06,260 --> 00:05:10,670
+and finally by the development team polling product backlog items into the Sprint
+
+61
+00:05:10,840 --> 00:05:14,829
+only the development team can make this assessment of what to pull into the sprint
+
+62
+00:05:15,629 --> 00:05:23,750
+and any attempt by others outside of the development team will lead to some sort of dysfunction and typically to a reduction in quality
+
+63
+00:05:24,000 --> 00:05:33,170
+experience scrum teams tend to spend very little time on the first topic since they actively refine the product backlog on an ongoing basis
+
+64
+00:05:35,529 --> 00:05:40,490
+once the development team has made their forecasts for what can be achieved in the Sprint,
+
+65
+00:05:40,890 --> 00:05:43,530
+the entire scrum team collaborates to choose a sprint goal
+
+66
+00:05:43,830 --> 00:05:48,469
+the Sprint goal helps clarify the overarching purpose of the Sprint
+
+67
+00:05:48,769 --> 00:05:53,900
+understanding the purpose and impact of the work is a critical factor in creating high-performing teams
+
+68
+00:05:55,800 --> 00:05:59,619
+with the selected product backlog items and a sprint goal in place,
+
+69
+00:06:00,219 --> 00:06:05,480
+the scrum team moves into the second topic of discussion how will the chosen work get done
+
+70
+00:06:07,830 --> 00:06:14,370
+the selected product backlog items are now contained in the sprint backlog which is the development teams plan for the sprint
+
+71
+00:06:14,570 --> 00:06:21,370
+they collaborate to design the system and decompose the work required to deliver the selected product backlog items
+
+72
+00:06:21,870 --> 00:06:25,770
+these details are added to the sprint backlog
+
+73
+00:06:26,070 --> 00:06:32,590
+effective development teams tend to decompose all work into small units that can be completed in no more than a day or two
+
+74
+00:06:33,040 --> 00:06:39,040
+the ensure that all work required to meet the team's definition of done is captured in the sprint backlog
+
+75
+00:06:41,110 --> 00:06:43,860
+as the development team creates the sprint backlog,
+
+76
+00:06:43,910 --> 00:06:46,923
+they may discover that the work was larger than forecasted
+
+77
+00:06:46,923 --> 00:06:52,440
+in which case they discuss with the product owner what might be removed while still meeting the Sprint goal
+
+78
+00:06:52,640 --> 00:06:54,450
+or if the Sprint goal should be revised
+
+79
+00:06:55,450 --> 00:07:02,450
+the product owner also answers any new questions that arise about the details of the product backlog items that have been selected
+
+80
+00:07:02,600 --> 00:07:04,620
+when the meeting is complete,
+
+81
+00:07:04,760 --> 00:07:11,990
+the development team should be able to explain how they plan to act as a self-organizing unit  to deliver a working product increment,
+
+82
+00:07:12,140 --> 00:07:18,670
+that meets the Sprint goal and contains all of the capabilities represented by the selected product backlog items
+
+83
+00:07:19,070 --> 00:07:26,260
+the outputs of the sprint planning meeting then are a finalized sprint goal and the development team sprint backlog
+
+84
+00:07:26,550 --> 00:07:31,800
+with those in place the development team is ready to begin working on the items in the sprint backlog
 
