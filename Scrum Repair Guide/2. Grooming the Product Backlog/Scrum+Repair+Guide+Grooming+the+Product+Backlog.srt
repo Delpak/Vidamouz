@@ -87,50 +87,62 @@ or in other words groomed
 
 18
 00:01:03,480 --> 00:01:06,890
+اجازه دهید ببینیم چه نوع فعالیتهایی پیرایش بکلاگ محصول را تشکیل می‌دهند
 let's see what type of activities make up product backlog grooming
 
 19
 00:01:07,460 --> 00:01:09,370
+در اینجا ما یک نمونه بک لاگ محصول داریم
 here we have a typical product backlog
 
 20
 00:01:09,600 --> 00:01:13,120
+معمولا پیرایش کردن بکلاگ محصول، شامل مشتی از فعالیتهای مجزایی است 
 grooming a product backlog usually involves a handful of separate actions
 
 21
 00:01:13,600 --> 00:01:16,400
+نخست، آیتم های جدید می‌توانند به بکلاگ محصول اضافه شوند
 first, new items can be added to the product backlog
 
 22
 00:01:16,790 --> 00:01:19,300
+معمولا این چیزی است که مالک محصول انجام خواهد داد
 usually this will be something a product owner will do
 
 23
 00:01:19,560 --> 00:01:22,890
+اما مالکان محصول اغلب سوالهایی برای بقیه تیم دارند 
 but product owners often have questions for the rest of the team
 
 24
 00:01:23,180 --> 00:01:25,940
+که در جایی که آیتم جدید در بکلاگ محصول قرار خواهد گرفت اثر خواهد گذاشت
 that affect where the new item will be put in the product backlog
 
 25
 00:01:26,580 --> 00:01:30,370
+دست کم مالک محصول معمولا حداقل یک تخمینی از تیم  
 minimally a product owner will usually want at least a guess from the team
 
 26
 00:01:30,420 --> 00:01:33,260
+درباره مدت زمان توسعه بکلاگ محصول می‌خواهد
 about how long a product backlog item will take to develop
 
 27
 00:01:34,520 --> 00:01:37,950
+اگر آیتمی خاصی از بکلاگ محصول زمان توسعه زیادی نبرد
 if a particular product backlog item isn't going to take long to develop
 
 28
 00:01:38,370 --> 00:01:40,200
+ممکن است مالک محصول آن را فورا بخواهد
 The product owner may want it immediately
 
 29
 00:01:40,880 --> 00:01:43,670
+اما اگر همان آیتم زمان توسعه زیادی ببرد
 but if that same item is going to take a long time to develop
 
 30
