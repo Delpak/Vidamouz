@@ -1,196 +1,112 @@
-1
-00:00:04,700 --> 00:00:10,199
-the product backlog is the scrum
+﻿1
+00:00:05,450 --> 00:00:08,163
+the product backlog is the scrum artifact
 
-1
-00:00:07,500 --> 00:00:12,500
-<font color="#E5E5E5">artifact that answers the question what</font>
+2
+00:00:08,292 --> 00:00:12,360
+that answers the question what is most important to build next
 
-1
-00:00:10,199 --> 00:00:15,899
-is most important<font color="#CCCCCC"> to build next</font>
+3
+00:00:13,303 --> 00:00:17,861
+the primary problem of economics applied to product and service development
 
-1
-00:00:12,500 --> 00:00:17,730
-the primary<font color="#CCCCCC"> problem of economics</font><font color="#E5E5E5"> applied</font>
+4
+00:00:18,161 --> 00:00:21,624
+is that stakeholders have seemingly unlimited wants
 
-1
-00:00:15,900 --> 00:00:20,039
-<font color="#CCCCCC">to product and service development is</font>
+5
+00:00:21,910 --> 00:00:24,677
+but organizations have limited means
 
-1
-00:00:17,730 --> 00:00:23,278
-that stakeholders have<font color="#E5E5E5"> seemingly</font>
+6
+00:00:24,900 --> 00:00:28,690
+given that problem we need to decide what order a scrum team
 
-1
-00:00:20,039 --> 00:00:26,490
-unlimited<font color="#E5E5E5"> wants but organizations</font><font color="#CCCCCC"> have</font>
+7
+00:00:28,740 --> 00:00:32,010
+or group of scrum teams will address stakeholder desires
 
-1
-00:00:23,278 --> 00:00:28,710
-limited means<font color="#E5E5E5"> given that problem</font><font color="#CCCCCC"> we need</font>
+8
+00:00:32,554 --> 00:00:37,883
+the product backlog is an ordered list of everything that might be needed in the product
 
-1
-00:00:26,489 --> 00:00:30,598
-<font color="#E5E5E5">to decide what order a scrum team or</font>
+9
+00:00:38,996 --> 00:00:42,242
+it makes priorities transparent to all stakeholders
 
-1
-00:00:28,710 --> 00:00:33,750
-<font color="#CCCCCC">group of scrum teams</font><font color="#E5E5E5"> will address</font>
+10
+00:00:42,850 --> 00:00:47,665
+the product owner is the scrum team member responsible for the product backlog
 
-1
-00:00:30,599 --> 00:00:36,210
-stakeholder desires<font color="#E5E5E5"> the product backlog</font>
+11
+00:00:48,025 --> 00:00:49,946
+including what goes in it
 
-1
-00:00:33,750 --> 00:00:39,420
-is an ordered list of everything<font color="#CCCCCC"> that</font>
+12
+00:00:51,219 --> 00:00:52,889
+what order it is in
 
-1
-00:00:36,210 --> 00:00:41,009
-might be<font color="#E5E5E5"> needed in the product it makes</font>
+13
+00:00:53,428 --> 00:00:57,688
+and ensuring that it is always available to stakeholders and the team
 
-1
-00:00:39,420 --> 00:00:44,520
-priorities transparent to all
+14
+00:00:58,019 --> 00:01:02,352
+to provide transparency and to aid the product owner in ordering
 
-1
-00:00:41,009 --> 00:00:46,558
-<font color="#CCCCCC">stakeholders the product owner</font><font color="#E5E5E5"> is the</font>
+15
+00:01:02,830 --> 00:01:08,447
+product backlog items have a description an estimate and value
 
-1
-00:00:44,520 --> 00:00:49,320
-scrum team member<font color="#E5E5E5"> responsible for the</font>
+16
+00:01:10,548 --> 00:01:14,338
+a product backlog is a constantly evolving artifact
 
-1
-00:00:46,558 --> 00:00:50,570
-<font color="#E5E5E5">product backlog including what goes in</font>
+17
+00:01:14,676 --> 00:01:19,891
+several sources of information can change our understanding of what should be built next
 
-1
-00:00:49,320 --> 00:00:54,539
-<font color="#E5E5E5">it</font>
+18
+00:01:20,024 --> 00:01:27,927
+including but not limited to feedback on a completed product increment at a sprint review meeting
 
-1
-00:00:50,570 --> 00:00:56,670
-what order<font color="#CCCCCC"> it is in and ensuring that it</font>
+19
+00:01:28,927 --> 00:01:33,368
+feedback and ideas from current and potential users and customers
 
-1
-00:00:54,539 --> 00:01:00,448
-is<font color="#E5E5E5"> always available to stakeholders and</font>
+20
+00:01:34,581 --> 00:01:36,803
+ideas from internal stakeholders
 
-1
-00:00:56,670 --> 00:01:02,210
-the team<font color="#E5E5E5"> to provide</font><font color="#CCCCCC"> transparency</font><font color="#E5E5E5"> and to</font>
+21
+00:01:37,076 --> 00:01:42,981
+including the development team and emerging competitive and technical opportunities
 
-1
-00:01:00,448 --> 00:01:04,859
-aid the product owner in ordering
+22
+00:01:44,466 --> 00:01:48,354
+multiple scrum teams often work together on the same product
 
-1
-00:01:02,210 --> 00:01:08,109
-<font color="#E5E5E5">product backlog items have a description</font>
+23
+00:01:48,622 --> 00:01:53,453
+one product backlog is still used to describe the upcoming work on the product
 
-1
-00:01:04,859 --> 00:01:10,010
-an estimate and value
+24
+00:01:53,816 --> 00:01:58,351
+a product backlog attribute that groups items may then be employed
 
-1
-00:01:08,109 --> 00:01:12,709
-[Music]
+25
+00:01:59,552 --> 00:02:02,321
+with the dynamic nature of product  development
 
-1
-00:01:10,010 --> 00:01:15,740
-<font color="#CCCCCC">a product</font><font color="#E5E5E5"> backlog is a constantly</font>
+26
+00:02:02,321 --> 00:02:05,806
+the product backlog is constantly being updated and refined
 
-1
-00:01:12,709 --> 00:01:17,599
-<font color="#E5E5E5">evolving</font><font color="#CCCCCC"> artifact</font><font color="#E5E5E5"> several sources of</font>
+27
+00:02:06,280 --> 00:02:09,683
+this is a scrum team activity led by the product owner
 
-1
-00:01:15,739 --> 00:01:20,569
-<font color="#E5E5E5">information</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> change our understanding</font>
-
-1
-00:01:17,599 --> 00:01:24,530
-<font color="#E5E5E5">of what should</font><font color="#CCCCCC"> be built next including</font>
-
-1
-00:01:20,569 --> 00:01:26,899
-but not limited to feedback on a
-
-1
-00:01:24,530 --> 00:01:30,620
-completed product<font color="#CCCCCC"> increment at a sprint</font>
-
-1
-00:01:26,900 --> 00:01:32,570
-review<font color="#E5E5E5"> meeting feedback and ideas from</font>
-
-1
-00:01:30,620 --> 00:01:36,020
-current and potential users and
-
-1
-00:01:32,569 --> 00:01:37,819
-<font color="#CCCCCC">customers ideas from internal</font>
-
-1
-00:01:36,019 --> 00:01:41,179
-stakeholders including<font color="#CCCCCC"> the development</font>
-
-1
-00:01:37,819 --> 00:01:45,529
-<font color="#CCCCCC">team and emerging competitive and</font>
-
-1
-00:01:41,180 --> 00:01:47,330
-technical opportunities<font color="#E5E5E5"> multiple scrum</font>
-
-1
-00:01:45,530 --> 00:01:50,510
-teams<font color="#E5E5E5"> often work together on the same</font>
-
-1
-00:01:47,329 --> 00:01:52,549
-<font color="#CCCCCC">product one product backlog is still</font>
-
-1
-00:01:50,510 --> 00:01:55,550
-used to describe the upcoming<font color="#E5E5E5"> work on</font>
-
-1
-00:01:52,549 --> 00:01:58,840
-the product<font color="#CCCCCC"> a product backlog attribute</font>
-
-1
-00:01:55,549 --> 00:02:01,399
-that groups items<font color="#CCCCCC"> may then be employed</font>
-
-1
-00:01:58,840 --> 00:02:03,560
-<font color="#CCCCCC">with the dynamic nature of product</font>
-
-1
-00:02:01,400 --> 00:02:05,590
-development<font color="#CCCCCC"> the product backlog is</font>
-
-1
-00:02:03,560 --> 00:02:08,719
-constantly being updated<font color="#E5E5E5"> and refined</font>
-
-1
-00:02:05,590 --> 00:02:11,390
-<font color="#E5E5E5">this is a scrum team activity led by the</font>
-
-1
-00:02:08,719 --> 00:02:13,490
-product owner product backlog refinement
-
-1
-00:02:11,389 --> 00:02:16,089
-<font color="#CCCCCC">will be described in more detail</font><font color="#E5E5E5"> in</font>
-
-1
-00:02:13,490 --> 00:02:16,090
-another video
+28
+00:02:10,144 --> 00:02:14,647
+product backlog refinement will be described in more detail in another video
 

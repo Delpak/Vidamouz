@@ -1,200 +1,88 @@
-1
-00:00:04,669 --> 00:00:09,570
-in another<font color="#E5E5E5"> section we describe the</font>
+﻿1
+00:00:05,472 --> 00:00:10,769
+in another section we describe the product backlog as a constantly evolving artifact
 
-1
-00:00:07,230 --> 00:00:13,349
-product backlog<font color="#E5E5E5"> as a constantly evolving</font>
+2
+00:00:10,894 --> 00:00:12,302
+that is never complete
 
-1
-00:00:09,570 --> 00:00:15,660
-<font color="#CCCCCC">artifact</font><font color="#E5E5E5"> that</font><font color="#CCCCCC"> is never complete product</font>
+3
+00:00:12,917 --> 00:00:18,371
+product backlog refinement is the work that is done to constantly evolve the product backlog
 
-1
-00:00:13,349 --> 00:00:17,698
-backlog refinement<font color="#CCCCCC"> is the work that</font><font color="#E5E5E5"> is</font>
+4
+00:00:19,337 --> 00:00:28,356
+most product backlogs were at some point in unsorted collection of ideas for features enhancements improvements and capabilities for a product
 
-1
-00:00:15,660 --> 00:00:20,969
-done<font color="#E5E5E5"> to constantly evolve the product</font>
+5
+00:00:28,986 --> 00:00:36,263
+to provide transparency and focus the product owner collaborates with the other members of the scrum team to refine those ideas
 
-1
-00:00:17,699 --> 00:00:23,189
-backlog most product backlogs<font color="#E5E5E5"> were at</font>
+6
+00:00:36,432 --> 00:00:41,678
+adding details estimates and in order to each item
 
-1
-00:00:20,969 --> 00:00:25,229
-some<font color="#E5E5E5"> point in unsorted collection of</font>
+7
+00:00:43,226 --> 00:00:49,389
+they also ensure that any single product backlog item that is likely to be pulled into the next sprint
 
-1
-00:00:23,189 --> 00:00:27,689
-ideas<font color="#CCCCCC"> for features</font><font color="#E5E5E5"> enhancements</font>
+8
+00:00:49,389 --> 00:00:54,535
+is small enough to reasonably reach the definition of done within the sprint time box
 
-1
-00:00:25,230 --> 00:00:30,750
-improvements and capabilities for<font color="#E5E5E5"> a</font>
+9
+00:00:55,169 --> 00:01:02,179
+once the items at the top of the ordered product backlog have these characteristics they are considered ready for sprint planning
 
-1
-00:00:27,689 --> 00:00:32,850
-product<font color="#E5E5E5"> to</font><font color="#CCCCCC"> provide transparency</font><font color="#E5E5E5"> and</font>
+10
+00:01:03,149 --> 00:01:08,344
+while it is possible to go through product backlog refinement for every known item in the product backlog
 
-1
-00:00:30,750 --> 00:00:34,289
-focus the product<font color="#E5E5E5"> owner collaborates</font>
+11
+00:01:08,597 --> 00:01:14,014
+the focus is usually on just enough product backlog items to fill the next sprint or two
 
-1
-00:00:32,850 --> 00:00:37,850
-with<font color="#E5E5E5"> the other members</font><font color="#CCCCCC"> of the scrum team</font>
+12
+00:01:14,270 --> 00:01:17,210
+this just-in-time product backlog refinement
 
-1
-00:00:34,289 --> 00:00:43,469
-<font color="#E5E5E5">to refine those ideas adding details</font>
+13
+00:01:17,420 --> 00:01:25,010
+eliminates the waste that is possible when trying to provide clarity and detail for every known item long before it is pulled into a sprint
 
-1
-00:00:37,850 --> 00:00:45,570
-<font color="#E5E5E5">estimates and in order to each item they</font>
+14
+00:01:26,914 --> 00:01:31,215
+the product owner and development team collaboratively refined the product backlog
 
-1
-00:00:43,469 --> 00:00:47,670
-also ensure<font color="#CCCCCC"> that any</font><font color="#E5E5E5"> single product</font>
+15
+00:01:31,578 --> 00:01:38,527
+however product backlog items can be updated at any time by the product owner or at the product owners discretion
 
-1
-00:00:45,570 --> 00:00:50,070
-backlog item that is likely to be<font color="#E5E5E5"> pulled</font>
+16
+00:01:38,898 --> 00:01:42,282
+the development team is responsible for providing estimates
 
-1
-00:00:47,670 --> 00:00:52,140
-into the next<font color="#E5E5E5"> sprint is small enough to</font>
+17
+00:01:43,536 --> 00:01:48,552
+product backlog refinement is an ongoing activity throughout the life of a product backlog
 
-1
-00:00:50,070 --> 00:00:55,770
-reasonably reach the definition of done
+18
+00:01:49,130 --> 00:01:51,498
+since there is no gap between Sprints
 
-1
-00:00:52,140 --> 00:00:57,570
-within<font color="#E5E5E5"> the sprint time box once the</font>
+19
+00:01:51,897 --> 00:01:54,647
+product backlog refinement occurs during Sprints
 
-1
-00:00:55,770 --> 00:00:59,850
-items at the top<font color="#CCCCCC"> of the</font><font color="#E5E5E5"> ordered product</font>
+20
+00:01:54,683 --> 00:01:59,589
+and usually consumes no more than 10% of the capacity of the development team
 
-1
-00:00:57,570 --> 00:01:02,299
-backlog have these<font color="#E5E5E5"> characteristics they</font>
+21
+00:02:00,284 --> 00:02:06,641
+scrum does not define a particular event process or time box for product backlog refinement
 
-1
-00:00:59,850 --> 00:01:04,439
-<font color="#E5E5E5">are considered ready for sprint planning</font>
-
-1
-00:01:02,299 --> 00:01:06,509
-<font color="#E5E5E5">while it is</font><font color="#CCCCCC"> possible to go through</font>
-
-1
-00:01:04,438 --> 00:01:08,849
-product backlog refinement for every
-
-1
-00:01:06,510 --> 00:01:10,920
-known item in the product<font color="#E5E5E5"> backlog the</font>
-
-1
-00:01:08,849 --> 00:01:13,500
-focus is<font color="#CCCCCC"> usually on just enough product</font>
-
-1
-00:01:10,920 --> 00:01:16,500
-backlog items<font color="#E5E5E5"> to</font><font color="#CCCCCC"> fill the</font><font color="#E5E5E5"> next sprint or</font>
-
-1
-00:01:13,500 --> 00:01:19,019
-<font color="#E5E5E5">to this just-in-time product backlog</font>
-
-1
-00:01:16,500 --> 00:01:21,000
-<font color="#E5E5E5">refinement eliminates the waste that is</font>
-
-1
-00:01:19,019 --> 00:01:23,340
-possible<font color="#E5E5E5"> when trying to</font><font color="#CCCCCC"> provide</font><font color="#E5E5E5"> clarity</font>
-
-1
-00:01:21,000 --> 00:01:27,150
-and detail for every known item long
-
-1
-00:01:23,340 --> 00:01:28,680
-before it is pulled<font color="#E5E5E5"> into a sprint the</font>
-
-1
-00:01:27,150 --> 00:01:30,570
-product owner and development team
-
-1
-00:01:28,680 --> 00:01:33,240
-collaboratively refined the product
-
-1
-00:01:30,569 --> 00:01:35,309
-backlog however product backlog items
-
-1
-00:01:33,239 --> 00:01:37,469
-<font color="#E5E5E5">can</font><font color="#CCCCCC"> be updated</font><font color="#E5E5E5"> at any time by the</font>
-
-1
-00:01:35,310 --> 00:01:40,019
-product owner<font color="#E5E5E5"> or at the product owners</font>
-
-1
-00:01:37,469 --> 00:01:43,129
-discretion the development<font color="#E5E5E5"> team is</font>
-
-1
-00:01:40,019 --> 00:01:45,629
-<font color="#E5E5E5">responsible for providing estimates</font>
-
-1
-00:01:43,129 --> 00:01:47,519
-product backlog refinement<font color="#E5E5E5"> is an ongoing</font>
-
-1
-00:01:45,629 --> 00:01:50,250
-activity<font color="#E5E5E5"> throughout the life of a</font>
-
-1
-00:01:47,519 --> 00:01:52,618
-<font color="#E5E5E5">product backlog since there is no gap</font>
-
-1
-00:01:50,250 --> 00:01:54,540
-between<font color="#E5E5E5"> Sprint's product backlog</font>
-
-1
-00:01:52,618 --> 00:01:57,688
-refinement<font color="#E5E5E5"> occurs during</font><font color="#CCCCCC"> Sprint's and</font>
-
-1
-00:01:54,540 --> 00:02:00,719
-usually consumes no more<font color="#E5E5E5"> than</font><font color="#CCCCCC"> 10% of the</font>
-
-1
-00:01:57,688 --> 00:02:02,658
-<font color="#E5E5E5">capacity of the development team scrum</font>
-
-1
-00:02:00,718 --> 00:02:05,819
-does not define<font color="#E5E5E5"> a particular event</font>
-
-1
-00:02:02,659 --> 00:02:08,280
-<font color="#CCCCCC">process</font><font color="#E5E5E5"> or time box for product backlog</font>
-
-1
-00:02:05,819 --> 00:02:11,868
-refinement so the scrum team decides how
-
-1
-00:02:08,280 --> 00:02:11,868
-and when refinement is done
+22
+00:02:06,641 --> 00:02:10,180
+so the scrum team decides how and when refinement is done
 
