@@ -1,7 +1,7 @@
-1
+﻿1
 00:00:00,100 --> 00:00:03,000
-hi and welcome to the agile Academy 
-سلام، به آکادمی چابک خوش آمدید 
+hi and welcome to the agile Academy
+سلام، به آکادمی چابک خوش آمدید
 
 2
 00:00:03,370 --> 00:00:05,360
@@ -10,280 +10,261 @@ in this Agile and practice talk
 
 3
 00:00:05,420 --> 00:00:07,750
-we'd like to talk about test-driven development 
+we'd like to talk about test-driven development
 می‌خواهیم درباره توسعه تست محور صحبت کنیم
 
 4
 00:00:07,820 --> 00:00:10,460
 which is commonly referred to as TDD
-که عموما با عنوان تی.دی.دی شناخته می‌شود
+که عموما با عنوان TDD شناخته می‌شود
 
 5
 00:00:10,920 --> 00:00:13,600
-TDD is a software development discipline where 
-تی.دی.دی دستورالعملی برای توسعه نرم افزار است که
+TDD is a software development discipline where
+TDD دستورالعملی برای توسعه نرم افزار است که
 
 6
 00:00:13,720 --> 00:00:16,930
 developers write automated test cases for enhancements or new features before they write any code
-بر آن اساس، توسعه دهندگان قبل از کد نویسی برای توسعه یا افزودن قابلیت جدید، باید تست‌های موردی بنویسند
+بر اساس آن، توسعه‌دهندگان قبل از کدنویسی یا افزودن قابلیت جدید، تست‌ موردی (Test Case) بنویسند
 
 7
-00:00:16,970 --> 00:00:19,840
-
-8
 00:00:20,120 --> 00:00:22,490
 the basic premise of TDD
 منطق ساده‌ی تی.دی.دی این است که
 
-9
+8
 00:00:22,500 --> 00:00:24,910
 is that you begin by writing a failing test for the simplest piece of functionality that you need to implement
 ابتدا برای جزیی ساده‌‌ از عملکردی که می‌خواهید پیاده‌سازی کنید، تستی می‌نویسید که پاس نمی‌شود
 
-10
-00:00:24,950 --> 00:00:28,210
-
-11
+9
 00:00:28,360 --> 00:00:32,070
- you then write the simplest code possible to pass that test
+you then write the simplest code possible to pass that test
 و بعد ساده‌ترین کد ممکن، برای پاس شدن آن تست را می‌نویسید
 
-12
+10
 00:00:32,170 --> 00:00:33,390
- once this is done
+once this is done
 وقتی این کار انجام شد (تست پاس شد)
 
-13
+11
 00:00:33,420 --> 00:00:37,150
- the new code is reworked or re-factored as it is better known
+the new code is reworked or re-factored as it is better known
 روی کد جدید کار می‌کنید و آن را بازسازی می‌کنید تا به شکل بهتری درآید
 
-14
+12
 00:00:37,290 --> 00:00:40,500
- to ensure it meets the requirement standards of the code
- برای اینکه مطمئن شوید با استانداردهای کدنویسی مطابقت دارد
+to ensure it meets the requirement standards of the code
+برای اینکه مطمئن شوید با استانداردهای کدنویسی مطابقت دارد
 
-15
+13
 00:00:40,770 --> 00:00:42,730
- so why do all this?
- خب! چرا این همه کار کنیم؟
+so why do all this?
+خب! چرا این همه کار کنیم؟
 
-16
+14
 00:00:42,840 --> 00:00:43,940
 what's the benefit?
 چه فایده‌ای دارد؟
 
-
-17
+15
 00:00:44,170 --> 00:00:45,550
 Well! there are a few.
 خوب، یک فایده‌هایی دارد
 
-18
+16
 00:00:45,770 --> 00:00:46,800
 for example
 برای مثال
 
-19
+17
 00:00:46,920 --> 00:00:52,680
- TDD helps to ensure quality by focusing on requirements before writing the code
+TDD helps to ensure quality by focusing on requirements before writing the code
 تی.دی.دی با تمرکز بر روی نیازها به تضمین کیفیت کمک می‌کند قبل از اینکه کدی نوشته شود
 
-20
+18
 00:00:52,900 --> 00:00:55,350
- it assists in keeping the code clear  simple and testable by breaking it down into small achievable steps
+it assists in keeping the code clear  simple and testable by breaking it down into small achievable steps
 با شکستن کد به کوچکترین قسمتهای ممکن، باعث می‌شود کد تمیز، ساده و قابل تست بماند
 
-21
-00:00:55,400 --> 00:00:59,690
-
-
-22
+19
 00:00:59,840 --> 00:01:05,380
 it provides documentation about how the system works for anyone coming onto the team later on
 مستنداتی در مورد نحوه کارکرد سیستم، برای کسانی که بعدا به تیم اضافه می‌شوند ارایه می‌کند
 
-23
+20
 00:01:05,440 --> 00:01:08,230
- it builds a suite of repeatable regression tests 
+it builds a suite of repeatable regression tests
 مجموعه ای از تست های رگرسیون قابل تکرار را ایجاد می‌کند
 
-24
+21
 00:01:08,280 --> 00:01:11,180
-and it acts as an enabler for rapid change 
+and it acts as an enabler for rapid change
 و عاملی برای انجام سریع تغییرات است
 
-25
+22
 00:01:11,600 --> 00:01:14,560
 Liz one of the developers on the agile team
 لیز یکی از توسعه‌دهندگان در تیم چابک است
 
-26
+23
 00:01:14,660 --> 00:01:19,220
-which has been delivering a new employee performance review system for the HR department 
+which has been delivering a new employee performance review system for the HR department
 که سیستم ارزیابی کارکنان جدید را برای بخش منابع انسانی ارایه می‌کند
 
-27
+24
 00:01:19,390 --> 00:01:22,250
 wants to implement a new feature to the system
 می‌خواهد یک ویژگی جدید را در سیستم پیاده سازی کند
 
-28
+25
 00:01:22,350 --> 00:01:25,240
- she has previously collaborated with the business analyst, the product owner and the tester
+she has previously collaborated with the business analyst, the product owner and the tester
 او قبلا با تحلیلگر کسب و کار، مالک محصول و تستر همکاری کرده است
- 
-29
-00:01:25,340 --> 00:01:27,310
 
-
-30
+26
 00:01:27,330 --> 00:01:30,640
- so that she understands and is clear about the requirements 
+so that she understands and is clear about the requirements
 بنابراین نیازمندیها را به طور شفاف می‌داند
- 
-31
+
+27
 00:01:30,780 --> 00:01:34,560
-Liz is now writing a simple automated test to fulfill the requirements 
+Liz is now writing a simple automated test to fulfill the requirements
 لیز در حال نوشتن یک تست خودکار ساده برای پوشش دادن نیازمندیها است
 
-32
+28
 00:01:34,610 --> 00:01:38,650
 in most instances this will be what is called a unit test
 که در بیشتر موارد به آن یونیت تست می‌گویند
 
-33
+29
 00:01:38,760 --> 00:01:40,490
- after Liz has written the test 
+after Liz has written the test
 بعد از اینکه لیز تست را نوشت
- 
-34
+
+30
 00:01:40,550 --> 00:01:43,840
- she runs it against the already existing version of the system
+she runs it against the already existing version of the system
 آنرا روی نسخه جاری سیستم اجرا می‌کند
- 
-35
+
+31
 00:01:43,880 --> 00:01:47,580
- since the piece of code that delivers this functionality is not written yet 
+since the piece of code that delivers this functionality is not written yet
 از آنجا که قطعه ای از کد که این قابلیت را ارائه می‌دهد هنوز نوشته نشده است
- 
-36
+
+32
 00:01:47,630 --> 00:01:52,540
 and so not part of the current version of the system, the test fails
 و قسمتی از نسخه جاری سیستم نیست پس تست با شکست مواجه می‌شود
 
-37
+33
 00:01:52,640 --> 00:01:56,500
-Liz then writes just enough code to make the test pass 
+Liz then writes just enough code to make the test pass
 سپس لیز حداقل کد ممکن را برای پاس شدن تست، می‌نویسد
 
-38
+34
 00:01:56,660 --> 00:01:58,840
- at this stage the code is not perfect 
+at this stage the code is not perfect
 در این مرحله کد بی‌نقص نیست
- 
-39
+
+35
 00:01:58,880 --> 00:02:00,710
- but it will now pass the test 
+but it will now pass the test
 ولی تست را پاس می‌کند
- 
-40
+
+36
 00:02:00,820 --> 00:02:05,710
 The final step in TDD requires Liz to rework the code to make it simpler more readable and maintainable
 در گام نهایی در تی.دی.دی لازم است لیز دوباره روی کد کار کند تا کد ساده‌تر، خواناتر و قابل نگهداری‌تر شود
 
-41
-00:02:05,930 --> 00:02:08,010
-
-
-42
+37
 00:02:08,130 --> 00:02:12,290
- this ensures it doesn't damage the functionality that the code is meant to deliver
+this ensures it doesn't damage the functionality that the code is meant to deliver
 این روش تضمین می‌کند که به عملکرد کد آسیبی نمی‌رسد
 
-43
+38
 00:02:12,360 --> 00:02:16,430
- developers call the reworking of the code re-factoring
+developers call the reworking of the code re-factoring
 توسعه‌دهندگان به بازسازی کد ریفکتورینگ می‌گویند
- 
-44
+
+39
 00:02:16,530 --> 00:02:19,350
- this happens in minutes not hours or days
+this happens in minutes not hours or days
 این چند دقیقه طول میکشد ، نه ساعتها یا روزها
- 
-45
+
+40
 00:02:19,490 --> 00:02:21,480
-we are now two weeks into the project 
+we are now two weeks into the project
 تا حالا دو هفته است که روی پروژه کار کرده‌ایم
 
-46
+41
 00:02:21,540 --> 00:02:24,670
-and a change to the feature Liz previously built is needed 
+and a change to the feature Liz previously built is needed
 و لازم است تغییری در ویژگی‌ای که لیز توسعه داده ایجاد کنیم
 
-47
+42
 00:02:24,720 --> 00:02:26,610
-however Liz is on leave 
+however Liz is on leave
 با این حال لیز در مرخصی است
 
-48
+43
 00:02:26,770 --> 00:02:29,750
 so Tom another developer will need to make the change
 بنابراین تام (یک توسعه‌دهنده دیگر) باید تغییر را ایجاد کند
 
-49
+44
 00:02:29,830 --> 00:02:32,320
- Liz has already created a test for this feature
+Liz has already created a test for this feature
 لیز قبلا یک تست برای این ویژگی ایجاد کرده است
- 
-50
+
+45
 00:02:32,370 --> 00:02:36,780
- so Tom is able to read it and understand what the code was supposed to do
+so Tom is able to read it and understand what the code was supposed to do
  بنابراین تام قادر است با خواندن کد بفهمد، کد قرار بوده چه کاری انجام بدهد
- 
-51
+
+46
 00:02:37,070 --> 00:02:41,820
 he then uses the test to verify that his code doesn't break Liz's changes
 سپس از این تست استفاده می‌کند تا مطمئن شود که تغییراتش کدهای لیز را مختل نمی‌کند
 
-52
+47
 00:02:42,080 --> 00:02:45,500
- once that's done Tom adds a test case of his own
+once that's done Tom adds a test case of his own
 بعد از اتمام کار، تام تست کیس خودش را اضافه می‌کند
 
-53
+48
 00:02:45,550 --> 00:02:47,330
- this increases the test coverage
+this increases the test coverage
 اینکار پوشش تست را افزایش می‌دهد
 
-54
+49
 00:02:47,400 --> 00:02:50,000
- and ensures a record of his changes to Liz's code
+and ensures a record of his changes to Liz's code
 و از ذخیره تغییراتش روی کد لیز مطمئن می‌شود
 
-55
+50
 00:02:50,140 --> 00:02:52,090
- in this agile and practice talk
+in this agile and practice talk
 در این گفتار چابکی در عمل
 
-56
+51
 00:02:52,230 --> 00:02:55,320
 You saw how Test-Driven development helps agile teams
 شما دیدید که توسعه تست محور چگونه به تیمهای چابکی کمک می‌کند تا
 
-57
+52
 00:02:55,350 --> 00:02:58,820
 to make rapid changes whilst ensuring high-quality
 تغییرات سریع همراه با اطمینان از کیفیت بالا انجام شود
 
-58
+53
 00:02:59,210 --> 00:03:01,730
-re-factoring is another agile practice 
+re-factoring is another agile practice
 بازسازی یکی دیگر از تمرین‌های چابکی است
 
-59
+54
 00:03:01,830 --> 00:03:03,540
-Which is a topic for another time 
+Which is a topic for another time
 که در زمان دیگری به آن خواهیم پرداخت
-	
+
