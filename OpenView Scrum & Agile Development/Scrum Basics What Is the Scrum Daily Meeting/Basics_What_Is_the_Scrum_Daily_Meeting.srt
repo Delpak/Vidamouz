@@ -1,0 +1,114 @@
+﻿1
+00:00:09,050 --> 00:00:15,680
+the daily meeting during the sprint is a
+critical component of making teams
+successful
+
+2
+00:00:15,910 --> 00:00:22,090
+and from the beginning we've always had the three questions that
+needed to be asked
+
+3
+00:00:22,290 --> 00:00:27,730
+had to do what an each person do ,what are they going to do
+and are there any problems or impediments getting in their way
+
+4
+00:00:28,030 --> 00:00:32,609
+ now it turns out when people start scrum
+
+5
+00:00:33,309 --> 00:00:38,110
+ people think it's all about them but it's not
+about them. it's about the team
+
+6
+00:00:38,110 --> 00:00:41,569
+the goal is for the team to perform as well as
+possible
+
+7
+00:00:41,669 --> 00:00:49,590
+so if you have a really dynamic team, person will say I did this
+yesterday; I had these problems.
+
+8
+00:00:50,890 --> 00:00:55,440
+ the team might in a very quick time have some
+ideas about how to correct those problems
+
+9
+00:00:55,540 --> 00:01:01,239
+ I'm going to do this today. the
+team members may say well how are you going to do that
+
+10
+00:01:01,339 --> 00:01:07,029
+ at when that's
+described they may say hey you know another member of the team; I can help
+you
+
+11
+00:01:07,129 --> 00:01:09,529
+ we could get this done in an hour together
+
+12
+00:01:09,629 --> 00:01:12,159
+ the way you're going to do it
+alone it may take a day or two so
+
+13
+00:01:12,159 --> 00:01:15,620
+ so let's work together to make it go faster
+
+14
+00:01:15,720 --> 00:01:20,740
+and so it's all about the team talking each person talking about what they've
+done, what they're going to do,
+
+15
+00:01:20,870 --> 00:01:25,570
+ but the
+team figuring out together how that's going to work really well and really
+fast
+
+16
+00:01:25,770 --> 00:01:32,220
+ so that dynamic of teams helping one another out during that daily
+meeting is really important
+
+17
+00:01:32,620 --> 00:01:35,240
+the meeting is short it's only 15 minutes
+
+18
+00:01:35,440 --> 00:01:38,900
+so and
+many of the teams I've worked with they've had a 60 second rule
+
+19
+00:01:39,100 --> 00:01:42,180
+ you know we
+can talk about one issue for no more than 60 seconds
+
+20
+00:01:43,480 --> 00:01:49,490
+ if we don't solve it by
+then we'll kick it into a later meeting right after the scrum meeting to make
+sure we finish it in 15 minutes
+
+21
+00:01:49,690 --> 00:01:54,580
+so these dynamics of the way that meeting works
+are extremely critical
+
+22
+00:01:54,580 --> 00:01:59,550
+and there are many teams that need a lot of coaching
+to get that right
+
+23
+00:02:07,360 --> 00:02:09,420
+you
+

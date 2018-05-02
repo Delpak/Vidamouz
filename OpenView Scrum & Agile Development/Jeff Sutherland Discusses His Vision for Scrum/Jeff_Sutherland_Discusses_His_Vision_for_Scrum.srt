@@ -1,0 +1,150 @@
+﻿1
+00:00:08,330 --> 00:00:13,830
+we created scrum to help teams function
+a lot better in software development
+
+2
+00:00:13,830 --> 00:00:16,830
+one of the problems in software development
+as projects are always late and
+
+3
+00:00:16,830 --> 00:00:22,520
+developers are under pressure and the
+question was could we build a high-performing team like a sports team
+
+4
+00:00:22,620 --> 00:00:27,110
+where they could execute five to ten times faster than a normal team
+
+5
+00:00:27,310 --> 00:00:31,389
+and based on a lot of experience with Silicon Valley teams
+
+6
+00:00:31,589 --> 00:00:36,260
+and experience I've
+had in many companies we figured out how
+to do that
+
+7
+00:00:36,410 --> 00:00:39,950
+so for example my last company we started doing scrum in 2000
+
+8
+00:00:40,150 --> 00:00:42,750
+we built the teams there working together
+
+9
+00:00:42,850 --> 00:00:49,009
+it took teams when they're starting off can very quickly start working together
+maybe going twice as fast
+
+10
+00:00:49,409 --> 00:00:53,130
+and then as they get their engineering practices
+really working well
+
+11
+00:00:53,230 --> 00:00:55,950
+their velocity will accelerate
+
+12
+00:00:55,950 --> 00:01:04,680
+by 2005 my last company had
+reached a state where they were running 10 times as fast as one of our outsource
+waterfall teams in India
+
+13
+00:01:05,080 --> 00:01:11,090
+so it would cost us three times as much to get
+software developed in India as it would do it to do it right here in Boston
+
+14
+00:01:11,990 --> 00:01:18,620
+that
+allowed us to we had a meeting every week where the chief product owner
+
+15
+00:01:18,720 --> 00:01:22,650
+and scrum who was my who was working the backlog and the direction of the company
+
+16
+00:01:22,650 --> 00:01:25,570
+he could meet with all the stakeholders and decide ok,
+
+17
+00:01:25,670 --> 00:01:28,440
+this week what are the key
+issues, what are the issues with the teams
+
+18
+00:01:28,640 --> 00:01:32,240
+what are the issues of the market,
+what are the sales guys seeing
+
+19
+00:01:32,340 --> 00:01:34,240
+and he could change the backlog
+
+20
+00:01:34,740 --> 00:01:39,450
+so the next two weeks they were adjusting the direction of the technology development
+
+21
+00:01:39,820 --> 00:01:45,970
+and two weeks later they could have a new
+release of the software to target directly the competition
+
+22
+00:01:46,110 --> 00:01:54,590
+so as Scott
+Maxwell here at open your venture
+partners points out he likes the idea
+you know you line up the Canada boom
+
+23
+00:01:54,590 --> 00:01:59,180
+you take care of that part of the competition then two weeks later you
+move in the Canada boom
+
+24
+00:01:59,380 --> 00:02:07,490
+so with thatspeed and performance and to get that
+speed the teams have to be really excited and enthusiastic
+
+25
+00:02:07,690 --> 00:02:12,860
+you can't do it by forcing it so they really have to
+learn how to work together,
+
+26
+00:02:13,050 --> 00:02:18,689
+get the engineering practices really good and
+then they could go very fast
+
+27
+00:02:19,040 --> 00:02:27,159
+the tipicall traditional product development team
+in the space of my last company was doing - we - releases a year one release
+every six months
+
+28
+00:02:27,859 --> 00:02:34,560
+as they hit their peak of performance in 2005 they were doing
+45 releases a year
+
+29
+00:02:35,760 --> 00:02:40,060
+when you are doing 45 releases and your competition can only
+do two,
+
+30
+00:02:40,060 --> 00:02:43,140
+it is game over we had no more competition
+
+31
+00:02:43,340 --> 00:02:48,110
+so that's the that's one of
+the goals of scrum from the point of view of the business side
+

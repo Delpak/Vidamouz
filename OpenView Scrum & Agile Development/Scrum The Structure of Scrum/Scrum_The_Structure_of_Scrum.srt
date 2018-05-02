@@ -1,0 +1,244 @@
+﻿1
+00:00:09,220 --> 00:00:14,970
+okay well the reason we have scrum is because I came into software development from a medical school
+
+2
+00:00:15,170 --> 00:00:21,860
+I dunno 11 years funded by the National Cancer dudes research on complex adaptive systems
+
+3
+00:00:21,960 --> 00:00:27,960
+and as a large banking company hired me to come in and help them with their advanced technologies
+
+4
+00:00:28,110 --> 00:00:31,620
+and as I looked at the way they were managing projects,
+
+5
+00:00:31,820 --> 00:00:34,460
+I realized developers were always late,
+
+6
+00:00:34,530 --> 00:00:38,650
+management was always under pressure, they were putting pressure on the developers
+
+7
+00:00:38,840 --> 00:00:42,540
+, the more pressure they would put on the developers, the later the project would get
+
+8
+00:00:42,860 --> 00:00:46,061
+ and the whole thing was designed in such a way
+
+9
+00:00:46,061 --> 00:00:50,080
+that the stable state of the system was not what you wanted
+
+10
+00:00:50,250 --> 00:00:53,650
+in order to do that we had to change the whole dynamics
+
+11
+00:00:53,830 --> 00:01:04,080
+now what we knew from research at Bell Labs is that we had to have very few roles in the team that was doing software development
+
+12
+00:01:04,280 --> 00:01:09,620
+the specialized silos of activity slowed down communications and made it possible to
+
+13
+00:01:09,690 --> 00:01:15,489
+so one of the first things we did was we we set it up we only had a team and we had a team leader
+
+14
+00:01:15,869 --> 00:01:21,119
+we read a paper by two Japanese business school professors on the best teams in the world
+
+15
+00:01:21,700 --> 00:01:28,350
+and they described how the best product about new product development teams were set up how the teams were motivated
+
+16
+00:01:28,380 --> 00:01:30,420
+we set up the team just like that.
+
+17
+00:01:30,730 --> 00:01:35,300
+they the team wanted to know what we call the team leader. we call them the scrum master.
+
+18
+00:01:36,000 --> 00:01:44,149
+ we then as we got the role simplified, we streamlined and leaned out all the system.
+
+19
+00:01:44,549 --> 00:01:49,650
+we very quickly found we needed a person we called the product owner in addition to the scrum master
+
+20
+00:01:49,650 --> 00:01:55,260
+who was responsible for clearly specifying the backlog in the right ordering
+
+21
+00:01:55,460 --> 00:01:59,479
+so when we shipped the product it would it would really take the market as a really good product
+
+22
+00:01:59,479 --> 00:02:03,589
+so we had the product owner the scrum master and the team
+
+23
+00:02:03,689 --> 00:02:09,510
+we then turned our attention to the meetings because in order to build software fast ,
+
+24
+00:02:09,810 --> 00:02:14,030
+you cannot have people to go into meetings all the time where they're wasting a lot of time
+
+25
+00:02:14,130 --> 00:02:17,820
+so we ask what are the minimal meetings we need to have four scrum
+
+26
+00:02:17,920 --> 00:02:21,030
+we knew we needed to deliver a software in short cycles
+
+27
+00:02:21,440 --> 00:02:26,170
+no more than four weeks probably the majority of the teams now are doing two-week sprints
+
+28
+00:02:26,370 --> 00:02:30,500
+so we needed a meeting at the beginning of the sprint to define okay
+
+29
+00:02:30,600 --> 00:02:36,280
+what is what it what are we going to pull from the product backlog owned by the product owner into that two-week cycle,
+
+30
+00:02:37,780 --> 00:02:43,930
+how are we going to implement it and and track it, a meeting at the beginning of the cycle
+
+31
+00:02:43,930 --> 00:02:48,280
+we also knew because again of research done by Bell Labs
+
+32
+00:02:48,280 --> 00:02:51,430
+that the highest performing teams were driven by daily meetings
+
+33
+00:02:51,530 --> 00:02:56,500
+so we knew we had to have a daily meeting but we wanted it to be a really short meeting and
+
+34
+00:02:56,600 --> 00:02:59,290
+and we got it down to no more than fifteen minutes
+
+35
+00:02:59,490 --> 00:03:06,070
+and in that meeting everybody on the team needs to know what everybody else has been doing, what they're going to do next
+
+36
+00:03:06,370 --> 00:03:11,420
+and how they can help one another move really fast
+
+37
+00:03:11,520 --> 00:03:15,730
+so it's like a huddle in a football game but a little bit longer than a huddle
+
+38
+00:03:16,930 --> 00:03:21,590
+at the end of the Sprint the model that we had when we started scrum,
+
+39
+00:03:21,690 --> 00:03:28,520
+I had worked near in a previous company near MIT with the Media Lab there and their motto was demo or die
+
+40
+00:03:28,720 --> 00:03:32,440
+so at the end of every sprint we were got a demo real working software ,
+
+41
+00:03:32,440 --> 00:03:34,970
+two people who would use the software and get their feedback ,
+
+42
+00:03:35,270 --> 00:03:40,790
+because it's the feedback cycle that tends to really make development go fast
+
+43
+00:03:41,190 --> 00:03:46,450
+so now we're down to three meetings a meeting at the beginning of the Sprint immediate at the end and a daily meeting in the middle
+
+44
+00:03:46,750 --> 00:03:49,920
+we then turned our attention to the reporting
+
+45
+00:03:50,170 --> 00:03:57,640
+because one of the problems with software development is they do a lot of reporting a lot of is in the form of Gantt charts
+
+46
+00:03:57,870 --> 00:04:06,090
+and the Gantt charts are always incorrect because the Gantt chart is made and then things change
+
+47
+00:04:06,490 --> 00:04:11,400
+and then the Gantt chart isn't correct anymore and so it's very hard to do planning by the Gantt chart
+
+48
+00:04:12,830 --> 00:04:18,549
+I looked at that and I said you know the problem with these teams finishing a two-week cycle on time
+
+49
+00:04:18,648 --> 00:04:24,080
+is similar to trying to land an aircraft on a runway, because for 11 years I have been a fighter pilot
+
+50
+00:04:24,180 --> 00:04:27,070
+so we Institute what I call the burndown chart ,
+
+51
+00:04:27,140 --> 00:04:32,480
+how fast is the team going, how much is left during the sprint before it touched down,
+
+52
+00:04:32,640 --> 00:04:34,850
+are they headed in the right direction and
+
+53
+00:04:35,070 --> 00:04:39,730
+just watching them trying to land that sprint  is the way we monitor it
+
+54
+00:04:39,730 --> 00:04:42,720
+we put that up in the wall so that scrum would be self reporting
+
+55
+00:04:43,320 --> 00:04:49,680
+if anybody wanted to see the state of the scrum they could go and look on the wall we didn't have to do reporting anymore
+
+56
+00:04:50,240 --> 00:04:56,900
+so on that wall has evolved into the product backlog we're working on any tasks
+
+57
+00:04:56,970 --> 00:05:01,560
+that we're implementing in the backlog, the burndown chart and as tasks are being worked on
+
+58
+00:05:01,560 --> 00:05:09,400
+,they're moving across the wall from needing to be done,they're in a working state and now they're done and tested
+
+59
+00:05:09,800 --> 00:05:17,600
+so now we had completely streamline, the rolls, the meetings and the reporting became self reporting
+
+60
+00:05:17,900 --> 00:05:22,690
+and that sets that set the stage for the really high performing teams
+
+61
+00:05:22,890 --> 00:05:26,540
+that we'd like to see with scrum
+

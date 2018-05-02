@@ -1,0 +1,96 @@
+﻿1
+00:00:09,390 --> 00:00:12,046
+once the product owner has a product backlog,
+
+2
+00:00:12,046 --> 00:00:14,230
+that's useful for starting the sprint
+
+3
+00:00:14,230 --> 00:00:16,119
+he needs to meet with the team
+
+4
+00:00:16,110 --> 00:00:23,020
+before they go into planning for the sprint to look at the backlog, review it  and estimate its sizing
+
+5
+00:00:23,210 --> 00:00:26,550
+and in scrum we use relative sizing
+
+6
+00:00:26,550 --> 00:00:31,650
+and we often call them story points for use we measure the size of backlog items and points
+
+7
+00:00:32,380 --> 00:00:34,830
+once that's clear to the development team
+
+8
+00:00:34,890 --> 00:00:38,520
+then they're ready to start the first sprint with a sprint planning session
+
+9
+00:00:38,560 --> 00:00:41,180
+in that session they'll bring the product backlog in
+
+10
+00:00:41,270 --> 00:00:45,390
+the team will decide how much backlog they think they can implement
+
+11
+00:00:45,710 --> 00:00:49,960
+in a sprint which is often one week two weeks three weeks no more than four weeks
+
+12
+00:00:50,450 --> 00:00:52,930
+and they will pull from the back product backlog
+
+13
+00:00:52,970 --> 00:00:55,080
+that's one of the things that's very different from scrum
+
+14
+00:00:55,320 --> 00:00:59,750
+it's based on Lean principles where you pull into the system
+
+15
+00:00:59,770 --> 00:01:01,960
+nobody's pushing stuff on to the team
+
+16
+00:01:02,250 --> 00:01:07,470
+what the lean companies have found out is a push process slows things down
+
+17
+00:01:07,550 --> 00:01:11,050
+so the team pulls off of that backlog in sprint planning
+
+18
+00:01:11,750 --> 00:01:16,720
+they then will spend some time maybe breaking that backlog down into smaller pieces
+
+19
+00:01:16,750 --> 00:01:19,930
+and figuring out what they're what they're going to do
+
+20
+00:01:19,930 --> 00:01:24,460
+they may even take those small pieces and estimate how many hours it's going to take to implement them
+
+21
+00:01:24,470 --> 00:01:30,130
+so they can see you know do they have as much time as they need to to get done what they plan
+
+22
+00:01:30,190 --> 00:01:35,850
+and when they really have looked at that and they feel comfortable with it
+
+23
+00:01:35,930 --> 00:01:40,230
+ then it's a responsibility of the team to commit to deliver that in the two weeks
+
+24
+00:01:40,390 --> 00:01:41,910
+and that kicks off the Sprint
+
