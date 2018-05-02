@@ -1,33 +1,41 @@
 ﻿1
 00:00:09,500 --> 00:00:12,880
-now the retrospective is an interesting a meeting
+جلسه بازاندیشی اسپرینت، جلسه‌ جذابیه
+now the retrospective is an interesting meeting
 
 2
 00:00:12,960 --> 00:00:19,050
+ افراد دور هم جمع می‌شوند و با هم در این‌باره گفتگو می‌کنند که کارهای اسپرینت قبل چطور بوده
 because people get together and they talk about well how did it go for the last sprint
 
 3
 00:00:20,200 --> 00:00:23,270
+و اولین کاری هم که باید انجام بشه اینه که فهرستی از رویدادهای گذشته تهیه کنند
 and the first thing they need to do is really recollect what happened
 
 4
 00:00:23,310 --> 00:00:27,100
+البته یادآوری جزییات اتفاقاتی که در چند هفته اخیر رخ داده، کار سختیه
 it's hard to people remember all the details of what's happened in the last couple of weeks
 
 5
 00:00:27,340 --> 00:00:30,950
+برای همین، معمولا فردی وجود داره که نمایی از این رویدادها رو به شکل بصری آماده می‌کنه
 so often they'll have people maybe make it visual,
 
 6
 00:00:31,050 --> 00:00:36,480
+ممکنه چیزهایی را که در این چند هفته اتفاق افتاده، روی برگه‌های رنگی یادداشت کنه. حالا هر چقدر هم که اسپرینت طول کشیده باشه
 maybe put things on sticky notes all the things that happened in the last few weeks however long the Sprint has
 
 7
 00:00:36,810 --> 00:00:42,750
-and then given that picture what did they like and what didn't they like
+بعد از این، کارهایی رو که دوست داشتند از کارهایی که دوست نداشتند تفکیک می‌کنند
+and then given that, picture what did they like and what didn't they like
 
 8
 00:00:42,840 --> 00:00:44,640
+زیرا آنچه را که دوست داشتند
 because the things they like they want to keep
 
 9
