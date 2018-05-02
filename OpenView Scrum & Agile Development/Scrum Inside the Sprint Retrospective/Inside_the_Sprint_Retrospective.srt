@@ -1,139 +1,132 @@
 ﻿1
-00:00:08,719 --> 00:00:13,149
-now the retrospective is an interesting
-a meeting
+00:00:09,500 --> 00:00:12,880
+now the retrospective is an interesting a meeting
 
 2
-00:00:13,249 --> 00:00:20,030
- because people get together and they talk about well how did it go
-for the last sprint
+00:00:12,960 --> 00:00:19,050
+because people get together and they talk about well how did it go for the last sprint
 
 3
-00:00:20,730 --> 00:00:23,340
-and the first thing they need to do is really recollect what
-happened
+00:00:20,200 --> 00:00:23,270
+and the first thing they need to do is really recollect what happened
 
 4
-00:00:23,540 --> 00:00:27,980
-it's hard to people remember all the details of what's happened in
-the last couple of weeks
+00:00:23,310 --> 00:00:27,100
+it's hard to people remember all the details of what's happened in the last couple of weeks
 
 5
-00:00:28,180 --> 00:00:30,959
- so often they'll have people maybe make it visual,
+00:00:27,340 --> 00:00:30,950
+so often they'll have people maybe make it visual,
 
 6
-00:00:31,059 --> 00:00:36,210
-maybe put things on sticky notes all the things that happened in the last last
-few weeks however long the Sprint has
+00:00:31,050 --> 00:00:36,480
+maybe put things on sticky notes all the things that happened in the last few weeks however long the Sprint has
 
 7
-00:00:36,810 --> 00:00:42,529
-and then given that picture what did
-they like and what didn't they like
+00:00:36,810 --> 00:00:42,750
+and then given that picture what did they like and what didn't they like
 
 8
-00:00:42,629 --> 00:00:48,099
-because the things they like they want
-to keep and the things they didn't like they want to figure out how to do
-differently
+00:00:42,840 --> 00:00:44,640
+because the things they like they want to keep
 
 9
-00:00:49,199 --> 00:00:51,199
- based on understanding that
+00:00:44,760 --> 00:00:48,470
+ and the things they didn't like they want to figure out how to do differently
 
 10
-00:00:51,199 --> 00:00:59,170
-the team will then come up with okay
-here's some process improvements we can make to make our sprint better
+00:00:48,930 --> 00:00:51,390
+based on understanding that
 
 11
-00:00:59,270 --> 00:01:02,000
- and
-they'll talk about prioritizing those
+00:00:51,800 --> 00:00:59,590
+the team will then come up with okay here's some process improvements we can make to make our sprint better
 
 12
-00:01:02,100 --> 00:01:07,290
-because it turns out that tuning an
-organization is very similar to tuning a computer
+00:00:59,840 --> 00:01:02,394
+and they'll talk about prioritizing those
 
 13
-00:01:07,490 --> 00:01:12,180
- if your website is too slow you
-don't want to try to fix everything at once
+00:01:02,394 --> 00:01:07,690
+because it turns out that tuning an organization is very similar to tuning a computer
 
 14
-00:01:12,380 --> 00:01:16,890
- you want to identify where in that
-software that is there a bottleneck
+00:01:07,860 --> 00:01:10,120
+if your website is too slow
 
 15
-00:01:16,890 --> 00:01:20,700
-where is the where is the biggest
-bottleneck and you want to fix that first
+00:01:10,540 --> 00:01:12,580
+you don't want to try to fix everything at once
 
 16
-00:01:20,700 --> 00:01:24,939
- when you fix it the whole system
-will change its dynamics
+00:01:12,630 --> 00:01:17,030
+you want to identify where in that software that is there a bottleneck
 
 17
-00:01:25,290 --> 00:01:32,059
-and the next
-bottleneck is often we you least expected it to be. so it turns out you
-only want to fix one thing at a time
+00:01:17,100 --> 00:01:21,380
+where is the biggest bottleneck and you want to fix that first
 
 18
-00:01:32,159 --> 00:01:38,009
-so the challenge for that retrospective
-is to figure out what is the one thing that if we fixed it
+00:01:21,590 --> 00:01:24,600
+when you fix it the whole system will change its dynamics
 
 19
-00:01:38,109 --> 00:01:42,670
- would have the
-biggest impact on making this team go fast
+00:01:24,860 --> 00:01:28,694
+and the next bottleneck is often we you least expected it to be.
 
 20
-00:01:42,770 --> 00:01:46,159
- and then commit to fix it
+00:01:28,694 --> 00:01:32,050
+so it turns out you only want to fix one thing at a time
 
 21
-00:01:46,559 --> 00:01:52,120
- so the
-whole point of the retrospective is identifying that one thing and getting a
-commitment
+00:01:32,150 --> 00:01:38,390
+so the challenge for that retrospective is to figure out what is the one thing that if we fixed it
 
 22
-00:01:52,320 --> 00:01:57,479
- if that thing is not identified and it's not fixed ideally
-before the next retrospective
+00:01:38,510 --> 00:01:41,840
+would have the biggest impact on making this team go fast
 
 23
-00:01:57,600 --> 00:02:03,499
- then the
-retrospective has been a complete waste of time and people will say why are we
-doing this? nothing's happening.
+00:01:42,430 --> 00:01:45,260
+and then commit to fix it
 
 24
-00:02:03,899 --> 00:02:08,129
-so the retrospective is designed to fix
-the most important thing
+00:01:46,140 --> 00:01:51,850
+so the whole point of the retrospective is identifying that one thing and getting a commitment
 
 25
-00:02:08,228 --> 00:02:11,100
-when that happens the team will accelerate
+00:01:51,980 --> 00:01:53,936
+if that thing is not identified
 
 26
-00:02:11,100 --> 00:02:14,290
-they'll
-start to go faster, the quality of the product will go up
+00:01:53,936 --> 00:01:57,470
+and it's not fixed ideally before the next retrospective
 
 27
-00:02:14,490 --> 00:02:20,130
-so the retrospective
-is critical to improving performance of teams
+00:01:57,600 --> 00:02:00,578
+then the retrospective has been a complete waste of time
 
 28
-00:02:28,620 --> 00:02:30,680
-you
+00:02:00,578 --> 00:02:03,930
+and people will say why are we doing this? nothing's happening.
+
+29
+00:02:04,200 --> 00:02:07,790
+so the retrospective is designed to fix the most important thing
+
+30
+00:02:07,900 --> 00:02:10,680
+when that happens the team will accelerate
+
+31
+00:02:10,700 --> 00:02:12,024
+they'll start to go faster,
+
+32
+00:02:12,024 --> 00:02:13,840
+the quality of the product will go up
+
+33
+00:02:13,900 --> 00:02:18,690
+so the retrospective is critical to improving performance of teams
 
