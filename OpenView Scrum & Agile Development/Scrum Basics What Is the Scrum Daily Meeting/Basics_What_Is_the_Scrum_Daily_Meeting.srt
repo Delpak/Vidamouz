@@ -1,114 +1,123 @@
 ﻿1
-00:00:09,050 --> 00:00:15,680
-the daily meeting during the sprint is a
-critical component of making teams
-successful
+00:00:09,400 --> 00:00:12,146
+برگزاری جلسه روزانه در طول اسپرینت
+the daily meeting during the sprint
 
 2
-00:00:15,910 --> 00:00:22,090
-and from the beginning we've always had the three questions that
-needed to be asked
+00:00:12,146 --> 00:00:16,070
+عاملی حیاتی در موفقیت تیم است
+is a critical component of making teams successful
 
 3
-00:00:22,290 --> 00:00:27,730
-had to do what an each person do ,what are they going to do
-and are there any problems or impediments getting in their way
+00:00:16,240 --> 00:00:22,090
+ما از همان ابتدا، سه سوال همیشگی داشتیم که لازم بود پرسیده شوند
+and from the beginning we've always had the three questions that needed to be asked
 
 4
-00:00:28,030 --> 00:00:32,609
- now it turns out when people start scrum
+00:00:22,160 --> 00:00:27,730
+هر فرد چه کاری انجام داده؟ افراد چه کاری می‌خواهند انجام دهند و آیا مشکل یا مانعی سر راهشان هست؟
+had to do what an each person do ,what are they going to do and are there any problems or impediments getting in their way
 
 5
-00:00:33,309 --> 00:00:38,110
- people think it's all about them but it's not
-about them. it's about the team
+00:00:28,390 --> 00:00:32,600
+امروزه مشخص شده، افرادی که اسکرام را شروع می‌کنند
+now it turns out when people start scrum
 
 6
-00:00:38,110 --> 00:00:41,569
-the goal is for the team to perform as well as
-possible
+00:00:32,840 --> 00:00:37,730
+گمان می‌کنند که این سوالات متوجه افراد است. اما اینطور نیست. این سوالات متوجه تیم است.
+people think it's all about them but it's not about them. it's about the team
 
 7
-00:00:41,669 --> 00:00:49,590
-so if you have a really dynamic team, person will say I did this
-yesterday; I had these problems.
+00:00:37,800 --> 00:00:41,340
+هدف (این سوالات) این است که تیم در بهترین شکل ممکن فعالیت کند
+the goal is for the team to perform as well as possible
 
 8
-00:00:50,890 --> 00:00:55,440
- the team might in a very quick time have some
-ideas about how to correct those problems
+00:00:41,390 --> 00:00:44,612
+پس اگر تیم واقعا پویایی داشته باشید
+so if you have a really dynamic team,
 
 9
-00:00:55,540 --> 00:01:01,239
- I'm going to do this today. the
-team members may say well how are you going to do that
+00:00:44,612 --> 00:00:49,750
+فلانی می‌گوید: «من دیروز این کار را کردم و این مشکلات را داشتم»
+person will say I did this yesterday; I had these problems.
 
 10
-00:01:01,339 --> 00:01:07,029
- at when that's
-described they may say hey you know another member of the team; I can help
-you
+00:00:50,180 --> 00:00:55,670
+و ممکن است که تیم سریعاً ایده‌هایی برای رفع این مشکلات ارایه کند
+the team might in a very quick time have some ideas about how to correct those problems
 
 11
-00:01:07,129 --> 00:01:09,529
- we could get this done in an hour together
+00:00:56,000 --> 00:01:01,230
+یا فلانی بگوید: «می‌خوام امروز این کارو کنم».
+تیم از او می‌پرسد: «خیلی هم عالی. چه جوری می‌خوای انجامش بدی؟»
+I'm going to do this today. the team members may say well how are you going to do that
 
 12
-00:01:09,629 --> 00:01:12,159
- the way you're going to do it
-alone it may take a day or two so
+00:01:01,330 --> 00:01:09,110
+و پس از توضیحات او، یکی دیگر از اعضای تیم می‌گوید:
+«ببین! من می‌تونم کمکت کنم و با هم یه ساعته تمومش کنیم»
+at when that's described they may say hey you know another member of the team; I can help you we could get this done in an hour together
 
 13
-00:01:12,159 --> 00:01:15,620
- so let's work together to make it go faster
+00:01:09,230 --> 00:01:11,980
+«این‌جوری اگه بخوای تنهایی انجامش بدی، شاید یکی دو روز طول بکشه»
+the way you're going to do it alone it may take a day or two so
 
 14
-00:01:15,720 --> 00:01:20,740
-and so it's all about the team talking each person talking about what they've
-done, what they're going to do,
+00:01:12,050 --> 00:01:14,460
+«بذار با هم انجامش بدیم که سریعتر تمام بشه»
+so let's work together to make it go faster
 
 15
-00:01:20,870 --> 00:01:25,570
- but the
-team figuring out together how that's going to work really well and really
-fast
+00:01:14,950 --> 00:01:20,420
+خب ببینید موضوع اصلی «گفتگوی درون تیمی» است.
+هر فرد درباره کاری که کرده و کاری که می‌خواهد بکند صحبت می‌کند
+and so it's all about the team talking. Each person talking about what they've done, what they're going to do,
 
 16
-00:01:25,770 --> 00:01:32,220
- so that dynamic of teams helping one another out during that daily
-meeting is really important
+00:01:20,450 --> 00:01:25,550
+اما کل تیم با هم در خصوص این‌که چگونه می‌توانند واقعا آن کار را سریع و عالی انجام دهند، هم‌فکری و نتیجه گیری می‌کنند
+but the team figuring out together how that's going to work really well and really fast
 
 17
-00:01:32,620 --> 00:01:35,240
-the meeting is short it's only 15 minutes
+00:01:25,600 --> 00:01:32,220
+لذا وجود چنین سازوکاری در تیم‌ها که باعث شود افراد در جلسات روزانه به کمک هم بیایند، از اهمیت بسیاری برخوردار است
+so that dynamic of teams helping one another out during that daily meeting is really important
 
 18
-00:01:35,440 --> 00:01:38,900
-so and
-many of the teams I've worked with they've had a 60 second rule
+00:01:32,240 --> 00:01:34,820
+زمان این جلسه کوتاه و تنها ۱۵ دقیقه است
+the meeting is short it's only 15 minutes
 
 19
-00:01:39,100 --> 00:01:42,180
- you know we
-can talk about one issue for no more than 60 seconds
+00:01:34,940 --> 00:01:38,900
+بسیاری از تیم‌هایی که با آنها کار کردم، قانون ۶۰ ثانیه‌ای داشتند
+so and many of the teams I've worked with they've had a 60 second rule
 
 20
-00:01:43,480 --> 00:01:49,490
- if we don't solve it by
-then we'll kick it into a later meeting right after the scrum meeting to make
-sure we finish it in 15 minutes
+00:01:38,950 --> 00:01:41,810
+می‌توانیم حداکثر به مدت ۶۰ ثانیه در مورد یک مشکل صحبت کنیم
+you know we can talk about one issue for no more than 60 seconds
 
 21
-00:01:49,690 --> 00:01:54,580
-so these dynamics of the way that meeting works
-are extremely critical
+00:01:41,880 --> 00:01:47,164
+اگر در این زمان حل و فصل نشد، آن را موکول می‌کنیم به جلسه‌ی دیگری که بلافاصله پس از جلسه اسکرام روزانه برگزار می‌شود.
+if we don't solve it by then we'll kick it into a later meeting right after the scrum meeting
 
 22
-00:01:54,580 --> 00:01:59,550
-and there are many teams that need a lot of coaching
-to get that right
+00:01:47,164 --> 00:01:49,380
+تا مطمن شویم که جلسه ظرف ۱۵ دقیقه تمام می‌شود
+to make sure we finish it in 15 minutes
 
 23
-00:02:07,360 --> 00:02:09,420
-you
+00:01:49,420 --> 00:01:53,660
+چنین سازوکارهایی هستند که باعث مفید بودن جلسه می‌شوند. به همین علت آنها را فوق العاده حیاتی می‌دانم
+so these dynamics of the way that meeting works are extremely critical
+
+24
+00:01:53,940 --> 00:01:57,940
+و تیم‌های بسیاری هستند که باید برای رعایت صحیح این سازوکارها آموزش ببینند
+and there are many teams that need a lot of coaching to get that right
 
