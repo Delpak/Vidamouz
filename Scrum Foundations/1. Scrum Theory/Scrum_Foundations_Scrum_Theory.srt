@@ -1,89 +1,111 @@
 ﻿1
 00:00:12,060 --> 00:00:15,270
+این تعاریف از راهنمای اسکرام  استخراج شده است
 this definition is from the "SCRUM GUIDE"
 
 2
 00:00:15,470 --> 00:00:20,350
+سند رسمی که توسط بنیان گذران  اسکرام ایجاد شده و به طور منظم بروز می شود
 the official document created and regulary updated by Scrum's co-creators:
 
 3
 00:00:20,370 --> 00:00:22,740
+کن شوئبر و جف سادرلند
 Jeff Sutherland and Ken Schweiber
 
 4
 00:00:22,824 --> 00:00:25,870
+ما در این ویدیو در مورد این تعاریف توضیح خواهم داد
 in this video, we will explain that definition
 
 5
 00:00:25,950 --> 00:00:28,930
+و اساس تئوری اسکرام را تشریح خواهیم کرد
 and describe the underlying theory of Scrum
 
 6
 00:00:29,690 --> 00:00:36,560
+اسکرام به جای اینکه یک فرآیند کامل ساخت محصول باشد یک  یک چارچوب فرآیندی می باشد
 Scrum is described as a process framework rather than a complete process for building products
 
 7
 00:00:36,860 --> 00:00:42,750
+مهمترین  وجه تمایز اسکرام این است به صورت عمدی  ناکامل هست
 one important distinction is that Scrum is intentionally incomplete
 
 8
 00:00:42,800 --> 00:00:46,880
+اسکرام کلیه مراحلی را که برای ساخت یک محصول مورد نیاز هست را مشخص نمی کند
 it does not specify all of the steps required to build a product
 
 9
 00:00:47,380 --> 00:00:54,460
+به جای آن،چارچوبی را مشخص می کند که درون آن فرآینده و تکنیک های متنوعی می تواند مستقر شود
 instead, It describes the framework within which a variety of processes and techniques can be deployed
 
 10
 00:00:55,910 --> 00:00:59,450
+چارچوب اسکرام از تیم های اسکرام 
 the Scrum framework consists of Scrum teams
 
 11
 00:00:59,698 --> 00:01:03,140
+و نقش های مربوط به آن 
 and their associated roles
 
 12
 00:01:04,460 --> 00:01:07,660
+رویداد ها
 events
 
 13
 00:01:08,480 --> 00:01:11,080
+و خروجی ها مربوط به آن نشکیل شده است
 and artifacts
 
 14
 00:01:13,190 --> 00:01:17,140
+هر یک از این اجزاء اصلی دارای یکسری قوانین هستند
 each of these core-components has a few rules
 
 15
 00:01:17,440 --> 00:01:23,760
+و برای ارتباط بین این اجزاء قوانین ساده ای وجود دارد
 and there are simple rules describing the relationship and interaction between the components
 
 16
 00:01:24,130 --> 00:01:29,440
+چیزی که  توسط این اجزاء و قوانین تعریف نشود  جزیی از چارچوب اسکرام نمی باشد
 anything not described by those components and rules is not part of the framework
 
 17
 00:01:30,070 --> 00:01:36,530
+تیم اسکرام در مورد فرآیند و تکنیک های مورد استفاده درون چارچوب اسکرام تصمیم می گیرند
 the Scrum team decides which processes and techniques to use within the framework
 
 18
 00:01:37,100 --> 00:01:44,406
+اگر تیم یا سازمان  تصمیم به تغیر یا حذف  یک یا تعدادی از اجزاء یا قوانین مورد استفاده اسکرام بگیرد 
 if the team orthe organization were to decide to remove or alter any of the components or their rules
 
 19
 00:01:44,621 --> 00:01:46,870
+دیگر این چارچوب مورد استفاده اسکرام نمی باشد(از اسکرام استفاده نمی کنند)
 they are no longer using Scrum
 
 20
 00:01:47,160 --> 00:01:49,840
+اسکرام  فقط به صورت یک  مفهوم کلی وجود دارد
 Scrum exists only in it's entirety
 
 21
 00:01:49,920 --> 00:01:56,150
+و هر کدام از اجزای اصلی و قوانین مربوط به آنها هدف خاصی را دنبال می کند
 and each of the core-components and their associated rules serves a specific purpose
 
 22
 00:01:57,430 --> 00:02:03,450
+در دومین بخش از تعاریف ، مفهومی را تحت عنوان "مساله سازگاری پچیده" بیان می کنیم
 the second part of the definition, describes something called a "Complex Adaptive Problem"
 
 23
